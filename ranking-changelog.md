@@ -21,17 +21,17 @@ versions:
             changes:
               - check: "Automatic Wallet Lock"
                 change: "100 → 0"
-                reason: "**Data entry error**: Tester selected the wrong score."
+                reason: "Data entry error: Tester selected the wrong score."
           - name: "Phantom"
             changes:
               - check: "Disables eth_sign method"
                 change: "0 → 100"
-                reason: "**Data entry error**: Tester selected the wrong score."
+                reason: "Data entry error: Tester selected the wrong score."
           - name: "Rainbow"
             changes:
               - check: "Clear interface for ERC20 Approve / Automatic Wallet Lock"
                 change: "100 → 0"
-                reason: "**Data entry error**: Tester selected the wrong score."
+                reason: "Data entry error: Tester selected the wrong score."
 
   - date: "Dec 03, 2025"
     platforms:
@@ -56,12 +56,12 @@ versions:
             changes:
               - check: "Different ChainID"
                 change: "0 → 100"
-                reason: "**Data entry error**: Tester selected the wrong score."
+                reason: "Data entry error: Tester selected the wrong score."
           - name: "imToken"
             changes:
               - check: "Robust Authentication"
                 change: "100 → 0"
-                reason: "**Data entry error**: Tester selected the wrong score."
+                reason: "Data entry error: Tester selected the wrong score."
           - name: "MetaMask"
             changes:
               - check: "Alerts on phishing DApps"
@@ -71,27 +71,27 @@ versions:
             changes:
               - check: "Verified URLs"
                 change: "100 → 0"
-                reason: "**Data entry error**: Tester selected the wrong score."
+                reason: "Data entry error: Tester selected the wrong score."
           - name: "Rabby Wallet"
             changes:
               - check: "dApp Connection Information"
                 change: "100 → 0"
-                reason: "**Data entry error**: Tester selected the wrong score."
+                reason: "Data entry error: Tester selected the wrong score."
           - name: "Trust Wallet"
             changes:
               - check: "Verified URLs"
                 change: "100 → 0"
-                reason: "**Data entry error**: Tester selected the wrong score."
+                reason: "Data entry error: Tester selected the wrong score."
           - name: "Uniswap"
             changes:
               - check: "Alerts on phishing addresses / Interacting with an unknown Address"
                 change: "0 → 100"
-                reason: "**Data entry error**: Tester selected the wrong score."
+                reason: "Data entry error: Tester selected the wrong score."
           - name: "Zerion"
             changes:
               - check: "Alerts on phishing addresses"
                 change: "0 → 100"
-                reason: "**Data entry error**: Tester selected the wrong score."
+                reason: "Data entry error: Tester selected the wrong score."
 
   - date: "Nov 21, 2025 (Initial Release)"
     eligibility_changes:
@@ -138,6 +138,5 @@ versions:
 
 ## Understanding the Corrections
 
-- **Incorrect Result:** The check was correctly tested, but the selected score was inverted (e.g., marked as Pass instead of Fail).
-- **Testing Error:** The feature location was missed, or there was confusion regarding the check mechanics during the initial test.
-
+- Incorrect Result: The check was correctly tested, but the selected score was inverted (e.g., marked as Pass instead of Fail).
+- Testing Error: The feature location was missed, or there was confusion regarding the check mechanics during the initial test.
