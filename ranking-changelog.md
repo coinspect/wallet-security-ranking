@@ -94,65 +94,45 @@ versions:
                 reason: "**Data entry error**: Tester selected the wrong score."
 
   - date: "Nov 21, 2025 (Initial Release)"
-    platforms:
-      - name: "Extension (Browser)"
-        vendors:
-          - name: "NuFi"
-            changes:
-              - check: "Included in evaluation pool"
-                change: "0 → 100"
-                reason: "Added to the wallet ranking to expand browser extension coverage and share testing results with the WalletBeat initiative."
-          - name: "Elytro"
-            changes:
-              - check: "Included in evaluation pool"
-                change: "0 → 100"
-                reason: "Added as a browser extension wallet as part of our commitment to transparently share testing results with the WalletBeat initiative."
-          - name: "Taho"
-            changes:
-              - check: "Eligibility for evaluation"
-                change: "0 → 100"
-                reason: "Excluded due to inactivity. The extension was last updated on April 18, 2025, which falls outside our freshness threshold relative to the March 26, 2025 ranking baseline."
-          - name: "BlockWallet"
-            changes:
-              - check: "Eligibility for evaluation"
-                change: "100 → 0"
-                reason: "Discontinued. The project has officially announced a sunset effective January 1, 2026, and is no longer maintained."
-      - name: "iOS"
-        vendors:
-          - name: "Daimo"
-            changes:
-              - check: "Eligibility for evaluation"
-                change: "0 → 0"
-                reason: "Excluded. The iOS application was not available for download during the testing window, likely due to geofencing or temporary delisting."
-          - name: "Ambire"
-            changes:
-              - check: "Eligibility for evaluation"
-                change: "100 → 0"
-                reason: "Excluded. The iOS application is currently not available for public download."
-      - name: "Android"
-        vendors:
-          - name: "Family"
-            changes:
-              - check: "Eligibility for evaluation"
-                change: "0 → 0"
-                reason: "Excluded. No Android version exists; the wallet is currently iOS-exclusive."
-      - name: "Mobile"
-        vendors:
-          - name: "Clave"
-            changes:
-              - check: "Eligibility for evaluation"
-                change: "0 → 0"
-                reason: "Excluded. While supporting Arbitrum One and Base, the wallet lacks a dApp browser and WalletConnect support, preventing full evaluation under standard criteria."
-          - name: "AlphaWallet"
-            changes:
-              - check: "Eligibility for evaluation"
-                change: "100 → 0"
-                reason: "Excluded. The mobile application is no longer available for download via standard app stores."
-          - name: "Privy"
-            changes:
-              - check: "Eligibility for evaluation"
-                change: "0 → 0"
-                reason: "Excluded. Confirmed to operate as a wallet infrastructure provider (WaaS) for developers rather than a standalone consumer wallet."
+    eligibility_changes:
+      added:
+        - name: "NuFi"
+          platform: "Extension (Browser)"
+          reason: "Added to the wallet ranking to expand browser extension coverage and share testing results with the WalletBeat initiative."
+        - name: "Elytro"
+          platform: "Extension (Browser)"
+          reason: "Added as a browser extension wallet as part of our commitment to transparently share testing results with the WalletBeat initiative."
+
+      removed:
+        - name: "BlockWallet"
+          platform: "Extension (Browser)"
+          status: "Discontinued"
+          reason: "The project has officially announced a sunset effective January 1, 2026, and is no longer maintained."
+        - name: "Ambire"
+          platform: "iOS"
+          status: "Excluded"
+          reason: "The iOS application is currently not available for public download."
+        - name: "AlphaWallet"
+          platform: "Mobile"
+          status: "Excluded"
+          reason: "The mobile application is no longer available for download via standard app stores."
+
+      excluded:
+        - name: "Taho"
+          platform: "Extension (Browser)"
+          reason: "Excluded due to inactivity. The extension was last updated on April 18, 2025, which falls outside our freshness threshold relative to the March 26, 2025 ranking baseline."
+        - name: "Daimo"
+          platform: "iOS"
+          reason: "The iOS application was not available for download during the testing window, likely due to geofencing or temporary delisting."
+        - name: "Family"
+          platform: "Android"
+          reason: "No Android version exists; the wallet is currently iOS-exclusive."
+        - name: "Clave"
+          platform: "Mobile"
+          reason: "While supporting Arbitrum One and Base, the wallet lacks a dApp browser and WalletConnect support, preventing full evaluation under standard criteria."
+        - name: "Privy"
+          platform: "Mobile"
+          reason: "Confirmed to operate as a wallet infrastructure provider (WaaS) for developers rather than a standalone consumer wallet."
 
 ---
 
