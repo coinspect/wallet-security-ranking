@@ -93,29 +93,26 @@ versions:
                         change: "0 → 100"
                         reason: "The tester mistakenly selected the wrong score."
 
+eligibility_changes:
     - date: "Nov 21, 2025 (Initial Release)"
-      eligibility_changes:
-          added:
-              - name: "NuFi"
-                platform: "Extension (Browser)"
-                reason: "Added to the wallet ranking to expand browser extension coverage and share testing results with the WalletBeat initiative."
-              - name: "Elytro"
-                platform: "Extension (Browser)"
-                reason: "Added as a browser extension wallet as part of our commitment to transparently share testing results with the WalletBeat initiative."
+      added:
+          - name: "NuFi"
+            platform: "Extension (Browser)"
+            reason: "Added to the wallet ranking to expand browser extension coverage and share testing results with the WalletBeat initiative."
+          - name: "Elytro"
+            platform: "Extension (Browser)"
+            reason: "Added as a browser extension wallet as part of our commitment to transparently share testing results with the WalletBeat initiative."
 
-          removed:
-              - name: "BlockWallet"
-                platform: "Extension (Browser)"
-                status: "Discontinued"
-                reason: "The project has officially announced a sunset effective January 1, 2026, and is no longer maintained."
-              - name: "Ambire"
-                platform: "iOS"
-                status: "Excluded"
-                reason: "The iOS application is currently not available for public download."
-              - name: "AlphaWallet"
-                platform: "Mobile"
-                status: "Excluded"
-                reason: "The mobile application is no longer available for download via standard app stores."
+      removed:
+          - name: "BlockWallet"
+            platform: "Extension (Browser)"
+            reason: "The project has officially announced a sunset effective January 1, 2026, and is no longer maintained."
+          - name: "Ambire"
+            platform: "iOS"
+            reason: "The iOS application is currently not available for public download."
+          - name: "AlphaWallet"
+            platform: "Mobile"
+            reason: "The mobile application is no longer available for download via standard app stores."
 ---
 
 ### Updates may reflect testing refinements, data entry corrections, or clarified feature behavior identified during re-verification.
