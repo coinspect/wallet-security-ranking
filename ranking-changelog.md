@@ -160,7 +160,7 @@ eligibility_changes:
           - name: "xDefi Wallet"
             platform: "Extension (Browser)"
             reason: ""
-    - date: "Oct 25, 2025"
+    - date: "Oct 25, 2024"
       note: "Initial release of Wallet Security Rankings"
 ---
 
