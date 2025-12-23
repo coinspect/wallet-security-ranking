@@ -41,7 +41,7 @@ versions:
                   changes:
                       - check: "Alerts on phishing DApps"
                         change: "0 → 100"
-                        reason: "Initially, the dApp used did not trigger any warnings. Re-testing with a different dApp successfully triggered the alert."
+                        reason: "The initial test failed due to a mistake in the malicious dApp URL. Once the correct URL was used, the alert was triggered as expected."
                 - name: "MetaMask"
                   changes:
                       - check: "List and revoke token approvals"
