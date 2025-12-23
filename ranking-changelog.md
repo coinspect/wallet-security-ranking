@@ -1,7 +1,7 @@
 ---
 title: Wallet Ranking Changelog
 background: scoring-hero.png
-excerpt: "A transparent record of how our Wallet Security Rankings evolve"
+excerpt: "A transparent record of how our Wallet Security Ranking evolves"
 socialImage: wallet-ranking-testing-social-image.png
 release-version: "3"
 release-date: "Nov 21, 2025"
@@ -161,7 +161,7 @@ eligibility_changes:
             platform: "Extension (Browser)"
             reason: ""
     - date: "Oct 25, 2024"
-      note: "Initial release of Wallet Security Rankings"
+      note: "Initial release of Wallet Security Ranking"
 ---
 
 ### Updates may reflect testing refinements, data entry corrections, or clarified feature behavior identified during re-verification.
