@@ -2,7 +2,7 @@
 release-version: "3"
 release-date: "Nov 21, 2025"
 versions:
-    - date: "Dec 19, 2025 (Current Release)"
+    - date: "Dec 12, 2025 (Current Release)"
       platforms:
           - name: "Android"
             vendors:
