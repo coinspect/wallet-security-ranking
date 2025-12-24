@@ -9,24 +9,28 @@ versions:
                 - name: "OKX"
                   changes:
                       - check: "Parses EIP-712 objects"
-                        change: "0 → 100"
+                        changeFrom: 0
+                        changeTo: 100
                         reason: "This was a testing error, where initially failed, but subsequently verified working using a USDC ERC-20 permit."
           - name: "Extension (Browser)"
             vendors:
                 - name: "OKX"
                   changes:
                       - check: "Automatic Wallet Lock"
-                        change: "100 → 0"
+                        changeFrom: 100
+                        changeTo: 0
                         reason: "The tester mistakenly selected the wrong score."
                 - name: "Phantom"
                   changes:
                       - check: "Disables eth_sign method"
-                        change: "0 → 100"
+                        changeFrom: 0
+                        changeTo: 100
                         reason: "The tester mistakenly selected the wrong score."
                 - name: "Rainbow"
                   changes:
                       - check: "Clear interface for ERC20 Approve / Automatic Wallet Lock"
-                        change: "100 → 0"
+                        changeFrom: 100
+                        changeTo: 0
                         reason: "The tester mistakenly selected the wrong score."
 
     - date: "Dec 03, 2025"
@@ -36,57 +40,68 @@ versions:
                 - name: "imToken"
                   changes:
                       - check: "Alerts on phishing DApps"
-                        change: "0 → 100"
+                        changeFrom: 0
+                        changeTo: 100
                         reason: "The initial test failed due to a mistake in the malicious dApp URL. Once the correct URL was used, the alert was triggered as expected."
                 - name: "MetaMask"
                   changes:
                       - check: "List and revoke token approvals"
-                        change: "0 → 100"
+                        changeFrom: 0
+                        changeTo: 100
                         reason: "This feature was initially missed. The feature is located in Browser > Connect > Dashboard > Spending Caps."
                       - check: "Alerts on phishing DApps"
-                        change: "0 → 100"
+                        changeFrom: 0
+                        changeTo: 100
                         reason: "There was a confusion regarding the check description. This feature works on Embedded Browser (but not via WalletConnect)."
           - name: "iOS"
             vendors:
                 - name: "Coin Wallet"
                   changes:
                       - check: "Different ChainID"
-                        change: "0 → 100"
+                        changeFrom: 0
+                        changeTo: 100
                         reason: "The tester mistakenly selected the wrong score."
                 - name: "imToken"
                   changes:
                       - check: "Robust Authentication"
-                        change: "100 → 0"
+                        changeFrom: 100
+                        changeTo: 0
                         reason: "The tester mistakenly selected the wrong score."
                 - name: "MetaMask"
                   changes:
                       - check: "Alerts on phishing DApps"
-                        change: "0 → 100"
+                        changeFrom: 0
+                        changeTo: 100
                         reason: "There was a confusion regarding check description. Works on the Embedded Browser."
                 - name: "Okto"
                   changes:
                       - check: "Verified URLs"
-                        change: "100 → 0"
+                        changeFrom: 100
+                        changeTo: 0
                         reason: "The tester mistakenly selected the wrong score."
                 - name: "Rabby Wallet"
                   changes:
                       - check: "dApp Connection Information"
-                        change: "100 → 0"
+                        changeFrom: 100
+                        changeTo: 0
                         reason: "The tester mistakenly selected the wrong score."
                 - name: "Trust Wallet"
                   changes:
                       - check: "Verified URLs"
-                        change: "100 → 0"
+                        changeFrom: 100
+                        changeTo: 0
                         reason: "The tester mistakenly selected the wrong score."
                 - name: "Uniswap"
                   changes:
                       - check: "Alerts on phishing addresses / Interacting with an unknown Address"
-                        change: "0 → 100"
+                        changeFrom: 0
+                        changeTo: 100
                         reason: "The tester mistakenly selected the wrong score."
                 - name: "Zerion"
                   changes:
                       - check: "Alerts on phishing addresses"
-                        change: "0 → 100"
+                        changeFrom: 0
+                        changeTo: 100
                         reason: "The tester mistakenly selected the wrong score."
 
 eligibility_changes:
