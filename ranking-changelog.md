@@ -2,6 +2,16 @@
 release-version: "3"
 release-date: "Nov 21, 2025"
 versions:
+    - date: "Jan 13, 2026 (Current Release)"
+      platforms:
+          - name: "Extension (Browser)"
+            vendors:
+                - name: "Rabby"
+                  changes:
+                      - check: "Disables eth_sign method"
+                        changeFrom: 0
+                        changeTo: 100
+                        reason: "The tester mistakenly selected the wrong score."
     - date: "Dec 12, 2025 (Current Release)"
       platforms:
           - name: "Android"
@@ -116,10 +126,16 @@ eligibility_changes:
           - name: "Zengo"
             platform: "Android"
             reason: "Added to expand Android mobile wallet coverage in our evaluation pool."
+          - name: "Ctrl"
+            platform: "Android"
+            reason: "Added to expand Android mobile wallet coverage in our evaluation pool."
           - name: "Binance"
             platform: "Extension (Browser)"
             reason: "Added to broaden browser extension wallet coverage in our evaluation pool."
           - name: "Uniswap"
+            platform: "Extension (Browser)"
+            reason: "Added to broaden browser extension wallet coverage in our evaluation pool."
+          - name: "Zerion"
             platform: "Extension (Browser)"
             reason: "Added to broaden browser extension wallet coverage in our evaluation pool."
       removed:
