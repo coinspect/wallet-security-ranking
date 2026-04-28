@@ -12,7 +12,6 @@ This is the data repository for the [Wallet Security Ranking](https://www.coinsp
 │   ├── wallets.json
 │   └── checks.json
 ├── reports/                   # Latest reports (overwritten when re-tested)
-├── scripts/                   # Automation scripts
 ├── YYYY-MM-DD/                # Test round folders by ISO date (e.g., 2025-12-31/)
 │   ├── ranking.json
 │   └── config/                # Configuration used for this round
@@ -38,10 +37,6 @@ Each entry is keyed by a versioned check ID (e.g. `WSR-PERM-001.v1`). A `~Mobile
 ### `reports/`
  
 The latest security report for each wallet-platform combination. Files here are **overwritten** whenever a wallet is re-tested, so this folder always reflects the most recent state per wallet instead of the state at any specific ranking round. For point-in-time data, use the dated round folders below.
- 
-### `scripts/`
- 
-Automation scripts maintained alongside the data:
  
 ### `YYYY-MM-DD/`
  
