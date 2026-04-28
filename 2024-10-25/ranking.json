@@ -1,0 +1,851 @@
+{
+  "date": "2024-10-25T16:02:49.246Z",
+  "version": "1.1.0",
+  "results": [
+    {
+      "id": "1inch",
+      "platform": "Android",
+      "version": "1.28.0",
+      "scores": {
+        "categories": {
+          "WSR-VERI": 733000,
+          "WSR-THRE": 621000,
+          "WSR-PERM": 775000,
+          "WSR-PHYS": 718000
+        }
+      }
+    },
+    {
+      "id": "alpha-wallet",
+      "platform": "Android",
+      "version": "3.84",
+      "scores": {
+        "categories": {
+          "WSR-VERI": 24500,
+          "WSR-THRE": 75000,
+          "WSR-PERM": 874000,
+          "WSR-PHYS": 525000
+        }
+      }
+    },
+    {
+      "id": "ambire",
+      "platform": "Android",
+      "version": "3.16.0",
+      "scores": {
+        "categories": {
+          "WSR-VERI": 613500,
+          "WSR-THRE": 203000,
+          "WSR-PERM": 807000,
+          "WSR-PHYS": 553000
+        }
+      }
+    },
+    {
+      "id": "bitget",
+      "platform": "Android",
+      "version": "8.17.0",
+      "scores": {
+        "categories": {
+          "WSR-VERI": 466000,
+          "WSR-THRE": 124000,
+          "WSR-PERM": 818000,
+          "WSR-PHYS": 525000
+        }
+      }
+    },
+    {
+      "id": "bridge-wallet",
+      "platform": "Android",
+      "version": "1.37.141",
+      "scores": {
+        "categories": {
+          "WSR-VERI": 258500,
+          "WSR-THRE": 63000,
+          "WSR-PERM": 682000,
+          "WSR-PHYS": 553000
+        }
+      }
+    },
+    {
+      "id": "coin-wallet",
+      "platform": "Android",
+      "version": "6.5.0",
+      "scores": {
+        "categories": {
+          "WSR-VERI": 258500,
+          "WSR-THRE": 63000,
+          "WSR-PERM": 775000,
+          "WSR-PHYS": 525000
+        }
+      }
+    },
+    {
+      "id": "coinbase-wallet",
+      "platform": "Android",
+      "version": "29.12.0",
+      "scores": {
+        "categories": {
+          "WSR-VERI": 828000,
+          "WSR-THRE": 441000,
+          "WSR-PERM": 818000,
+          "WSR-PHYS": 360000
+        }
+      }
+    },
+    {
+      "id": "exodus",
+      "platform": "Android",
+      "version": "24.25.13",
+      "scores": {
+        "categories": {
+          "WSR-VERI": 24500,
+          "WSR-THRE": 138000,
+          "WSR-PERM": 682000,
+          "WSR-PHYS": 178000
+        }
+      }
+    },
+    {
+      "id": "fox",
+      "platform": "Android",
+      "version": "5.1.0",
+      "scores": {
+        "categories": {
+          "WSR-VERI": 262500,
+          "WSR-THRE": 138000,
+          "WSR-PERM": 869000,
+          "WSR-PHYS": 449000
+        }
+      }
+    },
+    {
+      "id": "gem",
+      "platform": "Android",
+      "version": "1.2.160",
+      "scores": {
+        "categories": {
+          "WSR-VERI": 174500,
+          "WSR-THRE": 63000,
+          "WSR-PERM": 618000,
+          "WSR-PHYS": 89000
+        }
+      }
+    },
+    {
+      "id": "im-token",
+      "platform": "Android",
+      "version": "2.15.2",
+      "scores": {
+        "categories": {
+          "WSR-VERI": 891500,
+          "WSR-THRE": 441000,
+          "WSR-PERM": 818000,
+          "WSR-PHYS": 449000
+        }
+      }
+    },
+    {
+      "id": "loopring-wallet",
+      "platform": "Android",
+      "version": "3.7.8.296",
+      "scores": {
+        "categories": {
+          "WSR-VERI": 24500,
+          "WSR-THRE": 351000,
+          "WSR-PERM": 764000,
+          "WSR-PHYS": 360000
+        }
+      }
+    },
+    {
+      "id": "metamask",
+      "platform": "Android",
+      "version": "7.30.0 (1410)",
+      "scores": {
+        "categories": {
+          "WSR-VERI": 558500,
+          "WSR-THRE": 696000,
+          "WSR-PERM": 949000,
+          "WSR-PHYS": 746000
+        }
+      }
+    },
+    {
+      "id": "mew-wallet",
+      "platform": "Android",
+      "version": "2.7.6",
+      "scores": {
+        "categories": {
+          "WSR-VERI": 150000,
+          "WSR-THRE": 75000,
+          "WSR-PERM": 550000,
+          "WSR-PHYS": 614000
+        }
+      }
+    },
+    {
+      "id": "one-key",
+      "platform": "Android",
+      "version": "5.2.1",
+      "scores": {
+        "categories": {
+          "WSR-VERI": 529500,
+          "WSR-THRE": 606000,
+          "WSR-PERM": 781000,
+          "WSR-PHYS": 642000
+        }
+      }
+    },
+    {
+      "id": "phantom",
+      "platform": "Android",
+      "version": "24.18.0",
+      "scores": {
+        "categories": {
+          "WSR-VERI": 916000,
+          "WSR-THRE": 278000,
+          "WSR-PERM": 874000,
+          "WSR-PHYS": 89000
+        }
+      }
+    },
+    {
+      "id": "rabby-wallet",
+      "platform": "Android",
+      "version": "0.3.0",
+      "scores": {
+        "categories": {
+          "WSR-VERI": 779000,
+          "WSR-THRE": 697000,
+          "WSR-PERM": 949000,
+          "WSR-PHYS": 360000
+        }
+      }
+    },
+    {
+      "id": "rainbow",
+      "platform": "Android",
+      "version": "1.9.40",
+      "scores": {
+        "categories": {
+          "WSR-VERI": 733000,
+          "WSR-THRE": 572000,
+          "WSR-PERM": 775000,
+          "WSR-PHYS": 525000
+        }
+      }
+    },
+    {
+      "id": "shape-shift",
+      "platform": "Android",
+      "version": "3.1.0",
+      "scores": {
+        "categories": {
+          "WSR-VERI": 371000,
+          "WSR-THRE": 138000,
+          "WSR-PERM": 807000,
+          "WSR-PHYS": 271000
+        }
+      }
+    },
+    {
+      "id": "token-pocket",
+      "platform": "Android",
+      "version": "2.1.4",
+      "scores": {
+        "categories": {
+          "WSR-VERI": 466000,
+          "WSR-THRE": 124000,
+          "WSR-PERM": 869000,
+          "WSR-PHYS": 360000
+        }
+      }
+    },
+    {
+      "id": "trust-wallet",
+      "platform": "Android",
+      "version": "8.15.6",
+      "scores": {
+        "categories": {
+          "WSR-VERI": 258500,
+          "WSR-THRE": 351000,
+          "WSR-PERM": 874000,
+          "WSR-PHYS": 807000
+        }
+      }
+    },
+    {
+      "id": "uniswap",
+      "platform": "Android",
+      "version": "1.32",
+      "scores": {
+        "categories": {
+          "WSR-VERI": 144000,
+          "WSR-THRE": 187000,
+          "WSR-PERM": 775000,
+          "WSR-PHYS": 360000
+        }
+      }
+    },
+    {
+      "id": "unstoppable-wallet",
+      "platform": "Android",
+      "version": "0.38.5",
+      "scores": {
+        "categories": {
+          "WSR-VERI": 441500,
+          "WSR-THRE": 138000,
+          "WSR-PERM": 525000,
+          "WSR-PHYS": 536000
+        }
+      }
+    },
+    {
+      "id": "zerion",
+      "platform": "Android",
+      "version": "3.5.0",
+      "scores": {
+        "categories": {
+          "WSR-VERI": 642500,
+          "WSR-THRE": 558000,
+          "WSR-PERM": 775000,
+          "WSR-PHYS": 449000
+        }
+      }
+    },
+    {
+      "id": "1inch",
+      "platform": "iOS",
+      "version": "2.3.9",
+      "scores": {
+        "categories": {
+          "WSR-VERI": 828000,
+          "WSR-THRE": 63000,
+          "WSR-PERM": 775000,
+          "WSR-PHYS": 464000
+        }
+      }
+    },
+    {
+      "id": "alpha-wallet",
+      "platform": "iOS",
+      "version": "3.72",
+      "scores": {
+        "categories": {
+          "WSR-VERI": 441500,
+          "WSR-THRE": 75000,
+          "WSR-PERM": 775000,
+          "WSR-PHYS": 807000
+        }
+      }
+    },
+    {
+      "id": "ambire",
+      "platform": "iOS",
+      "version": "1.12",
+      "scores": {
+        "categories": {
+          "WSR-VERI": 613500,
+          "WSR-THRE": 203000,
+          "WSR-PERM": 807000,
+          "WSR-PHYS": 642000
+        }
+      }
+    },
+    {
+      "id": "bitget",
+      "platform": "iOS",
+      "version": "8.16.1",
+      "scores": {
+        "categories": {
+          "WSR-VERI": 466000,
+          "WSR-THRE": 187000,
+          "WSR-PERM": 818000,
+          "WSR-PHYS": 614000
+        }
+      }
+    },
+    {
+      "id": "bridge-wallet",
+      "platform": "iOS",
+      "version": "1.37.141",
+      "scores": {
+        "categories": {
+          "WSR-VERI": 174500,
+          "WSR-THRE": 63000,
+          "WSR-PERM": 682000,
+          "WSR-PHYS": 553000
+        }
+      }
+    },
+    {
+      "id": "coin-wallet",
+      "platform": "iOS",
+      "version": "6.5.0",
+      "scores": {
+        "categories": {
+          "WSR-VERI": 258500,
+          "WSR-THRE": 63000,
+          "WSR-PERM": 807000,
+          "WSR-PHYS": 525000
+        }
+      }
+    },
+    {
+      "id": "coinbase-wallet",
+      "platform": "iOS",
+      "version": "29.12",
+      "scores": {
+        "categories": {
+          "WSR-VERI": 828000,
+          "WSR-THRE": 441000,
+          "WSR-PERM": 818000,
+          "WSR-PHYS": 449000
+        }
+      }
+    },
+    {
+      "id": "exodus",
+      "platform": "iOS",
+      "version": "24.25.14",
+      "scores": {
+        "categories": {
+          "WSR-VERI": 24500,
+          "WSR-THRE": 138000,
+          "WSR-PERM": 682000,
+          "WSR-PHYS": 178000
+        }
+      }
+    },
+    {
+      "id": "fox",
+      "platform": "iOS",
+      "version": "5.1.0",
+      "scores": {
+        "categories": {
+          "WSR-VERI": 529500,
+          "WSR-THRE": 138000,
+          "WSR-PERM": 869000,
+          "WSR-PHYS": 449000
+        }
+      }
+    },
+    {
+      "id": "gem",
+      "platform": "iOS",
+      "version": "1.3.26",
+      "scores": {
+        "categories": {
+          "WSR-VERI": 174500,
+          "WSR-THRE": 63000,
+          "WSR-PERM": 775000,
+          "WSR-PHYS": 89000
+        }
+      }
+    },
+    {
+      "id": "im-token",
+      "platform": "iOS",
+      "version": "2.15.2.6022",
+      "scores": {
+        "categories": {
+          "WSR-VERI": 891500,
+          "WSR-THRE": 441000,
+          "WSR-PERM": 850000,
+          "WSR-PHYS": 449000
+        }
+      }
+    },
+    {
+      "id": "loopring-wallet",
+      "platform": "iOS",
+      "version": "3.2.32",
+      "scores": {
+        "categories": {
+          "WSR-VERI": 24500,
+          "WSR-THRE": 351000,
+          "WSR-PERM": 764000,
+          "WSR-PHYS": 360000
+        }
+      }
+    },
+    {
+      "id": "metamask",
+      "platform": "iOS",
+      "version": "7.31.0",
+      "scores": {
+        "categories": {
+          "WSR-VERI": 558500,
+          "WSR-THRE": 696000,
+          "WSR-PERM": 949000,
+          "WSR-PHYS": 835000
+        }
+      }
+    },
+    {
+      "id": "mew-wallet",
+      "platform": "iOS",
+      "version": "2.4.15",
+      "scores": {
+        "categories": {
+          "WSR-VERI": 150000,
+          "WSR-THRE": 0,
+          "WSR-PERM": 235000,
+          "WSR-PHYS": 614000
+        }
+      }
+    },
+    {
+      "id": "one-key",
+      "platform": "iOS",
+      "version": "4.24.0",
+      "scores": {
+        "categories": {
+          "WSR-VERI": 466000,
+          "WSR-THRE": 722000,
+          "WSR-PERM": 725000,
+          "WSR-PHYS": 718000
+        }
+      }
+    },
+    {
+      "id": "phantom",
+      "platform": "iOS",
+      "version": "24.18.0",
+      "scores": {
+        "categories": {
+          "WSR-VERI": 916000,
+          "WSR-THRE": 278000,
+          "WSR-PERM": 874000,
+          "WSR-PHYS": 89000
+        }
+      }
+    },
+    {
+      "id": "rabby-wallet",
+      "platform": "iOS",
+      "version": "0.3.0",
+      "scores": {
+        "categories": {
+          "WSR-VERI": 779000,
+          "WSR-THRE": 697000,
+          "WSR-PERM": 917000,
+          "WSR-PHYS": 360000
+        }
+      }
+    },
+    {
+      "id": "rainbow",
+      "platform": "iOS",
+      "version": "1.9.39",
+      "scores": {
+        "categories": {
+          "WSR-VERI": 466000,
+          "WSR-THRE": 712000,
+          "WSR-PERM": 775000,
+          "WSR-PHYS": 525000
+        }
+      }
+    },
+    {
+      "id": "shape-shift",
+      "platform": "iOS",
+      "version": "3.1.0",
+      "scores": {
+        "categories": {
+          "WSR-VERI": 371000,
+          "WSR-THRE": 138000,
+          "WSR-PERM": 775000,
+          "WSR-PHYS": 436000
+        }
+      }
+    },
+    {
+      "id": "token-pocket",
+      "platform": "iOS",
+      "version": "2.3.3",
+      "scores": {
+        "categories": {
+          "WSR-VERI": 441500,
+          "WSR-THRE": 187000,
+          "WSR-PERM": 869000,
+          "WSR-PHYS": 360000
+        }
+      }
+    },
+    {
+      "id": "trust-wallet",
+      "platform": "iOS",
+      "version": "11.6.1",
+      "scores": {
+        "categories": {
+          "WSR-VERI": 174500,
+          "WSR-THRE": 351000,
+          "WSR-PERM": 775000,
+          "WSR-PHYS": 807000
+        }
+      }
+    },
+    {
+      "id": "uniswap",
+      "platform": "iOS",
+      "version": "1.31",
+      "scores": {
+        "categories": {
+          "WSR-VERI": 411000,
+          "WSR-THRE": 187000,
+          "WSR-PERM": 775000,
+          "WSR-PHYS": 360000
+        }
+      }
+    },
+    {
+      "id": "unstoppable-wallet",
+      "platform": "iOS",
+      "version": "0.38.2",
+      "scores": {
+        "categories": {
+          "WSR-VERI": 379500,
+          "WSR-THRE": 63000,
+          "WSR-PERM": 775000,
+          "WSR-PHYS": 447000
+        }
+      }
+    },
+    {
+      "id": "zerion",
+      "platform": "iOS",
+      "version": "3.4.0",
+      "scores": {
+        "categories": {
+          "WSR-VERI": 817000,
+          "WSR-THRE": 621000,
+          "WSR-PERM": 826000,
+          "WSR-PHYS": 360000
+        }
+      }
+    },
+    {
+      "id": "aurox-wallet",
+      "platform": "Extension",
+      "version": "2.0.0",
+      "scores": {
+        "categories": {
+          "WSR-VERI": 684000,
+          "WSR-THRE": 63000,
+          "WSR-PERM": 628000,
+          "WSR-PHYS": 575000
+        }
+      }
+    },
+    {
+      "id": "bitget",
+      "platform": "Extension",
+      "version": "2.15.0",
+      "scores": {
+        "categories": {
+          "WSR-VERI": 112500,
+          "WSR-THRE": 50000,
+          "WSR-PERM": 752000,
+          "WSR-PHYS": 754000
+        }
+      }
+    },
+    {
+      "id": "blockwallet",
+      "platform": "Extension",
+      "version": "1.2.14",
+      "scores": {
+        "categories": {
+          "WSR-VERI": 199000,
+          "WSR-THRE": 392000,
+          "WSR-PERM": 852000,
+          "WSR-PHYS": 912000
+        }
+      }
+    },
+    {
+      "id": "coinbase-wallet",
+      "platform": "Extension",
+      "version": "3.88.0",
+      "scores": {
+        "categories": {
+          "WSR-VERI": 828000,
+          "WSR-THRE": 696000,
+          "WSR-PERM": 847000,
+          "WSR-PHYS": 744000
+        }
+      }
+    },
+    {
+      "id": "enkrypt",
+      "platform": "Extension",
+      "version": "1.44.0",
+      "scores": {
+        "categories": {
+          "WSR-VERI": 371000,
+          "WSR-THRE": 188000,
+          "WSR-PERM": 552000,
+          "WSR-PHYS": 832000
+        }
+      }
+    },
+    {
+      "id": "exodus",
+      "platform": "Extension",
+      "version": "24.41.2",
+      "scores": {
+        "categories": {
+          "WSR-VERI": 529500,
+          "WSR-THRE": 188000,
+          "WSR-PERM": 618000,
+          "WSR-PHYS": 674000
+        }
+      }
+    },
+    {
+      "id": "frame",
+      "platform": "Extension",
+      "version": "0.11.0",
+      "scores": {
+        "categories": {
+          "WSR-VERI": 624500,
+          "WSR-THRE": 63000,
+          "WSR-PERM": 672000,
+          "WSR-PHYS": 414000
+        }
+      }
+    },
+    {
+      "id": "metamask",
+      "platform": "Extension",
+      "version": "12.3.1",
+      "scores": {
+        "categories": {
+          "WSR-VERI": 975500,
+          "WSR-THRE": 836000,
+          "WSR-PERM": 1000000,
+          "WSR-PHYS": 586000
+        }
+      }
+    },
+    {
+      "id": "okx",
+      "platform": "Extension",
+      "version": "3.23.22",
+      "scores": {
+        "categories": {
+          "WSR-VERI": 558500,
+          "WSR-THRE": 392000,
+          "WSR-PERM": 902000,
+          "WSR-PHYS": 674000
+        }
+      }
+    },
+    {
+      "id": "one-key",
+      "platform": "Extension",
+      "version": "5.2.2",
+      "scores": {
+        "categories": {
+          "WSR-VERI": 529500,
+          "WSR-THRE": 606000,
+          "WSR-PERM": 672000,
+          "WSR-PHYS": 674000
+        }
+      }
+    },
+    {
+      "id": "phantom",
+      "platform": "Extension",
+      "version": "24.20.0",
+      "scores": {
+        "categories": {
+          "WSR-VERI": 649000,
+          "WSR-THRE": 138000,
+          "WSR-PERM": 867000,
+          "WSR-PHYS": 842000
+        }
+      }
+    },
+    {
+      "id": "rabby-wallet",
+      "platform": "Extension",
+      "version": "0.92.91",
+      "scores": {
+        "categories": {
+          "WSR-VERI": 916000,
+          "WSR-THRE": 696000,
+          "WSR-PERM": 912000,
+          "WSR-PHYS": 586000
+        }
+      }
+    },
+    {
+      "id": "rainbow",
+      "platform": "Extension",
+      "version": "1.5.46",
+      "scores": {
+        "categories": {
+          "WSR-VERI": 649000,
+          "WSR-THRE": 606000,
+          "WSR-PERM": 912000,
+          "WSR-PHYS": 586000
+        }
+      }
+    },
+    {
+      "id": "taho",
+      "platform": "Extension",
+      "version": "0.58.097",
+      "scores": {
+        "categories": {
+          "WSR-VERI": 291500,
+          "WSR-THRE": 50000,
+          "WSR-PERM": 867000,
+          "WSR-PHYS": 506000
+        }
+      }
+    },
+    {
+      "id": "token-pocket",
+      "platform": "Extension",
+      "version": "1.3.8",
+      "scores": {
+        "categories": {
+          "WSR-VERI": 379500,
+          "WSR-THRE": 75000,
+          "WSR-PERM": 955000,
+          "WSR-PHYS": 586000
+        }
+      }
+    },
+    {
+      "id": "trust-wallet",
+      "platform": "Extension",
+      "version": "2.23.0",
+      "scores": {
+        "categories": {
+          "WSR-VERI": 24500,
+          "WSR-THRE": 188000,
+          "WSR-PERM": 902000,
+          "WSR-PHYS": 744000
+        }
+      }
+    },
+    {
+      "id": "xdefi-wallet",
+      "platform": "Extension",
+      "version": "29.10.0",
+      "scores": {
+        "categories": {
+          "WSR-VERI": 529500,
+          "WSR-THRE": 606000,
+          "WSR-PERM": 727000,
+          "WSR-PHYS": 674000
+        }
+      }
+    }
+  ]
+}
