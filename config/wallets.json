@@ -1,0 +1,171 @@
+{
+    "phantom": {
+        "name": "Phantom",
+        "url": "https://phantom.app/"
+    },
+    "trust-wallet": {
+        "name": "Trust Wallet",
+        "url": "https://trustwallet.com/"
+    },
+    "fox": {
+        "name": "Fox",
+        "url": "https://foxwallet.com/"
+    },
+    "rainbow": {
+        "name": "Rainbow",
+        "url": "https://rainbow.me/"
+    },
+    "uniswap": {
+        "name": "Uniswap",
+        "url": "https://app.uniswap.org/"
+    },
+    "loopring-wallet": {
+        "name": "Loopring Wallet",
+        "url": "https://loopring.io/#/"
+    },
+    "alpha-wallet": {
+        "name": "AlphaWallet",
+        "url": "https://alphawallet.com/"
+    },
+    "im-token": {
+        "name": "imToken",
+        "url": "https://token.im/"
+    },
+    "token-pocket": {
+        "name": "TokenPocket",
+        "url": "https://www.tokenpocket.pro/"
+    },
+    "bridge-wallet": {
+        "name": "Bridge Wallet",
+        "url": "https://www.mtpelerin.com/bitcoin-wallet"
+    },
+    "bitget": {
+        "name": "Bitget",
+        "url": "https://www.bitget.com/"
+    },
+    "coinbase-wallet": {
+        "name": "Coinbase Wallet",
+        "url": "https://www.coinbase.com/en-es/wallet"
+    },
+    "mew-wallet": {
+        "name": "MEW Wallet",
+        "url": "https://www.myetherwallet.com/"
+    },
+    "gem": {
+        "name": "Gem",
+        "url": "https://gemwallet.com/"
+    },
+    "rabby-wallet": {
+        "name": "Rabby Wallet",
+        "url": "https://rabby.io/"
+    },
+    "coin-wallet": {
+        "name": "Coin Wallet",
+        "url": "https://coin.space/"
+    },
+    "exodus": {
+        "name": "Exodus",
+        "url": "https://www.exodus.com/"
+    },
+    "shape-shift": {
+        "name": "ShapeShift",
+        "url": "https://shapeshift.com/"
+    },
+    "metamask": {
+        "name": "MetaMask",
+        "url": "https://metamask.io/"
+    },
+    "zerion": {
+        "name": "Zerion",
+        "url": "https://zerion.io/"
+    },
+    "one-key": {
+        "name": "OneKey",
+        "url": "https://www.onekey.so/"
+    },
+    "ambire": {
+        "name": "Ambire",
+        "url": "https://www.ambire.com/"
+    },
+    "1inch": {
+        "name": "1inch",
+        "url": "https://1inch.io/"
+    },
+    "aurox-wallet": {
+        "name": "Aurox",
+        "url": "https://getaurox.com/"
+    },
+    "taho": {
+        "name": "Taho",
+        "url": "https://taho.xyz/"
+    },
+    "frame": {
+        "name": "Frame",
+        "url": "https://frame.sh/"
+    },
+    "unstoppable-wallet": {
+        "name": "Unstoppable Wallet",
+        "url": "https://unstoppable.money/"
+    },
+    "enkrypt": {
+        "name": "Enkrypt",
+        "url": "https://www.enkrypt.com/"
+    },
+    "blockwallet": {
+        "name": "Blockwallet",
+        "url": "https://blockwallet.io/"
+    },
+    "okx": {
+        "name": "OKX",
+        "url": "https://www.okx.com/web3"
+    },
+    "xdefi-wallet": {
+        "name": "XDefi",
+        "url": "https://ctrl.xyz/"
+    },
+    "brave": {
+        "name": "Brave",
+        "url": "https://brave.com/"
+    },
+    "coin-98": {
+        "name": "Coin98",
+        "url": "https://coin98.com/"
+    },
+    "ctrl-wallet": {
+        "name": "Ctrl Wallet",
+        "url": "https://ctrl.xyz/"
+    },
+    "tomo": {
+        "name": "Tomo",
+        "url": "https://tomo.inc/"
+    },
+
+    "family": {
+        "name": "Family",
+        "url": "https://family.co/"
+    },
+    "okto": {
+        "name": "Okto",
+        "url": "https://okto.tech/"
+    },
+    "binance": {
+        "name": "Binance",
+        "url": "https://www.binance.com/en/binancewallet"
+    },
+    "core": {
+        "name": "Core",
+        "url": "https://core.app/"
+    },
+    "elytro": {
+        "name": "Elytro",
+        "url": "https://elytro.com/"
+    },
+    "nu-fi": {
+        "name": "NuFi",
+        "url": "https://nu.fi/"
+    },
+    "zengo": {
+        "name": "ZenGo",
+        "url": "https://zengo.com/"
+    }
+}
