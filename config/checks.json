@@ -309,7 +309,6 @@
         "name": "Robust Authentication",
         "weight": {
             "mobile": 1650,
-            "browser": 1580
         },
         "description": "Uses strong authentication, including biometrics, rate limiting, and resistance to trivial credentials.",
         "instructions": "Check whether biometric authentication is available and attempt to set a weak PIN (e.g. `1234`). Then attempt multiple incorrect logins and observe whether rate limiting activates.",
@@ -320,7 +319,6 @@
     "WSR-PHYS-002~Browser.v1": {
         "name": "Robust Authentication",
         "weight": {
-            "mobile": 1650,
             "browser": 1580
         },
         "description": "Uses strong authentication, such as resistance to trivial or commonly-used passwords.",
