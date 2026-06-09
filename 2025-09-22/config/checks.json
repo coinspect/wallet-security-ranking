@@ -266,7 +266,7 @@
         "description": "Warns users when interacting with an unknown address.",
         "instructions": "Send a transaction to a fresh address (never interacted with and not saved as a contact) both through a dApp and directly through the wallet UI. Observe whether any warning or indicator appears.",
         "reasoning": "Highlighting unknown recipients creates a useful pause before sending funds or interacting with a new contract that may be malicious or mistyped.",
-        "criteria": "Passes if the wallet displays a warning or indicator for unknown addresses, whether entered manually, provided by a dApp, or both.",
+        "criteria": "Passes if the wallet displays a warning or indicator when an unknown address is used, whether the address is entered manually or provided by a dApp.",
         "attack_scenario": "A user sends funds to an unfamiliar or unverified address without recognizing the associated risk"
     },
     "WSR-THRE-006.v1": {
