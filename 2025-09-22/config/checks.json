@@ -134,7 +134,7 @@
         "description": "Warns users when they input addresses with invalid EIP-55 checksums.",
         "instructions": "Attempt to send a transaction to an address with an incorrect EIP-55 checksum (e.g. alter the case of any letter). The transaction should be attempted manually and from a dApp. Observe whether the wallet surfaces a warning or blocks the transaction.",
         "reasoning": "EIP-55 checksums are meant to catch address-entry mistakes that would otherwise be hard to spot. Warning on an invalid checksum reduces the chance of sending funds to a mistyped or malformed address, especially when users copy addresses from unreliable sources.",
-        "criteria": "Passes if the wallet blocks the transaction or displays a checksum warning before the transaction proceeds.",
+        "criteria": "Passes if the wallet blocks the transaction or displays a checksum warning before the transaction proceeds for both manually entered addresses and addresses provided by a dApp.",
         "attack_scenario": "A user sends funds to a mistyped or manipulated address due to input errors or clipboard tampering"
     },
     "WSR-VERI-002.v1": {
@@ -266,7 +266,7 @@
         "description": "Warns users when interacting with an unknown address.",
         "instructions": "Send a transaction to a fresh address (never interacted with and not saved as a contact) both through a dApp and directly through the wallet UI. Observe whether any warning or indicator appears.",
         "reasoning": "Highlighting unknown recipients creates a useful pause before sending funds or interacting with a new contract that may be malicious or mistyped.",
-        "criteria": "Passes if the wallet shows a warning or indicator for unknown addresses.",
+        "criteria": "Passes if the wallet displays a warning or indicator when an unknown address is used, whether the address is entered manually or provided by a dApp.",
         "attack_scenario": "A user sends funds to an unfamiliar or unverified address without recognizing the associated risk"
     },
     "WSR-THRE-006.v1": {
