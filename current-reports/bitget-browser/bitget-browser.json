@@ -1,771 +1,786 @@
 {
-    "wallet": "Bitget",
-    "platform": "Browser",
-    "version": "2.19.1",
-    "date": "2026-01-12T17:52:05.136Z",
-    "walletUID": "bitget-browser",
-    "walletMakerUID": "bitget",
-    "scores": {
-        "categories": [
-            {
-                "categoryUID": "WSR-VERI",
-                "checkResults": [
-                    {
-                        "checkUID": "WSR-VERI-001.v1",
-                        "result": 100
-                    },
-                    {
-                        "checkUID": "WSR-VERI-002.v1",
-                        "result": 50
-                    },
-                    {
-                        "checkUID": "WSR-VERI-003.v1",
-                        "result": 0
-                    },
-                    {
-                        "checkUID": "WSR-VERI-004.v1",
-                        "result": 0
-                    },
-                    {
-                        "checkUID": "WSR-VERI-005.v1",
-                        "result": 0
-                    },
-                    {
-                        "checkUID": "WSR-VERI-006.v1",
-                        "result": 0
-                    },
-                    {
-                        "checkUID": "WSR-VERI-007.v1",
-                        "result": 0
-                    }
-                ]
-            },
-            {
-                "categoryUID": "WSR-PHYS",
-                "checkResults": [
-                    {
-                        "checkUID": "WSR-PHYS-001.v1",
-                        "result": 100
-                    },
-                    {
-                        "checkUID": "WSR-PHYS-002.v1",
-                        "result": 0
-                    },
-                    {
-                        "checkUID": "WSR-PHYS-006~Browser.v1",
-                        "result": 0
-                    },
-                    {
-                        "checkUID": "WSR-PHYS-004.v1",
-                        "result": 100
-                    },
-                    {
-                        "checkUID": "WSR-PHYS-005.v1",
-                        "result": 100
-                    },
-                    {
-                        "checkUID": "WSR-PHYS-003.v1",
-                        "result": 100
-                    }
-                ]
-            },
-            {
-                "categoryUID": "WSR-THRE",
-                "checkResults": [
-                    {
-                        "checkUID": "WSR-THRE-001.v1",
-                        "result": 0
-                    },
-                    {
-                        "checkUID": "WSR-THRE-002.v1",
-                        "result": 0
-                    },
-                    {
-                        "checkUID": "WSR-THRE-003.v1",
-                        "result": 0
-                    },
-                    {
-                        "checkUID": "WSR-THRE-004.v1",
-                        "result": 100
-                    },
-                    {
-                        "checkUID": "WSR-THRE-005.v1",
-                        "result": 0
-                    },
-                    {
-                        "checkUID": "WSR-THRE-006.v1",
-                        "result": 0
-                    },
-                    {
-                        "checkUID": "WSR-THRE-007.v1",
-                        "result": 0
-                    }
-                ]
-            },
-            {
-                "categoryUID": "WSR-PERM",
-                "checkResults": [
-                    {
-                        "checkUID": "WSR-PERM-008~Browser.v1",
-                        "result": 100
-                    },
-                    {
-                        "checkUID": "WSR-PERM-001.v1",
-                        "result": 0
-                    },
-                    {
-                        "checkUID": "WSR-PERM-002~Browser.v1",
-                        "result": 100
-                    },
-                    {
-                        "checkUID": "WSR-PERM-003.v1",
-                        "result": 100
-                    },
-                    {
-                        "checkUID": "WSR-PERM-004.v1",
-                        "result": 100
-                    },
-                    {
-                        "checkUID": "WSR-PERM-009.v1",
-                        "result": 100
-                    },
-                    {
-                        "checkUID": "WSR-PERM-005.v1",
-                        "result": 100
-                    },
-                    {
-                        "checkUID": "WSR-PERM-010~Browser.v1",
-                        "result": 100
-                    },
-                    {
-                        "checkUID": "WSR-PERM-006.v1",
-                        "result": 0
-                    }
-                ]
-            }
+  "round": "2026-04-01",
+  "wallet": "Bitget",
+  "platform": "Browser",
+  "version": "2.20.0",
+  "date": "2026-06-04T20:37:18.828Z",
+  "walletUID": "bitget-browser",
+  "walletMakerUID": "bitget",
+  "scores": {
+    "categories": [
+      {
+        "categoryUID": "WSR-VERI",
+        "checkResults": [
+          {
+            "checkUID": "WSR-VERI-001.v1",
+            "result": 100
+          },
+          {
+            "checkUID": "WSR-VERI-002.v1",
+            "result": 50
+          },
+          {
+            "checkUID": "WSR-VERI-003.v1",
+            "result": 0
+          },
+          {
+            "checkUID": "WSR-VERI-004.v1",
+            "result": 0
+          },
+          {
+            "checkUID": "WSR-VERI-005.v1",
+            "result": 0
+          },
+          {
+            "checkUID": "WSR-VERI-006.v1",
+            "result": 0
+          },
+          {
+            "checkUID": "WSR-VERI-007.v1",
+            "result": 0
+          }
         ]
-    },
-    "results": [
-        {
-            "uid": "WSR-VERI-001.v1",
-            "inputs": [
-                {
-                    "type": "select",
-                    "value": "100%"
-                },
-                {
-                    "type": "file",
-                    "value": [
-                        "bitget-browser-2.19.1-1fb1e517.png",
-                        "bitget-browser-2.19.1-5c0d512d.png"
-                    ]
-                },
-                {
-                    "type": "textarea",
-                    "value": "The wallet prevents sending transactions to invalid checksum addresses both via dApps and manually."
-                }
-            ],
-            "tester": 2,
-            "lastUpdated": 1761073195124
-        },
-        {
-            "uid": "WSR-PHYS-001.v1",
-            "inputs": [
-                {
-                    "type": "select",
-                    "value": "100%"
-                },
-                {
-                    "type": "file",
-                    "value": [
-                        "bitget-browser-2.19.1-52560b4f.png"
-                    ]
-                },
-                {
-                    "type": "textarea",
-                    "value": "The wallet doesn't allow users to copy mnemonics and private keys to the clipboard and does not explicitly warn them about the risks associated with copying them."
-                }
-            ],
-            "tester": 2,
-            "lastUpdated": 1761073281719
-        },
-        {
-            "uid": "WSR-THRE-001.v1",
-            "inputs": [
-                {
-                    "type": "select",
-                    "value": "0%"
-                },
-                {
-                    "type": "file",
-                    "value": [
-                        "bitget-browser-2.19.1-f05d1a68.png"
-                    ]
-                },
-                {
-                    "type": "textarea",
-                    "value": "The wallet does not feature a verified domain indicator for well-known dApps."
-                }
-            ],
-            "tester": 2,
-            "lastUpdated": 1761073341961
-        },
-        {
-            "uid": "WSR-PERM-008~Browser.v1",
-            "inputs": [
-                {
-                    "type": "select",
-                    "value": "100%"
-                },
-                {
-                    "type": "file",
-                    "value": [
-                        "bitget-browser-2.19.1-ab566484.png"
-                    ]
-                },
-                {
-                    "type": "textarea",
-                    "value": "The wallet requires a user connection to access the RPC endpoints."
-                }
-            ],
-            "tester": 2,
-            "lastUpdated": 1761073830917
-        },
-        {
-            "uid": "WSR-THRE-002.v1",
-            "inputs": [
-                {
-                    "type": "select",
-                    "value": "0%"
-                },
-                {
-                    "type": "file",
-                    "value": [
-                        "bitget-browser-2.19.1-5558251c.png"
-                    ]
-                },
-                {
-                    "type": "textarea",
-                    "value": "The wallet failed to issue warnings when attempting to send funds to the Tornado Cash attacker address."
-                }
-            ],
-            "tester": 2,
-            "lastUpdated": 1761073368191
-        },
-        {
-            "uid": "WSR-PHYS-002.v1",
-            "inputs": [
-                {
-                    "type": "select",
-                    "value": "0%"
-                },
-                {
-                    "type": "file",
-                    "value": [
-                        "bitget-browser-2.19.1-453a1b90.png"
-                    ]
-                },
-                {
-                    "type": "textarea",
-                    "value": "The wallet enforces an 8-digit password but permits easily guessable ones like \"12345678.\""
-                }
-            ],
-            "tester": 2,
-            "lastUpdated": 1761073390977
-        },
-        {
-            "uid": "WSR-PERM-001.v1",
-            "inputs": [
-                {
-                    "type": "select",
-                    "value": "0%"
-                },
-                {
-                    "type": "file",
-                    "value": [
-                        "bitget-browser-2.19.1-ccb5afc9.png"
-                    ]
-                },
-                {
-                    "type": "textarea",
-                    "value": "The wallet does not warn users of a domain or scheme mismatch when signing a SIWE message."
-                }
-            ],
-            "tester": 2,
-            "lastUpdated": 1761073439199
-        },
-        {
-            "uid": "WSR-THRE-003.v1",
-            "inputs": [
-                {
-                    "type": "select",
-                    "value": "0%"
-                },
-                {
-                    "type": "file",
-                    "value": [
-                        "bitget-browser-2.19.1-bb9074e5.png"
-                    ]
-                },
-                {
-                    "type": "textarea",
-                    "value": "The wallet did not issue any warnings when attempting to connect to a deceptive dApp."
-                }
-            ],
-            "tester": 2,
-            "lastUpdated": 1761073456176
-        },
-        {
-            "uid": "WSR-VERI-002.v1",
-            "inputs": [
-                {
-                    "type": "select",
-                    "value": "50%"
-                },
-                {
-                    "type": "file",
-                    "value": [
-                        "bitget-browser-2.19.1-65dc4dbc.png",
-                        "bitget-browser-2.19.1-3c159bb7.png"
-                    ]
-                },
-                {
-                    "type": "textarea",
-                    "value": "The wallet provides clickable links in the history but not in the transaction preview."
-                }
-            ],
-            "tester": 2,
-            "lastUpdated": 1761073474354
-        },
-        {
-            "uid": "WSR-VERI-003.v1",
-            "inputs": [
-                {
-                    "type": "select",
-                    "value": "0%"
-                },
-                {
-                    "type": "file",
-                    "value": [
-                        "bitget-browser-2.19.1-2d0946a3.png"
-                    ]
-                },
-                {
-                    "type": "textarea",
-                    "value": "The wallet fails to display all incoming and outgoing assets in both liquidity pool additions and swaps."
-                }
-            ],
-            "tester": 2,
-            "lastUpdated": 1761073487949
-        },
-        {
-            "uid": "WSR-VERI-004.v1",
-            "inputs": [
-                {
-                    "type": "select",
-                    "value": "0%"
-                },
-                {
-                    "type": "file",
-                    "value": [
-                        "bitget-browser-2.19.1-85481852.png",
-                        "bitget-browser-2.19.1-804f5023.png"
-                    ]
-                },
-                {
-                    "type": "textarea",
-                    "value": "The wallet displays EIP-712 objects as plain data without parsing them."
-                }
-            ],
-            "tester": 2,
-            "lastUpdated": 1761073507358
-        },
-        {
-            "uid": "WSR-THRE-004.v1",
-            "inputs": [
-                {
-                    "type": "select",
-                    "value": "100%"
-                },
-                {
-                    "type": "file",
-                    "value": [
-                        "bitget-browser-2.19.1-242b34b1.png"
-                    ]
-                },
-                {
-                    "type": "textarea",
-                    "value": "The wallet clearly informs users, within the connection dialog, that by connecting they are allowing the dApp to view all their information on the Ethereum network, as well as to request transaction approvals."
-                }
-            ],
-            "tester": 2,
-            "lastUpdated": 1761073528397
-        },
-        {
-            "uid": "WSR-THRE-005.v1",
-            "inputs": [
-                {
-                    "type": "select",
-                    "value": "0%"
-                },
-                {
-                    "type": "file",
-                    "value": [
-                        "bitget-browser-2.19.1-bbf65236.png",
-                        "bitget-browser-2.19.1-df17e355.png"
-                    ]
-                },
-                {
-                    "type": "textarea",
-                    "value": "The wallet does not inform the user that he is interacting with an unknown address."
-                }
-            ],
-            "tester": 2,
-            "lastUpdated": 1763393432462
-        },
-        {
-            "uid": "WSR-THRE-006.v1",
-            "inputs": [
-                {
-                    "type": "select",
-                    "value": "0%"
-                },
-                {
-                    "type": "file",
-                    "value": [
-                        "bitget-browser-2.19.1-5c0b7b98.png"
-                    ]
-                },
-                {
-                    "type": "textarea",
-                    "value": "The wallet truncates the URL of the dApp the user is attempting to connect to."
-                }
-            ],
-            "tester": 2,
-            "lastUpdated": 1761073560213
-        },
-        {
-            "uid": "WSR-PERM-002~Browser.v1",
-            "inputs": [
-                {
-                    "type": "select",
-                    "value": "100%"
-                },
-                {
-                    "type": "file",
-                    "value": [
-                        "bitget-browser-2.19.1-19e035e1.png"
-                    ]
-                },
-                {
-                    "type": "textarea",
-                    "value": "The wallet requires the user to unlock it before processing each request."
-                }
-            ],
-            "tester": 2,
-            "lastUpdated": 1761073854135
-        },
-        {
-            "uid": "WSR-PERM-003.v1",
-            "inputs": [
-                {
-                    "type": "select",
-                    "value": "100%"
-                },
-                {
-                    "type": "file",
-                    "value": [
-                        "bitget-browser-2.19.1-da35d3d2.png"
-                    ]
-                },
-                {
-                    "type": "textarea",
-                    "value": "The wallet doesn't allow signing an EIP-712 message with a chainId that does not match the currently active chain."
-                }
-            ],
-            "tester": 2,
-            "lastUpdated": 1761073581155
-        },
-        {
-            "uid": "WSR-PERM-004.v1",
-            "inputs": [
-                {
-                    "type": "select",
-                    "value": "100%"
-                },
-                {
-                    "type": "file",
-                    "value": [
-                        "bitget-browser-2.19.1-b1c63718.png"
-                    ]
-                },
-                {
-                    "type": "textarea",
-                    "value": "The wallet provides a list of connected dApps and offers users the option to revoke access to all of them or revoke them individually. This function works properly, effectively disconnecting from the selected dApp."
-                }
-            ],
-            "tester": 2,
-            "lastUpdated": 1761073597074
-        },
-        {
-            "uid": "WSR-VERI-005.v1",
-            "inputs": [
-                {
-                    "type": "select",
-                    "value": "0%"
-                },
-                {
-                    "type": "file",
-                    "value": [
-                        "bitget-browser-2.19.1-19a9f635.png"
-                    ]
-                },
-                {
-                    "type": "textarea",
-                    "value": "The wallet does not inform the spender contract address."
-                }
-            ],
-            "tester": 2,
-            "lastUpdated": 1761073612009
-        },
-        {
-            "uid": "WSR-PERM-009.v1",
-            "inputs": [
-                {
-                    "type": "select",
-                    "value": "100%"
-                },
-                {
-                    "type": "file",
-                    "value": [
-                        "bitget-browser-2.19.1-c50dabaa.png"
-                    ]
-                },
-                {
-                    "type": "textarea",
-                    "value": "The wallet requires user confirmation before processing the wallet_switchEthereumChain RPC request from the dApp."
-                }
-            ],
-            "tester": 2,
-            "lastUpdated": 1763137285681
-        },
-        {
-            "uid": "WSR-VERI-006.v1",
-            "inputs": [
-                {
-                    "type": "select",
-                    "value": "0%"
-                },
-                {
-                    "type": "file",
-                    "value": [
-                        "bitget-browser-2.19.1-ba6091f2.png",
-                        "bitget-browser-2.19.1-b24c4ce7.png",
-                        "bitget-browser-2.19.1-3c48aa1a.png"
-                    ]
-                },
-                {
-                    "type": "textarea",
-                    "value": "The wallet displays large messages in personal sign requests without truncation, but fails to show the verifying contract in the EIP-712 object."
-                }
-            ],
-            "tester": 2,
-            "lastUpdated": 1761073653290
-        },
-        {
-            "uid": "WSR-PERM-005.v1",
-            "inputs": [
-                {
-                    "type": "select",
-                    "value": "100%"
-                },
-                {
-                    "type": "file",
-                    "value": [
-                        "bitget-browser-2.19.1-83a2651b.png",
-                        "bitget-browser-2.19.1-74a050c0.png"
-                    ]
-                },
-                {
-                    "type": "textarea",
-                    "value": "The wallet includes a section to revoke token allowances under the Tools tab, labeled as Approval Checker. This link redirects users to a website where they can manage and revoke token approvals."
-                }
-            ],
-            "tester": 2,
-            "lastUpdated": 1761073689098
-        },
-        {
-            "uid": "WSR-PERM-010~Browser.v1",
-            "inputs": [
-                {
-                    "type": "select",
-                    "value": "100%"
-                },
-                {
-                    "type": "file",
-                    "value": [
-                        "bitget-browser-2.19.1-38068590.png"
-                    ]
-                },
-                {
-                    "type": "textarea",
-                    "value": "The wallet requires user confirmation before processing each dApp request."
-                }
-            ],
-            "tester": 2,
-            "lastUpdated": 1761073875210
-        },
-        {
-            "uid": "WSR-THRE-007.v1",
-            "inputs": [
-                {
-                    "type": "select",
-                    "value": "0%"
-                },
-                {
-                    "type": "file",
-                    "value": [
-                        "bitget-browser-2.19.1-6afdb377.png"
-                    ]
-                },
-                {
-                    "type": "textarea",
-                    "value": "The wallet does not filter out scam or spam NFTs."
-                }
-            ],
-            "tester": 2,
-            "lastUpdated": 1761073706949
-        },
-        {
-            "uid": "WSR-VERI-007.v1",
-            "inputs": [
-                {
-                    "type": "select",
-                    "value": "0%"
-                },
-                {
-                    "type": "file",
-                    "value": [
-                        "bitget-browser-2.19.1-249f601d.png",
-                        "bitget-browser-2.19.1-79f9aa0e.png",
-                        "bitget-browser-2.19.1-bf193544.png"
-                    ]
-                },
-                {
-                    "type": "textarea",
-                    "value": "The sign button is available from the start."
-                }
-            ],
-            "tester": 2,
-            "lastUpdated": 1761073739470
-        },
-        {
-            "uid": "WSR-PHYS-006~Browser.v1",
-            "inputs": [
-                {
-                    "type": "select",
-                    "value": "0%"
-                },
-                {
-                    "type": "file",
-                    "value": [
-                        "bitget-browser-2.19.1-2a9d6506.png"
-                    ]
-                },
-                {
-                    "type": "textarea",
-                    "value": "By default automatically locks itself after 30 minutes of inactivity."
-                }
-            ],
-            "tester": 2,
-            "lastUpdated": 1761073891383
-        },
-        {
-            "uid": "WSR-PHYS-004.v1",
-            "inputs": [
-                {
-                    "type": "select",
-                    "value": "100%"
-                },
-                {
-                    "type": "file",
-                    "value": [
-                        "bitget-browser-2.19.1-a0543433.png"
-                    ]
-                },
-                {
-                    "type": "textarea",
-                    "value": "The wallet provides a manual lock button in the top right corner of the Discover tab."
-                }
-            ],
-            "tester": 2,
-            "lastUpdated": 1761073757730
-        },
-        {
-            "uid": "WSR-PERM-006.v1",
-            "inputs": [
-                {
-                    "type": "select",
-                    "value": "0%"
-                },
-                {
-                    "type": "file",
-                    "value": [
-                        "bitget-browser-2.19.1-4e0e249e.png",
-                        "bitget-browser-2.19.1-9c86f8af.png"
-                    ]
-                },
-                {
-                    "type": "textarea",
-                    "value": "The eth_sign method is enabled and functional."
-                }
-            ],
-            "tester": 2,
-            "lastUpdated": 1761073777950
-        },
-        {
-            "uid": "WSR-PHYS-005.v1",
-            "inputs": [
-                {
-                    "type": "select",
-                    "value": "100%"
-                },
-                {
-                    "type": "file",
-                    "value": [
-                        "bitget-browser-2.19.1-2c5d81e2.png"
-                    ]
-                },
-                {
-                    "type": "textarea",
-                    "value": "The wallet requires the user to enter their password before revealing the recovery phrase or private keys."
-                }
-            ],
-            "tester": 2,
-            "lastUpdated": 1761073793142
-        },
-        {
-            "uid": "WSR-PHYS-003.v1",
-            "inputs": [
-                {
-                    "type": "select",
-                    "value": "100%"
-                },
-                {
-                    "type": "file",
-                    "value": [
-                        "bitget-browser-2.19.1-0d5582dd.png",
-                        "bitget-browser-2.19.1-5fef5f4c.png",
-                        "bitget-browser-2.19.1-767a9046.png"
-                    ]
-                },
-                {
-                    "type": "textarea",
-                    "value": "The wallet displays a warning to the user about the risks associated with sharing their recovery phrase or private keys."
-                }
-            ],
-            "tester": 2,
-            "lastUpdated": 1761073810696
-        }
+      },
+      {
+        "categoryUID": "WSR-PHYS",
+        "checkResults": [
+          {
+            "checkUID": "WSR-PHYS-001.v1",
+            "result": 100
+          },
+          {
+            "checkUID": "WSR-PHYS-002~Browser.v1",
+            "result": 0
+          },
+          {
+            "checkUID": "WSR-PHYS-006~Browser.v1",
+            "result": 0
+          },
+          {
+            "checkUID": "WSR-PHYS-004.v1",
+            "result": 100
+          },
+          {
+            "checkUID": "WSR-PHYS-005.v1",
+            "result": 100
+          },
+          {
+            "checkUID": "WSR-PHYS-003.v1",
+            "result": 100
+          }
+        ]
+      },
+      {
+        "categoryUID": "WSR-THRE",
+        "checkResults": [
+          {
+            "checkUID": "WSR-THRE-001.v1",
+            "result": 0
+          },
+          {
+            "checkUID": "WSR-THRE-002.v1",
+            "result": 0
+          },
+          {
+            "checkUID": "WSR-THRE-003.v1",
+            "result": 0
+          },
+          {
+            "checkUID": "WSR-THRE-004.v1",
+            "result": 100
+          },
+          {
+            "checkUID": "WSR-THRE-005.v1",
+            "result": 0
+          },
+          {
+            "checkUID": "WSR-THRE-006.v1",
+            "result": 0
+          },
+          {
+            "checkUID": "WSR-THRE-007.v1",
+            "result": 0
+          }
+        ]
+      },
+      {
+        "categoryUID": "WSR-PERM",
+        "checkResults": [
+          {
+            "checkUID": "WSR-PERM-008~Browser.v1",
+            "result": 100
+          },
+          {
+            "checkUID": "WSR-PERM-001.v1",
+            "result": 0
+          },
+          {
+            "checkUID": "WSR-PERM-002~Browser.v1",
+            "result": 100
+          },
+          {
+            "checkUID": "WSR-PERM-003.v1",
+            "result": 0
+          },
+          {
+            "checkUID": "WSR-PERM-004.v1",
+            "result": 100
+          },
+          {
+            "checkUID": "WSR-PERM-009.v1",
+            "result": 100
+          },
+          {
+            "checkUID": "WSR-PERM-005.v1",
+            "result": 100
+          },
+          {
+            "checkUID": "WSR-PERM-010~Browser.v1",
+            "result": 100
+          },
+          {
+            "checkUID": "WSR-PERM-006.v1",
+            "result": 0
+          }
+        ]
+      }
     ]
+  },
+  "results": [
+    {
+      "uid": "WSR-VERI-001.v1",
+      "inputs": [
+        {
+          "type": "select",
+          "value": "100%"
+        },
+        {
+          "type": "file",
+          "value": [
+            "bitget-browser-2.20.0-688797af.png",
+            "bitget-browser-2.20.0-024ffa77.png"
+          ]
+        },
+        {
+          "type": "textarea",
+          "value": "The wallet displays an \"invalid address\" error message when attempting to send a transaction to an address with an incorrect EIP-55 checksum."
+        }
+      ],
+      "tester": 1,
+      "lastUpdated": 1778014437895
+    },
+    {
+      "uid": "WSR-PHYS-001.v1",
+      "inputs": [
+        {
+          "type": "select",
+          "value": "100%"
+        },
+        {
+          "type": "file",
+          "value": [
+            "bitget-browser-2.20.0-211d89d5.png",
+            "bitget-browser-2.20.0-74cd7c7f.png"
+          ]
+        },
+        {
+          "type": "textarea",
+          "value": "The wallet warns about the risks of copying or taking screenshots of the seed phrase. This satisfies the acceptance criteria."
+        }
+      ],
+      "tester": 1,
+      "lastUpdated": 1778014867791
+    },
+    {
+      "uid": "WSR-THRE-001.v1",
+      "inputs": [
+        {
+          "type": "select",
+          "value": "0%"
+        },
+        {
+          "type": "file",
+          "value": [
+            "bitget-browser-2.20.0-c6802a35.png",
+            "bitget-browser-2.20.0-3f19c228.png",
+            "bitget-browser-2.20.0-7aa7122d.png",
+            "bitget-browser-2.20.0-1ae2b2ac.png"
+          ]
+        },
+        {
+          "type": "textarea",
+          "value": "The wallet does not highlight well-known dApps."
+        }
+      ],
+      "tester": 1,
+      "lastUpdated": 1778014622150
+    },
+    {
+      "uid": "WSR-PERM-008~Browser.v1",
+      "inputs": [
+        {
+          "type": "select",
+          "value": "100%"
+        },
+        {
+          "type": "file",
+          "value": [
+            "bitget-browser-2.20.0-84639f55.png"
+          ]
+        },
+        {
+          "type": "textarea",
+          "value": "The wallet requires a user connection to access the RPC endpoints."
+        }
+      ],
+      "tester": 1,
+      "lastUpdated": 1778014222439
+    },
+    {
+      "uid": "WSR-THRE-002.v1",
+      "inputs": [
+        {
+          "type": "select",
+          "value": "0%"
+        },
+        {
+          "type": "file",
+          "value": [
+            "bitget-browser-2.20.0-1687c99d.png"
+          ]
+        },
+        {
+          "type": "textarea",
+          "value": "The wallet does not warn the user when interacting with a well-known scamming address, such as the Tornado Cash Attacker address."
+        }
+      ],
+      "tester": 1,
+      "lastUpdated": 1778014646831
+    },
+    {
+      "uid": "WSR-PERM-001.v1",
+      "inputs": [
+        {
+          "type": "select",
+          "value": "0%"
+        },
+        {
+          "type": "file",
+          "value": [
+            "bitget-browser-2.20.0-d7396ea7.png",
+            "bitget-browser-2.20.0-f28835bd.png"
+          ]
+        },
+        {
+          "type": "textarea",
+          "value": "The wallet displays the SIWE request from https://opensea.io, but the request source is a netlify app. There is no warning or blocking of the signing request."
+        }
+      ],
+      "tester": 1,
+      "lastUpdated": 1778013923249
+    },
+    {
+      "uid": "WSR-THRE-003.v1",
+      "inputs": [
+        {
+          "type": "select",
+          "value": "0%"
+        },
+        {
+          "type": "file",
+          "value": [
+            "bitget-browser-2.20.0-2ec22ad6.png",
+            "bitget-browser-2.20.0-ee06c249.png",
+            "bitget-browser-2.20.0-4c69b2a9.png",
+            "bitget-browser-2.20.0-4f327ff3.png"
+          ]
+        },
+        {
+          "type": "textarea",
+          "value": "The wallet does not display a warning for any of the listed phishing sites."
+        }
+      ],
+      "tester": 1,
+      "lastUpdated": 1778014675546
+    },
+    {
+      "uid": "WSR-VERI-002.v1",
+      "inputs": [
+        {
+          "type": "select",
+          "value": "50%"
+        },
+        {
+          "type": "file",
+          "value": [
+            "bitget-browser-2.20.0-be3d21a7.png",
+            "bitget-browser-2.20.0-f74ff424.png"
+          ]
+        },
+        {
+          "type": "textarea",
+          "value": "The sending address is displayed as a clickable link to a block explorer in the transaction history, but there is no clickable links within the transaction confirmation screen."
+        }
+      ],
+      "tester": 1,
+      "lastUpdated": 1778014460714
+    },
+    {
+      "uid": "WSR-VERI-003.v1",
+      "inputs": [
+        {
+          "type": "select",
+          "value": "0%"
+        },
+        {
+          "type": "file",
+          "value": [
+            "bitget-browser-2.20.0-0cea0ed1.png",
+            "bitget-browser-2.20.0-4b6149d6.png"
+          ]
+        },
+        {
+          "type": "textarea",
+          "value": "The wallet is only showing the user how much of the token is being sent (POL), not how much of the other token they will receive in return (USDC)."
+        }
+      ],
+      "tester": 1,
+      "lastUpdated": 1778014489560
+    },
+    {
+      "uid": "WSR-VERI-004.v1",
+      "inputs": [
+        {
+          "type": "select",
+          "value": "0%"
+        },
+        {
+          "type": "file",
+          "value": [
+            "bitget-browser-2.20.0-5a823ddc.png",
+            "bitget-browser-2.20.0-5a9e7fc3.png"
+          ]
+        },
+        {
+          "type": "textarea",
+          "value": "The wallet is rendering raw JSON for the EIP-712 signature request, instead of structured, human-readable details."
+        }
+      ],
+      "tester": 1,
+      "lastUpdated": 1778014516701
+    },
+    {
+      "uid": "WSR-THRE-004.v1",
+      "inputs": [
+        {
+          "type": "select",
+          "value": "100%"
+        },
+        {
+          "type": "file",
+          "value": [
+            "bitget-browser-2.20.0-79a990a5.png"
+          ]
+        },
+        {
+          "type": "textarea",
+          "value": "The connection dialog mentions 'Querying of your information on the Ethereum network' and 'Requesting transaction authorization'. However, it does not explicitly mention the ability to view the user's balance and activity."
+        }
+      ],
+      "tester": 1,
+      "lastUpdated": 1778014697431
+    },
+    {
+      "uid": "WSR-THRE-005.v1",
+      "inputs": [
+        {
+          "type": "select",
+          "value": "0%"
+        },
+        {
+          "type": "file",
+          "value": [
+            "bitget-browser-2.20.0-a0535914.png"
+          ]
+        },
+        {
+          "type": "textarea",
+          "value": "The wallet does not show any warning or indicator for the unknown address, so it fails the acceptance criteria."
+        }
+      ],
+      "tester": 1,
+      "lastUpdated": 1778014725030
+    },
+    {
+      "uid": "WSR-THRE-006.v1",
+      "inputs": [
+        {
+          "type": "select",
+          "value": "0%"
+        },
+        {
+          "type": "file",
+          "value": [
+            "bitget-browser-2.20.0-b778a545.png"
+          ]
+        },
+        {
+          "type": "textarea",
+          "value": "The origin URL shown in the connection dialog is truncated, failing the requirement that the full dApp origin URL is displayed."
+        }
+      ],
+      "tester": 1,
+      "lastUpdated": 1778014747025
+    },
+    {
+      "uid": "WSR-PERM-002~Browser.v1",
+      "inputs": [
+        {
+          "type": "select",
+          "value": "100%"
+        },
+        {
+          "type": "file",
+          "value": [
+            "bitget-browser-2.20.0-fd6f3486.png"
+          ]
+        },
+        {
+          "type": "textarea",
+          "value": "The wallet requires the user to unlock it before processing each request."
+        }
+      ],
+      "tester": 1,
+      "lastUpdated": 1778014003385
+    },
+    {
+      "uid": "WSR-PERM-003.v1",
+      "inputs": [
+        {
+          "type": "select",
+          "value": "0%"
+        },
+        {
+          "type": "file",
+          "value": [
+            "bitget-browser-2.20.0-b0a8129d.png",
+            "bitget-browser-2.20.0-f4c2722f.png"
+          ]
+        },
+        {
+          "type": "textarea",
+          "value": "The wallet does not warn or reject the signing request when the chainId in the EIP-712 object differs from the wallet's active network. The signature confirmation is displayed without any warning about the chainId mismatch."
+        }
+      ],
+      "tester": 1,
+      "lastUpdated": 1778014032856
+    },
+    {
+      "uid": "WSR-PHYS-002~Browser.v1",
+      "inputs": [
+        {
+          "type": "select",
+          "value": "0%"
+        },
+        {
+          "type": "file",
+          "value": [
+            "bitget-browser-2.20.0-50540118.png"
+          ]
+        },
+        {
+          "type": "textarea",
+          "value": "The wallet accepts the trivial password '11111111', and flags it as a weak password. The application should reject trivial passwords."
+        }
+      ],
+      "tester": 1,
+      "lastUpdated": 1778015013821
+    },
+    {
+      "uid": "WSR-PERM-004.v1",
+      "inputs": [
+        {
+          "type": "select",
+          "value": "100%"
+        },
+        {
+          "type": "file",
+          "value": [
+            "bitget-browser-2.20.0-103891a4.png",
+            "bitget-browser-2.20.0-8bfeedc7.png",
+            "bitget-browser-2.20.0-52f47d76.png"
+          ]
+        },
+        {
+          "type": "textarea",
+          "value": "The wallet lists connected dApps, the user disconnects one, and the dApp can no longer send RPC requests, therefore the check is passed."
+        }
+      ],
+      "tester": 1,
+      "lastUpdated": 1778014061704
+    },
+    {
+      "uid": "WSR-VERI-005.v1",
+      "inputs": [
+        {
+          "type": "select",
+          "value": "0%"
+        },
+        {
+          "type": "file",
+          "value": [
+            "bitget-browser-2.20.0-461c7193.png"
+          ]
+        },
+        {
+          "type": "textarea",
+          "value": "The wallet displays the token (USDC) and approved amount (unlimited), but it does not show the spender address."
+        }
+      ],
+      "tester": 1,
+      "lastUpdated": 1778014539385
+    },
+    {
+      "uid": "WSR-PERM-009.v1",
+      "inputs": [
+        {
+          "type": "select",
+          "value": "100%"
+        },
+        {
+          "type": "file",
+          "value": [
+            "bitget-browser-2.20.0-c250ea9f.png"
+          ]
+        },
+        {
+          "type": "textarea",
+          "value": "The wallet prompts the user to confirm before switching from the Ethereum network to the Polygon network."
+        }
+      ],
+      "tester": 1,
+      "lastUpdated": 1778014257277
+    },
+    {
+      "uid": "WSR-VERI-006.v1",
+      "inputs": [
+        {
+          "type": "select",
+          "value": "0%"
+        },
+        {
+          "type": "file",
+          "value": [
+            "bitget-browser-2.20.0-3ee977b7.png",
+            "bitget-browser-2.20.0-e0226d3d.png",
+            "bitget-browser-2.20.0-91d2246f.png",
+            "bitget-browser-2.20.0-926a2ea2.png"
+          ]
+        },
+        {
+          "type": "textarea",
+          "value": "Signing data is visible and scrollable for both structured data and large text payloads, but the verifying contract is not included within the EIP-712 object."
+        }
+      ],
+      "tester": 1,
+      "lastUpdated": 1778014570303
+    },
+    {
+      "uid": "WSR-PERM-005.v1",
+      "inputs": [
+        {
+          "type": "select",
+          "value": "100%"
+        },
+        {
+          "type": "file",
+          "value": [
+            "bitget-browser-2.20.0-9b5f8562.png",
+            "bitget-browser-2.20.0-5af855b1.png",
+            "bitget-browser-2.20.0-c69ebcce.png"
+          ]
+        },
+        {
+          "type": "textarea",
+          "value": "The wallet provides a tool called 'Approval Checker' that allows users to list existing token approvals and revoke them."
+        }
+      ],
+      "tester": 1,
+      "lastUpdated": 1778014092335
+    },
+    {
+      "uid": "WSR-PERM-010~Browser.v1",
+      "inputs": [
+        {
+          "type": "select",
+          "value": "100%"
+        },
+        {
+          "type": "file",
+          "value": [
+            "bitget-browser-2.20.0-70262df3.png"
+          ]
+        },
+        {
+          "type": "textarea",
+          "value": "The wallet requires user confirmation before processing each dApp request."
+        }
+      ],
+      "tester": 1,
+      "lastUpdated": 1778014410619
+    },
+    {
+      "uid": "WSR-THRE-007.v1",
+      "inputs": [
+        {
+          "type": "select",
+          "value": "0%"
+        },
+        {
+          "type": "file",
+          "value": [
+            "bitget-browser-2.20.0-e30c7e4e.png"
+          ]
+        },
+        {
+          "type": "textarea",
+          "value": "The wallet is displaying multiple spam tokens by default."
+        }
+      ],
+      "tester": 1,
+      "lastUpdated": 1778014806179
+    },
+    {
+      "uid": "WSR-VERI-007.v1",
+      "inputs": [
+        {
+          "type": "select",
+          "value": "0%"
+        },
+        {
+          "type": "file",
+          "value": [
+            "bitget-browser-2.20.0-266a572c.png",
+            "bitget-browser-2.20.0-207c7996.png",
+            "bitget-browser-2.20.0-8d1ee79e.png",
+            "bitget-browser-2.20.0-53681f8a.png"
+          ]
+        },
+        {
+          "type": "textarea",
+          "value": "The 'Agree' button is enabled without scrolling through the entire message, failing the acceptance criteria."
+        }
+      ],
+      "tester": 1,
+      "lastUpdated": 1778014592559
+    },
+    {
+      "uid": "WSR-PHYS-006~Browser.v1",
+      "inputs": [
+        {
+          "type": "select",
+          "value": "0%"
+        },
+        {
+          "type": "file",
+          "value": [
+            "bitget-browser-2.20.0-84ce6870.png"
+          ]
+        },
+        {
+          "type": "textarea",
+          "value": "The wallet has an autolock setting, but it is configured to 30 minutes which is outside of the acceptance criteria of 20 minutes."
+        }
+      ],
+      "tester": 1,
+      "lastUpdated": 1778015143763
+    },
+    {
+      "uid": "WSR-PHYS-004.v1",
+      "inputs": [
+        {
+          "type": "select",
+          "value": "100%"
+        },
+        {
+          "type": "file",
+          "value": [
+            "bitget-browser-2.20.0-dcf982e9.png"
+          ]
+        },
+        {
+          "type": "textarea",
+          "value": "The wallet includes a manual lock control, labelled 'Lock wallet'."
+        }
+      ],
+      "tester": 1,
+      "lastUpdated": 1778015064180
+    },
+    {
+      "uid": "WSR-PERM-006.v1",
+      "inputs": [
+        {
+          "type": "select",
+          "value": "0%"
+        },
+        {
+          "type": "file",
+          "value": [
+            "bitget-browser-2.20.0-846a578d.png",
+            "bitget-browser-2.20.0-3d43ecf9.png"
+          ]
+        },
+        {
+          "type": "textarea",
+          "value": "The wallet processed the eth_sign request and returned a success, contrary to acceptance criteria that requires rejection or redirection to personal_sign."
+        }
+      ],
+      "tester": 1,
+      "lastUpdated": 1778014119126
+    },
+    {
+      "uid": "WSR-PHYS-005.v1",
+      "inputs": [
+        {
+          "type": "select",
+          "value": "100%"
+        },
+        {
+          "type": "file",
+          "value": [
+            "bitget-browser-2.20.0-177743cf.png"
+          ]
+        },
+        {
+          "type": "textarea",
+          "value": "A password prompt before displaying the seed phrase, which fulfills the acceptance criteria."
+        }
+      ],
+      "tester": 1,
+      "lastUpdated": 1778015095242
+    },
+    {
+      "uid": "WSR-PHYS-003.v1",
+      "inputs": [
+        {
+          "type": "select",
+          "value": "100%"
+        },
+        {
+          "type": "file",
+          "value": [
+            "bitget-browser-2.20.0-62c3b160.png",
+            "bitget-browser-2.20.0-d54a77fc.png",
+            "bitget-browser-2.20.0-9eece5ef.png"
+          ]
+        },
+        {
+          "type": "textarea",
+          "value": "The wallet clearly communicates the risks of sharing the seed phrase and displays warnings to the user before revealing the secrets."
+        }
+      ],
+      "tester": 1,
+      "lastUpdated": 1778015041494
+    }
+  ]
 }

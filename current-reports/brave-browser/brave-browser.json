@@ -1,785 +1,780 @@
 {
-    "wallet": "Brave",
-    "platform": "Browser",
-    "version": "1.83.109",
-    "date": "2026-01-12T17:52:05.136Z",
-    "walletUID": "brave-browser",
-    "walletMakerUID": "brave",
-    "scores": {
-        "categories": [
-            {
-                "categoryUID": "WSR-VERI",
-                "checkResults": [
-                    {
-                        "checkUID": "WSR-VERI-001.v1",
-                        "result": 100
-                    },
-                    {
-                        "checkUID": "WSR-VERI-002.v1",
-                        "result": 50
-                    },
-                    {
-                        "checkUID": "WSR-VERI-003.v1",
-                        "result": 0
-                    },
-                    {
-                        "checkUID": "WSR-VERI-004.v1",
-                        "result": 0
-                    },
-                    {
-                        "checkUID": "WSR-VERI-005.v1",
-                        "result": 100
-                    },
-                    {
-                        "checkUID": "WSR-VERI-006.v1",
-                        "result": 100
-                    },
-                    {
-                        "checkUID": "WSR-VERI-007.v1",
-                        "result": 0
-                    }
-                ]
-            },
-            {
-                "categoryUID": "WSR-PHYS",
-                "checkResults": [
-                    {
-                        "checkUID": "WSR-PHYS-001.v1",
-                        "result": 100
-                    },
-                    {
-                        "checkUID": "WSR-PHYS-002.v1",
-                        "result": 0
-                    },
-                    {
-                        "checkUID": "WSR-PHYS-006~Browser.v1",
-                        "result": 100
-                    },
-                    {
-                        "checkUID": "WSR-PHYS-004.v1",
-                        "result": 100
-                    },
-                    {
-                        "checkUID": "WSR-PHYS-005.v1",
-                        "result": 100
-                    },
-                    {
-                        "checkUID": "WSR-PHYS-003.v1",
-                        "result": 100
-                    }
-                ]
-            },
-            {
-                "categoryUID": "WSR-THRE",
-                "checkResults": [
-                    {
-                        "checkUID": "WSR-THRE-001.v1",
-                        "result": 100
-                    },
-                    {
-                        "checkUID": "WSR-THRE-002.v1",
-                        "result": 0
-                    },
-                    {
-                        "checkUID": "WSR-THRE-003.v1",
-                        "result": 0
-                    },
-                    {
-                        "checkUID": "WSR-THRE-004.v1",
-                        "result": 100
-                    },
-                    {
-                        "checkUID": "WSR-THRE-005.v1",
-                        "result": 0
-                    },
-                    {
-                        "checkUID": "WSR-THRE-006.v1",
-                        "result": 100
-                    },
-                    {
-                        "checkUID": "WSR-THRE-007.v1",
-                        "result": 0
-                    }
-                ]
-            },
-            {
-                "categoryUID": "WSR-PERM",
-                "checkResults": [
-                    {
-                        "checkUID": "WSR-PERM-008~Browser.v1",
-                        "result": 100
-                    },
-                    {
-                        "checkUID": "WSR-PERM-001.v1",
-                        "result": 100
-                    },
-                    {
-                        "checkUID": "WSR-PERM-002~Browser.v1",
-                        "result": 100
-                    },
-                    {
-                        "checkUID": "WSR-PERM-003.v1",
-                        "result": 0
-                    },
-                    {
-                        "checkUID": "WSR-PERM-004.v1",
-                        "result": 100
-                    },
-                    {
-                        "checkUID": "WSR-PERM-009.v1",
-                        "result": 100
-                    },
-                    {
-                        "checkUID": "WSR-PERM-005.v1",
-                        "result": 0
-                    },
-                    {
-                        "checkUID": "WSR-PERM-010~Browser.v1",
-                        "result": 100
-                    },
-                    {
-                        "checkUID": "WSR-PERM-006.v1",
-                        "result": 100
-                    }
-                ]
-            }
+  "round": "2026-04-01",
+  "wallet": "Brave",
+  "platform": "Browser",
+  "version": "1.84.141",
+  "date": "2026-06-04T20:37:18.828Z",
+  "walletUID": "brave-browser",
+  "walletMakerUID": "brave",
+  "scores": {
+    "categories": [
+      {
+        "categoryUID": "WSR-VERI",
+        "checkResults": [
+          {
+            "checkUID": "WSR-VERI-001.v1",
+            "result": 100
+          },
+          {
+            "checkUID": "WSR-VERI-002.v1",
+            "result": 100
+          },
+          {
+            "checkUID": "WSR-VERI-003.v1",
+            "result": 0
+          },
+          {
+            "checkUID": "WSR-VERI-004.v1",
+            "result": 0
+          },
+          {
+            "checkUID": "WSR-VERI-005.v1",
+            "result": 100
+          },
+          {
+            "checkUID": "WSR-VERI-006.v1",
+            "result": 100
+          },
+          {
+            "checkUID": "WSR-VERI-007.v1",
+            "result": 0
+          }
         ]
-    },
-    "results": [
-        {
-            "uid": "WSR-VERI-001.v1",
-            "inputs": [
-                {
-                    "type": "select",
-                    "value": "100%"
-                },
-                {
-                    "type": "file",
-                    "value": [
-                        "brave-browser-1.83.109-1fa7e898.png"
-                    ]
-                },
-                {
-                    "type": "textarea",
-                    "value": "The wallet rejects the transaction request when providing addresses with invalid checksums (EIP-55 address checksum)."
-                }
-            ],
-            "tester": 1,
-            "lastUpdated": 1761073195124
-        },
-        {
-            "uid": "WSR-PHYS-001.v1",
-            "inputs": [
-                {
-                    "type": "select",
-                    "value": "100%"
-                },
-                {
-                    "type": "file",
-                    "value": [
-                        "brave-browser-1.83.109-47ce8cb1.png"
-                    ]
-                },
-                {
-                    "type": "textarea",
-                    "value": "The wallet allows copying mnemonics to the clipboard but these secrets are present for less than one minute (five seconds)."
-                }
-            ],
-            "tester": 1,
-            "lastUpdated": 1761073281719
-        },
-        {
-            "uid": "WSR-THRE-001.v1",
-            "inputs": [
-                {
-                    "type": "select",
-                    "value": "100%"
-                },
-                {
-                    "type": "file",
-                    "value": [
-                        "brave-browser-1.83.109-d66417a3.png",
-                        "brave-browser-1.83.109-c753dae3.png"
-                    ]
-                },
-                {
-                    "type": "textarea",
-                    "value": "The wallet informs users when they are interacting with well-known, verified dApps."
-                }
-            ],
-            "tester": 1,
-            "lastUpdated": 1761073341961
-        },
-        {
-            "uid": "WSR-PERM-008~Browser.v1",
-            "inputs": [
-                {
-                    "type": "select",
-                    "value": "100%"
-                },
-                {
-                    "type": "file",
-                    "value": [
-                        "brave-browser-1.83.109-f7616901.png"
-                    ]
-                },
-                {
-                    "type": "textarea",
-                    "value": "The wallet requires user connection to grant dApp access to the following RPC endpoints: eth_accounts, eth_decrypt, eth_getEncryptionPublicKey, eth_signTypedData*, personal_sign, eth_sendTransaction."
-                }
-            ],
-            "tester": 1,
-            "lastUpdated": 1761073830917
-        },
-        {
-            "uid": "WSR-THRE-002.v1",
-            "inputs": [
-                {
-                    "type": "select",
-                    "value": "0%"
-                },
-                {
-                    "type": "file",
-                    "value": [
-                        "brave-browser-1.83.109-6792ee98.png",
-                        "brave-browser-1.83.109-139383dd.png"
-                    ]
-                },
-                {
-                    "type": "textarea",
-                    "value": "The wallet does not prevent or alerts about interactions with known phishing or scam addresses, such as the Tornado Cash Attacker."
-                }
-            ],
-            "tester": 1,
-            "lastUpdated": 1761073368191
-        },
-        {
-            "uid": "WSR-PHYS-002.v1",
-            "inputs": [
-                {
-                    "type": "select",
-                    "value": "0%"
-                },
-                {
-                    "type": "file",
-                    "value": [
-                        "brave-browser-1.83.109-9628ef64.png"
-                    ]
-                },
-                {
-                    "type": "textarea",
-                    "value": "The wallet allows easy-to-guess eight-digit passwords such as 11111111."
-                }
-            ],
-            "tester": 1,
-            "lastUpdated": 1761073390977
-        },
-        {
-            "uid": "WSR-PERM-001.v1",
-            "inputs": [
-                {
-                    "type": "select",
-                    "value": "100%"
-                },
-                {
-                    "type": "file",
-                    "value": [
-                        "brave-browser-1.83.109-6db9cfd9.png",
-                        "brave-browser-1.83.109-6ea3312c.png"
-                    ]
-                },
-                {
-                    "type": "textarea",
-                    "value": "The wallet refuses to sign an EIP-4361 (Sign in With Ethereum - SIWE) message."
-                }
-            ],
-            "tester": 1,
-            "lastUpdated": 1761073439199
-        },
-        {
-            "uid": "WSR-THRE-003.v1",
-            "inputs": [
-                {
-                    "type": "select",
-                    "value": "0%"
-                },
-                {
-                    "type": "file",
-                    "value": [
-                        "brave-browser-1.83.109-99fd520f.png",
-                        "brave-browser-1.83.109-ff0b4630.png"
-                    ]
-                },
-                {
-                    "type": "textarea",
-                    "value": "The wallet does not alert about connections to known phishing dApps."
-                }
-            ],
-            "tester": 1,
-            "lastUpdated": 1761073456176
-        },
-        {
-            "uid": "WSR-VERI-002.v1",
-            "inputs": [
-                {
-                    "type": "select",
-                    "value": "50%"
-                },
-                {
-                    "type": "file",
-                    "value": [
-                        "brave-browser-1.83.109-264f58e3.png",
-                        "brave-browser-1.83.109-498a9b09.png"
-                    ]
-                },
-                {
-                    "type": "textarea",
-                    "value": "The wallet includes clickable links when viewing transaction history but does not provide any within the transaction details view."
-                }
-            ],
-            "tester": 1,
-            "lastUpdated": 1761073474354
-        },
-        {
-            "uid": "WSR-VERI-003.v1",
-            "inputs": [
-                {
-                    "type": "select",
-                    "value": "0%"
-                },
-                {
-                    "type": "file",
-                    "value": [
-                        "brave-browser-1.83.109-1dbeff3f.png",
-                        "brave-browser-1.83.109-2f6eaa36.png",
-                        "brave-browser-1.83.109-50c38281.png"
-                    ]
-                },
-                {
-                    "type": "textarea",
-                    "value": "The wallet does not provide a transaction simulation when attempting to sign or before executing a transaction."
-                }
-            ],
-            "tester": 1,
-            "lastUpdated": 1761073487949
-        },
-        {
-            "uid": "WSR-VERI-004.v1",
-            "inputs": [
-                {
-                    "type": "select",
-                    "value": "0%"
-                },
-                {
-                    "type": "file",
-                    "value": [
-                        "brave-browser-1.83.109-65056c09.png",
-                        "brave-browser-1.83.109-07fc4452.png"
-                    ]
-                },
-                {
-                    "type": "textarea",
-                    "value": "The wallet does not parse EIP-712 objects and instead displays the raw, unparsed data."
-                }
-            ],
-            "tester": 1,
-            "lastUpdated": 1761073507358
-        },
-        {
-            "uid": "WSR-THRE-004.v1",
-            "inputs": [
-                {
-                    "type": "select",
-                    "value": "100%"
-                },
-                {
-                    "type": "file",
-                    "value": [
-                        "brave-browser-1.83.109-6db60c37.png",
-                        "brave-browser-1.83.109-38873ba9.png"
-                    ]
-                },
-                {
-                    "type": "textarea",
-                    "value": "The wallet clearly informs users, within the connection dialog, that by connecting they are allowing the dApp to view their wallet balance and activity, as well as to request transaction approvals."
-                }
-            ],
-            "tester": 1,
-            "lastUpdated": 1761073528397
-        },
-        {
-            "uid": "WSR-THRE-005.v1",
-            "inputs": [
-                {
-                    "type": "select",
-                    "value": "0%"
-                },
-                {
-                    "type": "file",
-                    "value": [
-                        "brave-browser-1.83.109-605e48f9.png",
-                        "brave-browser-1.83.109-6f94a4c2.png",
-                        "brave-browser-1.83.109-941077e6.png"
-                    ]
-                },
-                {
-                    "type": "textarea",
-                    "value": "The wallet does not warn users when they are not interacting with a previously known or trusted address, either while using the dApp or when attempting a manual transaction."
-                }
-            ],
-            "tester": 1,
-            "lastUpdated": 1763393432462
-        },
-        {
-            "uid": "WSR-THRE-006.v1",
-            "inputs": [
-                {
-                    "type": "select",
-                    "value": "100%"
-                },
-                {
-                    "type": "file",
-                    "value": [
-                        "brave-browser-1.83.109-47ab742b.png"
-                    ]
-                },
-                {
-                    "type": "textarea",
-                    "value": "The wallet displays the dApp origin URL in full, without any truncation."
-                }
-            ],
-            "tester": 1,
-            "lastUpdated": 1761073560213
-        },
-        {
-            "uid": "WSR-PERM-002~Browser.v1",
-            "inputs": [
-                {
-                    "type": "select",
-                    "value": "100%"
-                },
-                {
-                    "type": "file",
-                    "value": [
-                        "brave-browser-1.83.109-ca4be5a1.png",
-                        "brave-browser-1.83.109-00325681.png",
-                        "brave-browser-1.83.109-1552eade.png"
-                    ]
-                },
-                {
-                    "type": "textarea",
-                    "value": "When the wallet is in locked state, it requires users to unlock the wallet to process requests from DApps to the following RPC endpoints: wallet_addEthereumChain, wallet_watchAsset, eth_decrypt, eth_getEncryptionPublicKey, eth_signTypedData*, personal_sign, eth_sendTransaction."
-                }
-            ],
-            "tester": 1,
-            "lastUpdated": 1761073854135
-        },
-        {
-            "uid": "WSR-PERM-003.v1",
-            "inputs": [
-                {
-                    "type": "select",
-                    "value": "0%"
-                },
-                {
-                    "type": "file",
-                    "value": [
-                        "brave-browser-1.83.109-8070f2b4.png",
-                        "brave-browser-1.83.109-a21a3b13.png"
-                    ]
-                },
-                {
-                    "type": "textarea",
-                    "value": "The wallet does not refuse or warns the user when attempting to sign an EIP-712 object with a chainId that does not match the currently active chain."
-                }
-            ],
-            "tester": 1,
-            "lastUpdated": 1761073581155
-        },
-        {
-            "uid": "WSR-PERM-004.v1",
-            "inputs": [
-                {
-                    "type": "select",
-                    "value": "100%"
-                },
-                {
-                    "type": "file",
-                    "value": [
-                        "brave-browser-1.83.109-788cc853.png"
-                    ]
-                },
-                {
-                    "type": "textarea",
-                    "value": "The wallet lists connected dApps and allows effective access revocation."
-                }
-            ],
-            "tester": 1,
-            "lastUpdated": 1761073597074
-        },
-        {
-            "uid": "WSR-VERI-005.v1",
-            "inputs": [
-                {
-                    "type": "select",
-                    "value": "100%"
-                },
-                {
-                    "type": "file",
-                    "value": [
-                        "brave-browser-1.83.109-091081db.png",
-                        "brave-browser-1.83.109-d8d031a8.png"
-                    ]
-                },
-                {
-                    "type": "textarea",
-                    "value": "The wallet provides the token, amount, effect and spender address within the approval transaction preview."
-                }
-            ],
-            "tester": 1,
-            "lastUpdated": 1761073612009
-        },
-        {
-            "uid": "WSR-PERM-009.v1",
-            "inputs": [
-                {
-                    "type": "select",
-                    "value": "100%"
-                },
-                {
-                    "type": "file",
-                    "value": [
-                        "brave-browser-1.83.109-99062007.png",
-                        "brave-browser-1.83.109-eed58aaf.png"
-                    ]
-                },
-                {
-                    "type": "textarea",
-                    "value": "The wallet requires user confirmation before processing the wallet_switchEthereumChain RPC request from the dApp."
-                }
-            ],
-            "tester": 1,
-            "lastUpdated": 1763137285681
-        },
-        {
-            "uid": "WSR-VERI-006.v1",
-            "inputs": [
-                {
-                    "type": "select",
-                    "value": "100%"
-                },
-                {
-                    "type": "file",
-                    "value": [
-                        "brave-browser-1.83.109-0e5b87d9.png",
-                        "brave-browser-1.83.109-612f0888.png",
-                        "brave-browser-1.83.109-be1e937b.png",
-                        "brave-browser-1.83.109-23fdaf62.png"
-                    ]
-                },
-                {
-                    "type": "textarea",
-                    "value": "The wallet does not truncate large messages when signing a personal sign request and also displays the verifying contract of an EIP-712 object."
-                }
-            ],
-            "tester": 1,
-            "lastUpdated": 1761073653290
-        },
-        {
-            "uid": "WSR-PERM-005.v1",
-            "inputs": [
-                {
-                    "type": "select",
-                    "value": "0%"
-                },
-                {
-                    "type": "file",
-                    "value": [
-                        "brave-browser-1.83.109-6487e458.png",
-                        "brave-browser-1.83.109-ef9a408e.png"
-                    ]
-                },
-                {
-                    "type": "textarea",
-                    "value": "The wallet does not offer the ability to list and revoke token approvals, via in-app functionality or links to external dApps."
-                }
-            ],
-            "tester": 1,
-            "lastUpdated": 1761073689098
-        },
-        {
-            "uid": "WSR-PERM-010~Browser.v1",
-            "inputs": [
-                {
-                    "type": "select",
-                    "value": "100%"
-                },
-                {
-                    "type": "file",
-                    "value": [
-                        "brave-browser-1.83.109-16189ef7.png"
-                    ]
-                },
-                {
-                    "type": "textarea",
-                    "value": "The wallet requires user confirmation before processing each DApp request to the following RPC endpoints: wallet_addEthereumChain, wallet_watchAsset, eth_decrypt, eth_getEncryptionPublicKey, eth_signTypedData*, personal_sign, eth_sendTransaction."
-                }
-            ],
-            "tester": 1,
-            "lastUpdated": 1761073875210
-        },
-        {
-            "uid": "WSR-THRE-007.v1",
-            "inputs": [
-                {
-                    "type": "select",
-                    "value": "0%"
-                },
-                {
-                    "type": "file",
-                    "value": [
-                        "brave-browser-1.83.109-a1175d50.png"
-                    ]
-                },
-                {
-                    "type": "textarea",
-                    "value": "The wallet fails to filter out spam or scam NFTs."
-                }
-            ],
-            "tester": 1,
-            "lastUpdated": 1761073706949
-        },
-        {
-            "uid": "WSR-VERI-007.v1",
-            "inputs": [
-                {
-                    "type": "select",
-                    "value": "0%"
-                },
-                {
-                    "type": "file",
-                    "value": [
-                        "brave-browser-1.83.109-6175dd81.png",
-                        "brave-browser-1.83.109-90ac5e30.png"
-                    ]
-                },
-                {
-                    "type": "textarea",
-                    "value": "Sign buttons are always enabled."
-                }
-            ],
-            "tester": 1,
-            "lastUpdated": 1761073739470
-        },
-        {
-            "uid": "WSR-PHYS-006~Browser.v1",
-            "inputs": [
-                {
-                    "type": "select",
-                    "value": "100%"
-                },
-                {
-                    "type": "file",
-                    "value": [
-                        "brave-browser-1.83.109-43b6c66e.png",
-                        "brave-browser-1.83.109-eb105a72.png",
-                        "brave-browser-1.83.109-6bf69a28.png"
-                    ]
-                },
-                {
-                    "type": "textarea",
-                    "value": "The wallet has an auto-lock feature and locks itself by default after five minutes of inactivity."
-                }
-            ],
-            "tester": 1,
-            "lastUpdated": 1761073891383
-        },
-        {
-            "uid": "WSR-PHYS-004.v1",
-            "inputs": [
-                {
-                    "type": "select",
-                    "value": "100%"
-                },
-                {
-                    "type": "file",
-                    "value": [
-                        "brave-browser-1.83.109-6b511840.png"
-                    ]
-                },
-                {
-                    "type": "textarea",
-                    "value": "The wallet features a lock button to lock it manually."
-                }
-            ],
-            "tester": 1,
-            "lastUpdated": 1761073757730
-        },
-        {
-            "uid": "WSR-PERM-006.v1",
-            "inputs": [
-                {
-                    "type": "select",
-                    "value": "100%"
-                },
-                {
-                    "type": "file",
-                    "value": [
-                        "brave-browser-1.83.109-61ab66d3.png",
-                        "brave-browser-1.83.109-2bdecd72.png"
-                    ]
-                },
-                {
-                    "type": "textarea",
-                    "value": "The wallet allows the use of the eth_sign method but internally converts it to personal_sign with the message encoded as bytes."
-                }
-            ],
-            "tester": 1,
-            "lastUpdated": 1761073777950
-        },
-        {
-            "uid": "WSR-PHYS-005.v1",
-            "inputs": [
-                {
-                    "type": "select",
-                    "value": "100%"
-                },
-                {
-                    "type": "file",
-                    "value": [
-                        "brave-browser-1.83.109-0c31c113.png",
-                        "brave-browser-1.83.109-ae00a59a.png"
-                    ]
-                },
-                {
-                    "type": "textarea",
-                    "value": "The wallet enforces authentication before revealing the mnemonics or private keys."
-                }
-            ],
-            "tester": 1,
-            "lastUpdated": 1761073793142
-        },
-        {
-            "uid": "WSR-PHYS-003.v1",
-            "inputs": [
-                {
-                    "type": "select",
-                    "value": "100%"
-                },
-                {
-                    "type": "file",
-                    "value": [
-                        "brave-browser-1.83.109-58401190.png",
-                        "brave-browser-1.83.109-58c46fa1.png"
-                    ]
-                },
-                {
-                    "type": "textarea",
-                    "value": "The wallet warns users about the risks associated with sharing or revealing mnemonics/private keys."
-                }
-            ],
-            "tester": 1,
-            "lastUpdated": 1761073810696
-        }
+      },
+      {
+        "categoryUID": "WSR-PHYS",
+        "checkResults": [
+          {
+            "checkUID": "WSR-PHYS-001.v1",
+            "result": 100
+          },
+          {
+            "checkUID": "WSR-PHYS-002~Browser.v1",
+            "result": 0
+          },
+          {
+            "checkUID": "WSR-PHYS-006~Browser.v1",
+            "result": 100
+          },
+          {
+            "checkUID": "WSR-PHYS-004.v1",
+            "result": 100
+          },
+          {
+            "checkUID": "WSR-PHYS-005.v1",
+            "result": 100
+          },
+          {
+            "checkUID": "WSR-PHYS-003.v1",
+            "result": 100
+          }
+        ]
+      },
+      {
+        "categoryUID": "WSR-THRE",
+        "checkResults": [
+          {
+            "checkUID": "WSR-THRE-001.v1",
+            "result": 100
+          },
+          {
+            "checkUID": "WSR-THRE-002.v1",
+            "result": 0
+          },
+          {
+            "checkUID": "WSR-THRE-003.v1",
+            "result": 0
+          },
+          {
+            "checkUID": "WSR-THRE-004.v1",
+            "result": 100
+          },
+          {
+            "checkUID": "WSR-THRE-005.v1",
+            "result": 0
+          },
+          {
+            "checkUID": "WSR-THRE-006.v1",
+            "result": 100
+          },
+          {
+            "checkUID": "WSR-THRE-007.v1",
+            "result": 0
+          }
+        ]
+      },
+      {
+        "categoryUID": "WSR-PERM",
+        "checkResults": [
+          {
+            "checkUID": "WSR-PERM-008~Browser.v1",
+            "result": 100
+          },
+          {
+            "checkUID": "WSR-PERM-001.v1",
+            "result": 100
+          },
+          {
+            "checkUID": "WSR-PERM-002~Browser.v1",
+            "result": 100
+          },
+          {
+            "checkUID": "WSR-PERM-003.v1",
+            "result": 0
+          },
+          {
+            "checkUID": "WSR-PERM-004.v1",
+            "result": 100
+          },
+          {
+            "checkUID": "WSR-PERM-009.v1",
+            "result": 100
+          },
+          {
+            "checkUID": "WSR-PERM-005.v1",
+            "result": 0
+          },
+          {
+            "checkUID": "WSR-PERM-010~Browser.v1",
+            "result": 100
+          },
+          {
+            "checkUID": "WSR-PERM-006.v1",
+            "result": 100
+          }
+        ]
+      }
     ]
+  },
+  "results": [
+    {
+      "uid": "WSR-VERI-001.v1",
+      "inputs": [
+        {
+          "type": "select",
+          "value": "100%"
+        },
+        {
+          "type": "file",
+          "value": [
+            "brave-browser-1.84.141-d6451dd2.png",
+            "brave-browser-1.84.141-51e3e883.png"
+          ]
+        },
+        {
+          "type": "textarea",
+          "value": "The wallet correctly identifies and warns the user about an incorrect EIP-55 checksum for manual transactions. For dApp transactions, the wallet blocks the transaction when an invalid address (due to incorrect checksum) is provided."
+        }
+      ],
+      "tester": 1,
+      "lastUpdated": 1778014437895
+    },
+    {
+      "uid": "WSR-PHYS-001.v1",
+      "inputs": [
+        {
+          "type": "select",
+          "value": "100%"
+        },
+        {
+          "type": "file",
+          "value": [
+            "brave-browser-1.84.141-661a10cd.png"
+          ]
+        },
+        {
+          "type": "textarea",
+          "value": "The wallet allows copying mnemonics to the clipboard but these secrets are present for less than one minute (five seconds)."
+        }
+      ],
+      "tester": 1,
+      "lastUpdated": 1778014867791
+    },
+    {
+      "uid": "WSR-THRE-001.v1",
+      "inputs": [
+        {
+          "type": "select",
+          "value": "100%"
+        },
+        {
+          "type": "file",
+          "value": [
+            "brave-browser-1.84.141-93c466bd.png",
+            "brave-browser-1.84.141-e8eca02b.png",
+            "brave-browser-1.84.141-4c4376e9.png",
+            "brave-browser-1.84.141-b798c5a8.png"
+          ]
+        },
+        {
+          "type": "textarea",
+          "value": "Verified dApps show the 'Verified by DappRadar' badge on the connection request screen, and unknown dApps don't show the badge."
+        }
+      ],
+      "tester": 1,
+      "lastUpdated": 1778014622150
+    },
+    {
+      "uid": "WSR-PERM-008~Browser.v1",
+      "inputs": [
+        {
+          "type": "select",
+          "value": "100%"
+        },
+        {
+          "type": "file",
+          "value": [
+            "brave-browser-1.84.141-fd8a0357.png"
+          ]
+        },
+        {
+          "type": "textarea",
+          "value": "The wallet requires user connection to grant dApp access to the requested RPC endpoints."
+        }
+      ],
+      "tester": 1,
+      "lastUpdated": 1778014222439
+    },
+    {
+      "uid": "WSR-THRE-002.v1",
+      "inputs": [
+        {
+          "type": "select",
+          "value": "0%"
+        },
+        {
+          "type": "file",
+          "value": [
+            "brave-browser-1.84.141-c2715f08.png"
+          ]
+        },
+        {
+          "type": "textarea",
+          "value": "The wallet does not show any warning or flag for the malicious address, and the transaction is presented for confirmation."
+        }
+      ],
+      "tester": 1,
+      "lastUpdated": 1778014646831
+    },
+    {
+      "uid": "WSR-PERM-001.v1",
+      "inputs": [
+        {
+          "type": "select",
+          "value": "100%"
+        },
+        {
+          "type": "file",
+          "value": [
+            "brave-browser-1.84.141-c653b7fa.png"
+          ]
+        },
+        {
+          "type": "textarea",
+          "value": "The wallet detected the domain mismatch between the dApp and the SIWE object and blocked the signing request."
+        }
+      ],
+      "tester": 1,
+      "lastUpdated": 1778013923249
+    },
+    {
+      "uid": "WSR-THRE-003.v1",
+      "inputs": [
+        {
+          "type": "select",
+          "value": "0%"
+        },
+        {
+          "type": "file",
+          "value": [
+            "brave-browser-1.84.141-dd9f9584.png",
+            "brave-browser-1.84.141-8b7a0413.png",
+            "brave-browser-1.84.141-25d06559.png"
+          ]
+        },
+        {
+          "type": "textarea",
+          "value": "The wallet does not display any phishing warning for the listed URLs. It only displays 'Make sure you trust this site.'"
+        }
+      ],
+      "tester": 1,
+      "lastUpdated": 1778014675546
+    },
+    {
+      "uid": "WSR-VERI-002.v1",
+      "inputs": [
+        {
+          "type": "select",
+          "value": "100%"
+        },
+        {
+          "type": "file",
+          "value": [
+            "brave-browser-1.84.141-f54e393a.png",
+            "brave-browser-1.84.141-e7ec5c7c.png"
+          ]
+        },
+        {
+          "type": "textarea",
+          "value": "Addresses, contract addresses and transaction hashes are clickable and open a block explorer both when attempting to send a transaction and querying the wallet history."
+        }
+      ],
+      "tester": 1,
+      "lastUpdated": 1778014460714
+    },
+    {
+      "uid": "WSR-VERI-003.v1",
+      "inputs": [
+        {
+          "type": "select",
+          "value": "0%"
+        },
+        {
+          "type": "file",
+          "value": [
+            "brave-browser-1.84.141-ebf038da.png",
+            "brave-browser-1.84.141-6e9ad62a.png"
+          ]
+        },
+        {
+          "type": "textarea",
+          "value": "The wallet only shows the amount of MATIC being sent, but do not show the expected outputs from the execution of the transaction before signing."
+        }
+      ],
+      "tester": 1,
+      "lastUpdated": 1778014489560
+    },
+    {
+      "uid": "WSR-VERI-004.v1",
+      "inputs": [
+        {
+          "type": "select",
+          "value": "0%"
+        },
+        {
+          "type": "file",
+          "value": [
+            "brave-browser-1.84.141-89dd77bc.png",
+            "brave-browser-1.84.141-9890c261.png"
+          ]
+        },
+        {
+          "type": "textarea",
+          "value": "The wallet renders raw JSON for the Seaport EIP-712 signature request, instead of structured human-readable details."
+        }
+      ],
+      "tester": 1,
+      "lastUpdated": 1778014516701
+    },
+    {
+      "uid": "WSR-THRE-004.v1",
+      "inputs": [
+        {
+          "type": "select",
+          "value": "100%"
+        },
+        {
+          "type": "file",
+          "value": [
+            "brave-browser-1.84.141-33f90bd2.png"
+          ]
+        },
+        {
+          "type": "textarea",
+          "value": "The connection dialog clearly describes the permissions being granted, including the ability to check wallet balance and activity and request transaction approvals, satisfying the acceptance criteria."
+        }
+      ],
+      "tester": 1,
+      "lastUpdated": 1778014697431
+    },
+    {
+      "uid": "WSR-THRE-005.v1",
+      "inputs": [
+        {
+          "type": "select",
+          "value": "0%"
+        },
+        {
+          "type": "file",
+          "value": [
+            "brave-browser-1.84.141-151ea61b.png"
+          ]
+        },
+        {
+          "type": "textarea",
+          "value": "There is no warning or indicator present for sending to an unknown address."
+        }
+      ],
+      "tester": 1,
+      "lastUpdated": 1778014725030
+    },
+    {
+      "uid": "WSR-THRE-006.v1",
+      "inputs": [
+        {
+          "type": "select",
+          "value": "100%"
+        },
+        {
+          "type": "file",
+          "value": [
+            "brave-browser-1.84.141-eca03b35.png"
+          ]
+        },
+        {
+          "type": "textarea",
+          "value": "The full dApp origin URL is shown without truncation."
+        }
+      ],
+      "tester": 1,
+      "lastUpdated": 1778014747025
+    },
+    {
+      "uid": "WSR-PERM-002~Browser.v1",
+      "inputs": [
+        {
+          "type": "select",
+          "value": "100%"
+        },
+        {
+          "type": "file",
+          "value": [
+            "brave-browser-1.84.141-4506c800.png"
+          ]
+        },
+        {
+          "type": "textarea",
+          "value": "The wallet requires user to unlock it to grant dApp access to the requested RPC endpoints."
+        }
+      ],
+      "tester": 1,
+      "lastUpdated": 1778014003385
+    },
+    {
+      "uid": "WSR-PERM-003.v1",
+      "inputs": [
+        {
+          "type": "select",
+          "value": "0%"
+        },
+        {
+          "type": "file",
+          "value": [
+            "brave-browser-1.84.141-baae1038.png",
+            "brave-browser-1.84.141-0bb60811.png"
+          ]
+        },
+        {
+          "type": "textarea",
+          "value": "The wallet signed the EIP-712 object even though the chainId was different from the active network, without displaying a warning or rejecting the request."
+        }
+      ],
+      "tester": 1,
+      "lastUpdated": 1778014032856
+    },
+    {
+      "uid": "WSR-PHYS-002~Browser.v1",
+      "inputs": [
+        {
+          "type": "select",
+          "value": "0%"
+        },
+        {
+          "type": "file",
+          "value": [
+            "brave-browser-1.84.141-aeea7a36.png"
+          ]
+        },
+        {
+          "type": "textarea",
+          "value": "The wallet allows '11111111' as a valid password, which is considered a trivial password. The application should prevent users from using such passwords."
+        }
+      ],
+      "tester": 1,
+      "lastUpdated": 1778015013821
+    },
+    {
+      "uid": "WSR-PERM-004.v1",
+      "inputs": [
+        {
+          "type": "select",
+          "value": "100%"
+        },
+        {
+          "type": "file",
+          "value": [
+            "brave-browser-1.84.141-fc888ba9.png",
+            "brave-browser-1.84.141-7feba00f.png"
+          ]
+        },
+        {
+          "type": "textarea",
+          "value": "The wallet lists connected dApps and revoking access prevents further RPC requests from the disconnected dApp."
+        }
+      ],
+      "tester": 1,
+      "lastUpdated": 1778014061704
+    },
+    {
+      "uid": "WSR-VERI-005.v1",
+      "inputs": [
+        {
+          "type": "select",
+          "value": "100%"
+        },
+        {
+          "type": "file",
+          "value": [
+            "brave-browser-1.84.141-a7a63ca4.png"
+          ]
+        },
+        {
+          "type": "textarea",
+          "value": "The wallet clearly displays the token (USDC), the spender (Uniswap V3), and the approved amount (Unlimited USDC)."
+        }
+      ],
+      "tester": 1,
+      "lastUpdated": 1778014539385
+    },
+    {
+      "uid": "WSR-PERM-009.v1",
+      "inputs": [
+        {
+          "type": "select",
+          "value": "100%"
+        },
+        {
+          "type": "file",
+          "value": [
+            "brave-browser-1.84.141-4d4da11c.png"
+          ]
+        },
+        {
+          "type": "textarea",
+          "value": "The wallet prompts for user confirmation before switching the network, as required."
+        }
+      ],
+      "tester": 1,
+      "lastUpdated": 1778014257277
+    },
+    {
+      "uid": "WSR-VERI-006.v1",
+      "inputs": [
+        {
+          "type": "select",
+          "value": "100%"
+        },
+        {
+          "type": "file",
+          "value": [
+            "brave-browser-1.84.141-9018552c.png",
+            "brave-browser-1.84.141-e3165e6d.png",
+            "brave-browser-1.84.141-b20d07b2.png",
+            "brave-browser-1.84.141-f3a5f166.png"
+          ]
+        },
+        {
+          "type": "textarea",
+          "value": "Large payloads for both `personal_sign` and `eth_signTypedData` are fully scrollable, and the `EIP712Domain`, including the `verifyingContract`."
+        }
+      ],
+      "tester": 1,
+      "lastUpdated": 1778014570303
+    },
+    {
+      "uid": "WSR-PERM-005.v1",
+      "inputs": [
+        {
+          "type": "select",
+          "value": "0%"
+        },
+        {
+          "type": "file",
+          "value": [
+            "brave-browser-1.84.141-f5658ddb.png",
+            "brave-browser-1.84.141-28a71b58.png",
+            "brave-browser-1.84.141-88e5ad0e.png"
+          ]
+        },
+        {
+          "type": "textarea",
+          "value": "The wallet does not offer the ability to list and revoke token approvals, via in-app functionality or links to external dApps."
+        }
+      ],
+      "tester": 1,
+      "lastUpdated": 1778014092335
+    },
+    {
+      "uid": "WSR-PERM-010~Browser.v1",
+      "inputs": [
+        {
+          "type": "select",
+          "value": "100%"
+        },
+        {
+          "type": "file",
+          "value": [
+            "brave-browser-1.84.141-f1de4e5a.png"
+          ]
+        },
+        {
+          "type": "textarea",
+          "value": "The wallet requires user confirmation to grant dApp access to the requested RPC endpoints."
+        }
+      ],
+      "tester": 1,
+      "lastUpdated": 1778014410619
+    },
+    {
+      "uid": "WSR-THRE-007.v1",
+      "inputs": [
+        {
+          "type": "select",
+          "value": "0%"
+        },
+        {
+          "type": "file",
+          "value": [
+            "brave-browser-1.84.141-cdd52a5a.png"
+          ]
+        },
+        {
+          "type": "textarea",
+          "value": "Spam tokens and NFTs are displayed by default in the portfolio view."
+        }
+      ],
+      "tester": 1,
+      "lastUpdated": 1778014806179
+    },
+    {
+      "uid": "WSR-VERI-007.v1",
+      "inputs": [
+        {
+          "type": "select",
+          "value": "0%"
+        },
+        {
+          "type": "file",
+          "value": [
+            "brave-browser-1.84.141-108ca340.png",
+            "brave-browser-1.84.141-1c0603a0.png",
+            "brave-browser-1.84.141-c4f3087e.png",
+            "brave-browser-1.84.141-b1920929.png"
+          ]
+        },
+        {
+          "type": "textarea",
+          "value": "The Sign button is enabled before the user has scrolled through all the content, failing the acceptance criteria."
+        }
+      ],
+      "tester": 1,
+      "lastUpdated": 1778014592559
+    },
+    {
+      "uid": "WSR-PHYS-006~Browser.v1",
+      "inputs": [
+        {
+          "type": "select",
+          "value": "100%"
+        },
+        {
+          "type": "file",
+          "value": [
+            "brave-browser-1.84.141-4cce7c92.png"
+          ]
+        },
+        {
+          "type": "textarea",
+          "value": "The wallet has an auto-lock setting that defaults to 5 minutes, as indicated by the screenshot. The wallet auto-locks after inactivity within 20 minutes."
+        }
+      ],
+      "tester": 1,
+      "lastUpdated": 1778015143763
+    },
+    {
+      "uid": "WSR-PHYS-004.v1",
+      "inputs": [
+        {
+          "type": "select",
+          "value": "100%"
+        },
+        {
+          "type": "file",
+          "value": [
+            "brave-browser-1.84.141-60bed1ab.png"
+          ]
+        },
+        {
+          "type": "textarea",
+          "value": "The wallet UI contains a \"Lock wallet\" button in the portfolio menu."
+        }
+      ],
+      "tester": 1,
+      "lastUpdated": 1778015064180
+    },
+    {
+      "uid": "WSR-PERM-006.v1",
+      "inputs": [
+        {
+          "type": "select",
+          "value": "100%"
+        },
+        {
+          "type": "file",
+          "value": [
+            "brave-browser-1.84.141-c2d6837f.png",
+            "brave-browser-1.84.141-6dfaa172.png"
+          ]
+        },
+        {
+          "type": "textarea",
+          "value": "The wallet redirected the `eth_sign` request to `personal_sign`, and indicated that the wallet used personal_sign, converted to bytes."
+        }
+      ],
+      "tester": 1,
+      "lastUpdated": 1778014119126
+    },
+    {
+      "uid": "WSR-PHYS-005.v1",
+      "inputs": [
+        {
+          "type": "select",
+          "value": "100%"
+        },
+        {
+          "type": "file",
+          "value": [
+            "brave-browser-1.84.141-3204e18c.png"
+          ]
+        },
+        {
+          "type": "textarea",
+          "value": "A password is required before the user can continue to back up their wallet."
+        }
+      ],
+      "tester": 1,
+      "lastUpdated": 1778015095242
+    },
+    {
+      "uid": "WSR-PHYS-003.v1",
+      "inputs": [
+        {
+          "type": "select",
+          "value": "100%"
+        },
+        {
+          "type": "file",
+          "value": [
+            "brave-browser-1.84.141-a8d8a120.png"
+          ]
+        },
+        {
+          "type": "textarea",
+          "value": "The risks of sharing the recovery phrase are clearly communicated before revealing it."
+        }
+      ],
+      "tester": 1,
+      "lastUpdated": 1778015041494
+    }
+  ]
 }
