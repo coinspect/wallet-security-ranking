@@ -1,770 +1,783 @@
 {
-    "wallet": "Rabby Wallet",
-    "platform": "Browser",
-    "version": "0.93.59",
-    "date": "2026-01-12T17:52:05.136Z",
-    "walletUID": "rabby-wallet-browser",
-    "walletMakerUID": "rabby-wallet",
-    "scores": {
-        "categories": [
-            {
-                "categoryUID": "WSR-VERI",
-                "checkResults": [
-                    {
-                        "checkUID": "WSR-VERI-001.v1",
-                        "result": 100
-                    },
-                    {
-                        "checkUID": "WSR-VERI-002.v1",
-                        "result": 100
-                    },
-                    {
-                        "checkUID": "WSR-VERI-003.v1",
-                        "result": 100
-                    },
-                    {
-                        "checkUID": "WSR-VERI-004.v1",
-                        "result": 100
-                    },
-                    {
-                        "checkUID": "WSR-VERI-005.v1",
-                        "result": 100
-                    },
-                    {
-                        "checkUID": "WSR-VERI-006.v1",
-                        "result": 100
-                    },
-                    {
-                        "checkUID": "WSR-VERI-007.v1",
-                        "result": 0
-                    }
-                ]
-            },
-            {
-                "categoryUID": "WSR-PHYS",
-                "checkResults": [
-                    {
-                        "checkUID": "WSR-PHYS-001.v1",
-                        "result": 0
-                    },
-                    {
-                        "checkUID": "WSR-PHYS-002.v1",
-                        "result": 0
-                    },
-                    {
-                        "checkUID": "WSR-PHYS-006~Browser.v1",
-                        "result": 0
-                    },
-                    {
-                        "checkUID": "WSR-PHYS-004.v1",
-                        "result": 100
-                    },
-                    {
-                        "checkUID": "WSR-PHYS-005.v1",
-                        "result": 100
-                    },
-                    {
-                        "checkUID": "WSR-PHYS-003.v1",
-                        "result": 100
-                    }
-                ]
-            },
-            {
-                "categoryUID": "WSR-THRE",
-                "checkResults": [
-                    {
-                        "checkUID": "WSR-THRE-001.v1",
-                        "result": 100
-                    },
-                    {
-                        "checkUID": "WSR-THRE-002.v1",
-                        "result": 0
-                    },
-                    {
-                        "checkUID": "WSR-THRE-003.v1",
-                        "result": 0
-                    },
-                    {
-                        "checkUID": "WSR-THRE-004.v1",
-                        "result": 0
-                    },
-                    {
-                        "checkUID": "WSR-THRE-005.v1",
-                        "result": 100
-                    },
-                    {
-                        "checkUID": "WSR-THRE-006.v1",
-                        "result": 100
-                    },
-                    {
-                        "checkUID": "WSR-THRE-007.v1",
-                        "result": 100
-                    }
-                ]
-            },
-            {
-                "categoryUID": "WSR-PERM",
-                "checkResults": [
-                    {
-                        "checkUID": "WSR-PERM-008~Browser.v1",
-                        "result": 100
-                    },
-                    {
-                        "checkUID": "WSR-PERM-001.v1",
-                        "result": 0
-                    },
-                    {
-                        "checkUID": "WSR-PERM-002~Browser.v1",
-                        "result": 100
-                    },
-                    {
-                        "checkUID": "WSR-PERM-003.v1",
-                        "result": 100
-                    },
-                    {
-                        "checkUID": "WSR-PERM-004.v1",
-                        "result": 100
-                    },
-                    {
-                        "checkUID": "WSR-PERM-009.v1",
-                        "result": 0
-                    },
-                    {
-                        "checkUID": "WSR-PERM-005.v1",
-                        "result": 100
-                    },
-                    {
-                        "checkUID": "WSR-PERM-010~Browser.v1",
-                        "result": 100
-                    },
-                    {
-                        "checkUID": "WSR-PERM-006.v1",
-                        "result": 100
-                    }
-                ]
-            }
+  "round": "2026-04-01",
+  "wallet": "Rabby Wallet",
+  "platform": "Browser",
+  "version": "0.93.88",
+  "date": "2026-06-04T20:37:18.828Z",
+  "walletUID": "rabby-wallet-browser",
+  "walletMakerUID": "rabby-wallet",
+  "scores": {
+    "categories": [
+      {
+        "categoryUID": "WSR-VERI",
+        "checkResults": [
+          {
+            "checkUID": "WSR-VERI-001.v1",
+            "result": 0
+          },
+          {
+            "checkUID": "WSR-VERI-002.v1",
+            "result": 100
+          },
+          {
+            "checkUID": "WSR-VERI-003.v1",
+            "result": 100
+          },
+          {
+            "checkUID": "WSR-VERI-004.v1",
+            "result": 100
+          },
+          {
+            "checkUID": "WSR-VERI-005.v1",
+            "result": 100
+          },
+          {
+            "checkUID": "WSR-VERI-006.v1",
+            "result": 100
+          },
+          {
+            "checkUID": "WSR-VERI-007.v1",
+            "result": 0
+          }
         ]
-    },
-    "results": [
-        {
-            "uid": "WSR-VERI-001.v1",
-            "inputs": [
-                {
-                    "type": "select",
-                    "value": "100%"
-                },
-                {
-                    "type": "file",
-                    "value": [
-                        "rabby-wallet-browser-0.93.59-b42929cd.png",
-                        "rabby-wallet-browser-0.93.59-5bec79be.png"
-                    ]
-                },
-                {
-                    "type": "textarea",
-                    "value": "The wallet does not allow the user to send transactions with invalid checksums."
-                }
-            ],
-            "tester": 2,
-            "lastUpdated": 1761073195124
-        },
-        {
-            "uid": "WSR-PHYS-001.v1",
-            "inputs": [
-                {
-                    "type": "select",
-                    "value": "0%"
-                },
-                {
-                    "type": "file",
-                    "value": [
-                        "rabby-wallet-browser-0.93.59-e4c931c8.png"
-                    ]
-                },
-                {
-                    "type": "textarea",
-                    "value": "The wallet allows users to copy mnemonics to the clipboard without warning them about the risks of doing so."
-                }
-            ],
-            "tester": 2,
-            "lastUpdated": 1761073281719
-        },
-        {
-            "uid": "WSR-THRE-001.v1",
-            "inputs": [
-                {
-                    "type": "select",
-                    "value": "100%"
-                },
-                {
-                    "type": "file",
-                    "value": [
-                        "rabby-wallet-browser-0.93.59-594853d0.png"
-                    ]
-                },
-                {
-                    "type": "textarea",
-                    "value": "The wallet includes a list based on site popularity and by checking where the site has been listed."
-                }
-            ],
-            "tester": 2,
-            "lastUpdated": 1761073341961
-        },
-        {
-            "uid": "WSR-PERM-008~Browser.v1",
-            "inputs": [
-                {
-                    "type": "select",
-                    "value": "100%"
-                },
-                {
-                    "type": "file",
-                    "value": [
-                        "rabby-wallet-browser-0.93.59-44bb6ef6.png"
-                    ]
-                },
-                {
-                    "type": "textarea",
-                    "value": "The wallet requires user connection for every request."
-                }
-            ],
-            "tester": 2,
-            "lastUpdated": 1761073830917
-        },
-        {
-            "uid": "WSR-THRE-002.v1",
-            "inputs": [
-                {
-                    "type": "select",
-                    "value": "0%"
-                },
-                {
-                    "type": "file",
-                    "value": [
-                        "rabby-wallet-browser-0.93.59-4c318aad.png"
-                    ]
-                },
-                {
-                    "type": "textarea",
-                    "value": "The wallet does not warn the user when interacting with a well-known scamming address, such as the Tornado Cash Attacker address."
-                }
-            ],
-            "tester": 2,
-            "lastUpdated": 1761073368191
-        },
-        {
-            "uid": "WSR-PHYS-002.v1",
-            "inputs": [
-                {
-                    "type": "select",
-                    "value": "0%"
-                },
-                {
-                    "type": "file",
-                    "value": [
-                        "rabby-wallet-browser-0.93.59-b6925af3.png"
-                    ]
-                },
-                {
-                    "type": "textarea",
-                    "value": "The wallet requires passwords to be at least 8 characters long but does not prevent the use of easy-to-guess passwords such as 12345678."
-                }
-            ],
-            "tester": 2,
-            "lastUpdated": 1761073390977
-        },
-        {
-            "uid": "WSR-PERM-001.v1",
-            "inputs": [
-                {
-                    "type": "select",
-                    "value": "0%"
-                },
-                {
-                    "type": "file",
-                    "value": [
-                        "rabby-wallet-browser-0.93.59-599416ca.png"
-                    ]
-                },
-                {
-                    "type": "textarea",
-                    "value": "The wallet does not warn users of a domain or scheme mismatch when signing SIWE message."
-                }
-            ],
-            "tester": 2,
-            "lastUpdated": 1761073439199
-        },
-        {
-            "uid": "WSR-THRE-003.v1",
-            "inputs": [
-                {
-                    "type": "select",
-                    "value": "0%"
-                },
-                {
-                    "type": "file",
-                    "value": [
-                        "rabby-wallet-browser-0.93.59-61d19e9d.png"
-                    ]
-                },
-                {
-                    "type": "textarea",
-                    "value": "The wallet includes a potentially malicious dApp list based on site popularity and listings, but it does not explicitly warn users about known phishing dApps."
-                }
-            ],
-            "tester": 2,
-            "lastUpdated": 1761073456176
-        },
-        {
-            "uid": "WSR-VERI-002.v1",
-            "inputs": [
-                {
-                    "type": "select",
-                    "value": "100%"
-                },
-                {
-                    "type": "file",
-                    "value": [
-                        "rabby-wallet-browser-0.93.59-80d3934d.png",
-                        "rabby-wallet-browser-0.93.59-ff4fcbaa.png"
-                    ]
-                },
-                {
-                    "type": "textarea",
-                    "value": "The wallet offers clickable links in both the transaction and transaction history."
-                }
-            ],
-            "tester": 2,
-            "lastUpdated": 1761073474354
-        },
-        {
-            "uid": "WSR-VERI-003.v1",
-            "inputs": [
-                {
-                    "type": "select",
-                    "value": "100%"
-                },
-                {
-                    "type": "file",
-                    "value": [
-                        "rabby-wallet-browser-0.93.59-1531b7a5.png"
-                    ]
-                },
-                {
-                    "type": "textarea",
-                    "value": "The wallet effectively leverages transaction simulation, displaying the potential outcomes and changes in balance before executing the transaction."
-                }
-            ],
-            "tester": 2,
-            "lastUpdated": 1761073487949
-        },
-        {
-            "uid": "WSR-VERI-004.v1",
-            "inputs": [
-                {
-                    "type": "select",
-                    "value": "100%"
-                },
-                {
-                    "type": "file",
-                    "value": [
-                        "rabby-wallet-browser-0.93.59-176bdd32.png",
-                        "rabby-wallet-browser-0.93.59-bdda122c.png"
-                    ]
-                },
-                {
-                    "type": "textarea",
-                    "value": "The wallet parses and interprets EIP-712 objects and ERC-20 permits."
-                }
-            ],
-            "tester": 2,
-            "lastUpdated": 1761073507358
-        },
-        {
-            "uid": "WSR-THRE-004.v1",
-            "inputs": [
-                {
-                    "type": "select",
-                    "value": "0%"
-                },
-                {
-                    "type": "file",
-                    "value": [
-                        "rabby-wallet-browser-0.93.59-6dee82d2.png"
-                    ]
-                },
-                {
-                    "type": "textarea",
-                    "value": "The wallet does not inform users within the connection dialog about the actions the dApp is allowed to perform after the connection is established."
-                }
-            ],
-            "tester": 2,
-            "lastUpdated": 1761073528397
-        },
-        {
-            "uid": "WSR-THRE-005.v1",
-            "inputs": [
-                {
-                    "type": "select",
-                    "value": "100%"
-                },
-                {
-                    "type": "file",
-                    "value": [
-                        "rabby-wallet-browser-0.93.59-0b30e796.png"
-                    ]
-                },
-                {
-                    "type": "textarea",
-                    "value": "The wallet shows a warning if the user has never transacted with an address before."
-                }
-            ],
-            "tester": 2,
-            "lastUpdated": 1763393432462
-        },
-        {
-            "uid": "WSR-THRE-006.v1",
-            "inputs": [
-                {
-                    "type": "select",
-                    "value": "100%"
-                },
-                {
-                    "type": "file",
-                    "value": [
-                        "rabby-wallet-browser-0.93.59-c1dcbcda.png"
-                    ]
-                },
-                {
-                    "type": "textarea",
-                    "value": "The wallet does not truncate the dApp URL in the connection dialog."
-                }
-            ],
-            "tester": 2,
-            "lastUpdated": 1761073560213
-        },
-        {
-            "uid": "WSR-PERM-002~Browser.v1",
-            "inputs": [
-                {
-                    "type": "select",
-                    "value": "100%"
-                },
-                {
-                    "type": "file",
-                    "value": [
-                        "rabby-wallet-browser-0.93.59-3a0b2760.png"
-                    ]
-                },
-                {
-                    "type": "textarea",
-                    "value": "The wallet requires the user to unlock it in order to process requests from dApps to all RPC endpoints."
-                }
-            ],
-            "tester": 2,
-            "lastUpdated": 1761073854135
-        },
-        {
-            "uid": "WSR-PERM-003.v1",
-            "inputs": [
-                {
-                    "type": "select",
-                    "value": "100%"
-                },
-                {
-                    "type": "file",
-                    "value": [
-                        "rabby-wallet-browser-0.93.59-3533dff2.png"
-                    ]
-                },
-                {
-                    "type": "textarea",
-                    "value": "The wallet refuses to sign an EIP-712 object with a chainId that does not match the currently active chain."
-                }
-            ],
-            "tester": 2,
-            "lastUpdated": 1761073581155
-        },
-        {
-            "uid": "WSR-PERM-004.v1",
-            "inputs": [
-                {
-                    "type": "select",
-                    "value": "100%"
-                },
-                {
-                    "type": "file",
-                    "value": [
-                        "rabby-wallet-browser-0.93.59-1d373266.png"
-                    ]
-                },
-                {
-                    "type": "textarea",
-                    "value": "Wallet displays the list of connected DApps and allows connection removal. The functionality is working properly."
-                }
-            ],
-            "tester": 2,
-            "lastUpdated": 1761073597074
-        },
-        {
-            "uid": "WSR-VERI-005.v1",
-            "inputs": [
-                {
-                    "type": "select",
-                    "value": "100%"
-                },
-                {
-                    "type": "file",
-                    "value": [
-                        "rabby-wallet-browser-0.93.59-668a23c8.png",
-                        "rabby-wallet-browser-0.93.59-f2201b37.png"
-                    ]
-                },
-                {
-                    "type": "textarea",
-                    "value": "The interface provides all the necessary information for a user to make an informed decision about this token approval transaction."
-                }
-            ],
-            "tester": 2,
-            "lastUpdated": 1761073612009
-        },
-        {
-            "uid": "WSR-PERM-009.v1",
-            "inputs": [
-                {
-                    "type": "select",
-                    "value": "0%"
-                },
-                {
-                    "type": "file",
-                    "value": [
-                        "rabby-wallet-browser-0.93.59-56ff268b.png",
-                        "rabby-wallet-browser-0.93.59-9e49f085.png"
-                    ]
-                },
-                {
-                    "type": "textarea",
-                    "value": "The wallet switches chains without requesting user confirmation. Additionally, it does not offer a list of networks for the user to select or approve, limiting control over which networks the connected dApp can access."
-                }
-            ],
-            "tester": 2,
-            "lastUpdated": 1763137285681
-        },
-        {
-            "uid": "WSR-VERI-006.v1",
-            "inputs": [
-                {
-                    "type": "select",
-                    "value": "100%"
-                },
-                {
-                    "type": "file",
-                    "value": [
-                        "rabby-wallet-browser-0.93.59-fceeb80b.png",
-                        "rabby-wallet-browser-0.93.59-9d2ec743.png",
-                        "rabby-wallet-browser-0.93.59-2f007a83.png"
-                    ]
-                },
-                {
-                    "type": "textarea",
-                    "value": "The wallet provides a clear method for users to review the data to be signed, both for personal sign and EIP-712 objects."
-                }
-            ],
-            "tester": 2,
-            "lastUpdated": 1761073653290
-        },
-        {
-            "uid": "WSR-PERM-005.v1",
-            "inputs": [
-                {
-                    "type": "select",
-                    "value": "100%"
-                },
-                {
-                    "type": "file",
-                    "value": [
-                        "rabby-wallet-browser-0.93.59-002123d9.png",
-                        "rabby-wallet-browser-0.93.59-9d3d36de.png"
-                    ]
-                },
-                {
-                    "type": "textarea",
-                    "value": "The wallet provides a built-in revoke token feature that allows users to revoke token approvals."
-                }
-            ],
-            "tester": 2,
-            "lastUpdated": 1761073689098
-        },
-        {
-            "uid": "WSR-PERM-010~Browser.v1",
-            "inputs": [
-                {
-                    "type": "select",
-                    "value": "100%"
-                },
-                {
-                    "type": "file",
-                    "value": [
-                        "rabby-wallet-browser-0.93.59-ec0bfb72.png"
-                    ]
-                },
-                {
-                    "type": "textarea",
-                    "value": "The wallet requires the user confirmation in order to process requests from dApps to all RPC endpoints."
-                }
-            ],
-            "tester": 2,
-            "lastUpdated": 1761073875210
-        },
-        {
-            "uid": "WSR-THRE-007.v1",
-            "inputs": [
-                {
-                    "type": "select",
-                    "value": "100%"
-                },
-                {
-                    "type": "file",
-                    "value": [
-                        "rabby-wallet-browser-0.93.59-4aea1090.png"
-                    ]
-                },
-                {
-                    "type": "textarea",
-                    "value": "NFTs are displayed with spam NFTs being filtered out."
-                }
-            ],
-            "tester": 2,
-            "lastUpdated": 1761073706949
-        },
-        {
-            "uid": "WSR-VERI-007.v1",
-            "inputs": [
-                {
-                    "type": "select",
-                    "value": "0%"
-                },
-                {
-                    "type": "file",
-                    "value": [
-                        "rabby-wallet-browser-0.93.59-3ff5ed2a.png",
-                        "rabby-wallet-browser-0.93.59-a9565db0.png",
-                        "rabby-wallet-browser-0.93.59-1af61013.png"
-                    ]
-                },
-                {
-                    "type": "textarea",
-                    "value": "When attempting to sign a personal message with a large input, the sign button remains enabled and available at all times."
-                }
-            ],
-            "tester": 2,
-            "lastUpdated": 1761073739470
-        },
-        {
-            "uid": "WSR-PHYS-006~Browser.v1",
-            "inputs": [
-                {
-                    "type": "select",
-                    "value": "0%"
-                },
-                {
-                    "type": "file",
-                    "value": [
-                        "rabby-wallet-browser-0.93.59-3914f348.png"
-                    ]
-                },
-                {
-                    "type": "textarea",
-                    "value": "The wallet includes an auto-lock feature, but the default setting is configured to never lock."
-                }
-            ],
-            "tester": 2,
-            "lastUpdated": 1761073891383
-        },
-        {
-            "uid": "WSR-PHYS-004.v1",
-            "inputs": [
-                {
-                    "type": "select",
-                    "value": "100%"
-                },
-                {
-                    "type": "file",
-                    "value": [
-                        "rabby-wallet-browser-0.93.59-b5104744.png"
-                    ]
-                },
-                {
-                    "type": "textarea",
-                    "value": "The wallet features a lock button to lock it manually in the settings menu."
-                }
-            ],
-            "tester": 2,
-            "lastUpdated": 1761073757730
-        },
-        {
-            "uid": "WSR-PERM-006.v1",
-            "inputs": [
-                {
-                    "type": "select",
-                    "value": "100%"
-                },
-                {
-                    "type": "file",
-                    "value": [
-                        "rabby-wallet-browser-0.93.59-3e643bb1.png"
-                    ]
-                },
-                {
-                    "type": "textarea",
-                    "value": "The `eth_sign` method is disabled by default."
-                }
-            ],
-            "tester": 2,
-            "lastUpdated": 1761073777950
-        },
-        {
-            "uid": "WSR-PHYS-005.v1",
-            "inputs": [
-                {
-                    "type": "select",
-                    "value": "100%"
-                },
-                {
-                    "type": "file",
-                    "value": [
-                        "rabby-wallet-browser-0.93.59-93361973.png",
-                        "rabby-wallet-browser-0.93.59-34d75263.png"
-                    ]
-                },
-                {
-                    "type": "textarea",
-                    "value": "The wallet provides seed-phrase backup functionality and requires authentication to access mnemonics or private keys."
-                }
-            ],
-            "tester": 2,
-            "lastUpdated": 1761073793142
-        },
-        {
-            "uid": "WSR-PHYS-003.v1",
-            "inputs": [
-                {
-                    "type": "select",
-                    "value": "100%"
-                },
-                {
-                    "type": "file",
-                    "value": [
-                        "rabby-wallet-browser-0.93.59-a30db4db.png"
-                    ]
-                },
-                {
-                    "type": "textarea",
-                    "value": "The wallet provides warnings to users about the risks of sharing or revealing their mnemonics or private keys to others."
-                }
-            ],
-            "tester": 2,
-            "lastUpdated": 1761073810696
-        }
+      },
+      {
+        "categoryUID": "WSR-PHYS",
+        "checkResults": [
+          {
+            "checkUID": "WSR-PHYS-001.v1",
+            "result": 0
+          },
+          {
+            "checkUID": "WSR-PHYS-002~Browser.v1",
+            "result": 0
+          },
+          {
+            "checkUID": "WSR-PHYS-006~Browser.v1",
+            "result": 0
+          },
+          {
+            "checkUID": "WSR-PHYS-004.v1",
+            "result": 100
+          },
+          {
+            "checkUID": "WSR-PHYS-005.v1",
+            "result": 100
+          },
+          {
+            "checkUID": "WSR-PHYS-003.v1",
+            "result": 100
+          }
+        ]
+      },
+      {
+        "categoryUID": "WSR-THRE",
+        "checkResults": [
+          {
+            "checkUID": "WSR-THRE-001.v1",
+            "result": 100
+          },
+          {
+            "checkUID": "WSR-THRE-002.v1",
+            "result": 0
+          },
+          {
+            "checkUID": "WSR-THRE-003.v1",
+            "result": 0
+          },
+          {
+            "checkUID": "WSR-THRE-004.v1",
+            "result": 0
+          },
+          {
+            "checkUID": "WSR-THRE-005.v1",
+            "result": 100
+          },
+          {
+            "checkUID": "WSR-THRE-006.v1",
+            "result": 100
+          },
+          {
+            "checkUID": "WSR-THRE-007.v1",
+            "result": 0
+          }
+        ]
+      },
+      {
+        "categoryUID": "WSR-PERM",
+        "checkResults": [
+          {
+            "checkUID": "WSR-PERM-008~Browser.v1",
+            "result": 100
+          },
+          {
+            "checkUID": "WSR-PERM-001.v1",
+            "result": 0
+          },
+          {
+            "checkUID": "WSR-PERM-002~Browser.v1",
+            "result": 100
+          },
+          {
+            "checkUID": "WSR-PERM-003.v1",
+            "result": 100
+          },
+          {
+            "checkUID": "WSR-PERM-004.v1",
+            "result": 100
+          },
+          {
+            "checkUID": "WSR-PERM-009.v1",
+            "result": 0
+          },
+          {
+            "checkUID": "WSR-PERM-005.v1",
+            "result": 100
+          },
+          {
+            "checkUID": "WSR-PERM-010~Browser.v1",
+            "result": 100
+          },
+          {
+            "checkUID": "WSR-PERM-006.v1",
+            "result": 100
+          }
+        ]
+      }
     ]
+  },
+  "results": [
+    {
+      "uid": "WSR-VERI-001.v1",
+      "inputs": [
+        {
+          "type": "select",
+          "value": "0%"
+        },
+        {
+          "type": "file",
+          "value": [
+            "rabby-wallet-browser-0.93.88-edd93cb1.png",
+            "rabby-wallet-browser-0.93.88-9478d4ed.png"
+          ]
+        },
+        {
+          "type": "textarea",
+          "value": "The wallet proceeds with transactions to an address with an incorrect EIP-55 checksum, both manually and from a dApp, without displaying any warning or blocking the transaction."
+        }
+      ],
+      "tester": 1,
+      "lastUpdated": 1778014437895
+    },
+    {
+      "uid": "WSR-PHYS-001.v1",
+      "inputs": [
+        {
+          "type": "select",
+          "value": "0%"
+        },
+        {
+          "type": "file",
+          "value": [
+            "rabby-wallet-browser-0.93.88-6c3b3865.png"
+          ]
+        },
+        {
+          "type": "textarea",
+          "value": "The wallet does not provide a warning about the risks of copying mnemonics to the clipboard or limits their exposure."
+        }
+      ],
+      "tester": 1,
+      "lastUpdated": 1778014867791
+    },
+    {
+      "uid": "WSR-THRE-001.v1",
+      "inputs": [
+        {
+          "type": "select",
+          "value": "100%"
+        },
+        {
+          "type": "file",
+          "value": [
+            "rabby-wallet-browser-0.93.88-fd2cb54b.png",
+            "rabby-wallet-browser-0.93.88-ea9c82c5.png",
+            "rabby-wallet-browser-0.93.88-960d1e62.png",
+            "rabby-wallet-browser-0.93.88-023fe019.png"
+          ]
+        },
+        {
+          "type": "textarea",
+          "value": "Verified dApps show a \"Verified by Rabby\" badge, allowing users to distinguish them from unknown ones. Verified sites also show a \"Safe\" risk detail screen."
+        }
+      ],
+      "tester": 1,
+      "lastUpdated": 1778014622150
+    },
+    {
+      "uid": "WSR-PERM-008~Browser.v1",
+      "inputs": [
+        {
+          "type": "select",
+          "value": "100%"
+        },
+        {
+          "type": "file",
+          "value": [
+            "rabby-wallet-browser-0.93.88-6f598f10.png"
+          ]
+        },
+        {
+          "type": "textarea",
+          "value": "The test dApp rejects all requests that require authorization, including eth_accounts, eth_decrypt, eth_getEncryptionPublicKey, eth_signTypedData* family, personal_sign, and eth_sendTransaction without an active connection to the wallet."
+        }
+      ],
+      "tester": 1,
+      "lastUpdated": 1778014222439
+    },
+    {
+      "uid": "WSR-THRE-002.v1",
+      "inputs": [
+        {
+          "type": "select",
+          "value": "0%"
+        },
+        {
+          "type": "file",
+          "value": [
+            "rabby-wallet-browser-0.93.88-d3f54261.png"
+          ]
+        },
+        {
+          "type": "textarea",
+          "value": "The transaction to the Tornado Cash attacker address 0x592340957eBC9e4Afb0E9Af221d06fDDDF789de9 shows no warning from the wallet."
+        }
+      ],
+      "tester": 1,
+      "lastUpdated": 1778014646831
+    },
+    {
+      "uid": "WSR-PERM-001.v1",
+      "inputs": [
+        {
+          "type": "select",
+          "value": "0%"
+        },
+        {
+          "type": "file",
+          "value": [
+            "rabby-wallet-browser-0.93.88-56319e54.png",
+            "rabby-wallet-browser-0.93.88-307b1fa2.png"
+          ]
+        },
+        {
+          "type": "textarea",
+          "value": "The wallet did not warn about the domain mismatch between the dApp (deploy-preview-40--wallettesti...) and the SIWE message (https://opensea.io). The signing proceeded without any warning."
+        }
+      ],
+      "tester": 1,
+      "lastUpdated": 1778013923249
+    },
+    {
+      "uid": "WSR-THRE-003.v1",
+      "inputs": [
+        {
+          "type": "select",
+          "value": "0%"
+        },
+        {
+          "type": "file",
+          "value": [
+            "rabby-wallet-browser-0.93.88-5d2d3eff.png",
+            "rabby-wallet-browser-0.93.88-9393d861.png",
+            "rabby-wallet-browser-0.93.88-5f56ed51.png",
+            "rabby-wallet-browser-0.93.88-c8caa9b2.png"
+          ]
+        },
+        {
+          "type": "textarea",
+          "value": "The wallet warns about the hyperliqdop.com site being unlisted and having low popularity, but the first site 'flagship-web3-v1-336a757b5b637a684207a3.webflow.io' which is present on the MetaMask phishing list (as flagship-web3.webflow.io) does not trigger a warning."
+        }
+      ],
+      "tester": 1,
+      "lastUpdated": 1778014675546
+    },
+    {
+      "uid": "WSR-VERI-002.v1",
+      "inputs": [
+        {
+          "type": "select",
+          "value": "100%"
+        },
+        {
+          "type": "file",
+          "value": [
+            "rabby-wallet-browser-0.93.88-775dc9d3.png",
+            "rabby-wallet-browser-0.93.88-e6bea35c.png",
+            "rabby-wallet-browser-0.93.88-d460cf03.png",
+            "rabby-wallet-browser-0.93.88-884a4843.png"
+          ]
+        },
+        {
+          "type": "textarea",
+          "value": "Addresses are clickable links within the wallets' transaction history and also the address is a clickable link when sending a transaction via dApp."
+        }
+      ],
+      "tester": 1,
+      "lastUpdated": 1778014460714
+    },
+    {
+      "uid": "WSR-VERI-003.v1",
+      "inputs": [
+        {
+          "type": "select",
+          "value": "100%"
+        },
+        {
+          "type": "file",
+          "value": [
+            "rabby-wallet-browser-0.93.88-cd1125af.png"
+          ]
+        },
+        {
+          "type": "textarea",
+          "value": "The wallet shows the expected inputs (0.0001 USDC, 0.0010 POL) and outputs from the add liquidity transaction before signing."
+        }
+      ],
+      "tester": 1,
+      "lastUpdated": 1778014489560
+    },
+    {
+      "uid": "WSR-VERI-004.v1",
+      "inputs": [
+        {
+          "type": "select",
+          "value": "100%"
+        },
+        {
+          "type": "file",
+          "value": [
+            "rabby-wallet-browser-0.93.88-a8b8266a.png"
+          ]
+        },
+        {
+          "type": "textarea",
+          "value": "The wallet renders structured, human-readable signing details and also a raw JSON."
+        }
+      ],
+      "tester": 1,
+      "lastUpdated": 1778014516701
+    },
+    {
+      "uid": "WSR-THRE-004.v1",
+      "inputs": [
+        {
+          "type": "select",
+          "value": "0%"
+        },
+        {
+          "type": "file",
+          "value": [
+            "rabby-wallet-browser-0.93.88-fec6cf2f.png"
+          ]
+        },
+        {
+          "type": "textarea",
+          "value": "The connection dialog does not clearly mention the ability to view the user's balance and activity, as well as to request transaction approvals."
+        }
+      ],
+      "tester": 1,
+      "lastUpdated": 1778014697431
+    },
+    {
+      "uid": "WSR-THRE-005.v1",
+      "inputs": [
+        {
+          "type": "select",
+          "value": "100%"
+        },
+        {
+          "type": "file",
+          "value": [
+            "rabby-wallet-browser-0.93.88-e9e801ba.png",
+            "rabby-wallet-browser-0.93.88-c5702f42.png"
+          ]
+        },
+        {
+          "type": "textarea",
+          "value": "The wallet shows a warning when sending to an address that has not been transacted with before."
+        }
+      ],
+      "tester": 1,
+      "lastUpdated": 1778014725030
+    },
+    {
+      "uid": "WSR-THRE-006.v1",
+      "inputs": [
+        {
+          "type": "select",
+          "value": "100%"
+        },
+        {
+          "type": "file",
+          "value": [
+            "rabby-wallet-browser-0.93.88-0f5a372b.png"
+          ]
+        },
+        {
+          "type": "textarea",
+          "value": "The full dApp origin URL is shown in the connection dialog without truncation."
+        }
+      ],
+      "tester": 1,
+      "lastUpdated": 1778014747025
+    },
+    {
+      "uid": "WSR-PERM-002~Browser.v1",
+      "inputs": [
+        {
+          "type": "select",
+          "value": "100%"
+        },
+        {
+          "type": "file",
+          "value": [
+            "rabby-wallet-browser-0.93.88-2e81ead8.png"
+          ]
+        },
+        {
+          "type": "textarea",
+          "value": "When the wallet is locked, its connection to the dApp is removed, and all RPC endpoint requests fail when sent."
+        }
+      ],
+      "tester": 1,
+      "lastUpdated": 1778014003385
+    },
+    {
+      "uid": "WSR-PERM-003.v1",
+      "inputs": [
+        {
+          "type": "select",
+          "value": "100%"
+        },
+        {
+          "type": "file",
+          "value": [
+            "rabby-wallet-browser-0.93.88-6359ff3e.png"
+          ]
+        },
+        {
+          "type": "textarea",
+          "value": "The wallet displays an error message indicating that the chainId in the EIP-712 object should be the same as the current chainId."
+        }
+      ],
+      "tester": 1,
+      "lastUpdated": 1778014032856
+    },
+    {
+      "uid": "WSR-PHYS-002~Browser.v1",
+      "inputs": [
+        {
+          "type": "select",
+          "value": "0%"
+        },
+        {
+          "type": "file",
+          "value": [
+            "rabby-wallet-browser-0.93.88-6a7dd762.png"
+          ]
+        },
+        {
+          "type": "textarea",
+          "value": "The wallet accepted '11111111' as a password while the acceptance criteria states that it should not allow trivial passwords."
+        }
+      ],
+      "tester": 1,
+      "lastUpdated": 1778015013821
+    },
+    {
+      "uid": "WSR-PERM-004.v1",
+      "inputs": [
+        {
+          "type": "select",
+          "value": "100%"
+        },
+        {
+          "type": "file",
+          "value": [
+            "rabby-wallet-browser-0.93.88-dd060c49.png",
+            "rabby-wallet-browser-0.93.88-b1381f20.png",
+            "rabby-wallet-browser-0.93.88-96a5e2ca.png"
+          ]
+        },
+        {
+          "type": "textarea",
+          "value": "The wallet lists the connected dApps, and revoking access prevents further RPC requests from the disconnected dApp."
+        }
+      ],
+      "tester": 1,
+      "lastUpdated": 1778014061704
+    },
+    {
+      "uid": "WSR-VERI-005.v1",
+      "inputs": [
+        {
+          "type": "select",
+          "value": "100%"
+        },
+        {
+          "type": "file",
+          "value": [
+            "rabby-wallet-browser-0.93.88-d7fecb28.png"
+          ]
+        },
+        {
+          "type": "textarea",
+          "value": "The wallet displays the token being approved (USDC), the spender (Uniswap Permit2) and the approved amount (115,792,089,237,316)."
+        }
+      ],
+      "tester": 1,
+      "lastUpdated": 1778014539385
+    },
+    {
+      "uid": "WSR-PERM-009.v1",
+      "inputs": [
+        {
+          "type": "select",
+          "value": "0%"
+        },
+        {
+          "type": "file",
+          "value": [
+            "rabby-wallet-browser-0.93.88-08bfd856.png",
+            "rabby-wallet-browser-0.93.88-b9896a21.png",
+            "rabby-wallet-browser-0.93.88-593458bf.png"
+          ]
+        },
+        {
+          "type": "textarea",
+          "value": "The wallet automatically switches the chain without a confirmation prompt."
+        }
+      ],
+      "tester": 1,
+      "lastUpdated": 1778014257277
+    },
+    {
+      "uid": "WSR-VERI-006.v1",
+      "inputs": [
+        {
+          "type": "select",
+          "value": "100%"
+        },
+        {
+          "type": "file",
+          "value": [
+            "rabby-wallet-browser-0.93.88-da18347e.png",
+            "rabby-wallet-browser-0.93.88-f9d13ec3.png",
+            "rabby-wallet-browser-0.93.88-d29132aa.png",
+            "rabby-wallet-browser-0.93.88-1c7ec1d2.png"
+          ]
+        },
+        {
+          "type": "textarea",
+          "value": "The content is visible and scrollable for both eth_signTypedData and personal_sign."
+        }
+      ],
+      "tester": 1,
+      "lastUpdated": 1778014570303
+    },
+    {
+      "uid": "WSR-PERM-005.v1",
+      "inputs": [
+        {
+          "type": "select",
+          "value": "100%"
+        },
+        {
+          "type": "file",
+          "value": [
+            "rabby-wallet-browser-0.93.88-3dbd4c49.png",
+            "rabby-wallet-browser-0.93.88-2098ee32.png"
+          ]
+        },
+        {
+          "type": "textarea",
+          "value": "The wallet lists existing token approvals and provides the ability to revoke them."
+        }
+      ],
+      "tester": 1,
+      "lastUpdated": 1778014092335
+    },
+    {
+      "uid": "WSR-PERM-010~Browser.v1",
+      "inputs": [
+        {
+          "type": "select",
+          "value": "100%"
+        },
+        {
+          "type": "file",
+          "value": [
+            "rabby-wallet-browser-0.93.88-a57a6d24.png",
+            "rabby-wallet-browser-0.93.88-3eba4f8f.png",
+            "rabby-wallet-browser-0.93.88-634511cc.png"
+          ]
+        },
+        {
+          "type": "textarea",
+          "value": "The wallet requires user confirmation in order to process requests from dApps to all RPC endpoints."
+        }
+      ],
+      "tester": 1,
+      "lastUpdated": 1778014410619
+    },
+    {
+      "uid": "WSR-THRE-007.v1",
+      "inputs": [
+        {
+          "type": "select",
+          "value": "0%"
+        },
+        {
+          "type": "file",
+          "value": [
+            "rabby-wallet-browser-0.93.88-8981cba8.png"
+          ]
+        },
+        {
+          "type": "textarea",
+          "value": "Spam NFTs and tokens are being displayed within the NFTs section."
+        }
+      ],
+      "tester": 1,
+      "lastUpdated": 1778014806179
+    },
+    {
+      "uid": "WSR-VERI-007.v1",
+      "inputs": [
+        {
+          "type": "select",
+          "value": "0%"
+        },
+        {
+          "type": "file",
+          "value": [
+            "rabby-wallet-browser-0.93.88-3c06a7bd.png",
+            "rabby-wallet-browser-0.93.88-fb46c466.png"
+          ]
+        },
+        {
+          "type": "textarea",
+          "value": "The sign button is enabled before the end of the message is reached."
+        }
+      ],
+      "tester": 1,
+      "lastUpdated": 1778014592559
+    },
+    {
+      "uid": "WSR-PHYS-006~Browser.v1",
+      "inputs": [
+        {
+          "type": "select",
+          "value": "0%"
+        },
+        {
+          "type": "file",
+          "value": [
+            "rabby-wallet-browser-0.93.88-df95fd4d.png"
+          ]
+        },
+        {
+          "type": "textarea",
+          "value": "The wallet has an auto-lock setting, but it is set to 'Never' by default."
+        }
+      ],
+      "tester": 1,
+      "lastUpdated": 1778015143763
+    },
+    {
+      "uid": "WSR-PHYS-004.v1",
+      "inputs": [
+        {
+          "type": "select",
+          "value": "100%"
+        },
+        {
+          "type": "file",
+          "value": [
+            "rabby-wallet-browser-0.93.88-6fb31f9f.png"
+          ]
+        },
+        {
+          "type": "textarea",
+          "value": "The wallet includes a manual lock control, as evidenced by the \"Lock Wallet\" option in the settings menu."
+        }
+      ],
+      "tester": 1,
+      "lastUpdated": 1778015064180
+    },
+    {
+      "uid": "WSR-PERM-006.v1",
+      "inputs": [
+        {
+          "type": "select",
+          "value": "100%"
+        },
+        {
+          "type": "file",
+          "value": [
+            "rabby-wallet-browser-0.93.88-86d44676.png"
+          ]
+        },
+        {
+          "type": "textarea",
+          "value": "The wallet rejects `eth_sign` requests and displays a warning message, as expected."
+        }
+      ],
+      "tester": 1,
+      "lastUpdated": 1778014119126
+    },
+    {
+      "uid": "WSR-PHYS-005.v1",
+      "inputs": [
+        {
+          "type": "select",
+          "value": "100%"
+        },
+        {
+          "type": "file",
+          "value": [
+            "rabby-wallet-browser-0.93.88-a159e29c.png"
+          ]
+        },
+        {
+          "type": "textarea",
+          "value": "Password authentication is required before displaying the seed phrase."
+        }
+      ],
+      "tester": 1,
+      "lastUpdated": 1778015095242
+    },
+    {
+      "uid": "WSR-PHYS-003.v1",
+      "inputs": [
+        {
+          "type": "select",
+          "value": "100%"
+        },
+        {
+          "type": "file",
+          "value": [
+            "rabby-wallet-browser-0.93.88-da883fad.png"
+          ]
+        },
+        {
+          "type": "textarea",
+          "value": "The warning shown on the seed phrase screen indicates the risks of revealing the seed phrase to others, and is shown before the seed phrase itself."
+        }
+      ],
+      "tester": 1,
+      "lastUpdated": 1778015041494
+    }
+  ]
 }

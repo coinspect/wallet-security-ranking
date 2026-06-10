@@ -1,771 +1,786 @@
 {
-    "wallet": "OKX",
-    "platform": "Browser",
-    "version": "3.79.0",
-    "date": "2026-01-12T17:52:05.136Z",
-    "walletUID": "okx-browser",
-    "walletMakerUID": "okx",
-    "scores": {
-        "categories": [
-            {
-                "categoryUID": "WSR-VERI",
-                "checkResults": [
-                    {
-                        "checkUID": "WSR-VERI-001.v1",
-                        "result": 100
-                    },
-                    {
-                        "checkUID": "WSR-VERI-002.v1",
-                        "result": 50
-                    },
-                    {
-                        "checkUID": "WSR-VERI-003.v1",
-                        "result": 100
-                    },
-                    {
-                        "checkUID": "WSR-VERI-004.v1",
-                        "result": 100
-                    },
-                    {
-                        "checkUID": "WSR-VERI-005.v1",
-                        "result": 100
-                    },
-                    {
-                        "checkUID": "WSR-VERI-006.v1",
-                        "result": 100
-                    },
-                    {
-                        "checkUID": "WSR-VERI-007.v1",
-                        "result": 0
-                    }
-                ]
-            },
-            {
-                "categoryUID": "WSR-PHYS",
-                "checkResults": [
-                    {
-                        "checkUID": "WSR-PHYS-001.v1",
-                        "result": 100
-                    },
-                    {
-                        "checkUID": "WSR-PHYS-002.v1",
-                        "result": 0
-                    },
-                    {
-                        "checkUID": "WSR-PHYS-006~Browser.v1",
-                        "result": 0
-                    },
-                    {
-                        "checkUID": "WSR-PHYS-004.v1",
-                        "result": 100
-                    },
-                    {
-                        "checkUID": "WSR-PHYS-005.v1",
-                        "result": 100
-                    },
-                    {
-                        "checkUID": "WSR-PHYS-003.v1",
-                        "result": 100
-                    }
-                ]
-            },
-            {
-                "categoryUID": "WSR-THRE",
-                "checkResults": [
-                    {
-                        "checkUID": "WSR-THRE-001.v1",
-                        "result": 0
-                    },
-                    {
-                        "checkUID": "WSR-THRE-002.v1",
-                        "result": 100
-                    },
-                    {
-                        "checkUID": "WSR-THRE-003.v1",
-                        "result": 100
-                    },
-                    {
-                        "checkUID": "WSR-THRE-004.v1",
-                        "result": 0
-                    },
-                    {
-                        "checkUID": "WSR-THRE-005.v1",
-                        "result": 0
-                    },
-                    {
-                        "checkUID": "WSR-THRE-006.v1",
-                        "result": 100
-                    },
-                    {
-                        "checkUID": "WSR-THRE-007.v1",
-                        "result": 100
-                    }
-                ]
-            },
-            {
-                "categoryUID": "WSR-PERM",
-                "checkResults": [
-                    {
-                        "checkUID": "WSR-PERM-008~Browser.v1",
-                        "result": 100
-                    },
-                    {
-                        "checkUID": "WSR-PERM-001.v1",
-                        "result": 0
-                    },
-                    {
-                        "checkUID": "WSR-PERM-002~Browser.v1",
-                        "result": 100
-                    },
-                    {
-                        "checkUID": "WSR-PERM-003.v1",
-                        "result": 100
-                    },
-                    {
-                        "checkUID": "WSR-PERM-004.v1",
-                        "result": 100
-                    },
-                    {
-                        "checkUID": "WSR-PERM-009.v1",
-                        "result": 0
-                    },
-                    {
-                        "checkUID": "WSR-PERM-005.v1",
-                        "result": 100
-                    },
-                    {
-                        "checkUID": "WSR-PERM-010~Browser.v1",
-                        "result": 100
-                    },
-                    {
-                        "checkUID": "WSR-PERM-006.v1",
-                        "result": 100
-                    }
-                ]
-            }
+  "round": "2026-04-01",
+  "wallet": "OKX",
+  "platform": "Browser",
+  "version": "3.102.21",
+  "date": "2026-06-04T20:37:18.828Z",
+  "walletUID": "okx-browser",
+  "walletMakerUID": "okx",
+  "scores": {
+    "categories": [
+      {
+        "categoryUID": "WSR-VERI",
+        "checkResults": [
+          {
+            "checkUID": "WSR-VERI-001.v1",
+            "result": 0
+          },
+          {
+            "checkUID": "WSR-VERI-002.v1",
+            "result": 50
+          },
+          {
+            "checkUID": "WSR-VERI-003.v1",
+            "result": 100
+          },
+          {
+            "checkUID": "WSR-VERI-004.v1",
+            "result": 0
+          },
+          {
+            "checkUID": "WSR-VERI-005.v1",
+            "result": 100
+          },
+          {
+            "checkUID": "WSR-VERI-006.v1",
+            "result": 100
+          },
+          {
+            "checkUID": "WSR-VERI-007.v1",
+            "result": 0
+          }
         ]
-    },
-    "results": [
-        {
-            "uid": "WSR-VERI-001.v1",
-            "inputs": [
-                {
-                    "type": "select",
-                    "value": "100%"
-                },
-                {
-                    "type": "file",
-                    "value": [
-                        "okx-browser-3.79.0-0f0a645d.png",
-                        "okx-browser-3.79.0-08dd1b33.png"
-                    ]
-                },
-                {
-                    "type": "textarea",
-                    "value": "The wallet doesn't allow transactions to an address with an invalid checksum."
-                }
-            ],
-            "tester": 2,
-            "lastUpdated": 1761073195124
-        },
-        {
-            "uid": "WSR-PHYS-001.v1",
-            "inputs": [
-                {
-                    "type": "select",
-                    "value": "100%"
-                },
-                {
-                    "type": "file",
-                    "value": [
-                        "okx-browser-3.79.0-cb905b25.png",
-                        "okx-browser-3.79.0-1847aeb3.png",
-                        "okx-browser-3.79.0-91fedd75.png"
-                    ]
-                },
-                {
-                    "type": "textarea",
-                    "value": "The wallet takes strong measures to prevent users from copying mnemonics or private keys to their clipboard. It completely disables copying seed phrases. For private keys, it provides two options: one allows copying the entire private key while displaying a warning about the risks, and the other permits copying only the first six digits, requiring the user to manually enter the last six."
-                }
-            ],
-            "tester": 2,
-            "lastUpdated": 1761073281719
-        },
-        {
-            "uid": "WSR-THRE-001.v1",
-            "inputs": [
-                {
-                    "type": "select",
-                    "value": "0%"
-                },
-                {
-                    "type": "file",
-                    "value": [
-                        "okx-browser-3.79.0-ecad8e56.png"
-                    ]
-                },
-                {
-                    "type": "textarea",
-                    "value": "Wallet does not inform the user when trying to connect to a well-known, verified url."
-                }
-            ],
-            "tester": 2,
-            "lastUpdated": 1761073341961
-        },
-        {
-            "uid": "WSR-PERM-008~Browser.v1",
-            "inputs": [
-                {
-                    "type": "select",
-                    "value": "100%"
-                },
-                {
-                    "type": "file",
-                    "value": [
-                        "okx-browser-3.79.0-496062ce.png"
-                    ]
-                },
-                {
-                    "type": "textarea",
-                    "value": "The wallet requires user connection to access the RPC endpoints."
-                }
-            ],
-            "tester": 2,
-            "lastUpdated": 1761073830917
-        },
-        {
-            "uid": "WSR-THRE-002.v1",
-            "inputs": [
-                {
-                    "type": "select",
-                    "value": "100%"
-                },
-                {
-                    "type": "file",
-                    "value": [
-                        "okx-browser-3.79.0-20be4eb3.png"
-                    ]
-                },
-                {
-                    "type": "textarea",
-                    "value": "The wallet warns when attempting to send funds to the Tornado Cash attacker address."
-                }
-            ],
-            "tester": 2,
-            "lastUpdated": 1761073368191
-        },
-        {
-            "uid": "WSR-PHYS-002.v1",
-            "inputs": [
-                {
-                    "type": "select",
-                    "value": "0%"
-                },
-                {
-                    "type": "file",
-                    "value": [
-                        "okx-browser-3.79.0-0f94c24b.png",
-                        "okx-browser-3.79.0-895a1477.png",
-                        "okx-browser-3.79.0-ddc441c2.png"
-                    ]
-                },
-                {
-                    "type": "textarea",
-                    "value": "The wallet suggests using biometric authentication, but if the user opts for a password, it requires an 8-digit password while still allowing easily guessable passwords."
-                }
-            ],
-            "tester": 2,
-            "lastUpdated": 1761073390977
-        },
-        {
-            "uid": "WSR-PERM-001.v1",
-            "inputs": [
-                {
-                    "type": "select",
-                    "value": "0%"
-                },
-                {
-                    "type": "file",
-                    "value": [
-                        "okx-browser-3.79.0-83b404f2.png"
-                    ]
-                },
-                {
-                    "type": "textarea",
-                    "value": "The wallet does not warn users of a domain or scheme mismatch when signing a SIWE message."
-                }
-            ],
-            "tester": 2,
-            "lastUpdated": 1761073439199
-        },
-        {
-            "uid": "WSR-THRE-003.v1",
-            "inputs": [
-                {
-                    "type": "select",
-                    "value": "100%"
-                },
-                {
-                    "type": "file",
-                    "value": [
-                        "okx-browser-3.79.0-f4ac0014.png"
-                    ]
-                },
-                {
-                    "type": "textarea",
-                    "value": "The wallet successfully warns the user when attempting to connect to a phishing dApp."
-                }
-            ],
-            "tester": 2,
-            "lastUpdated": 1761073456176
-        },
-        {
-            "uid": "WSR-VERI-002.v1",
-            "inputs": [
-                {
-                    "type": "select",
-                    "value": "50%"
-                },
-                {
-                    "type": "file",
-                    "value": [
-                        "okx-browser-3.79.0-1db78037.png",
-                        "okx-browser-3.79.0-d3b2e679.png"
-                    ]
-                },
-                {
-                    "type": "textarea",
-                    "value": "The wallet provides clickable links in the history but not in the transaction preview."
-                }
-            ],
-            "tester": 2,
-            "lastUpdated": 1761073474354
-        },
-        {
-            "uid": "WSR-VERI-003.v1",
-            "inputs": [
-                {
-                    "type": "select",
-                    "value": "100%"
-                },
-                {
-                    "type": "file",
-                    "value": [
-                        "okx-browser-3.79.0-8f01b199.png"
-                    ]
-                },
-                {
-                    "type": "textarea",
-                    "value": "The wallet accurately displays all transaction incomes and outcomes, including the NFT received when adding liquidity to the pool."
-                }
-            ],
-            "tester": 2,
-            "lastUpdated": 1761073487949
-        },
-        {
-            "uid": "WSR-VERI-004.v1",
-            "inputs": [
-                {
-                    "type": "select",
-                    "value": "100%"
-                },
-                {
-                    "type": "file",
-                    "value": [
-                        "okx-browser-3.79.0-e5a3e1f6.png"
-                    ]
-                },
-                {
-                    "type": "textarea",
-                    "value": "The wallet identifies EIP-712 objects and blocks all eth_signTypedData requests."
-                }
-            ],
-            "tester": 2,
-            "lastUpdated": 1761073507358
-        },
-        {
-            "uid": "WSR-THRE-004.v1",
-            "inputs": [
-                {
-                    "type": "select",
-                    "value": "0%"
-                },
-                {
-                    "type": "file",
-                    "value": [
-                        "okx-browser-3.79.0-fdf9e61a.png"
-                    ]
-                },
-                {
-                    "type": "textarea",
-                    "value": "The wallet does not inform users, within the connection dialog, that by connecting they are allowing the dApp to view their wallet balance and activity, as well as to request transaction approvals."
-                }
-            ],
-            "tester": 2,
-            "lastUpdated": 1761073528397
-        },
-        {
-            "uid": "WSR-THRE-005.v1",
-            "inputs": [
-                {
-                    "type": "select",
-                    "value": "0%"
-                },
-                {
-                    "type": "file",
-                    "value": [
-                        "okx-browser-3.79.0-643505cc.png"
-                    ]
-                },
-                {
-                    "type": "textarea",
-                    "value": "The wallet does not inform the user that he is interacting with an unknown address."
-                }
-            ],
-            "tester": 2,
-            "lastUpdated": 1763393432462
-        },
-        {
-            "uid": "WSR-THRE-006.v1",
-            "inputs": [
-                {
-                    "type": "select",
-                    "value": "100%"
-                },
-                {
-                    "type": "file",
-                    "value": [
-                        "okx-browser-3.79.0-3af12879.png"
-                    ]
-                },
-                {
-                    "type": "textarea",
-                    "value": "The wallet displays de dApp origin url in full."
-                }
-            ],
-            "tester": 2,
-            "lastUpdated": 1761073560213
-        },
-        {
-            "uid": "WSR-PERM-002~Browser.v1",
-            "inputs": [
-                {
-                    "type": "select",
-                    "value": "100%"
-                },
-                {
-                    "type": "file",
-                    "value": [
-                        "okx-browser-3.79.0-3f59b973.png"
-                    ]
-                },
-                {
-                    "type": "textarea",
-                    "value": "The wallet requires the user to unlock it before processing each request."
-                }
-            ],
-            "tester": 2,
-            "lastUpdated": 1761073854135
-        },
-        {
-            "uid": "WSR-PERM-003.v1",
-            "inputs": [
-                {
-                    "type": "select",
-                    "value": "100%"
-                },
-                {
-                    "type": "file",
-                    "value": [
-                        "okx-browser-3.79.0-bc72f646.png"
-                    ]
-                },
-                {
-                    "type": "textarea",
-                    "value": "The wallet identifies EIP-712 objects and blocks all eth_signTypedData requests."
-                }
-            ],
-            "tester": 2,
-            "lastUpdated": 1761073581155
-        },
-        {
-            "uid": "WSR-PERM-004.v1",
-            "inputs": [
-                {
-                    "type": "select",
-                    "value": "100%"
-                },
-                {
-                    "type": "file",
-                    "value": [
-                        "okx-browser-3.79.0-34f476f1.png"
-                    ]
-                },
-                {
-                    "type": "textarea",
-                    "value": "The wallet provides a list of connected dApps and offers users the option to revoke access to all of them or revoke them individually. This function works properly, effectively disconnecting from the selected dApp."
-                }
-            ],
-            "tester": 2,
-            "lastUpdated": 1761073597074
-        },
-        {
-            "uid": "WSR-VERI-005.v1",
-            "inputs": [
-                {
-                    "type": "select",
-                    "value": "100%"
-                },
-                {
-                    "type": "file",
-                    "value": [
-                        "okx-browser-3.79.0-31887ce9.png"
-                    ]
-                },
-                {
-                    "type": "textarea",
-                    "value": "Effect, token, amount and spender contract address are all present in the approve."
-                }
-            ],
-            "tester": 2,
-            "lastUpdated": 1761073612009
-        },
-        {
-            "uid": "WSR-PERM-009.v1",
-            "inputs": [
-                {
-                    "type": "select",
-                    "value": "0%"
-                },
-                {
-                    "type": "file",
-                    "value": [
-                        "okx-browser-3.79.0-68f81e37.png"
-                    ]
-                },
-                {
-                    "type": "textarea",
-                    "value": "The wallet switches chains without requesting user confirmation. Additionally, it does not offer a list of networks for the user to select or approve, limiting control over which networks the connected dApp can access."
-                }
-            ],
-            "tester": 2,
-            "lastUpdated": 1763137285681
-        },
-        {
-            "uid": "WSR-VERI-006.v1",
-            "inputs": [
-                {
-                    "type": "select",
-                    "value": "100%"
-                },
-                {
-                    "type": "file",
-                    "value": [
-                        "okx-browser-3.79.0-a00fb4b6.png",
-                        "okx-browser-3.79.0-670918a1.png"
-                    ]
-                },
-                {
-                    "type": "textarea",
-                    "value": "The wallet displays full messages in personal_sign requests without truncation and blocks all eth_signTypedData requests."
-                }
-            ],
-            "tester": 2,
-            "lastUpdated": 1761073653290
-        },
-        {
-            "uid": "WSR-PERM-005.v1",
-            "inputs": [
-                {
-                    "type": "select",
-                    "value": "100%"
-                },
-                {
-                    "type": "file",
-                    "value": [
-                        "okx-browser-3.79.0-704daeb9.png",
-                        "okx-browser-3.79.0-8bf890f2.png"
-                    ]
-                },
-                {
-                    "type": "textarea",
-                    "value": "The wallet includes an in-app option that allows users to revoke token approvals directly through its functionality."
-                }
-            ],
-            "tester": 2,
-            "lastUpdated": 1761073689098
-        },
-        {
-            "uid": "WSR-PERM-010~Browser.v1",
-            "inputs": [
-                {
-                    "type": "select",
-                    "value": "100%"
-                },
-                {
-                    "type": "file",
-                    "value": [
-                        "okx-browser-3.79.0-cef87667.png"
-                    ]
-                },
-                {
-                    "type": "textarea",
-                    "value": "The wallet requires user confirmation before processing each dApp request to all of the RPC endpoints."
-                }
-            ],
-            "tester": 2,
-            "lastUpdated": 1761073875210
-        },
-        {
-            "uid": "WSR-THRE-007.v1",
-            "inputs": [
-                {
-                    "type": "select",
-                    "value": "100%"
-                },
-                {
-                    "type": "file",
-                    "value": [
-                        "okx-browser-3.79.0-b5e7d979.png",
-                        "okx-browser-3.79.0-c4344892.png"
-                    ]
-                },
-                {
-                    "type": "textarea",
-                    "value": "The wallet effectively filters out spam and scam NFTs."
-                }
-            ],
-            "tester": 2,
-            "lastUpdated": 1761073706949
-        },
-        {
-            "uid": "WSR-VERI-007.v1",
-            "inputs": [
-                {
-                    "type": "select",
-                    "value": "0%"
-                },
-                {
-                    "type": "file",
-                    "value": [
-                        "okx-browser-3.79.0-1c553238.png"
-                    ]
-                },
-                {
-                    "type": "textarea",
-                    "value": "The sign button is available from the start."
-                }
-            ],
-            "tester": 2,
-            "lastUpdated": 1761073739470
-        },
-        {
-            "uid": "WSR-PHYS-006~Browser.v1",
-            "inputs": [
-                {
-                    "type": "select",
-                    "value": "0%"
-                },
-                {
-                    "type": "file",
-                    "value": [
-                        "okx-browser-3.79.0-886cec6d.png"
-                    ]
-                },
-                {
-                    "type": "textarea",
-                    "value": "The wallet features auto-lock functionality, but the default lock time is set to 2 hours."
-                }
-            ],
-            "tester": 2,
-            "lastUpdated": 1761073891383
-        },
-        {
-            "uid": "WSR-PHYS-004.v1",
-            "inputs": [
-                {
-                    "type": "select",
-                    "value": "100%"
-                },
-                {
-                    "type": "file",
-                    "value": [
-                        "okx-browser-3.79.0-1ffae86c.png"
-                    ]
-                },
-                {
-                    "type": "textarea",
-                    "value": "The wallet provides a manual lock button in the top right corner, in the settings menu."
-                }
-            ],
-            "tester": 2,
-            "lastUpdated": 1761073757730
-        },
-        {
-            "uid": "WSR-PERM-006.v1",
-            "inputs": [
-                {
-                    "type": "select",
-                    "value": "100%"
-                },
-                {
-                    "type": "file",
-                    "value": [
-                        "okx-browser-3.79.0-dd36a093.png"
-                    ]
-                },
-                {
-                    "type": "textarea",
-                    "value": "The `eth_sign` method is disabled by default, and the wallet forces the user to cancel the request."
-                }
-            ],
-            "tester": 2,
-            "lastUpdated": 1761073777950
-        },
-        {
-            "uid": "WSR-PHYS-005.v1",
-            "inputs": [
-                {
-                    "type": "select",
-                    "value": "100%"
-                },
-                {
-                    "type": "file",
-                    "value": [
-                        "okx-browser-3.79.0-2ab69440.png",
-                        "okx-browser-3.79.0-407b3fdb.png",
-                        "okx-browser-3.79.0-5d958455.png"
-                    ]
-                },
-                {
-                    "type": "textarea",
-                    "value": "The wallet requires the user to enter their password before revealing the recovery phrase."
-                }
-            ],
-            "tester": 2,
-            "lastUpdated": 1761073793142
-        },
-        {
-            "uid": "WSR-PHYS-003.v1",
-            "inputs": [
-                {
-                    "type": "select",
-                    "value": "100%"
-                },
-                {
-                    "type": "file",
-                    "value": [
-                        "okx-browser-3.79.0-1253df9c.png",
-                        "okx-browser-3.79.0-b3af5efb.png"
-                    ]
-                },
-                {
-                    "type": "textarea",
-                    "value": "The wallet displays a warning to the user about the risks associated with sharing their recovery phrase."
-                }
-            ],
-            "tester": 2,
-            "lastUpdated": 1761073810696
-        }
+      },
+      {
+        "categoryUID": "WSR-PHYS",
+        "checkResults": [
+          {
+            "checkUID": "WSR-PHYS-001.v1",
+            "result": 100
+          },
+          {
+            "checkUID": "WSR-PHYS-002~Browser.v1",
+            "result": 0
+          },
+          {
+            "checkUID": "WSR-PHYS-006~Browser.v1",
+            "result": 0
+          },
+          {
+            "checkUID": "WSR-PHYS-004.v1",
+            "result": 100
+          },
+          {
+            "checkUID": "WSR-PHYS-005.v1",
+            "result": 100
+          },
+          {
+            "checkUID": "WSR-PHYS-003.v1",
+            "result": 100
+          }
+        ]
+      },
+      {
+        "categoryUID": "WSR-THRE",
+        "checkResults": [
+          {
+            "checkUID": "WSR-THRE-001.v1",
+            "result": 0
+          },
+          {
+            "checkUID": "WSR-THRE-002.v1",
+            "result": 100
+          },
+          {
+            "checkUID": "WSR-THRE-003.v1",
+            "result": 100
+          },
+          {
+            "checkUID": "WSR-THRE-004.v1",
+            "result": 0
+          },
+          {
+            "checkUID": "WSR-THRE-005.v1",
+            "result": 0
+          },
+          {
+            "checkUID": "WSR-THRE-006.v1",
+            "result": 100
+          },
+          {
+            "checkUID": "WSR-THRE-007.v1",
+            "result": 100
+          }
+        ]
+      },
+      {
+        "categoryUID": "WSR-PERM",
+        "checkResults": [
+          {
+            "checkUID": "WSR-PERM-008~Browser.v1",
+            "result": 100
+          },
+          {
+            "checkUID": "WSR-PERM-001.v1",
+            "result": 0
+          },
+          {
+            "checkUID": "WSR-PERM-002~Browser.v1",
+            "result": 100
+          },
+          {
+            "checkUID": "WSR-PERM-003.v1",
+            "result": 0
+          },
+          {
+            "checkUID": "WSR-PERM-004.v1",
+            "result": 100
+          },
+          {
+            "checkUID": "WSR-PERM-009.v1",
+            "result": 0
+          },
+          {
+            "checkUID": "WSR-PERM-005.v1",
+            "result": 100
+          },
+          {
+            "checkUID": "WSR-PERM-010~Browser.v1",
+            "result": 100
+          },
+          {
+            "checkUID": "WSR-PERM-006.v1",
+            "result": 100
+          }
+        ]
+      }
     ]
+  },
+  "results": [
+    {
+      "uid": "WSR-VERI-001.v1",
+      "inputs": [
+        {
+          "type": "select",
+          "value": "0%"
+        },
+        {
+          "type": "file",
+          "value": [
+            "okx-browser-3.102.21-e12ec61d.png",
+            "okx-browser-3.102.21-9859085b.png"
+          ]
+        },
+        {
+          "type": "textarea",
+          "value": "The wallet proceeds to the transaction confirmation screen for both manual and dApp-initiated transactions without displaying a warning or blocking the transaction due to an incorrect EIP-55 checksum."
+        }
+      ],
+      "tester": 1,
+      "lastUpdated": 1778014437895
+    },
+    {
+      "uid": "WSR-PHYS-001.v1",
+      "inputs": [
+        {
+          "type": "select",
+          "value": "100%"
+        },
+        {
+          "type": "file",
+          "value": [
+            "okx-browser-3.102.21-4b988acf.png"
+          ]
+        },
+        {
+          "type": "textarea",
+          "value": "The wallet does not allow copying the seed phrase to clipboard, satisfying the acceptance criteria."
+        }
+      ],
+      "tester": 1,
+      "lastUpdated": 1778014867791
+    },
+    {
+      "uid": "WSR-THRE-001.v1",
+      "inputs": [
+        {
+          "type": "select",
+          "value": "0%"
+        },
+        {
+          "type": "file",
+          "value": [
+            "okx-browser-3.102.21-4e9b361a.png",
+            "okx-browser-3.102.21-70c374dd.png",
+            "okx-browser-3.102.21-850fa96d.png",
+            "okx-browser-3.102.21-49a354a6.png"
+          ]
+        },
+        {
+          "type": "textarea",
+          "value": "Verified and unverified dApps are not clearly distinguished from each other in the connection request screen."
+        }
+      ],
+      "tester": 1,
+      "lastUpdated": 1778014622150
+    },
+    {
+      "uid": "WSR-PERM-008~Browser.v1",
+      "inputs": [
+        {
+          "type": "select",
+          "value": "100%"
+        },
+        {
+          "type": "file",
+          "value": [
+            "okx-browser-3.102.21-e7541c58.png"
+          ]
+        },
+        {
+          "type": "textarea",
+          "value": "Without connecting the wallet, all requests were rejected or returned an error. No information was leaked."
+        }
+      ],
+      "tester": 1,
+      "lastUpdated": 1778014222439
+    },
+    {
+      "uid": "WSR-THRE-002.v1",
+      "inputs": [
+        {
+          "type": "select",
+          "value": "100%"
+        },
+        {
+          "type": "file",
+          "value": [
+            "okx-browser-3.102.21-34793c76.png"
+          ]
+        },
+        {
+          "type": "textarea",
+          "value": "The wallet blocked the transaction and displayed a \"This transaction is risky\" message, satisfying the check's acceptance criteria."
+        }
+      ],
+      "tester": 1,
+      "lastUpdated": 1778014646831
+    },
+    {
+      "uid": "WSR-PERM-001.v1",
+      "inputs": [
+        {
+          "type": "select",
+          "value": "0%"
+        },
+        {
+          "type": "file",
+          "value": [
+            "okx-browser-3.102.21-3a3c72e2.png",
+            "okx-browser-3.102.21-d3fa495a.png"
+          ]
+        },
+        {
+          "type": "textarea",
+          "value": "The wallet does not warn about the domain mismatch between the dApp (deploy-preview-40--...) and the SIWE object (opensea.io), and allows signing of the SIWE message."
+        }
+      ],
+      "tester": 1,
+      "lastUpdated": 1778013923249
+    },
+    {
+      "uid": "WSR-THRE-003.v1",
+      "inputs": [
+        {
+          "type": "select",
+          "value": "100%"
+        },
+        {
+          "type": "file",
+          "value": [
+            "okx-browser-3.102.21-19cc6ed2.png",
+            "okx-browser-3.102.21-3650a544.png"
+          ]
+        },
+        {
+          "type": "textarea",
+          "value": "The wallet warns the user when visiting a known phishing site."
+        }
+      ],
+      "tester": 1,
+      "lastUpdated": 1778014675546
+    },
+    {
+      "uid": "WSR-VERI-002.v1",
+      "inputs": [
+        {
+          "type": "select",
+          "value": "50%"
+        },
+        {
+          "type": "file",
+          "value": [
+            "okx-browser-3.102.21-d13e4c28.png",
+            "okx-browser-3.102.21-fa6aab4f.png"
+          ]
+        },
+        {
+          "type": "textarea",
+          "value": "The transaction hash is linked in history, but addresses are not linked when sending a transaction."
+        }
+      ],
+      "tester": 1,
+      "lastUpdated": 1778014460714
+    },
+    {
+      "uid": "WSR-VERI-003.v1",
+      "inputs": [
+        {
+          "type": "select",
+          "value": "100%"
+        },
+        {
+          "type": "file",
+          "value": [
+            "okx-browser-3.102.21-559515bd.png"
+          ]
+        },
+        {
+          "type": "textarea",
+          "value": "The wallet shows the expected inputs and outputs (-0.000996 POL and -0.000138 USDC) from the contract interaction on Uniswap before signing."
+        }
+      ],
+      "tester": 1,
+      "lastUpdated": 1778014489560
+    },
+    {
+      "uid": "WSR-VERI-004.v1",
+      "inputs": [
+        {
+          "type": "select",
+          "value": "0%"
+        },
+        {
+          "type": "file",
+          "value": [
+            "okx-browser-3.102.21-93bde9dd.png",
+            "okx-browser-3.102.21-7e6e2508.png"
+          ]
+        },
+        {
+          "type": "textarea",
+          "value": "The signature request displays raw EIP-712 data instead of rendering structured, human-readable details as required."
+        }
+      ],
+      "tester": 1,
+      "lastUpdated": 1778014516701
+    },
+    {
+      "uid": "WSR-THRE-004.v1",
+      "inputs": [
+        {
+          "type": "select",
+          "value": "0%"
+        },
+        {
+          "type": "file",
+          "value": [
+            "okx-browser-3.102.21-20186ad4.png"
+          ]
+        },
+        {
+          "type": "textarea",
+          "value": "The connection dialog box only states, \"Allow this DApp to connect with your wallet.\" It does not specify the access the DApp is being granted, specifically, the ability to view the user's balance and activity, as well as to request transaction approvals."
+        }
+      ],
+      "tester": 1,
+      "lastUpdated": 1778014697431
+    },
+    {
+      "uid": "WSR-THRE-005.v1",
+      "inputs": [
+        {
+          "type": "select",
+          "value": "0%"
+        },
+        {
+          "type": "file",
+          "value": [
+            "okx-browser-3.102.21-104d8272.png",
+            "okx-browser-3.102.21-7d2af67d.png"
+          ]
+        },
+        {
+          "type": "textarea",
+          "value": "Sending a transaction through a dApp does not display a warning, but a manual transaction does display a 'not in address book' label."
+        }
+      ],
+      "tester": 1,
+      "lastUpdated": 1778014725030
+    },
+    {
+      "uid": "WSR-THRE-006.v1",
+      "inputs": [
+        {
+          "type": "select",
+          "value": "100%"
+        },
+        {
+          "type": "file",
+          "value": [
+            "okx-browser-3.102.21-65c152dc.png"
+          ]
+        },
+        {
+          "type": "textarea",
+          "value": "The dApp origin URL is fully displayed without truncation in the connection dialog."
+        }
+      ],
+      "tester": 1,
+      "lastUpdated": 1778014747025
+    },
+    {
+      "uid": "WSR-PERM-002~Browser.v1",
+      "inputs": [
+        {
+          "type": "select",
+          "value": "100%"
+        },
+        {
+          "type": "file",
+          "value": [
+            "okx-browser-3.102.21-4530f0cc.png",
+            "okx-browser-3.102.21-8b1d0d3e.png"
+          ]
+        },
+        {
+          "type": "textarea",
+          "value": "All requests require unlocking the wallet."
+        }
+      ],
+      "tester": 1,
+      "lastUpdated": 1778014003385
+    },
+    {
+      "uid": "WSR-PERM-003.v1",
+      "inputs": [
+        {
+          "type": "select",
+          "value": "0%"
+        },
+        {
+          "type": "file",
+          "value": [
+            "okx-browser-3.102.21-4d79f459.png",
+            "okx-browser-3.102.21-38fcb04d.png"
+          ]
+        },
+        {
+          "type": "textarea",
+          "value": "The wallet did not reject the signing request or display a warning about the chainId mismatch. The transaction was signed successfully despite the chainId mismatch."
+        }
+      ],
+      "tester": 1,
+      "lastUpdated": 1778014032856
+    },
+    {
+      "uid": "WSR-PHYS-002~Browser.v1",
+      "inputs": [
+        {
+          "type": "select",
+          "value": "0%"
+        },
+        {
+          "type": "file",
+          "value": [
+            "okx-browser-3.102.21-4828021a.png",
+            "okx-browser-3.102.21-fa670537.png"
+          ]
+        },
+        {
+          "type": "textarea",
+          "value": "It is possible to set 11111111 as password. This violates the acceptance criteria, as it allows trivial passwords."
+        }
+      ],
+      "tester": 1,
+      "lastUpdated": 1778015013821
+    },
+    {
+      "uid": "WSR-PERM-004.v1",
+      "inputs": [
+        {
+          "type": "select",
+          "value": "100%"
+        },
+        {
+          "type": "file",
+          "value": [
+            "okx-browser-3.102.21-829da0f5.png",
+            "okx-browser-3.102.21-edb7c650.png"
+          ]
+        },
+        {
+          "type": "textarea",
+          "value": "The wallet lists connected dApps. After disconnecting the testing dApp, RPC requests from it resulted in errors, indicating access revocation."
+        }
+      ],
+      "tester": 1,
+      "lastUpdated": 1778014061704
+    },
+    {
+      "uid": "WSR-VERI-005.v1",
+      "inputs": [
+        {
+          "type": "select",
+          "value": "100%"
+        },
+        {
+          "type": "file",
+          "value": [
+            "okx-browser-3.102.21-5ed46a6e.png"
+          ]
+        },
+        {
+          "type": "textarea",
+          "value": "The wallet displays the token (Unlimited USDC), the spender (Uniswap) and the approved amount (unlimited)."
+        }
+      ],
+      "tester": 1,
+      "lastUpdated": 1778014539385
+    },
+    {
+      "uid": "WSR-PERM-009.v1",
+      "inputs": [
+        {
+          "type": "select",
+          "value": "0%"
+        },
+        {
+          "type": "file",
+          "value": [
+            "okx-browser-3.102.21-e2dc109e.png"
+          ]
+        },
+        {
+          "type": "textarea",
+          "value": "The chain was changed to Polygon Mainnet (0x89) after executing the switchEthereumChain method, without any prompt for confirmation."
+        }
+      ],
+      "tester": 1,
+      "lastUpdated": 1778014257277
+    },
+    {
+      "uid": "WSR-VERI-006.v1",
+      "inputs": [
+        {
+          "type": "select",
+          "value": "100%"
+        },
+        {
+          "type": "file",
+          "value": [
+            "okx-browser-3.102.21-5c18ecb3.png",
+            "okx-browser-3.102.21-cf34d961.png",
+            "okx-browser-3.102.21-ecfe87c3.png",
+            "okx-browser-3.102.21-fdfb0a00.png",
+            "okx-browser-3.102.21-51a9decb.png"
+          ]
+        },
+        {
+          "type": "textarea",
+          "value": "Both `personal_sign` and `eth_signTypedData` (EIP-712) requests show full content and are scrollable. The EIP-712 data includes the `verifyingContract` field."
+        }
+      ],
+      "tester": 1,
+      "lastUpdated": 1778014570303
+    },
+    {
+      "uid": "WSR-PERM-005.v1",
+      "inputs": [
+        {
+          "type": "select",
+          "value": "100%"
+        },
+        {
+          "type": "file",
+          "value": [
+            "okx-browser-3.102.21-b7225a0f.png",
+            "okx-browser-3.102.21-9de186a1.png",
+            "okx-browser-3.102.21-8b57a20c.png",
+            "okx-browser-3.102.21-2da73f17.png"
+          ]
+        },
+        {
+          "type": "textarea",
+          "value": "The wallet provides a built-in feature to list existing token approvals and revoke them."
+        }
+      ],
+      "tester": 1,
+      "lastUpdated": 1778014092335
+    },
+    {
+      "uid": "WSR-PERM-010~Browser.v1",
+      "inputs": [
+        {
+          "type": "select",
+          "value": "100%"
+        },
+        {
+          "type": "file",
+          "value": [
+            "okx-browser-3.102.21-245e3e2f.png"
+          ]
+        },
+        {
+          "type": "textarea",
+          "value": "All RPC endpoints prompted for user confirmation."
+        }
+      ],
+      "tester": 1,
+      "lastUpdated": 1778014410619
+    },
+    {
+      "uid": "WSR-THRE-007.v1",
+      "inputs": [
+        {
+          "type": "select",
+          "value": "100%"
+        },
+        {
+          "type": "file",
+          "value": [
+            "okx-browser-3.102.21-b0b32852.png",
+            "okx-browser-3.102.21-d7ed7ed4.png"
+          ]
+        },
+        {
+          "type": "textarea",
+          "value": "Spam tokens and NFTs are hidden by default as the wallet does not display them initially."
+        }
+      ],
+      "tester": 1,
+      "lastUpdated": 1778014806179
+    },
+    {
+      "uid": "WSR-VERI-007.v1",
+      "inputs": [
+        {
+          "type": "select",
+          "value": "0%"
+        },
+        {
+          "type": "file",
+          "value": [
+            "okx-browser-3.102.21-85f449b2.png",
+            "okx-browser-3.102.21-c38b4b92.png",
+            "okx-browser-3.102.21-2b82bcce.png",
+            "okx-browser-3.102.21-b4ecf6b8.png",
+            "okx-browser-3.102.21-79b6000d.png"
+          ]
+        },
+        {
+          "type": "textarea",
+          "value": "The 'Confirm' button is enabled without scrolling to the end of the content, failing the acceptance criteria."
+        }
+      ],
+      "tester": 1,
+      "lastUpdated": 1778014592559
+    },
+    {
+      "uid": "WSR-PHYS-006~Browser.v1",
+      "inputs": [
+        {
+          "type": "select",
+          "value": "0%"
+        },
+        {
+          "type": "file",
+          "value": [
+            "okx-browser-3.102.21-32f03ae8.png"
+          ]
+        },
+        {
+          "type": "textarea",
+          "value": "The default auto-lock is set to 2 hours, which is outside the acceptable timeframe of 20 minutes."
+        }
+      ],
+      "tester": 1,
+      "lastUpdated": 1778015143763
+    },
+    {
+      "uid": "WSR-PHYS-004.v1",
+      "inputs": [
+        {
+          "type": "select",
+          "value": "100%"
+        },
+        {
+          "type": "file",
+          "value": [
+            "okx-browser-3.102.21-ba4a5305.png"
+          ]
+        },
+        {
+          "type": "textarea",
+          "value": "The wallet UI includes a 'Lock wallet' control in the menu."
+        }
+      ],
+      "tester": 1,
+      "lastUpdated": 1778015064180
+    },
+    {
+      "uid": "WSR-PERM-006.v1",
+      "inputs": [
+        {
+          "type": "select",
+          "value": "100%"
+        },
+        {
+          "type": "file",
+          "value": [
+            "okx-browser-3.102.21-24a07b64.png",
+            "okx-browser-3.102.21-d75a6ba7.png"
+          ]
+        },
+        {
+          "type": "textarea",
+          "value": "The wallet rejects the `eth_sign` request, displaying a \"risky transaction\" warning and an error message indicating that the user denied the request."
+        }
+      ],
+      "tester": 1,
+      "lastUpdated": 1778014119126
+    },
+    {
+      "uid": "WSR-PHYS-005.v1",
+      "inputs": [
+        {
+          "type": "select",
+          "value": "100%"
+        },
+        {
+          "type": "file",
+          "value": [
+            "okx-browser-3.102.21-2673a1e4.png"
+          ]
+        },
+        {
+          "type": "textarea",
+          "value": "A password is required before displaying mnemonics and private keys."
+        }
+      ],
+      "tester": 1,
+      "lastUpdated": 1778015095242
+    },
+    {
+      "uid": "WSR-PHYS-003.v1",
+      "inputs": [
+        {
+          "type": "select",
+          "value": "100%"
+        },
+        {
+          "type": "file",
+          "value": [
+            "okx-browser-3.102.21-837b7764.png"
+          ]
+        },
+        {
+          "type": "textarea",
+          "value": "The wallet displays a warning to the user explaining the risks of exposing their seed phrase and private keys before revealing the secrets."
+        }
+      ],
+      "tester": 1,
+      "lastUpdated": 1778015041494
+    }
+  ]
 }
