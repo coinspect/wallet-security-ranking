@@ -221,17 +221,17 @@
         "criteria": "Passes if verified dApps are clearly distinguished from unknown ones.",
         "attack_scenario": "A phishing site impersonates a trusted dApp to gain user trust and request sensitive actions"
     },
-    "WSR-THRE-002.v1": {
-        "name": "Malicious address detection",
+    "WSR-THRE-002.v2": {
+        "name": "Malicious and poisoned address detection",
         "weight": {
             "mobile": 2540,
             "browser": 2540
         },
-        "description": "Prevents or alerts users about interactions with a known malicious address.",
-        "instructions": "In the testing dApp, at `/scamtest`, click \u201cSwitch to Scam Address\u201d and attempt to send the transaction to the pre-filled address **0x592340957eBC9e4Afb0E9Af221d06fDDDF789de9** (the Tornado Cash attacker address). Test both via dApp and direct wallet UI. Observe whether the wallet surfaces any warning.",
-        "reasoning": "Many scams rely on users sending funds to addresses already known to be linked to theft, laundering, or fraud. Alerting on such addresses gives users a last defensive checkpoint before irreversible on-chain transfers.",
-        "criteria": "Passes if the wallet warns or flags the malicious address or blocks the transaction.",
-        "attack_scenario": "A user unknowingly sends funds to an address associated with scams, theft, or malicious activity"
+        "description": "Prevents or alerts users about interactions with a known malicious address or a lookalike (poisoned) address.",
+        "instructions": "Test both via dApp and direct wallet UI, observing whether the wallet surfaces any warning on each attempt. 1) Attempt to send a transaction to **0x592340957eBC9e4Afb0E9Af221d06fDDDF789de9**–the Tornado Cash attacker address. In the testing DApp, go to `/scamtest`, click \u201cSwitch to Scam Address\u201d. 2) Attempt to send a transaction to a lookalike address that shares its first and last 4 characters with a recipient you have previously sent funds to, but differs in the middle.",
+        "reasoning": "Many scams rely on users sending funds to addresses linked to theft, laundering, or fraud, so alerting on them gives a last defensive checkpoint before irreversible transfers. Poisoning is a related vector: a lookalike address planted in the user's history appears familiar, and since users often check only the leading and trailing characters, the wallet must treat it as malicious.",
+        "criteria": "Passes with full points if the wallet detects both problems: (1) it warns, flags, or blocks the transaction to the known malicious address; and (2) it flags a lookalike address (matching prefix/suffix of a known recipient but never transacted with) transaction attempt. Half points if only one of the two is implemented. No points if neither is detected. The tester must provide screenshots of both functionalities as well as the addresses used in the test.",
+        "attack_scenario": "A user unknowingly sends funds to an address associated with scams, theft, or malicious activity. In the poisoning variant, a user sends funds to a lookalike address that mimics a trusted recipient's leading and trailing characters but was planted by an attacker via a dust or zero-value transfer."
     },
     "WSR-THRE-003.v1": {
         "name": "Phishing dApp detection",
