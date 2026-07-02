@@ -3,7 +3,7 @@
   "wallet": "Metamask",
   "platform": "Browser",
   "version": "13.28.0",
-  "date": "2026-06-04T20:37:18.828Z",
+  "date": "2026-07-02T17:46:01.513Z",
   "walletUID": "metamask-browser",
   "walletMakerUID": "metamask",
   "scores": {
@@ -78,7 +78,7 @@
             "result": 100
           },
           {
-            "checkUID": "WSR-THRE-002.v1",
+            "checkUID": "WSR-THRE-002.v2",
             "result": 100
           },
           {
@@ -151,10 +151,12 @@
       "uid": "WSR-VERI-001.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "0%"
         },
         {
+          "name": "evidence",
           "type": "file",
           "value": [
             "metamask-browser-13.28.0-7ae3b74a.png",
@@ -163,21 +165,24 @@
           ]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The wallet does not warn the user when an address with an invalid checksum is provided, whether by a dApp or during manual transaction entry."
         }
       ],
       "tester": 1,
-      "lastUpdated": 1778014437895
+      "lastUpdated": 1782219884697
     },
     {
       "uid": "WSR-PHYS-001.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "0%"
         },
         {
+          "name": "evidence",
           "type": "file",
           "value": [
             "metamask-browser-13.28.0-d3738c46.png",
@@ -185,6 +190,7 @@
           ]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The wallet shows the seed phrase screen with a warning about the risk of exposing the seed phrase, but it does not display a specific warning when copying it to the clipboard, nor does it restrict copying."
         }
@@ -196,10 +202,12 @@
       "uid": "WSR-THRE-001.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "100%"
         },
         {
+          "name": "evidence",
           "type": "file",
           "value": [
             "metamask-browser-13.28.0-a8fb0e06.png",
@@ -208,6 +216,7 @@
           ]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "Verified dApps like Uniswap and Sushi are displayed with a green checkmark next to the URL, which distinguishes them from unverified dApps."
         }
@@ -219,16 +228,17 @@
       "uid": "WSR-PERM-008~Browser.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "100%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": [
-            "metamask-browser-13.28.0-a9835c86.png"
-          ]
+          "value": ["metamask-browser-13.28.0-a9835c86.png"]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The dApp correctly rejected all requests that require authorization or address access when the wallet is not connected."
         }
@@ -237,36 +247,45 @@
       "lastUpdated": 1778014222439
     },
     {
-      "uid": "WSR-THRE-002.v1",
+      "uid": "WSR-THRE-002.v2",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "100%"
         },
         {
+          "name": "evidence",
           "type": "file",
           "value": [
             "metamask-browser-13.28.0-abdbe716.png",
             "metamask-browser-13.28.0-a37b6e1e.png",
-            "metamask-browser-13.28.0-f60e1ff3.png"
+            "metamask-browser-13.28.0-f60e1ff3.png",
+            "metamask-browser-13.28.0-6b44235e.png",
+            "metamask-browser-13.28.0-fbaea60d.png",
+            "metamask-browser-13.28.0-844b2c77.png",
+            "metamask-browser-13.28.0-e32f042e.png"
           ]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
-          "value": "The wallet warns about the malicious address and requires acknowledgement of the risk before proceeding."
+          "value": "The wallet successfully detects and warns against address poisoning for both dApp and manual inputs. However, the wallet only flags known malicious addresses when submitted via dApp, failing to show a warning when the same malicious address is entered manually."
         }
       ],
       "tester": 1,
-      "lastUpdated": 1778014646831
+      "lastUpdated": 1782848612140
     },
     {
       "uid": "WSR-PERM-001.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "100%"
         },
         {
+          "name": "evidence",
           "type": "file",
           "value": [
             "metamask-browser-13.28.0-26aec296.png",
@@ -274,6 +293,7 @@
           ]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The wallet displays a warning to the user that the site making the request is not the site they are signing into."
         }
@@ -285,10 +305,12 @@
       "uid": "WSR-THRE-003.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "100%"
         },
         {
+          "name": "evidence",
           "type": "file",
           "value": [
             "metamask-browser-13.28.0-65a48d49.png",
@@ -297,6 +319,7 @@
           ]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The wallet warns the user when visiting or attempting to connect to known phishing sites such as hyper-usdt.org, master--ethereumorg.netlify.app, and revolution-coredaorg.pages.dev."
         }
@@ -308,10 +331,12 @@
       "uid": "WSR-VERI-002.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "50%"
         },
         {
+          "name": "evidence",
           "type": "file",
           "value": [
             "metamask-browser-13.28.0-4dca0d70.png",
@@ -320,6 +345,7 @@
           ]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The address, contract address, and transaction hashes are clickable and viewable on a block explorer in the wallet history but not during the send transaction flow."
         }
@@ -331,16 +357,17 @@
       "uid": "WSR-VERI-003.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "100%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": [
-            "metamask-browser-13.28.0-ab9481b7.png"
-          ]
+          "value": ["metamask-browser-13.28.0-ab9481b7.png"]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The screenshot shows the wallet displaying the expected inputs (POL, USDC) and outputs (#97572) from a Uniswap transaction before signing."
         }
@@ -352,10 +379,12 @@
       "uid": "WSR-VERI-004.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "100%"
         },
         {
+          "name": "evidence",
           "type": "file",
           "value": [
             "metamask-browser-13.28.0-d3ac90f1.png",
@@ -363,6 +392,7 @@
           ]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The wallet renders structured, human-readable signing details for the OpenSea Seaport EIP-712 signature request, rather than raw JSON."
         }
@@ -374,10 +404,12 @@
       "uid": "WSR-THRE-004.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "100%"
         },
         {
+          "name": "evidence",
           "type": "file",
           "value": [
             "metamask-browser-13.28.0-df5e42b4.png",
@@ -385,6 +417,7 @@
           ]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The connection dialog clearly states that the DApp will be able to see accounts and suggest transactions, satisfying the acceptance criteria."
         }
@@ -396,10 +429,12 @@
       "uid": "WSR-THRE-005.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "100%"
         },
         {
+          "name": "evidence",
           "type": "file",
           "value": [
             "metamask-browser-13.28.0-70c90044.png",
@@ -407,27 +442,29 @@
           ]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "When sending to a fresh address, the wallet presents an 'Unknown address' indicator and prompts the user to save the address with a nickname."
         }
       ],
       "tester": 1,
-      "lastUpdated": 1778014725030
+      "lastUpdated": 1782219923173
     },
     {
       "uid": "WSR-THRE-006.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "100%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": [
-            "metamask-browser-13.28.0-64fe0d9e.png"
-          ]
+          "value": ["metamask-browser-13.28.0-64fe0d9e.png"]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The origin URL 'main--wallettesting.netlify.app' is displayed in full without truncation in the connection dialog."
         }
@@ -439,37 +476,39 @@
       "uid": "WSR-PERM-002~Browser.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "100%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": [
-            "metamask-browser-13.28.0-ae6fb86c.png"
-          ]
+          "value": ["metamask-browser-13.28.0-30b235e5.png"]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
-          "value": "The wallet requires users to unlock it before processing dApp requests when in a locked state."
+          "value": "The test results show that `getEthAccount` and `switchChain` completed successfully, even though the wallet was in a locked state. The other requests failed, either because they were rejected, or the step failed for another reason."
         }
       ],
-      "tester": 1,
+      "tester": 2,
       "lastUpdated": 1778014003385
     },
     {
       "uid": "WSR-PERM-003.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "100%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": [
-            "metamask-browser-13.28.0-0c035c26.png"
-          ]
+          "value": ["metamask-browser-13.28.0-0c035c26.png"]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The wallet displays an error when the chainId in the EIP-712 object does not match the active chainId of the wallet."
         }
@@ -481,16 +520,17 @@
       "uid": "WSR-PHYS-002~Browser.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "0%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": [
-            "metamask-browser-13.28.0-c279da65.png"
-          ]
+          "value": ["metamask-browser-13.28.0-c279da65.png"]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The password field requires at least 8 characters, but it allows easy-to-guess passwords such as 11111111."
         }
@@ -502,10 +542,12 @@
       "uid": "WSR-PERM-004.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "100%"
         },
         {
+          "name": "evidence",
           "type": "file",
           "value": [
             "metamask-browser-13.28.0-f6bfa827.png",
@@ -516,6 +558,7 @@
           ]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The wallet lists connected dApps, and after disconnecting one, the dApp can no longer connect without reconnecting."
         }
@@ -527,10 +570,12 @@
       "uid": "WSR-VERI-005.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "100%"
         },
         {
+          "name": "evidence",
           "type": "file",
           "value": [
             "metamask-browser-13.28.0-09681f9c.png",
@@ -538,6 +583,7 @@
           ]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The wallet displays the token, spender and approved amount when the approval is triggered through a swap DApp. It does not show a custom ERC-20 approval."
         }
@@ -549,16 +595,17 @@
       "uid": "WSR-PERM-009.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "100%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": [
-            "metamask-browser-13.28.0-ee65e82a.png"
-          ]
+          "value": ["metamask-browser-13.28.0-ee65e82a.png"]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The wallet prompts a confirmation dialog when a dApp requests to switch to the Polygon network."
         }
@@ -570,10 +617,12 @@
       "uid": "WSR-VERI-006.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "100%"
         },
         {
+          "name": "evidence",
           "type": "file",
           "value": [
             "metamask-browser-13.28.0-ee078232.png",
@@ -582,6 +631,7 @@
           ]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The large payloads sent via personal_sign and eth_signTypedData are fully visible and scrollable within the dApp. The wallet shows the verifyingContract in the EIP712 domain."
         }
@@ -593,16 +643,17 @@
       "uid": "WSR-PERM-005.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "100%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": [
-            "metamask-browser-13.28.0-cd4a88ef.png"
-          ]
+          "value": ["metamask-browser-13.28.0-cd4a88ef.png"]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The wallet provides a \"Spending Caps\" feature, which allows users to view and revoke token approvals in MetaMask Portfolio."
         }
@@ -614,16 +665,17 @@
       "uid": "WSR-PERM-010~Browser.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "100%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": [
-            "metamask-browser-13.28.0-12f7e6a2.png"
-          ]
+          "value": ["metamask-browser-13.28.0-12f7e6a2.png"]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The dApp requested the following RPC calls: `wallet_addEthereumChain`, `wallet_watchAsset`, `eth_decrypt`, `eth_getEncryptionPublicKey`, `eth_signTypedData*`, `personal_sign`, `eth_sendTransaction`. With the exception of `wallet_addEthereumChain` and `wallet_switchEthereumChain`, the user rejected all the requests, indicating that the user confirmation is working as intended."
         }
@@ -635,16 +687,17 @@
       "uid": "WSR-THRE-007.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "100%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": [
-            "metamask-browser-13.28.0-bdfaeb97.png"
-          ]
+          "value": ["metamask-browser-13.28.0-bdfaeb97.png"]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The screenshot shows the NFT tab is selected but no NFTs are displayed by default, instead prompting the user to 'Import NFT'. This indicates spam NFTs are hidden by default."
         }
@@ -656,10 +709,12 @@
       "uid": "WSR-VERI-007.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "0%"
         },
         {
+          "name": "evidence",
           "type": "file",
           "value": [
             "metamask-browser-13.28.0-41c91c84.png",
@@ -667,6 +722,7 @@
           ]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The confirm button is still enabled before scrolling to the end of the message."
         }
@@ -678,16 +734,17 @@
       "uid": "WSR-PHYS-006~Browser.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "0%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": [
-            "metamask-browser-13.28.0-1126bce1.png"
-          ]
+          "value": ["metamask-browser-13.28.0-1126bce1.png"]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The auto-lock setting is set to 'Never', indicating the wallet does not auto-lock on inactivity."
         }
@@ -699,10 +756,12 @@
       "uid": "WSR-PHYS-004.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "100%"
         },
         {
+          "name": "evidence",
           "type": "file",
           "value": [
             "metamask-browser-13.28.0-fee03187.png",
@@ -710,6 +769,7 @@
           ]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The wallet has a logout button in the settings menu that allows manual locking."
         }
@@ -721,16 +781,17 @@
       "uid": "WSR-PERM-006.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "100%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": [
-            "metamask-browser-13.28.0-0ec765b4.png"
-          ]
+          "value": ["metamask-browser-13.28.0-0ec765b4.png"]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The wallet rejects the `eth_sign` request, as indicated by the error message 'The method \"eth_sign\" does not exist / is not available.'"
         }
@@ -742,16 +803,17 @@
       "uid": "WSR-PHYS-005.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "100%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": [
-            "metamask-browser-13.28.0-b9a1a75b.png"
-          ]
+          "value": ["metamask-browser-13.28.0-b9a1a75b.png"]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The user is prompted to enter their password on the 'Reveal Secret Recovery Phrase' screen, which means authentication is required before displaying the seed phrase."
         }
@@ -763,10 +825,12 @@
       "uid": "WSR-PHYS-003.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "100%"
         },
         {
+          "name": "evidence",
           "type": "file",
           "value": [
             "metamask-browser-13.28.0-c14eaea2.png",
@@ -778,6 +842,7 @@
           ]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The wallet clearly communicates the risks of losing or sharing the seed phrase through a quiz and displays a warning to the user before revealing the secrets."
         }

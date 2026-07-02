@@ -3,7 +3,7 @@
   "wallet": "Phantom",
   "platform": "Browser",
   "version": "26.13.0",
-  "date": "2026-06-04T20:37:18.828Z",
+  "date": "2026-07-02T17:46:01.513Z",
   "walletUID": "phantom-browser",
   "walletMakerUID": "phantom",
   "scores": {
@@ -78,8 +78,8 @@
             "result": 0
           },
           {
-            "checkUID": "WSR-THRE-002.v1",
-            "result": 0
+            "checkUID": "WSR-THRE-002.v2",
+            "result": 50
           },
           {
             "checkUID": "WSR-THRE-003.v1",
@@ -151,38 +151,39 @@
       "uid": "WSR-VERI-001.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "100%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": [
-            "phantom-browser-26.13.0-7baabd87.png",
-            "phantom-browser-26.13.0-eb3125d1.png"
-          ]
+          "value": ["phantom-browser-26.13.0-7baabd87.png", "phantom-browser-26.13.0-eb3125d1.png"]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The wallet correctly identifies and blocks transactions to addresses with incorrect EIP-55 checksums, both during manual input and when initiated from a dApp."
         }
       ],
       "tester": 1,
-      "lastUpdated": 1778014437895
+      "lastUpdated": 1782219884697
     },
     {
       "uid": "WSR-PHYS-001.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "100%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": [
-            "phantom-browser-26.13.0-578907ae.png"
-          ]
+          "value": ["phantom-browser-26.13.0-578907ae.png"]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The seed phrase screen does not allow copying of the phrase, which satisfies the acceptance criteria."
         }
@@ -194,10 +195,12 @@
       "uid": "WSR-THRE-001.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "0%"
         },
         {
+          "name": "evidence",
           "type": "file",
           "value": [
             "phantom-browser-26.13.0-013d3a28.png",
@@ -207,6 +210,7 @@
           ]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The verified dApps are not clearly distinguished from unknown dApps, as there is no indication of whether the dApp is verified or not."
         }
@@ -218,16 +222,17 @@
       "uid": "WSR-PERM-008~Browser.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "100%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": [
-            "phantom-browser-26.13.0-ee37907c.png"
-          ]
+          "value": ["phantom-browser-26.13.0-ee37907c.png"]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The test dApp correctly rejected all the requests without a connected wallet, which aligns with the expected behavior. Notably, the eth_accounts request returned \"No Ethereum Accounts Found\", eth_sendTransaction request returned \"User rejected the request\", and there were errors for all other requested methods."
         }
@@ -236,35 +241,42 @@
       "lastUpdated": 1778014222439
     },
     {
-      "uid": "WSR-THRE-002.v1",
+      "uid": "WSR-THRE-002.v2",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
-          "value": "0%"
+          "value": "50%"
         },
         {
+          "name": "evidence",
           "type": "file",
           "value": [
-            "phantom-browser-26.13.0-dc42c1e2.png",
-            "phantom-browser-26.13.0-2d46d6f4.png"
+            "phantom-browser-26.13.0-bbf7b502.png",
+            "phantom-browser-26.13.0-a57a7dfc.png",
+            "phantom-browser-26.13.0-acc2879c.png",
+            "phantom-browser-26.13.0-bd470ca2.png"
           ]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
-          "value": "The transaction was sent to the scam address 0x592340957eBC9e4Afb0E9Af221d06fDDDF789de9 without any warning from the wallet."
+          "value": "The wallet correctly blocked a transaction to a known malicious address when initiated by a dApp. However, for a manually entered malicious address and for lookalike addresses (both dApp and manual), only generic 'new address' warnings were shown, not specific malicious or lookalike address warnings."
         }
       ],
       "tester": 1,
-      "lastUpdated": 1778014646831
+      "lastUpdated": 1782848612140
     },
     {
       "uid": "WSR-PERM-001.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "100%"
         },
         {
+          "name": "evidence",
           "type": "file",
           "value": [
             "phantom-browser-26.13.0-9122c7a4.png",
@@ -273,6 +285,7 @@
           ]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The wallet successfully identified and warned the user about the SIWE message origin mismatch, indicating the sign-in request as invalid when the dApp origin differed from the SIWE domain."
         }
@@ -284,10 +297,12 @@
       "uid": "WSR-THRE-003.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "0%"
         },
         {
+          "name": "evidence",
           "type": "file",
           "value": [
             "phantom-browser-26.13.0-0dc5f28e.png",
@@ -296,6 +311,7 @@
           ]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The wallet does not display a warning when connecting to known phishing sites (hyperliqdrop.com, venofinance.net, and flagship-web3-v1-336a757b5b637a684207a3.webflow.io from MetaMask's phishing list)."
         }
@@ -307,17 +323,17 @@
       "uid": "WSR-VERI-002.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "100%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": [
-            "phantom-browser-26.13.0-a2d16f87.png",
-            "phantom-browser-26.13.0-36fa805c.png"
-          ]
+          "value": ["phantom-browser-26.13.0-a2d16f87.png", "phantom-browser-26.13.0-36fa805c.png"]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "Addresses are clickable links to a block explorer both when attempting to send a transaction and when querying the wallet history."
         }
@@ -329,16 +345,17 @@
       "uid": "WSR-VERI-003.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "100%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": [
-            "phantom-browser-26.13.0-cb440ea8.png"
-          ]
+          "value": ["phantom-browser-26.13.0-cb440ea8.png"]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The wallet shows the expected inputs (Polygon Ecosystem Token, USDCoin) and outputs (Uniswap v4 Positions NFT) from the Uniswap transaction before signing."
         }
@@ -350,16 +367,17 @@
       "uid": "WSR-VERI-004.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "100%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": [
-            "phantom-browser-26.13.0-bd43aea7.png"
-          ]
+          "value": ["phantom-browser-26.13.0-bd43aea7.png"]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The wallet renders structured, human-readable signing details rather than raw JSON for ERC20 Permit or Opensea listing."
         }
@@ -371,16 +389,17 @@
       "uid": "WSR-THRE-004.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "0%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": [
-            "phantom-browser-26.13.0-bd151cb3.png"
-          ]
+          "value": ["phantom-browser-26.13.0-bd151cb3.png"]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The connection dialog mentions that the dApp will be able to view balances and activity, but it does not mention the ability to request transaction approvals."
         }
@@ -392,37 +411,39 @@
       "uid": "WSR-THRE-005.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "0%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": [
-            "phantom-browser-26.13.0-b3e87995.png"
-          ]
+          "value": ["phantom-browser-26.13.0-b3e87995.png"]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The screenshot shows a warning message related to a new domain, not an unknown or fresh address as requested by the check instructions."
         }
       ],
       "tester": 1,
-      "lastUpdated": 1778014725030
+      "lastUpdated": 1782219923173
     },
     {
       "uid": "WSR-THRE-006.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "100%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": [
-            "phantom-browser-26.13.0-66eb29fb.png"
-          ]
+          "value": ["phantom-browser-26.13.0-66eb29fb.png"]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The origin URL 'flagship-web3-v1-336a757b5b637a684207a3.webflow.io' is fully displayed in the connection dialog without truncation."
         }
@@ -434,16 +455,17 @@
       "uid": "WSR-PERM-002~Browser.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "100%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": [
-            "phantom-browser-26.13.0-903fdb05.png"
-          ]
+          "value": ["phantom-browser-26.13.0-903fdb05.png"]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The wallet requires the user to unlock it before processing each request."
         }
@@ -455,16 +477,17 @@
       "uid": "WSR-PERM-003.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "100%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": [
-            "phantom-browser-26.13.0-dda2865a.png"
-          ]
+          "value": ["phantom-browser-26.13.0-dda2865a.png"]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The wallet displays a warning message and prevents the user from signing a message that is not intended for the network the user is currently connected to."
         }
@@ -476,16 +499,17 @@
       "uid": "WSR-PHYS-002~Browser.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "0%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": [
-            "phantom-browser-26.13.0-219a4782.png"
-          ]
+          "value": ["phantom-browser-26.13.0-219a4782.png"]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The password \"11111111\" was accepted and classified as a 'Medium' password, failing the check for trivial password rejection."
         }
@@ -497,10 +521,12 @@
       "uid": "WSR-PERM-004.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "100%"
         },
         {
+          "name": "evidence",
           "type": "file",
           "value": [
             "phantom-browser-26.13.0-082a3755.png",
@@ -509,6 +535,7 @@
           ]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The wallet lists connected dApps. After disconnecting a dApp, further RPC requests from that dApp result in errors, confirming access revocation."
         }
@@ -520,16 +547,17 @@
       "uid": "WSR-VERI-005.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "0%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": [
-            "phantom-browser-26.13.0-7217ca9b.png"
-          ]
+          "value": ["phantom-browser-26.13.0-7217ca9b.png"]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The wallet displays the token (USDC) and approved amount (any amount), but it does not display the spender address."
         }
@@ -541,16 +569,17 @@
       "uid": "WSR-PERM-009.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "0%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": [
-            "phantom-browser-26.13.0-753f8a45.png"
-          ]
+          "value": ["phantom-browser-26.13.0-753f8a45.png"]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The chain was changed to Polygon Mainnet (0x89) and the `switchEthereumChain` request executed successfully without any confirmation prompt."
         }
@@ -562,10 +591,12 @@
       "uid": "WSR-VERI-006.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "100%"
         },
         {
+          "name": "evidence",
           "type": "file",
           "value": [
             "phantom-browser-26.13.0-d11dcf54.png",
@@ -575,6 +606,7 @@
           ]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The large payload for both personal_sign and eth_signTypedData is visible and scrollable, and the EIP712Domain including verifyingContract is also displayed."
         }
@@ -586,10 +618,12 @@
       "uid": "WSR-PERM-005.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "0%"
         },
         {
+          "name": "evidence",
           "type": "file",
           "value": [
             "phantom-browser-26.13.0-bd60acb3.png",
@@ -598,6 +632,7 @@
           ]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The wallet does not provide a built-in or third-party option to revoke token approvals."
         }
@@ -609,16 +644,17 @@
       "uid": "WSR-PERM-010~Browser.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "100%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": [
-            "phantom-browser-26.13.0-8c0a1332.png"
-          ]
+          "value": ["phantom-browser-26.13.0-8c0a1332.png"]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The wallet requires user confirmation before processing each dApp request to all of the RPC endpoints."
         }
@@ -630,17 +666,17 @@
       "uid": "WSR-THRE-007.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "0%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": [
-            "phantom-browser-26.13.0-9403e930.png",
-            "phantom-browser-26.13.0-22fe1bf9.png"
-          ]
+          "value": ["phantom-browser-26.13.0-9403e930.png", "phantom-browser-26.13.0-22fe1bf9.png"]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The wallet does not display NFTs by default which is considered a pass, however, spam tokens are still displayed."
         }
@@ -652,10 +688,12 @@
       "uid": "WSR-VERI-007.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "0%"
         },
         {
+          "name": "evidence",
           "type": "file",
           "value": [
             "phantom-browser-26.13.0-8493287b.png",
@@ -665,6 +703,7 @@
           ]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The confirm button is enabled before scrolling to the end of the message, failing the acceptance criteria."
         }
@@ -676,17 +715,17 @@
       "uid": "WSR-PHYS-006~Browser.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "100%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": [
-            "phantom-browser-26.13.0-3964cf95.png",
-            "phantom-browser-26.13.0-e1fed097.png"
-          ]
+          "value": ["phantom-browser-26.13.0-3964cf95.png", "phantom-browser-26.13.0-e1fed097.png"]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The wallet has an auto-lock configuration in settings and it auto-locks by default after 15 minutes of inactivity."
         }
@@ -698,16 +737,17 @@
       "uid": "WSR-PHYS-004.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "100%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": [
-            "phantom-browser-26.13.0-4e323655.png"
-          ]
+          "value": ["phantom-browser-26.13.0-4e323655.png"]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The wallet includes a manual lock control labelled 'Lock Wallet' at the bottom of the settings screen."
         }
@@ -719,17 +759,17 @@
       "uid": "WSR-PERM-006.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "100%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": [
-            "phantom-browser-26.13.0-9528be28.png",
-            "phantom-browser-26.13.0-6ad84eef.png"
-          ]
+          "value": ["phantom-browser-26.13.0-9528be28.png", "phantom-browser-26.13.0-6ad84eef.png"]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The wallet rejected the eth_sign request as expected."
         }
@@ -741,16 +781,17 @@
       "uid": "WSR-PHYS-005.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "100%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": [
-            "phantom-browser-26.13.0-47c597bd.png"
-          ]
+          "value": ["phantom-browser-26.13.0-47c597bd.png"]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "Authentication is required before displaying the recovery phrase."
         }
@@ -762,16 +803,17 @@
       "uid": "WSR-PHYS-003.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "100%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": [
-            "phantom-browser-26.13.0-8381bedc.png"
-          ]
+          "value": ["phantom-browser-26.13.0-8381bedc.png"]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The risks of sharing the recovery phrase are clearly communicated, including the potential for permanent loss of funds."
         }

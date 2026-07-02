@@ -3,7 +3,7 @@
   "wallet": "Rainbow",
   "platform": "Browser",
   "version": "1.6.4",
-  "date": "2026-06-04T20:37:18.828Z",
+  "date": "2026-07-02T17:46:01.513Z",
   "walletUID": "rainbow-browser",
   "walletMakerUID": "rainbow",
   "scores": {
@@ -78,8 +78,8 @@
             "result": 100
           },
           {
-            "checkUID": "WSR-THRE-002.v1",
-            "result": 100
+            "checkUID": "WSR-THRE-002.v2",
+            "result": 50
           },
           {
             "checkUID": "WSR-THRE-003.v1",
@@ -151,38 +151,39 @@
       "uid": "WSR-VERI-001.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "0%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": [
-            "rainbow-browser-1.6.4-ef1996db.png",
-            "rainbow-browser-1.6.4-5330dc03.png"
-          ]
+          "value": ["rainbow-browser-1.6.4-ef1996db.png", "rainbow-browser-1.6.4-5330dc03.png"]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The wallet displays an error message \"Enter a valid address\" when attempting to send to an address with an incorrect EIP-55 checksum."
         }
       ],
       "tester": 1,
-      "lastUpdated": 1778014437895
+      "lastUpdated": 1782219884697
     },
     {
       "uid": "WSR-PHYS-001.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "0%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": [
-            "rainbow-browser-1.6.4-3c24765a.png"
-          ]
+          "value": ["rainbow-browser-1.6.4-3c24765a.png"]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The seed phrase screen allows copying mnemonics, but does not limit the time the phrase is available in the clipboard, nor does it warn about the risks of screenshots or clipboard exposure."
         }
@@ -194,10 +195,12 @@
       "uid": "WSR-THRE-001.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "100%"
         },
         {
+          "name": "evidence",
           "type": "file",
           "value": [
             "rainbow-browser-1.6.4-9f52afe3.png",
@@ -206,6 +209,7 @@
           ]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "Verified dApps (Uniswap, OpenSea) are clearly distinguished from unverified dApps, displaying a blue checkmark and logo."
         }
@@ -217,16 +221,17 @@
       "uid": "WSR-PERM-008~Browser.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "100%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": [
-            "rainbow-browser-1.6.4-6226c037.png"
-          ]
+          "value": ["rainbow-browser-1.6.4-6226c037.png"]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "All unauthorized requests were rejected by the wallet, except for \"Add Chain\", which threw an error message. No information was leaked during the process."
         }
@@ -235,41 +240,47 @@
       "lastUpdated": 1778014222439
     },
     {
-      "uid": "WSR-THRE-002.v1",
+      "uid": "WSR-THRE-002.v2",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
-          "value": "100%"
+          "value": "50%"
         },
         {
+          "name": "evidence",
           "type": "file",
           "value": [
-            "rainbow-browser-1.6.4-71199ae3.png"
+            "rainbow-browser-1.6.4-25d718d2.png",
+            "rainbow-browser-1.6.4-a35039b5.png",
+            "rainbow-browser-1.6.4-006b4427.png",
+            "rainbow-browser-1.6.4-7d50c275.png"
           ]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
-          "value": "The wallet surfaces a warning, \"This transaction looks suspicious\", when attempting to send a transaction to the Tornado Cash attacker address."
+          "value": "The wallet successfully warns when a transaction to a known malicious address is initiated via dApp. However, it fails to provide any warning for the same malicious address when entered manually, and it does not flag lookalike addresses in either dApp or manual input scenarios."
         }
       ],
       "tester": 1,
-      "lastUpdated": 1778014646831
+      "lastUpdated": 1782848612140
     },
     {
       "uid": "WSR-PERM-001.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "0%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": [
-            "rainbow-browser-1.6.4-7f465007.png",
-            "rainbow-browser-1.6.4-fa78f188.png"
-          ]
+          "value": ["rainbow-browser-1.6.4-7f465007.png", "rainbow-browser-1.6.4-fa78f188.png"]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The wallet displays the message signing request without warning the user that the origin (netlify.app) differs from the domain specified in the SIWE object (opensea.io)."
         }
@@ -281,10 +292,12 @@
       "uid": "WSR-THRE-003.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "100%"
         },
         {
+          "name": "evidence",
           "type": "file",
           "value": [
             "rainbow-browser-1.6.4-d0c8cb50.png",
@@ -293,6 +306,7 @@
           ]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The wallet warns the user when attempting to connect to hyperliqdrop.com and venofinance.net, which are known phishing sites."
         }
@@ -304,17 +318,17 @@
       "uid": "WSR-VERI-002.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "100%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": [
-            "rainbow-browser-1.6.4-6e993719.png",
-            "rainbow-browser-1.6.4-5507850c.png"
-          ]
+          "value": ["rainbow-browser-1.6.4-6e993719.png", "rainbow-browser-1.6.4-5507850c.png"]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "Addresses and transaction hashes are clickable and open a block explorer when attempting to send a transaction and from the wallet history."
         }
@@ -326,16 +340,17 @@
       "uid": "WSR-VERI-003.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "100%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": [
-            "rainbow-browser-1.6.4-a1f7377d.png"
-          ]
+          "value": ["rainbow-browser-1.6.4-a1f7377d.png"]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The wallet displays the expected inputs (POL, USDC) and outputs (UNI-V4-POSM) from the Uniswap transaction before signing."
         }
@@ -347,17 +362,17 @@
       "uid": "WSR-VERI-004.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "100%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": [
-            "rainbow-browser-1.6.4-4dbe8bee.png",
-            "rainbow-browser-1.6.4-8610fa7e.png"
-          ]
+          "value": ["rainbow-browser-1.6.4-4dbe8bee.png", "rainbow-browser-1.6.4-8610fa7e.png"]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The wallet does not parse OpenSea Seaport listings, displaying plain data, but it does parse Uniswap positions and ERC-20 permit details."
         }
@@ -369,16 +384,17 @@
       "uid": "WSR-THRE-004.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "100%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": [
-            "rainbow-browser-1.6.4-8893cd13.png"
-          ]
+          "value": ["rainbow-browser-1.6.4-8893cd13.png"]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The connection dialog mentions the dApp's ability to view the user's address, balance, activity, and request approval for transactions, as expected."
         }
@@ -390,38 +406,39 @@
       "uid": "WSR-THRE-005.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "0%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": [
-            "rainbow-browser-1.6.4-ae195a99.png",
-            "rainbow-browser-1.6.4-d71a40fc.png"
-          ]
+          "value": ["rainbow-browser-1.6.4-ae195a99.png", "rainbow-browser-1.6.4-d71a40fc.png"]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "There is no warning shown on either manual transaction or dapp transaction review."
         }
       ],
       "tester": 1,
-      "lastUpdated": 1778014725030
+      "lastUpdated": 1782219923173
     },
     {
       "uid": "WSR-THRE-006.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "100%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": [
-            "rainbow-browser-1.6.4-71105faf.png"
-          ]
+          "value": ["rainbow-browser-1.6.4-71105faf.png"]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The full dApp origin URL is shown without truncation"
         }
@@ -433,16 +450,17 @@
       "uid": "WSR-PERM-002~Browser.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "100%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": [
-            "rainbow-browser-1.6.4-4e9a1972.png"
-          ]
+          "value": ["rainbow-browser-1.6.4-4e9a1972.png"]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "All requests requiring user interaction were rejected with an error due to the wallet being locked, as expected."
         }
@@ -454,16 +472,17 @@
       "uid": "WSR-PERM-003.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "100%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": [
-            "rainbow-browser-1.6.4-d68f7e92.png"
-          ]
+          "value": ["rainbow-browser-1.6.4-d68f7e92.png"]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The wallet rejected the signing request and displayed an error message indicating a 'Chain Id mismatch'."
         }
@@ -475,16 +494,17 @@
       "uid": "WSR-PHYS-002~Browser.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "0%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": [
-            "rainbow-browser-1.6.4-5edb2233.png"
-          ]
+          "value": ["rainbow-browser-1.6.4-5edb2233.png"]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The password '11111111' is accepted, but flagged as weak. This violates the acceptance criteria that trivial passwords should not be allowed."
         }
@@ -496,17 +516,17 @@
       "uid": "WSR-PERM-004.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "100%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": [
-            "rainbow-browser-1.6.4-c3202d0b.png",
-            "rainbow-browser-1.6.4-1f5faf31.png"
-          ]
+          "value": ["rainbow-browser-1.6.4-c3202d0b.png", "rainbow-browser-1.6.4-1f5faf31.png"]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The wallet lists connected dApps, and after disconnecting the test dApp, RPC requests are rejected."
         }
@@ -518,10 +538,12 @@
       "uid": "WSR-VERI-005.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "0%"
         },
         {
+          "name": "evidence",
           "type": "file",
           "value": [
             "rainbow-browser-1.6.4-2e15b709.png",
@@ -530,6 +552,7 @@
           ]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The wallet displays the token and approved amount for the ERC-20 approve transaction, but it lacks the spender address."
         }
@@ -541,16 +564,17 @@
       "uid": "WSR-PERM-009.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "0%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": [
-            "rainbow-browser-1.6.4-f6a8c0a8.png"
-          ]
+          "value": ["rainbow-browser-1.6.4-f6a8c0a8.png"]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The chain was switched from 0x89 to 0x1 without any confirmation prompt. This indicates that the wallet is not prompting for confirmation before switching networks, which violates the acceptance criteria."
         }
@@ -562,10 +586,12 @@
       "uid": "WSR-VERI-006.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "100%"
         },
         {
+          "name": "evidence",
           "type": "file",
           "value": [
             "rainbow-browser-1.6.4-fad6a984.png",
@@ -575,6 +601,7 @@
           ]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "All signing data is visible, scrollable and not truncated, including the `verifyingContract` for EIP-712."
         }
@@ -586,17 +613,17 @@
       "uid": "WSR-PERM-005.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "0%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": [
-            "rainbow-browser-1.6.4-eb136493.png",
-            "rainbow-browser-1.6.4-42216b40.png"
-          ]
+          "value": ["rainbow-browser-1.6.4-eb136493.png", "rainbow-browser-1.6.4-42216b40.png"]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "There is no built-in feature or a link to an external dApp for listing and revoking token approvals."
         }
@@ -608,17 +635,17 @@
       "uid": "WSR-PERM-010~Browser.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "100%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": [
-            "rainbow-browser-1.6.4-657ca5f0.png",
-            "rainbow-browser-1.6.4-ac07a2d4.png"
-          ]
+          "value": ["rainbow-browser-1.6.4-657ca5f0.png", "rainbow-browser-1.6.4-ac07a2d4.png"]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The dApp called the specified RPC endpoints, and the user rejected the requests for the sensitive methods, which confirms the authorization bypass test failed as expected."
         }
@@ -630,16 +657,17 @@
       "uid": "WSR-THRE-007.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "0%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": [
-            "rainbow-browser-1.6.4-18e97249.png"
-          ]
+          "value": ["rainbow-browser-1.6.4-18e97249.png"]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The tokens view displays several tokens with small balances and questionable logos, indicating that the wallet does not hide spam tokens by default. The wallet does not have an NFTs section."
         }
@@ -651,10 +679,12 @@
       "uid": "WSR-VERI-007.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "0%"
         },
         {
+          "name": "evidence",
           "type": "file",
           "value": [
             "rainbow-browser-1.6.4-5e47d89a.png",
@@ -664,6 +694,7 @@
           ]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The sign button is enabled before scrolling to the end of the content, failing the acceptance criteria."
         }
@@ -675,17 +706,17 @@
       "uid": "WSR-PHYS-006~Browser.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "0%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": [
-            "rainbow-browser-1.6.4-2263342b.png",
-            "rainbow-browser-1.6.4-1b1dd704.png"
-          ]
+          "value": ["rainbow-browser-1.6.4-2263342b.png", "rainbow-browser-1.6.4-1b1dd704.png"]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The auto-lock timer is set to 'None' by default, which does not meet the acceptance criteria of auto-locking within 20 minutes."
         }
@@ -697,16 +728,17 @@
       "uid": "WSR-PHYS-004.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "100%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": [
-            "rainbow-browser-1.6.4-ffbac411.png"
-          ]
+          "value": ["rainbow-browser-1.6.4-ffbac411.png"]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The wallet UI includes a 'Lock Rainbow' button, satisfying the requirement for a manual lock control."
         }
@@ -718,16 +750,17 @@
       "uid": "WSR-PERM-006.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "100%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": [
-            "rainbow-browser-1.6.4-7a9259c2.png"
-          ]
+          "value": ["rainbow-browser-1.6.4-7a9259c2.png"]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The wallet rejects `eth_sign` requests, returning \"Error: Method not supported\"."
         }
@@ -739,16 +772,17 @@
       "uid": "WSR-PHYS-005.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "100%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": [
-            "rainbow-browser-1.6.4-fade05e4.png"
-          ]
+          "value": ["rainbow-browser-1.6.4-fade05e4.png"]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "Authentication (password) is required before displaying the seed phrase/private key."
         }
@@ -760,17 +794,17 @@
       "uid": "WSR-PHYS-003.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "100%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": [
-            "rainbow-browser-1.6.4-5671d4ca.png",
-            "rainbow-browser-1.6.4-1df74834.png"
-          ]
+          "value": ["rainbow-browser-1.6.4-5671d4ca.png", "rainbow-browser-1.6.4-1df74834.png"]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The wallet clearly communicates the risks of sharing the Secret Recovery Phrase and Private Key and displays a warning to the user before revealing the secrets."
         }

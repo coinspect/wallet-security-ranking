@@ -1,6 +1,6 @@
 {
-  "date": "2026-06-04T20:37:18.828Z",
-  "version": "4.1.0",
+  "date": "2026-07-02T17:46:01.513Z",
+  "version": "4.1.1",
   "results": [
     {
       "id": "bitget",
@@ -11,7 +11,7 @@
           "WSR-PERM": 752000,
           "WSR-VERI": 112500,
           "WSR-PHYS": 674000,
-          "WSR-THRE": 50000
+          "WSR-THRE": 304000
         }
       }
     },
@@ -24,7 +24,7 @@
           "WSR-PERM": 648000,
           "WSR-VERI": 821000,
           "WSR-PHYS": 744000,
-          "WSR-THRE": 797000
+          "WSR-THRE": 670000
         }
       }
     },
@@ -50,7 +50,7 @@
           "WSR-PERM": 912000,
           "WSR-VERI": 828000,
           "WSR-PHYS": 586000,
-          "WSR-THRE": 379000
+          "WSR-THRE": 506000
         }
       }
     },
@@ -63,7 +63,7 @@
           "WSR-PERM": 817000,
           "WSR-VERI": 891500,
           "WSR-PHYS": 674000,
-          "WSR-THRE": 746000
+          "WSR-THRE": 873000
         }
       }
     },
@@ -76,7 +76,7 @@
           "WSR-PERM": 802000,
           "WSR-VERI": 400000,
           "WSR-PHYS": 674000,
-          "WSR-THRE": 646000
+          "WSR-THRE": 519000
         }
       }
     },
@@ -102,7 +102,7 @@
           "WSR-PERM": 867000,
           "WSR-VERI": 554000,
           "WSR-PHYS": 744000,
-          "WSR-THRE": 836000
+          "WSR-THRE": 709000
         }
       }
     },
@@ -128,7 +128,7 @@
           "WSR-PERM": 820000,
           "WSR-VERI": 975500,
           "WSR-PHYS": 497000,
-          "WSR-THRE": 519000
+          "WSR-THRE": 646000
         }
       }
     },
@@ -141,7 +141,7 @@
           "WSR-PERM": 812000,
           "WSR-VERI": 708500,
           "WSR-PHYS": 674000,
-          "WSR-THRE": 646000
+          "WSR-THRE": 519000
         }
       }
     },
@@ -167,7 +167,7 @@
           "WSR-PERM": 767000,
           "WSR-VERI": 733000,
           "WSR-PHYS": 586000,
-          "WSR-THRE": 633000
+          "WSR-THRE": 506000
         }
       }
     },
@@ -193,7 +193,7 @@
           "WSR-PERM": 867000,
           "WSR-VERI": 561000,
           "WSR-PHYS": 586000,
-          "WSR-THRE": 797000
+          "WSR-THRE": 670000
         }
       }
     },
@@ -206,7 +206,7 @@
           "WSR-PERM": 920000,
           "WSR-VERI": 649000,
           "WSR-PHYS": 842000,
-          "WSR-THRE": 75000
+          "WSR-THRE": 202000
         }
       }
     },
@@ -219,7 +219,7 @@
           "WSR-PERM": 812000,
           "WSR-VERI": 828000,
           "WSR-PHYS": 744000,
-          "WSR-THRE": 696000
+          "WSR-THRE": 569000
         }
       }
     },

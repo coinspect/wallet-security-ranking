@@ -3,7 +3,7 @@
   "wallet": "Coinbase Wallet",
   "platform": "Browser",
   "version": "3.139.0",
-  "date": "2026-06-04T20:37:18.828Z",
+  "date": "2026-07-02T17:46:01.513Z",
   "walletUID": "coinbase-wallet-browser",
   "walletMakerUID": "coinbase-wallet",
   "scores": {
@@ -78,8 +78,8 @@
             "result": 0
           },
           {
-            "checkUID": "WSR-THRE-002.v1",
-            "result": 100
+            "checkUID": "WSR-THRE-002.v2",
+            "result": 50
           },
           {
             "checkUID": "WSR-THRE-003.v1",
@@ -151,10 +151,12 @@
       "uid": "WSR-VERI-001.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "0%"
         },
         {
+          "name": "evidence",
           "type": "file",
           "value": [
             "coinbase-wallet-browser-3.139.0-53948ece.png",
@@ -163,27 +165,29 @@
           ]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The wallet correctly blocks manual transactions to addresses with incorrect EIP-55 checksums by indicating the address is invalid. However, when initiating a dApp transaction, the wallet does not block or warn about an invalid EIP-55 checksum."
         }
       ],
       "tester": 1,
-      "lastUpdated": 1778014437895
+      "lastUpdated": 1782219884697
     },
     {
       "uid": "WSR-PHYS-001.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "0%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": [
-            "coinbase-wallet-browser-3.139.0-ed25a25e.png"
-          ]
+          "value": ["coinbase-wallet-browser-3.139.0-ed25a25e.png"]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The recovery phrase can be copied to the clipboard with no limited clipboard exposure, or a warning about clipboard risks."
         }
@@ -195,10 +199,12 @@
       "uid": "WSR-THRE-001.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "0%"
         },
         {
+          "name": "evidence",
           "type": "file",
           "value": [
             "coinbase-wallet-browser-3.139.0-a88192b2.png",
@@ -207,6 +213,7 @@
           ]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "There is no visual distinction between verified and unverified dApps on the connection request screen. Uniswap, 1inch, and the unknown dApp all show the same standard connection request screen."
         }
@@ -218,10 +225,12 @@
       "uid": "WSR-PERM-008~Browser.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "100%"
         },
         {
+          "name": "evidence",
           "type": "file",
           "value": [
             "coinbase-wallet-browser-3.139.0-6cc96024.png",
@@ -229,6 +238,7 @@
           ]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The test results show errors for each of the requested methods when the wallet is not connected, which means that each request is rejected, as expected, without leaking any information."
         }
@@ -237,34 +247,42 @@
       "lastUpdated": 1778014222439
     },
     {
-      "uid": "WSR-THRE-002.v1",
+      "uid": "WSR-THRE-002.v2",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
-          "value": "100%"
+          "value": "50%"
         },
         {
+          "name": "evidence",
           "type": "file",
           "value": [
-            "coinbase-wallet-browser-3.139.0-7893c1c9.png"
+            "coinbase-wallet-browser-3.139.0-d3792833.png",
+            "coinbase-wallet-browser-3.139.0-b38c2256.png",
+            "coinbase-wallet-browser-3.139.0-b91776e2.png",
+            "coinbase-wallet-browser-3.139.0-e25eb283.png"
           ]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
-          "value": "The wallet surfaces a warning for the transaction to the Tornado Cash attacker address (0x592340957eBC9e4Afb0E9Af221d06fDDDF789de9), stating 'Fraudulent address detected'."
+          "value": "The wallet successfully warns about transactions to known malicious addresses, whether initiated via dApp or direct wallet UI. However, it does not provide any warnings or flags for lookalike addresses, neither when initiated via dApp nor when entered directly into the wallet UI."
         }
       ],
       "tester": 1,
-      "lastUpdated": 1778014646831
+      "lastUpdated": 1782848612140
     },
     {
       "uid": "WSR-PERM-001.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "0%"
         },
         {
+          "name": "evidence",
           "type": "file",
           "value": [
             "coinbase-wallet-browser-3.139.0-4b34b216.png",
@@ -272,6 +290,7 @@
           ]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The wallet does not warn about the domain mismatch. The dApp is running on `deploy-preview-40--wallettesting.netlify.app` but the SIWE message is for `https://opensea.io`."
         }
@@ -283,10 +302,12 @@
       "uid": "WSR-THRE-003.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "100%"
         },
         {
+          "name": "evidence",
           "type": "file",
           "value": [
             "coinbase-wallet-browser-3.139.0-b9cdd0b0.png",
@@ -295,6 +316,7 @@
           ]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The wallet warns the user about visiting known phishing sites hyperliqdrop.com and venofinance.net."
         }
@@ -306,10 +328,12 @@
       "uid": "WSR-VERI-002.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "100%"
         },
         {
+          "name": "evidence",
           "type": "file",
           "value": [
             "coinbase-wallet-browser-3.139.0-8d654984.png",
@@ -317,6 +341,7 @@
           ]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The addresses and transaction hashes are clickable links in the wallet's transaction history and transaction view, opening a block explorer."
         }
@@ -328,16 +353,17 @@
       "uid": "WSR-VERI-003.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "100%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": [
-            "coinbase-wallet-browser-3.139.0-b6cd7e63.png"
-          ]
+          "value": ["coinbase-wallet-browser-3.139.0-b6cd7e63.png"]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The wallet shows the expected inputs and outputs from the execution of a Uniswap transaction before it is signed. The screenshot shows the asset changes (POL and USDC) and the cost associated with the transaction."
         }
@@ -349,16 +375,17 @@
       "uid": "WSR-VERI-004.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "100%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": [
-            "coinbase-wallet-browser-3.139.0-745b01f3.png"
-          ]
+          "value": ["coinbase-wallet-browser-3.139.0-745b01f3.png"]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The wallet renders the EIP-712 signature request with structured, human-readable details, showing the asset changes of '-MyToken NFT' and '+0.975 WETH' rather than raw JSON."
         }
@@ -370,16 +397,17 @@
       "uid": "WSR-THRE-004.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "100%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": [
-            "coinbase-wallet-browser-3.139.0-55e0c045.png"
-          ]
+          "value": ["coinbase-wallet-browser-3.139.0-55e0c045.png"]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The connection dialog clearly states that the dApp will be able to see the user's wallet balance and activity, as well as send requests for transactions."
         }
@@ -391,10 +419,12 @@
       "uid": "WSR-THRE-005.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "0%"
         },
         {
+          "name": "evidence",
           "type": "file",
           "value": [
             "coinbase-wallet-browser-3.139.0-2b2597e3.png",
@@ -403,27 +433,29 @@
           ]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "No warning or indicator is present for sending to a fresh address directly through the wallet UI, or through a dApp."
         }
       ],
       "tester": 1,
-      "lastUpdated": 1778014725030
+      "lastUpdated": 1782219923173
     },
     {
       "uid": "WSR-THRE-006.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "100%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": [
-            "coinbase-wallet-browser-3.139.0-69edc6b7.png"
-          ]
+          "value": ["coinbase-wallet-browser-3.139.0-69edc6b7.png"]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The full dApp origin URL is shown in the connection dialog without truncation: flagship-web3-v1-336a757b5b637a684207a3.webflow.io"
         }
@@ -435,10 +467,12 @@
       "uid": "WSR-PERM-002~Browser.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "100%"
         },
         {
+          "name": "evidence",
           "type": "file",
           "value": [
             "coinbase-wallet-browser-3.139.0-fb8bddf9.png",
@@ -446,6 +480,7 @@
           ]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The `wallet_watchAsset` method shows that the wallet automatically tracks token ownerships on the polygon network and there is no need to import USDC.e. All the other methods triggered an error or required unlock before processing them."
         }
@@ -457,10 +492,12 @@
       "uid": "WSR-PERM-003.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "0%"
         },
         {
+          "name": "evidence",
           "type": "file",
           "value": [
             "coinbase-wallet-browser-3.139.0-bd752515.png",
@@ -468,6 +505,7 @@
           ]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The wallet does not seem to display a warning or reject the signature request when the chainId in the EIP-712 object differs from the wallet's active network."
         }
@@ -479,16 +517,17 @@
       "uid": "WSR-PHYS-002~Browser.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "100%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": [
-            "coinbase-wallet-browser-3.139.0-74a7e131.png"
-          ]
+          "value": ["coinbase-wallet-browser-3.139.0-74a7e131.png"]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The UI displays a message \"Too easy to guess\" when attempting to set the password to \"11111111\"."
         }
@@ -500,10 +539,12 @@
       "uid": "WSR-PERM-004.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "100%"
         },
         {
+          "name": "evidence",
           "type": "file",
           "value": [
             "coinbase-wallet-browser-3.139.0-6aabec6d.png",
@@ -511,6 +552,7 @@
           ]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The wallet lists connected dApps, and the disconnected dApp is unable to send RPC requests, as indicated by the error messages."
         }
@@ -522,16 +564,17 @@
       "uid": "WSR-VERI-005.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "100%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": [
-            "coinbase-wallet-browser-3.139.0-b237b51b.png"
-          ]
+          "value": ["coinbase-wallet-browser-3.139.0-b237b51b.png"]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The wallet displays the token (USDC), the spender (app.uniswap.org), and the amount (Unlimited)."
         }
@@ -543,10 +586,12 @@
       "uid": "WSR-PERM-009.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "0%"
         },
         {
+          "name": "evidence",
           "type": "file",
           "value": [
             "coinbase-wallet-browser-3.139.0-4d44ada0.png",
@@ -554,6 +599,7 @@
           ]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The dapp was able to switch the chain without a confirmation prompt. The chain was changed from 0x89 to 0x1."
         }
@@ -565,10 +611,12 @@
       "uid": "WSR-VERI-006.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "100%"
         },
         {
+          "name": "evidence",
           "type": "file",
           "value": [
             "coinbase-wallet-browser-3.139.0-41926cdb.png",
@@ -578,6 +626,7 @@
           ]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "Large payloads are visible and scrollable for both personal_sign and eth_signTypedData, and the verifyingContract is displayed in the EIP712Domain."
         }
@@ -589,10 +638,12 @@
       "uid": "WSR-PERM-005.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "100%"
         },
         {
+          "name": "evidence",
           "type": "file",
           "value": [
             "coinbase-wallet-browser-3.139.0-6efd7538.png",
@@ -600,6 +651,7 @@
           ]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The wallet UI provides a way to list existing token approvals and revoke them, by selecting a token and then sending a transaction to revoke allowance."
         }
@@ -611,16 +663,17 @@
       "uid": "WSR-PERM-010~Browser.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "100%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": [
-            "coinbase-wallet-browser-3.139.0-9c155a7f.png"
-          ]
+          "value": ["coinbase-wallet-browser-3.139.0-9c155a7f.png"]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The wallet requires user confirmation for every request."
         }
@@ -632,16 +685,17 @@
       "uid": "WSR-THRE-007.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "100%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": [
-            "coinbase-wallet-browser-3.139.0-64f6d6b3.png"
-          ]
+          "value": ["coinbase-wallet-browser-3.139.0-64f6d6b3.png"]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The wallet does not have an NFT section and only displays tokens, so the spam NFTs are hidden by default."
         }
@@ -653,10 +707,12 @@
       "uid": "WSR-VERI-007.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "0%"
         },
         {
+          "name": "evidence",
           "type": "file",
           "value": [
             "coinbase-wallet-browser-3.139.0-c2e7db49.png",
@@ -666,6 +722,7 @@
           ]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The sign button is enabled even without scrolling through the entire message."
         }
@@ -677,16 +734,17 @@
       "uid": "WSR-PHYS-006~Browser.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "0%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": [
-            "coinbase-wallet-browser-3.139.0-03ccc95d.png"
-          ]
+          "value": ["coinbase-wallet-browser-3.139.0-03ccc95d.png"]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The auto-lock configuration is set to 24 hours by default, which does not meet the acceptance criteria of auto-locking within 20 minutes."
         }
@@ -698,16 +756,17 @@
       "uid": "WSR-PHYS-004.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "100%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": [
-            "coinbase-wallet-browser-3.139.0-b8eaed0e.png"
-          ]
+          "value": ["coinbase-wallet-browser-3.139.0-b8eaed0e.png"]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The wallet UI includes a 'Lock wallet' button under settings."
         }
@@ -719,16 +778,17 @@
       "uid": "WSR-PERM-006.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "100%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": [
-            "coinbase-wallet-browser-3.139.0-93b1e361.png"
-          ]
+          "value": ["coinbase-wallet-browser-3.139.0-93b1e361.png"]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The wallet rejects the `eth_sign` request and returns an error message: `Error: eth_sign method is deprecated`."
         }
@@ -740,10 +800,12 @@
       "uid": "WSR-PHYS-005.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "100%"
         },
         {
+          "name": "evidence",
           "type": "file",
           "value": [
             "coinbase-wallet-browser-3.139.0-1f64e42c.png",
@@ -751,6 +813,7 @@
           ]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "Password is required to view both the recovery phrase and the private key."
         }
@@ -762,16 +825,17 @@
       "uid": "WSR-PHYS-003.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "100%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": [
-            "coinbase-wallet-browser-3.139.0-bac4211f.png"
-          ]
+          "value": ["coinbase-wallet-browser-3.139.0-bac4211f.png"]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The warning text is displayed above the 'Next' button, and the user must check the box to confirm before proceeding."
         }

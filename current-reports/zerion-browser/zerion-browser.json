@@ -3,7 +3,7 @@
   "wallet": "Zerion",
   "platform": "Browser",
   "version": "1.38.4",
-  "date": "2026-06-04T20:37:18.828Z",
+  "date": "2026-07-02T17:46:01.513Z",
   "walletUID": "zerion-browser",
   "walletMakerUID": "zerion",
   "scores": {
@@ -78,8 +78,8 @@
             "result": 0
           },
           {
-            "checkUID": "WSR-THRE-002.v1",
-            "result": 100
+            "checkUID": "WSR-THRE-002.v2",
+            "result": 50
           },
           {
             "checkUID": "WSR-THRE-003.v1",
@@ -151,38 +151,39 @@
       "uid": "WSR-VERI-001.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "0%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": [
-            "zerion-browser-1.38.4-776c629d.png",
-            "zerion-browser-1.38.4-18665f34.png"
-          ]
+          "value": ["zerion-browser-1.38.4-776c629d.png", "zerion-browser-1.38.4-18665f34.png"]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The dApp transaction was blocked due to a bad address checksum, but the manual transaction did not flag the incorrect checksum and allowed the transaction to proceed."
         }
       ],
       "tester": 1,
-      "lastUpdated": 1778014437895
+      "lastUpdated": 1782219884697
     },
     {
       "uid": "WSR-PHYS-001.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "0%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": [
-            "zerion-browser-1.38.4-3f2dffde.png"
-          ]
+          "value": ["zerion-browser-1.38.4-3f2dffde.png"]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The seed phrase can be copied to the clipboard, but there is no indication of a time limit or warning about clipboard risks."
         }
@@ -194,10 +195,12 @@
       "uid": "WSR-THRE-001.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "0%"
         },
         {
+          "name": "evidence",
           "type": "file",
           "value": [
             "zerion-browser-1.38.4-0f0ddd8f.png",
@@ -208,6 +211,7 @@
           ]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The connection requests for verified (Uniswap, 1inch, Sushi), unverified (deploy-preview-40--wallettesting.netlify.app) or a phishing (flagship-web3-v1-336a757b5b637a684207a3.webflow.io) dApps are displayed identically. There is no clear distinction."
         }
@@ -219,16 +223,17 @@
       "uid": "WSR-PERM-008~Browser.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "100%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": [
-            "zerion-browser-1.38.4-aeb35e76.png"
-          ]
+          "value": ["zerion-browser-1.38.4-aeb35e76.png"]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "Requires user connection before processing each dApp request."
         }
@@ -237,41 +242,47 @@
       "lastUpdated": 1778014222439
     },
     {
-      "uid": "WSR-THRE-002.v1",
+      "uid": "WSR-THRE-002.v2",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
-          "value": "100%"
+          "value": "50%"
         },
         {
+          "name": "evidence",
           "type": "file",
           "value": [
-            "zerion-browser-1.38.4-1a02b50c.png"
+            "zerion-browser-1.38.4-1a02b50c.png",
+            "zerion-browser-1.38.4-286fb417.png",
+            "zerion-browser-1.38.4-1a9c7d0d.png",
+            "zerion-browser-1.38.4-d6adbd69.png"
           ]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
-          "value": "The wallet surfaces a warning that the address is malicious, stating that approving this may risk total asset loss."
+          "value": "The wallet correctly flags a transaction to a known malicious address when initiated via dApp. However, it fails to display any warning for the same malicious address when entered manually in the wallet UI, and also fails to flag lookalike addresses in both dApp and manual input scenarios."
         }
       ],
       "tester": 1,
-      "lastUpdated": 1778014646831
+      "lastUpdated": 1782848612140
     },
     {
       "uid": "WSR-PERM-001.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "0%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": [
-            "zerion-browser-1.38.4-f125e323.png",
-            "zerion-browser-1.38.4-d23fae0c.png"
-          ]
+          "value": ["zerion-browser-1.38.4-f125e323.png", "zerion-browser-1.38.4-d23fae0c.png"]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The origin deploy-preview-40--wallettesting.netlify.app differs from the SIWE domain opensea.io, but the wallet does not display a warning, and the user is able to sign the message."
         }
@@ -283,17 +294,17 @@
       "uid": "WSR-THRE-003.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "100%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": [
-            "zerion-browser-1.38.4-2d794204.png",
-            "zerion-browser-1.38.4-d83311e8.png"
-          ]
+          "value": ["zerion-browser-1.38.4-2d794204.png", "zerion-browser-1.38.4-d83311e8.png"]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The wallet correctly blocked connections to known phishing sites hyperliqdrop.com and venofinance.net."
         }
@@ -305,17 +316,17 @@
       "uid": "WSR-VERI-002.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "100%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": [
-            "zerion-browser-1.38.4-9acd17a2.png",
-            "zerion-browser-1.38.4-55539eb2.png"
-          ]
+          "value": ["zerion-browser-1.38.4-9acd17a2.png", "zerion-browser-1.38.4-55539eb2.png"]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The address in the transaction details view is shown to open the block explorer and in the transaction history view the address and hash both open the block explorer."
         }
@@ -327,17 +338,17 @@
       "uid": "WSR-VERI-003.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "100%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": [
-            "zerion-browser-1.38.4-41ad625d.png",
-            "zerion-browser-1.38.4-3d115e0a.png"
-          ]
+          "value": ["zerion-browser-1.38.4-41ad625d.png", "zerion-browser-1.38.4-3d115e0a.png"]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The wallet previews show the expected inputs and outputs from providing liquidity (Uniswap) and performing a swap (Sushi) before signing."
         }
@@ -349,17 +360,17 @@
       "uid": "WSR-VERI-004.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "0%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": [
-            "zerion-browser-1.38.4-e8c2f06e.png",
-            "zerion-browser-1.38.4-2abcf5a4.png"
-          ]
+          "value": ["zerion-browser-1.38.4-e8c2f06e.png", "zerion-browser-1.38.4-2abcf5a4.png"]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The wallet displays the EIP-712 signature request as raw JSON instead of structured, human-readable details."
         }
@@ -371,17 +382,17 @@
       "uid": "WSR-THRE-004.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "100%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": [
-            "zerion-browser-1.38.4-beea0c1d.png",
-            "zerion-browser-1.38.4-08b64060.png"
-          ]
+          "value": ["zerion-browser-1.38.4-beea0c1d.png", "zerion-browser-1.38.4-08b64060.png"]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The connection dialog states the site will have read-only access to balances and transaction activity, and cannot access funds without approval."
         }
@@ -393,37 +404,39 @@
       "uid": "WSR-THRE-005.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "0%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": [
-            "zerion-browser-1.38.4-66e4e430.png"
-          ]
+          "value": ["zerion-browser-1.38.4-66e4e430.png"]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "No warning or indicator is displayed for unknown addresses."
         }
       ],
       "tester": 1,
-      "lastUpdated": 1778014725030
+      "lastUpdated": 1782219923173
     },
     {
       "uid": "WSR-THRE-006.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "100%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": [
-            "zerion-browser-1.38.4-ef588a29.png"
-          ]
+          "value": ["zerion-browser-1.38.4-ef588a29.png"]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The full dApp origin URL is displayed in the connection dialog without truncation."
         }
@@ -435,17 +448,17 @@
       "uid": "WSR-PERM-002~Browser.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "100%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": [
-            "zerion-browser-1.38.4-45dda100.png",
-            "zerion-browser-1.38.4-ae32dbc2.png"
-          ]
+          "value": ["zerion-browser-1.38.4-45dda100.png", "zerion-browser-1.38.4-ae32dbc2.png"]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "Requires the user to unlock the wallet before processing each dApp request."
         }
@@ -457,17 +470,17 @@
       "uid": "WSR-PERM-003.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "0%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": [
-            "zerion-browser-1.38.4-5d4074e9.png",
-            "zerion-browser-1.38.4-8faa615b.png"
-          ]
+          "value": ["zerion-browser-1.38.4-5d4074e9.png", "zerion-browser-1.38.4-8faa615b.png"]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The wallet signed the EIP-712 object despite the chainId (133337) differing from the wallet's active network, and did not show any warnings."
         }
@@ -479,16 +492,17 @@
       "uid": "WSR-PHYS-002~Browser.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "0%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": [
-            "zerion-browser-1.38.4-c88b9680.png"
-          ]
+          "value": ["zerion-browser-1.38.4-c88b9680.png"]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The password requirements include a minimum of 6 characters, which does not meet the acceptance criteria of at least 8 characters."
         }
@@ -500,10 +514,12 @@
       "uid": "WSR-PERM-004.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "100%"
         },
         {
+          "name": "evidence",
           "type": "file",
           "value": [
             "zerion-browser-1.38.4-467adee1.png",
@@ -513,6 +529,7 @@
           ]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The wallet lists connected dApps, and after disconnecting the testing dApp, further RPC requests resulted in errors, indicating that access was successfully revoked."
         }
@@ -524,17 +541,17 @@
       "uid": "WSR-VERI-005.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "100%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": [
-            "zerion-browser-1.38.4-6f0799b9.png",
-            "zerion-browser-1.38.4-8826facb.png"
-          ]
+          "value": ["zerion-browser-1.38.4-6f0799b9.png", "zerion-browser-1.38.4-8826facb.png"]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The wallet displays the token (USDC), spender (app.uniswap.org), and approved amount (Unlimited USDC) as requested."
         }
@@ -546,16 +563,17 @@
       "uid": "WSR-PERM-009.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "0%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": [
-            "zerion-browser-1.38.4-c112a859.png"
-          ]
+          "value": ["zerion-browser-1.38.4-c112a859.png"]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "Chain switched without confirmation, and the RPC call returned success."
         }
@@ -567,10 +585,12 @@
       "uid": "WSR-VERI-006.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "100%"
         },
         {
+          "name": "evidence",
           "type": "file",
           "value": [
             "zerion-browser-1.38.4-4ac10d3e.png",
@@ -581,6 +601,7 @@
           ]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The EIP712 data, including verifyingContract, and long personal_sign messages are fully displayed and scrollable."
         }
@@ -592,16 +613,17 @@
       "uid": "WSR-PERM-005.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "0%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": [
-            "zerion-browser-1.38.4-49e7f2f2.png"
-          ]
+          "value": ["zerion-browser-1.38.4-49e7f2f2.png"]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The wallet does not have any functionality to list or revoke existing token approvals as required by the acceptance criteria."
         }
@@ -613,17 +635,17 @@
       "uid": "WSR-PERM-010~Browser.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "100%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": [
-            "zerion-browser-1.38.4-4a1bdad1.png",
-            "zerion-browser-1.38.4-153f84f7.png"
-          ]
+          "value": ["zerion-browser-1.38.4-4a1bdad1.png", "zerion-browser-1.38.4-153f84f7.png"]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "Requires user confirmation before processing each dApp request."
         }
@@ -635,17 +657,17 @@
       "uid": "WSR-THRE-007.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "0%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": [
-            "zerion-browser-1.38.4-964b414f.png",
-            "zerion-browser-1.38.4-fc940431.png"
-          ]
+          "value": ["zerion-browser-1.38.4-964b414f.png", "zerion-browser-1.38.4-fc940431.png"]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The NFTs tab is showing NFTs by default, and one is clearly identified as a spam NFT. Therefore, the wallet is not hiding spam NFTs by default."
         }
@@ -657,10 +679,12 @@
       "uid": "WSR-VERI-007.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "0%"
         },
         {
+          "name": "evidence",
           "type": "file",
           "value": [
             "zerion-browser-1.38.4-0c813a46.png",
@@ -671,6 +695,7 @@
           ]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The Sign button is enabled without scrolling to the end of the content."
         }
@@ -682,17 +707,17 @@
       "uid": "WSR-PHYS-006~Browser.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "0%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": [
-            "zerion-browser-1.38.4-3503992f.png",
-            "zerion-browser-1.38.4-9b6ba52c.png"
-          ]
+          "value": ["zerion-browser-1.38.4-3503992f.png", "zerion-browser-1.38.4-9b6ba52c.png"]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The wallet does have an auto-lock setting, but the default is 12 hours, which does not meet the acceptance criteria to auto-lock within 20 minutes."
         }
@@ -704,16 +729,17 @@
       "uid": "WSR-PHYS-004.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "100%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": [
-            "zerion-browser-1.38.4-41fa94f4.png"
-          ]
+          "value": ["zerion-browser-1.38.4-41fa94f4.png"]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The wallet includes a manual lock control, as evidenced by the 'Lock Wallet' button within the settings."
         }
@@ -725,16 +751,17 @@
       "uid": "WSR-PERM-006.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "100%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": [
-            "zerion-browser-1.38.4-4d71e843.png"
-          ]
+          "value": ["zerion-browser-1.38.4-4d71e843.png"]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The `eth_sign` request was rejected with the error message: \"eth_sign: Not Implemented\"."
         }
@@ -746,16 +773,17 @@
       "uid": "WSR-PHYS-005.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "100%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": [
-            "zerion-browser-1.38.4-a9b930a7.png"
-          ]
+          "value": ["zerion-browser-1.38.4-a9b930a7.png"]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "A password is required to reveal the recovery phrase."
         }
@@ -767,10 +795,12 @@
       "uid": "WSR-PHYS-003.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "100%"
         },
         {
+          "name": "evidence",
           "type": "file",
           "value": [
             "zerion-browser-1.38.4-5de1aedf.png",
@@ -779,6 +809,7 @@
           ]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The wallet displays a warning to the user not to share their recovery phrase or passcode with anyone, including Zerion team members."
         }

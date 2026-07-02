@@ -3,7 +3,7 @@
   "wallet": "Binance",
   "platform": "Browser",
   "version": "1.14.0",
-  "date": "2026-06-04T20:37:18.828Z",
+  "date": "2026-07-02T17:46:01.513Z",
   "walletUID": "binance-browser",
   "walletMakerUID": "binance",
   "scores": {
@@ -78,7 +78,7 @@
             "result": 0
           },
           {
-            "checkUID": "WSR-THRE-002.v1",
+            "checkUID": "WSR-THRE-002.v2",
             "result": 100
           },
           {
@@ -151,10 +151,12 @@
       "uid": "WSR-VERI-001.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "0%"
         },
         {
+          "name": "evidence",
           "type": "file",
           "value": [
             "binance-browser-1.14.0-3a2c4190.png",
@@ -164,27 +166,29 @@
           ]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "When sending through a dApp, the wallet blocks transactions to addresses with an invalid EIP-55 checksum. However, when sending through the wallet UI, it does not display a warning or block the transaction; the transaction proceeds successfully."
         }
       ],
       "tester": 1,
-      "lastUpdated": 1778014437895
+      "lastUpdated": 1782219884697
     },
     {
       "uid": "WSR-PHYS-001.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "100%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": [
-            "binance-browser-1.14.0-2a364a50.png"
-          ]
+          "value": ["binance-browser-1.14.0-2a364a50.png"]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The wallet prevents copying the seed phrase to the clipboard."
         }
@@ -196,10 +200,12 @@
       "uid": "WSR-THRE-001.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "0%"
         },
         {
+          "name": "evidence",
           "type": "file",
           "value": [
             "binance-browser-1.14.0-f459be5f.png",
@@ -208,6 +214,7 @@
           ]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "All three dApps (Uniswap, 1inch, and Sushi) look the same, so the UI does not visually distinguish verified dApps from unknown ones."
         }
@@ -219,16 +226,17 @@
       "uid": "WSR-PERM-008~Browser.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "100%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": [
-            "binance-browser-1.14.0-a8207942.png"
-          ]
+          "value": ["binance-browser-1.14.0-a8207942.png"]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "When running the authorization bypass test without connecting the wallet, all requests are rejected, and no information is leaked, as expected. 'wallet_switchEthereumChain' is an exception and does not count as a failure since is not a required rpc request."
         }
@@ -237,42 +245,48 @@
       "lastUpdated": 1778014222439
     },
     {
-      "uid": "WSR-THRE-002.v1",
+      "uid": "WSR-THRE-002.v2",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "100%"
         },
         {
+          "name": "evidence",
           "type": "file",
           "value": [
             "binance-browser-1.14.0-7c21b608.png",
-            "binance-browser-1.14.0-e6bae6dc.png"
+            "binance-browser-1.14.0-e6bae6dc.png",
+            "binance-browser-1.14.0-b376fb51.png",
+            "binance-browser-1.14.0-eccc7e02.png",
+            "binance-browser-1.14.0-fc782d28.png"
           ]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
-          "value": "The wallet warns about sending funds to the specified Tornado Cash attacker address in both the dApp and direct wallet UI."
+          "value": "The wallet correctly warns about known malicious addresses when entered manually and via dApp. It also warns about lookalike addresses when entered manually. However, the wallet does not warn about lookalike addresses when supplied by a dApp."
         }
       ],
       "tester": 1,
-      "lastUpdated": 1778014646831
+      "lastUpdated": 1782848612140
     },
     {
       "uid": "WSR-PERM-001.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "0%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": [
-            "binance-browser-1.14.0-065d1e90.png",
-            "binance-browser-1.14.0-2c2216ae.png"
-          ]
+          "value": ["binance-browser-1.14.0-065d1e90.png", "binance-browser-1.14.0-2c2216ae.png"]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The wallet does not warn or block the signing request, even though the dApp origin (deploy-preview-40--wallettesting.netlify.app) differs from the domain specified in the SIWE object (https://opensea.io)."
         }
@@ -284,17 +298,17 @@
       "uid": "WSR-THRE-003.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "100%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": [
-            "binance-browser-1.14.0-33a0d862.png",
-            "binance-browser-1.14.0-fd6db700.png"
-          ]
+          "value": ["binance-browser-1.14.0-33a0d862.png", "binance-browser-1.14.0-fd6db700.png"]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The wallet warns the user when attempting to connect to a known phishing site."
         }
@@ -306,17 +320,17 @@
       "uid": "WSR-VERI-002.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "50%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": [
-            "binance-browser-1.14.0-0a599bf6.png",
-            "binance-browser-1.14.0-5673acba.png"
-          ]
+          "value": ["binance-browser-1.14.0-0a599bf6.png", "binance-browser-1.14.0-5673acba.png"]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The wallet provides links to blockchain explorers in the transaction history, but not in the transaction view."
         }
@@ -328,17 +342,17 @@
       "uid": "WSR-VERI-003.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "100%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": [
-            "binance-browser-1.14.0-717df1a8.png",
-            "binance-browser-1.14.0-785004cd.png"
-          ]
+          "value": ["binance-browser-1.14.0-717df1a8.png", "binance-browser-1.14.0-785004cd.png"]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The wallet shows the expected inputs (USDC and POL) and outputs (UNI-V4-POSM) from the Uniswap transaction before signing."
         }
@@ -350,17 +364,17 @@
       "uid": "WSR-VERI-004.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "0%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": [
-            "binance-browser-1.14.0-6971dbf8.png",
-            "binance-browser-1.14.0-11cb8125.png"
-          ]
+          "value": ["binance-browser-1.14.0-6971dbf8.png", "binance-browser-1.14.0-11cb8125.png"]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The wallet displays raw JSON for the EIP-712 signature request, failing to render structured, human-readable signing details as required."
         }
@@ -372,16 +386,17 @@
       "uid": "WSR-THRE-004.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "0%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": [
-            "binance-browser-1.14.0-8074fda7.png"
-          ]
+          "value": ["binance-browser-1.14.0-8074fda7.png"]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The connection dialog only states 'Request to Connect Your Wallet' and lacks any specific descriptions of the access being granted to the dApp, failing to meet the acceptance criteria."
         }
@@ -393,38 +408,39 @@
       "uid": "WSR-THRE-005.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "0%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": [
-            "binance-browser-1.14.0-3c1b48fb.png",
-            "binance-browser-1.14.0-b0b4f6ad.png"
-          ]
+          "value": ["binance-browser-1.14.0-3c1b48fb.png", "binance-browser-1.14.0-b0b4f6ad.png"]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The wallet displays a warning for new addresses when sending directly through the UI. However, no warning or indicator is shown when initiating a transaction to a new address via a dApp."
         }
       ],
       "tester": 1,
-      "lastUpdated": 1778014725030
+      "lastUpdated": 1782219923173
     },
     {
       "uid": "WSR-THRE-006.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "100%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": [
-            "binance-browser-1.14.0-bebf0c2f.png"
-          ]
+          "value": ["binance-browser-1.14.0-bebf0c2f.png"]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The full dApp origin URL is shown in the connection dialog without truncation."
         }
@@ -436,16 +452,17 @@
       "uid": "WSR-PERM-002~Browser.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "100%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": [
-            "binance-browser-1.14.0-72580dfa.png"
-          ]
+          "value": ["binance-browser-1.14.0-72580dfa.png"]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The wallet requires users to unlock it before processing dApp requests when in a locked state."
         }
@@ -457,16 +474,17 @@
       "uid": "WSR-PERM-003.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "100%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": [
-            "binance-browser-1.14.0-b1a41f3e.png"
-          ]
+          "value": ["binance-browser-1.14.0-b1a41f3e.png"]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The wallet displays a warning message indicating that the chain ID of the signature does not match the currently connected chain (Polygon) and identifies a risky signature."
         }
@@ -478,16 +496,17 @@
       "uid": "WSR-PHYS-002~Browser.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "0%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": [
-            "binance-browser-1.14.0-3523b83c.png"
-          ]
+          "value": ["binance-browser-1.14.0-3523b83c.png"]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The wallet allows an 8 character long, trivial password like '11111111'."
         }
@@ -499,10 +518,12 @@
       "uid": "WSR-PERM-004.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "100%"
         },
         {
+          "name": "evidence",
           "type": "file",
           "value": [
             "binance-browser-1.14.0-d19298ca.png",
@@ -511,6 +532,7 @@
           ]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The wallet lists connected dApps, and after disconnecting the testing dApp, RPC requests from it are rejected."
         }
@@ -522,17 +544,17 @@
       "uid": "WSR-VERI-005.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "100%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": [
-            "binance-browser-1.14.0-c0bf325b.png",
-            "binance-browser-1.14.0-ad0bfb99.png"
-          ]
+          "value": ["binance-browser-1.14.0-c0bf325b.png", "binance-browser-1.14.0-ad0bfb99.png"]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The wallet displays the token, spender, and approved amount."
         }
@@ -544,10 +566,12 @@
       "uid": "WSR-PERM-009.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "0%"
         },
         {
+          "name": "evidence",
           "type": "file",
           "value": [
             "binance-browser-1.14.0-310c11c1.png",
@@ -557,6 +581,7 @@
           ]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The wallet does not prompt for confirmation when switching networks, nor does it allow users to manage pre-approved networks to limit switching. The `switchEthereumChain` request executes without any user interaction."
         }
@@ -568,10 +593,12 @@
       "uid": "WSR-VERI-006.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "100%"
         },
         {
+          "name": "evidence",
           "type": "file",
           "value": [
             "binance-browser-1.14.0-55c00ccc.png",
@@ -581,6 +608,7 @@
           ]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "All the contents of both the personal_sign and eth_signTypedData requests are visible and scrollable, including the verifyingContract from the EIP712Domain."
         }
@@ -592,10 +620,12 @@
       "uid": "WSR-PERM-005.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "100%"
         },
         {
+          "name": "evidence",
           "type": "file",
           "value": [
             "binance-browser-1.14.0-7ef23b40.png",
@@ -606,6 +636,7 @@
           ]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The wallet provides a way to list existing token approvals and revoke them."
         }
@@ -617,16 +648,17 @@
       "uid": "WSR-PERM-010~Browser.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "100%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": [
-            "binance-browser-1.14.0-8acf2a74.png"
-          ]
+          "value": ["binance-browser-1.14.0-8acf2a74.png"]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "All the RPC methods require user confirmation before processing the request."
         }
@@ -638,16 +670,17 @@
       "uid": "WSR-THRE-007.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "100%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": [
-            "binance-browser-1.14.0-6eafdab2.png"
-          ]
+          "value": ["binance-browser-1.14.0-6eafdab2.png"]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The wallet displays only standard tokens and excludes spam tokens. NFTs are not displayed."
         }
@@ -659,10 +692,12 @@
       "uid": "WSR-VERI-007.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "0%"
         },
         {
+          "name": "evidence",
           "type": "file",
           "value": [
             "binance-browser-1.14.0-d10826c7.png",
@@ -672,6 +707,7 @@
           ]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The confirm button is active without scrolling through the entire message. This is the case in both the eth_signTypedData_v4 and personal_sign screens."
         }
@@ -683,16 +719,17 @@
       "uid": "WSR-PHYS-006~Browser.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "0%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": [
-            "binance-browser-1.14.0-795bc641.png"
-          ]
+          "value": ["binance-browser-1.14.0-795bc641.png"]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The screen lock settings do not meet the acceptance criteria, as the lowest configurable time is 5 minutes, and the wallet sets it to 2 hours as default. This means the wallet will not auto-lock after inactivity within 20 minutes."
         }
@@ -704,16 +741,17 @@
       "uid": "WSR-PHYS-004.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "100%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": [
-            "binance-browser-1.14.0-942e0e90.png"
-          ]
+          "value": ["binance-browser-1.14.0-942e0e90.png"]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "A \"Lock Wallet\" button is present within the settings screen."
         }
@@ -725,16 +763,17 @@
       "uid": "WSR-PERM-006.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "100%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": [
-            "binance-browser-1.14.0-ea6ac354.png"
-          ]
+          "value": ["binance-browser-1.14.0-ea6ac354.png"]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The wallet rejected the `eth_sign` request, responding with 'Error: method not supported'."
         }
@@ -746,16 +785,17 @@
       "uid": "WSR-PHYS-005.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "100%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": [
-            "binance-browser-1.14.0-982102b7.png"
-          ]
+          "value": ["binance-browser-1.14.0-982102b7.png"]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "A password prompt is displayed before revealing the seed phrase/private key, confirming that authentication is required."
         }
@@ -767,17 +807,17 @@
       "uid": "WSR-PHYS-003.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "100%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": [
-            "binance-browser-1.14.0-cecef8a0.png",
-            "binance-browser-1.14.0-a7520acc.png"
-          ]
+          "value": ["binance-browser-1.14.0-cecef8a0.png", "binance-browser-1.14.0-a7520acc.png"]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The wallet displays a warning to the user before revealing the seed phrase or private key. The risks of sharing the secrets are clearly communicated."
         }

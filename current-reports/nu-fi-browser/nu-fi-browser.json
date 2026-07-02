@@ -3,7 +3,7 @@
   "wallet": "NuFi",
   "platform": "Browser",
   "version": "34.1.0",
-  "date": "2026-06-04T20:37:18.828Z",
+  "date": "2026-07-02T17:46:01.513Z",
   "walletUID": "nu-fi-browser",
   "walletMakerUID": "nu-fi",
   "scores": {
@@ -78,8 +78,8 @@
             "result": 0
           },
           {
-            "checkUID": "WSR-THRE-002.v1",
-            "result": 100
+            "checkUID": "WSR-THRE-002.v2",
+            "result": 50
           },
           {
             "checkUID": "WSR-THRE-003.v1",
@@ -151,38 +151,39 @@
       "uid": "WSR-VERI-001.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "0%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": [
-            "nu-fi-browser-34.1.0-7c112e21.png",
-            "nu-fi-browser-34.1.0-8726756e.png"
-          ]
+          "value": ["nu-fi-browser-34.1.0-7c112e21.png", "nu-fi-browser-34.1.0-8726756e.png"]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The wallet correctly identifies and blocks a manual transaction attempt to an address with an invalid EIP-55 checksum. However, when a transaction is initiated from a dApp, the wallet proceeds to the signing screen without any warning or blocking for an invalid EIP-55 checksum."
         }
       ],
       "tester": 1,
-      "lastUpdated": 1778014437895
+      "lastUpdated": 1782219884697
     },
     {
       "uid": "WSR-PHYS-001.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "100%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": [
-            "nu-fi-browser-34.1.0-c3b76b6a.png"
-          ]
+          "value": ["nu-fi-browser-34.1.0-c3b76b6a.png"]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The mnemonic phrase cannot be copied, satisfying the requirement to prevent clipboard exposure."
         }
@@ -194,10 +195,12 @@
       "uid": "WSR-THRE-001.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "0%"
         },
         {
+          "name": "evidence",
           "type": "file",
           "value": [
             "nu-fi-browser-34.1.0-7ca72524.png",
@@ -207,6 +210,7 @@
           ]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "All dApps show the same screen with an icon and name. There is no distinction between known and unknown dApps."
         }
@@ -218,16 +222,17 @@
       "uid": "WSR-PERM-008~Browser.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "100%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": [
-            "nu-fi-browser-34.1.0-fdef8628.png"
-          ]
+          "value": ["nu-fi-browser-34.1.0-fdef8628.png"]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The test dApp correctly rejects the requests without a connected wallet. No information is leaked during the process."
         }
@@ -236,41 +241,47 @@
       "lastUpdated": 1778014222439
     },
     {
-      "uid": "WSR-THRE-002.v1",
+      "uid": "WSR-THRE-002.v2",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
-          "value": "100%"
+          "value": "50%"
         },
         {
+          "name": "evidence",
           "type": "file",
           "value": [
-            "nu-fi-browser-34.1.0-9a7792b9.png"
+            "nu-fi-browser-34.1.0-9a7792b9.png",
+            "nu-fi-browser-34.1.0-ce2348e4.png",
+            "nu-fi-browser-34.1.0-e55a3762.png",
+            "nu-fi-browser-34.1.0-f3dff5a4.png"
           ]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
-          "value": "The wallet surfaces a warning when attempting to send a transaction to the Tornado Cash attacker address, as expected."
+          "value": "The wallet successfully intercepted and warned about a known malicious address when initiated via a dApp. However, it failed to warn about known malicious addresses when entered manually, and it did not flag lookalike addresses in either dApp or manual transaction attempts."
         }
       ],
       "tester": 1,
-      "lastUpdated": 1778014646831
+      "lastUpdated": 1782848612140
     },
     {
       "uid": "WSR-PERM-001.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "0%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": [
-            "nu-fi-browser-34.1.0-72a64017.png",
-            "nu-fi-browser-34.1.0-511bc919.png"
-          ]
+          "value": ["nu-fi-browser-34.1.0-72a64017.png", "nu-fi-browser-34.1.0-511bc919.png"]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The wallet does not display any warning or block the signing request when the dApp origin differs from the domain specified in the SIWE object. The origin is `https://deploy-preview-40--wallettesting.netlify.app` and the SIWE domain is `https://opensea.io`."
         }
@@ -282,16 +293,17 @@
       "uid": "WSR-THRE-003.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "100%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": [
-            "nu-fi-browser-34.1.0-27e886ff.png"
-          ]
+          "value": ["nu-fi-browser-34.1.0-27e886ff.png"]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The wallet displays a warning message when attempting to connect to venofinance.net, which is on the MetaMask phishing list."
         }
@@ -303,17 +315,17 @@
       "uid": "WSR-VERI-002.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "100%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": [
-            "nu-fi-browser-34.1.0-efda1fa2.png",
-            "nu-fi-browser-34.1.0-d2e73d1a.png"
-          ]
+          "value": ["nu-fi-browser-34.1.0-efda1fa2.png", "nu-fi-browser-34.1.0-d2e73d1a.png"]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The transaction preview and history views display addresses and transaction hashes as links to a block explorer."
         }
@@ -325,16 +337,17 @@
       "uid": "WSR-VERI-003.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "100%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": [
-            "nu-fi-browser-34.1.0-2a49ac5e.png"
-          ]
+          "value": ["nu-fi-browser-34.1.0-2a49ac5e.png"]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The wallet shows the expected inputs (POL) and outputs (Tokens movement) for the swap transaction on Uniswap before signing."
         }
@@ -346,17 +359,17 @@
       "uid": "WSR-VERI-004.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "0%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": [
-            "nu-fi-browser-34.1.0-9a63688b.png",
-            "nu-fi-browser-34.1.0-170f2924.png"
-          ]
+          "value": ["nu-fi-browser-34.1.0-9a63688b.png", "nu-fi-browser-34.1.0-170f2924.png"]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The wallet renders raw data instead of structured, human-readable signing details, failing the check's acceptance criteria."
         }
@@ -368,16 +381,17 @@
       "uid": "WSR-THRE-004.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "0%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": [
-            "nu-fi-browser-34.1.0-0481c5b3.png"
-          ]
+          "value": ["nu-fi-browser-34.1.0-0481c5b3.png"]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The connection dialog does not describe what access the dApp is being granted. It does not mention the ability to view the user's balance and activity, or the ability to request transaction approvals."
         }
@@ -389,37 +403,39 @@
       "uid": "WSR-THRE-005.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "0%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": [
-            "nu-fi-browser-34.1.0-d12f974a.png"
-          ]
+          "value": ["nu-fi-browser-34.1.0-d12f974a.png"]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The wallet does not show any warning or indicator for unknown addresses when sending a transaction to a fresh address."
         }
       ],
       "tester": 1,
-      "lastUpdated": 1778014725030
+      "lastUpdated": 1782219923173
     },
     {
       "uid": "WSR-THRE-006.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "100%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": [
-            "nu-fi-browser-34.1.0-b85f6946.png"
-          ]
+          "value": ["nu-fi-browser-34.1.0-b85f6946.png"]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The full dApp origin URL is shown without truncation in the connection dialog."
         }
@@ -431,16 +447,17 @@
       "uid": "WSR-PERM-002~Browser.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "100%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": [
-            "nu-fi-browser-34.1.0-4a21ec9d.png"
-          ]
+          "value": ["nu-fi-browser-34.1.0-4a21ec9d.png"]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The wallet requires users to unlock it before processing requests from dApps."
         }
@@ -452,17 +469,17 @@
       "uid": "WSR-PERM-003.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "0%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": [
-            "nu-fi-browser-34.1.0-12b33c75.png",
-            "nu-fi-browser-34.1.0-7f1b58ca.png"
-          ]
+          "value": ["nu-fi-browser-34.1.0-12b33c75.png", "nu-fi-browser-34.1.0-7f1b58ca.png"]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The wallet doesn't refuse to sign an EIP712 object with a chainId that does not match the currently active chain."
         }
@@ -474,16 +491,17 @@
       "uid": "WSR-PHYS-002~Browser.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "0%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": [
-            "nu-fi-browser-34.1.0-f4e92c28.png"
-          ]
+          "value": ["nu-fi-browser-34.1.0-f4e92c28.png"]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The password field accepted '11111111' as a valid password, failing the check which requires at least an 8 character long password and does not allow trivial passwords."
         }
@@ -495,17 +513,17 @@
       "uid": "WSR-PERM-004.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "100%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": [
-            "nu-fi-browser-34.1.0-abe1ffec.png",
-            "nu-fi-browser-34.1.0-e45ddccb.png"
-          ]
+          "value": ["nu-fi-browser-34.1.0-abe1ffec.png", "nu-fi-browser-34.1.0-e45ddccb.png"]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The wallet lists connected dApps. After disconnecting, the dApp receives errors when sending RPC requests, indicating access revocation is working."
         }
@@ -517,16 +535,17 @@
       "uid": "WSR-VERI-005.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "0%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": [
-            "nu-fi-browser-34.1.0-59da4793.png"
-          ]
+          "value": ["nu-fi-browser-34.1.0-59da4793.png"]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The wallet clearly displays the token (POL) and the approved amount ($1,040,970,882,243,4) for the ERC-20 approve transaction, but it does not show the spender address."
         }
@@ -538,16 +557,17 @@
       "uid": "WSR-PERM-009.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "100%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": [
-            "nu-fi-browser-34.1.0-4b5da322.png"
-          ]
+          "value": ["nu-fi-browser-34.1.0-4b5da322.png"]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The wallet prompts the user to confirm before switching to the Polygon network."
         }
@@ -559,10 +579,12 @@
       "uid": "WSR-VERI-006.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "0%"
         },
         {
+          "name": "evidence",
           "type": "file",
           "value": [
             "nu-fi-browser-34.1.0-70821b96.png",
@@ -572,6 +594,7 @@
           ]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The wallet displays full messages in `personal_sign` requests, but doesn't show the verifying contract within the EIP-712 object."
         }
@@ -583,16 +606,17 @@
       "uid": "WSR-PERM-005.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "0%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": [
-            "nu-fi-browser-34.1.0-87d13ffa.png"
-          ]
+          "value": ["nu-fi-browser-34.1.0-87d13ffa.png"]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The wallet does not offer any built-in or 3rd party token approval/revocation features."
         }
@@ -604,16 +628,17 @@
       "uid": "WSR-PERM-010~Browser.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "100%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": [
-            "nu-fi-browser-34.1.0-5595367c.png"
-          ]
+          "value": ["nu-fi-browser-34.1.0-5595367c.png"]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The wallet requires user confirmation before accessing RPC endpoints."
         }
@@ -625,10 +650,12 @@
       "uid": "WSR-THRE-007.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "100%"
         },
         {
+          "name": "evidence",
           "type": "file",
           "value": [
             "nu-fi-browser-34.1.0-7ef87de3.png",
@@ -637,6 +664,7 @@
           ]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The wallet flags spam NFTs as malicious."
         }
@@ -648,10 +676,12 @@
       "uid": "WSR-VERI-007.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "100%"
         },
         {
+          "name": "evidence",
           "type": "file",
           "value": [
             "nu-fi-browser-34.1.0-fa193dc3.png",
@@ -661,6 +691,7 @@
           ]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The 'Sign' button is hidden until the user scrolls to the end of the content."
         }
@@ -672,16 +703,17 @@
       "uid": "WSR-PHYS-006~Browser.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "0%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": [
-            "nu-fi-browser-34.1.0-4cd20d98.png"
-          ]
+          "value": ["nu-fi-browser-34.1.0-4cd20d98.png"]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The wallet has an auto-lock setting, but the default value is 1 hour, which does not meet the acceptance criteria of auto-locking within 20 minutes."
         }
@@ -693,16 +725,17 @@
       "uid": "WSR-PHYS-004.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "100%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": [
-            "nu-fi-browser-34.1.0-83ef4b5c.png"
-          ]
+          "value": ["nu-fi-browser-34.1.0-83ef4b5c.png"]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The wallet includes a manual lock control, named 'Logout wallet'."
         }
@@ -714,16 +747,17 @@
       "uid": "WSR-PERM-006.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "100%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": [
-            "nu-fi-browser-34.1.0-214630da.png"
-          ]
+          "value": ["nu-fi-browser-34.1.0-214630da.png"]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The wallet rejects the `eth_sign` request, returning an \"Unsupported method\" error, which meets the acceptance criteria."
         }
@@ -735,16 +769,17 @@
       "uid": "WSR-PHYS-005.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "100%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": [
-            "nu-fi-browser-34.1.0-83612b86.png"
-          ]
+          "value": ["nu-fi-browser-34.1.0-83612b86.png"]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "Authentication is required before displaying the recovery phrase."
         }
@@ -756,16 +791,17 @@
       "uid": "WSR-PHYS-003.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "100%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": [
-            "nu-fi-browser-34.1.0-13c9a0e2.png"
-          ]
+          "value": ["nu-fi-browser-34.1.0-13c9a0e2.png"]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The 'Reveal Secret' screen clearly warns the user about the risks of sharing their recovery phrase, including potential fund theft, and emphasizes the need for privacy."
         }

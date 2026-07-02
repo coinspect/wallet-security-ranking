@@ -3,7 +3,7 @@
   "wallet": "Coin 98",
   "platform": "Browser",
   "version": "10.5.2",
-  "date": "2026-06-04T20:37:18.828Z",
+  "date": "2026-07-02T17:46:01.513Z",
   "walletUID": "coin-98-browser",
   "walletMakerUID": "coin-98",
   "scores": {
@@ -78,7 +78,7 @@
             "result": 0
           },
           {
-            "checkUID": "WSR-THRE-002.v1",
+            "checkUID": "WSR-THRE-002.v2",
             "result": 0
           },
           {
@@ -151,37 +151,39 @@
       "uid": "WSR-VERI-001.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "0%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": [
-            "coin-98-browser-10.5.2-b23114c4.png"
-          ]
+          "value": ["coin-98-browser-10.5.2-b23114c4.png"]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "It's possible to input an address with incorrect EIP-55 checksum. The wallet doesn't surface a warning or block the transaction."
         }
       ],
       "tester": 1,
-      "lastUpdated": 1778014437895
+      "lastUpdated": 1782219884697
     },
     {
       "uid": "WSR-PHYS-001.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "100%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": [
-            "coin-98-browser-10.5.2-da8e6533.png"
-          ]
+          "value": ["coin-98-browser-10.5.2-da8e6533.png"]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "Wallet prevents copying the seed phrase to the clipboard."
         }
@@ -193,10 +195,12 @@
       "uid": "WSR-THRE-001.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "0%"
         },
         {
+          "name": "evidence",
           "type": "file",
           "value": [
             "coin-98-browser-10.5.2-9dd046a1.png",
@@ -206,6 +210,7 @@
           ]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The wallet does not feature a verified domain indicator for well-known dApps."
         }
@@ -217,16 +222,17 @@
       "uid": "WSR-PERM-008~Browser.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "100%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": [
-            "coin-98-browser-10.5.2-af5bdd30.png"
-          ]
+          "value": ["coin-98-browser-10.5.2-af5bdd30.png"]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The wallet requires user authentication to access the RPC endpoints."
         }
@@ -235,41 +241,47 @@
       "lastUpdated": 1778014222439
     },
     {
-      "uid": "WSR-THRE-002.v1",
+      "uid": "WSR-THRE-002.v2",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "0%"
         },
         {
+          "name": "evidence",
           "type": "file",
           "value": [
-            "coin-98-browser-10.5.2-866bf813.png"
+            "coin-98-browser-10.5.2-84f488a8.png",
+            "coin-98-browser-10.5.2-b864df9a.png",
+            "coin-98-browser-10.5.2-08f8d01c.png",
+            "coin-98-browser-10.5.2-e9ca61a3.png"
           ]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
-          "value": "The transaction confirmation screen shows no warning or flag for the Tornado Cash attacker address 0x592340957eBC9e4Afb0E9Af221d06fDDDF789de9, as it displays the recipient address in the 'To' field without any indication of a potential scam."
+          "value": "The wallet does not display any warnings or flags when attempting to send funds to a known malicious address or a lookalike (poison) address, whether the transaction is initiated via a dApp or directly through the wallet UI."
         }
       ],
       "tester": 1,
-      "lastUpdated": 1778014646831
+      "lastUpdated": 1782848612140
     },
     {
       "uid": "WSR-PERM-001.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "0%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": [
-            "coin-98-browser-10.5.2-387b7b9c.png",
-            "coin-98-browser-10.5.2-63b7d30e.png"
-          ]
+          "value": ["coin-98-browser-10.5.2-387b7b9c.png", "coin-98-browser-10.5.2-63b7d30e.png"]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The wallet does not warn the user about the domain mismatch between the dApp origin (deploy-preview-40--wallettest) and the domain specified in the SIWE message (opensea.io)."
         }
@@ -281,10 +293,12 @@
       "uid": "WSR-THRE-003.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "0%"
         },
         {
+          "name": "evidence",
           "type": "file",
           "value": [
             "coin-98-browser-10.5.2-785fc177.png",
@@ -293,6 +307,7 @@
           ]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The wallet does not display a warning when attempting to connect to known phishing sites hyperliqdop.com, venofinance.net and token-2049.world, all of which are included in the MetaMask phishing list."
         }
@@ -304,17 +319,17 @@
       "uid": "WSR-VERI-002.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "100%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": [
-            "coin-98-browser-10.5.2-a581b3df.png",
-            "coin-98-browser-10.5.2-b772b175.png"
-          ]
+          "value": ["coin-98-browser-10.5.2-a581b3df.png", "coin-98-browser-10.5.2-b772b175.png"]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The addresses, contract addresses and transaction hashes are clickable and open a block explorer both when attempting to send a transaction and in the wallet history."
         }
@@ -326,16 +341,17 @@
       "uid": "WSR-VERI-003.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "100%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": [
-            "coin-98-browser-10.5.2-78fd7a4d.png"
-          ]
+          "value": ["coin-98-browser-10.5.2-78fd7a4d.png"]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The wallet shows the expected inputs and outputs (-0.001 USDC, +0.2198 VOXEL) before signing the transaction."
         }
@@ -347,17 +363,17 @@
       "uid": "WSR-VERI-004.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "0%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": [
-            "coin-98-browser-10.5.2-3b21ba71.png",
-            "coin-98-browser-10.5.2-773ad8de.png"
-          ]
+          "value": ["coin-98-browser-10.5.2-3b21ba71.png", "coin-98-browser-10.5.2-773ad8de.png"]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The wallet renders the EIP-712 signature request as raw JSON, not a structured, human-readable format as required."
         }
@@ -369,16 +385,17 @@
       "uid": "WSR-THRE-004.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "100%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": [
-            "coin-98-browser-10.5.2-943788ed.png"
-          ]
+          "value": ["coin-98-browser-10.5.2-943788ed.png"]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The connection dialog clearly mentions the ability to view the user's balance and activity, as well as to request transaction approvals."
         }
@@ -390,38 +407,39 @@
       "uid": "WSR-THRE-005.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "0%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": [
-            "coin-98-browser-10.5.2-68baa40e.png"
-          ]
+          "value": ["coin-98-browser-10.5.2-68baa40e.png"]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "There is no warning or indicator displayed on the confirmation screen when sending to an address that has not been interacted with before."
         }
       ],
       "tester": 1,
-      "lastUpdated": 1778014725030
+      "lastUpdated": 1782219923173
     },
     {
       "uid": "WSR-THRE-006.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "100%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": [
-            "coin-98-browser-10.5.2-f9bb5187.png",
-            "coin-98-browser-10.5.2-e8f2a5db.png"
-          ]
+          "value": ["coin-98-browser-10.5.2-f9bb5187.png", "coin-98-browser-10.5.2-e8f2a5db.png"]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The wallet truncates the dApp URL in the connection dialog, but expanding the view reveals the full URL."
         }
@@ -433,16 +451,17 @@
       "uid": "WSR-PERM-002~Browser.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "100%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": [
-            "coin-98-browser-10.5.2-fd4eca63.png"
-          ]
+          "value": ["coin-98-browser-10.5.2-fd4eca63.png"]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The wallet requires the user to unlock it before processing every request."
         }
@@ -454,16 +473,17 @@
       "uid": "WSR-PERM-003.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "100%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": [
-            "coin-98-browser-10.5.2-9ae6dc68.png"
-          ]
+          "value": ["coin-98-browser-10.5.2-9ae6dc68.png"]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The wallet displays a warning indicating that the provided chainId '1444437' does not match the active chainId '137', which satisfies the acceptance criteria."
         }
@@ -475,16 +495,17 @@
       "uid": "WSR-PHYS-002~Browser.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "100%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": [
-            "coin-98-browser-10.5.2-d95dfba2.png"
-          ]
+          "value": ["coin-98-browser-10.5.2-d95dfba2.png"]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The wallet enforces the use of a strong password with a minimum length of eight characters."
         }
@@ -496,10 +517,12 @@
       "uid": "WSR-PERM-004.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "100%"
         },
         {
+          "name": "evidence",
           "type": "file",
           "value": [
             "coin-98-browser-10.5.2-30b266cb.png",
@@ -508,6 +531,7 @@
           ]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The wallet lists connected dApps, and after disconnecting the testing dApp, RPC requests failed as expected, demonstrating that access was successfully revoked."
         }
@@ -519,16 +543,17 @@
       "uid": "WSR-VERI-005.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "100%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": [
-            "coin-98-browser-10.5.2-036991d2.png"
-          ]
+          "value": ["coin-98-browser-10.5.2-036991d2.png"]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The wallet displays the token, spender (dApp contract), and approved amount (unlimited)."
         }
@@ -540,16 +565,17 @@
       "uid": "WSR-PERM-009.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "0%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": [
-            "coin-98-browser-10.5.2-c63da026.png"
-          ]
+          "value": ["coin-98-browser-10.5.2-c63da026.png"]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The chain was changed to Polygon Mainnet directly without prompting the user to confirm the switch. Therefore, it does not satisfy the acceptance criteria."
         }
@@ -561,10 +587,12 @@
       "uid": "WSR-VERI-006.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "0%"
         },
         {
+          "name": "evidence",
           "type": "file",
           "value": [
             "coin-98-browser-10.5.2-918273c6.png",
@@ -574,6 +602,7 @@
           ]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "Large payloads are scrollable. However, the EIP712Domain including verifyingContract is not displayed."
         }
@@ -585,17 +614,17 @@
       "uid": "WSR-PERM-005.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "100%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": [
-            "coin-98-browser-10.5.2-1c3029fc.png",
-            "coin-98-browser-10.5.2-de8f32af.png"
-          ]
+          "value": ["coin-98-browser-10.5.2-1c3029fc.png", "coin-98-browser-10.5.2-de8f32af.png"]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The wallet provides a link in its 'Services' menu that directs to Coin98 Terminals, which offers functionality to list and revoke token allowances."
         }
@@ -607,16 +636,17 @@
       "uid": "WSR-PERM-010~Browser.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "100%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": [
-            "coin-98-browser-10.5.2-7d0f5be9.png"
-          ]
+          "value": ["coin-98-browser-10.5.2-7d0f5be9.png"]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The wallet requires user confirmation before processing each dApp request."
         }
@@ -628,16 +658,17 @@
       "uid": "WSR-THRE-007.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "0%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": [
-            "coin-98-browser-10.5.2-941d6287.png"
-          ]
+          "value": ["coin-98-browser-10.5.2-941d6287.png"]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "Spam NFTs are displayed by default in the wallet."
         }
@@ -649,10 +680,12 @@
       "uid": "WSR-VERI-007.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "0%"
         },
         {
+          "name": "evidence",
           "type": "file",
           "value": [
             "coin-98-browser-10.5.2-baacd763.png",
@@ -662,6 +695,7 @@
           ]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The confirm button is enabled even when the message is not fully scrolled, indicating that the sign button is accessible before scrolling to the end of the content."
         }
@@ -673,17 +707,17 @@
       "uid": "WSR-PHYS-006~Browser.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "0%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": [
-            "coin-98-browser-10.5.2-11b43ff1.png",
-            "coin-98-browser-10.5.2-9fe801c8.png"
-          ]
+          "value": ["coin-98-browser-10.5.2-11b43ff1.png", "coin-98-browser-10.5.2-9fe801c8.png"]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The wallet does not offer an auto-lock time setting and does not automatically lock after 20 minutes of inactivity."
         }
@@ -695,16 +729,17 @@
       "uid": "WSR-PHYS-004.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "100%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": [
-            "coin-98-browser-10.5.2-302b4eae.png"
-          ]
+          "value": ["coin-98-browser-10.5.2-302b4eae.png"]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The wallet UI includes a manual lock button, as seen by the lock icon in the top right."
         }
@@ -716,16 +751,17 @@
       "uid": "WSR-PERM-006.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "100%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": [
-            "coin-98-browser-10.5.2-353bce9f.png"
-          ]
+          "value": ["coin-98-browser-10.5.2-353bce9f.png"]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The wallet rejected `eth_sign` requests with an error message \"Error: Method not supported.\""
         }
@@ -737,16 +773,17 @@
       "uid": "WSR-PHYS-005.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "100%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": [
-            "coin-98-browser-10.5.2-33a21178.png"
-          ]
+          "value": ["coin-98-browser-10.5.2-33a21178.png"]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "Authentication is required before accessing sensitive information like seed phrases or private keys."
         }
@@ -758,16 +795,17 @@
       "uid": "WSR-PHYS-003.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "100%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": [
-            "coin-98-browser-10.5.2-c8c6c6e8.png"
-          ]
+          "value": ["coin-98-browser-10.5.2-c8c6c6e8.png"]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The wallet displays a warning message explaining the importance of keeping the seed phrase/private key secret before revealing it to the user."
         }

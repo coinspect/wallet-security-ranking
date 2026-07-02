@@ -3,7 +3,7 @@
   "wallet": "Exodus",
   "platform": "Browser",
   "version": "26.3.11",
-  "date": "2026-06-04T20:37:18.828Z",
+  "date": "2026-07-02T17:46:01.513Z",
   "walletUID": "exodus-browser",
   "walletMakerUID": "exodus",
   "scores": {
@@ -78,7 +78,7 @@
             "result": 0
           },
           {
-            "checkUID": "WSR-THRE-002.v1",
+            "checkUID": "WSR-THRE-002.v2",
             "result": 0
           },
           {
@@ -151,38 +151,39 @@
       "uid": "WSR-VERI-001.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "100%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": [
-            "exodus-browser-26.3.11-c4c50b26.png",
-            "exodus-browser-26.3.11-478a0061.png"
-          ]
+          "value": ["exodus-browser-26.3.11-c4c50b26.png", "exodus-browser-26.3.11-478a0061.png"]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The wallet correctly identifies and blocks transactions to invalid EIP-55 checksum addresses when sending manually. However, when initiating a transaction from a dApp, the wallet did not display a checksum warning or block the transaction specifically due to an incorrect EIP-55 checksum, only due to insufficient funds."
         }
       ],
       "tester": 1,
-      "lastUpdated": 1778014437895
+      "lastUpdated": 1782219884697
     },
     {
       "uid": "WSR-PHYS-001.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "100%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": [
-            "exodus-browser-26.3.11-7a5943b5.png"
-          ]
+          "value": ["exodus-browser-26.3.11-7a5943b5.png"]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The warning message in the screenshot indicates that the wallet warns the user about the risks of saving the seed phrase in a screenshot and prevents user from copying them to the clipboard."
         }
@@ -194,10 +195,12 @@
       "uid": "WSR-THRE-001.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "0%"
         },
         {
+          "name": "evidence",
           "type": "file",
           "value": [
             "exodus-browser-26.3.11-60177fdf.png",
@@ -207,6 +210,7 @@
           ]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "Verified and unverified dApps are indistinguishable in the connection request screens. All connection requests display an app icon, name, URL, and list of permissions, with no indication of trust or verification status."
         }
@@ -218,16 +222,17 @@
       "uid": "WSR-PERM-008~Browser.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "100%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": [
-            "exodus-browser-26.3.11-b37da90e.png"
-          ]
+          "value": ["exodus-browser-26.3.11-b37da90e.png"]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "All the requests except add/switch chain returned an error or were rejected by the user, indicating that the authorization bypass test was successful. The add/switch chain are marked as success."
         }
@@ -236,42 +241,46 @@
       "lastUpdated": 1778014222439
     },
     {
-      "uid": "WSR-THRE-002.v1",
+      "uid": "WSR-THRE-002.v2",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "0%"
         },
         {
+          "name": "evidence",
           "type": "file",
           "value": [
             "exodus-browser-26.3.11-57a6c37c.png",
-            "exodus-browser-26.3.11-576656d7.png"
+            "exodus-browser-26.3.11-576656d7.png",
+            "exodus-browser-26.3.11-d9f27b98.png"
           ]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
-          "value": "The wallet displays general transaction warnings but does not specifically flag the recipient address 0x592340957eBC9e4Afb0E9Af221d06fDDDF789de9 as malicious or associated with an attacker."
+          "value": "The wallet displays general transaction warnings but does not specifically flag the recipient address 0x592340957eBC9e4Afb0E9Af221d06fDDDF789de9 as malicious or associated with an attacker. The wallet also did not flag or warn about the lookalike ('poison') address. \n\nNote: dApp testing could not be completed due to wallet functionality issues."
         }
       ],
       "tester": 1,
-      "lastUpdated": 1778014646831
+      "lastUpdated": 1782848612140
     },
     {
       "uid": "WSR-PERM-001.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "0%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": [
-            "exodus-browser-26.3.11-27c30bb1.png",
-            "exodus-browser-26.3.11-51fa9779.png"
-          ]
+          "value": ["exodus-browser-26.3.11-27c30bb1.png", "exodus-browser-26.3.11-51fa9779.png"]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The wallet did not warn the user about the domain mismatch and signed the SIWE message."
         }
@@ -283,10 +292,12 @@
       "uid": "WSR-THRE-003.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "100%"
         },
         {
+          "name": "evidence",
           "type": "file",
           "value": [
             "exodus-browser-26.3.11-45bc9740.png",
@@ -295,6 +306,7 @@
           ]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The wallet warns the user when attempting to connect to known phishing sites."
         }
@@ -306,17 +318,17 @@
       "uid": "WSR-VERI-002.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "50%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": [
-            "exodus-browser-26.3.11-6e1cdc70.png",
-            "exodus-browser-26.3.11-7b8b285f.png"
-          ]
+          "value": ["exodus-browser-26.3.11-6e1cdc70.png", "exodus-browser-26.3.11-7b8b285f.png"]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "Addresses and transaction IDs are displayed as links in transaction history, but the transaction screen does not show any clickable links."
         }
@@ -328,17 +340,17 @@
       "uid": "WSR-VERI-003.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "100%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": [
-            "exodus-browser-26.3.11-8c941ee1.png",
-            "exodus-browser-26.3.11-9564f035.png"
-          ]
+          "value": ["exodus-browser-26.3.11-8c941ee1.png", "exodus-browser-26.3.11-9564f035.png"]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The wallet shows the expected inputs and outputs from the execution of swap transactions before signing."
         }
@@ -350,17 +362,17 @@
       "uid": "WSR-VERI-004.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "0%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": [
-            "exodus-browser-26.3.11-b1b3e5ec.png",
-            "exodus-browser-26.3.11-8ea8847d.png"
-          ]
+          "value": ["exodus-browser-26.3.11-b1b3e5ec.png", "exodus-browser-26.3.11-8ea8847d.png"]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The wallet is rendering the signature request as raw JSON rather than structured, human-readable detail."
         }
@@ -372,16 +384,17 @@
       "uid": "WSR-THRE-004.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "100%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": [
-            "exodus-browser-26.3.11-520a04d0.png"
-          ]
+          "value": ["exodus-browser-26.3.11-520a04d0.png"]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The connection dialog mentions the ability to view the user's balance and activity, as well as request transaction approvals."
         }
@@ -393,38 +406,39 @@
       "uid": "WSR-THRE-005.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "0%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": [
-            "exodus-browser-26.3.11-97906bfa.png"
-          ]
+          "value": ["exodus-browser-26.3.11-97906bfa.png"]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "There is no warning or indicator for an unknown address."
         }
       ],
       "tester": 1,
-      "lastUpdated": 1778014725030
+      "lastUpdated": 1782219923173
     },
     {
       "uid": "WSR-THRE-006.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "100%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": [
-            "exodus-browser-26.3.11-9bb246a2.png",
-            "exodus-browser-26.3.11-d1a7b270.png"
-          ]
+          "value": ["exodus-browser-26.3.11-9bb246a2.png", "exodus-browser-26.3.11-d1a7b270.png"]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The dApp origin URL is displayed in full without truncation in the connection dialog for both safe and unsafe connections."
         }
@@ -436,16 +450,17 @@
       "uid": "WSR-PERM-002~Browser.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "100%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": [
-            "exodus-browser-26.3.11-58fb5fdb.png"
-          ]
+          "value": ["exodus-browser-26.3.11-58fb5fdb.png"]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The wallet requires the user to unlock it before processing every request."
         }
@@ -457,16 +472,17 @@
       "uid": "WSR-PERM-003.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "100%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": [
-            "exodus-browser-26.3.11-5bc3bf51.png"
-          ]
+          "value": ["exodus-browser-26.3.11-5bc3bf51.png"]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The wallet rejects signing requests when the chainId supplied in the typed data does not match the active chainId."
         }
@@ -478,16 +494,17 @@
       "uid": "WSR-PHYS-002~Browser.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "100%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": [
-            "exodus-browser-26.3.11-3e69da30.png"
-          ]
+          "value": ["exodus-browser-26.3.11-3e69da30.png"]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The wallet enforces at least an eight characters long password, and it does not allow trivial passwords."
         }
@@ -499,10 +516,12 @@
       "uid": "WSR-PERM-004.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "100%"
         },
         {
+          "name": "evidence",
           "type": "file",
           "value": [
             "exodus-browser-26.3.11-aa22b16d.png",
@@ -511,6 +530,7 @@
           ]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The wallet lists connected dApps. After disconnecting netlify.app, RPC requests from it failed, indicating that access was successfully revoked."
         }
@@ -522,16 +542,17 @@
       "uid": "WSR-VERI-005.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "0%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": [
-            "exodus-browser-26.3.11-730a83e9.png"
-          ]
+          "value": ["exodus-browser-26.3.11-730a83e9.png"]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The token (USDC) and spender (0x000..78BA3) are displayed, but the approved amount is not displayed. Approval amount should also be present."
         }
@@ -543,16 +564,17 @@
       "uid": "WSR-PERM-009.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "0%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": [
-            "exodus-browser-26.3.11-fca39893.png"
-          ]
+          "value": ["exodus-browser-26.3.11-fca39893.png"]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The chain was changed to Polygon (0x89) without a confirmation prompt."
         }
@@ -564,10 +586,12 @@
       "uid": "WSR-VERI-006.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "100%"
         },
         {
+          "name": "evidence",
           "type": "file",
           "value": [
             "exodus-browser-26.3.11-8d97e31d.png",
@@ -577,6 +601,7 @@
           ]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The signing data is visible, scrollable, and not truncated, including the verifyingContract for EIP-712."
         }
@@ -588,17 +613,17 @@
       "uid": "WSR-PERM-005.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "0%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": [
-            "exodus-browser-26.3.11-bbbc68c7.png",
-            "exodus-browser-26.3.11-4ac28abc.png"
-          ]
+          "value": ["exodus-browser-26.3.11-bbbc68c7.png", "exodus-browser-26.3.11-4ac28abc.png"]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The wallet does not offer token allowance revocation within the app, nor does it provide a third-party external link for this purpose."
         }
@@ -610,16 +635,17 @@
       "uid": "WSR-PERM-010~Browser.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "100%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": [
-            "exodus-browser-26.3.11-bc7e741d.png"
-          ]
+          "value": ["exodus-browser-26.3.11-bc7e741d.png"]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The wallet requires the user to unlock it before processing every request."
         }
@@ -631,16 +657,17 @@
       "uid": "WSR-THRE-007.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "100%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": [
-            "exodus-browser-26.3.11-18eef018.png"
-          ]
+          "value": ["exodus-browser-26.3.11-18eef018.png"]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "Spam NFTs have been hidden by default. This satisfies the acceptance criteria."
         }
@@ -652,17 +679,17 @@
       "uid": "WSR-VERI-007.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "0%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": [
-            "exodus-browser-26.3.11-e0f964e8.png",
-            "exodus-browser-26.3.11-c6c01c55.png"
-          ]
+          "value": ["exodus-browser-26.3.11-e0f964e8.png", "exodus-browser-26.3.11-c6c01c55.png"]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The sign button is accessible even though the user has not scrolled to the end of the message."
         }
@@ -674,17 +701,17 @@
       "uid": "WSR-PHYS-006~Browser.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "0%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": [
-            "exodus-browser-26.3.11-49ba21a8.png",
-            "exodus-browser-26.3.11-4facbc4d.png"
-          ]
+          "value": ["exodus-browser-26.3.11-49ba21a8.png", "exodus-browser-26.3.11-4facbc4d.png"]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The auto-lock setting is present and set to 60 minutes by default, thus, the wallet does not auto-lock within 20 minutes as required."
         }
@@ -696,16 +723,17 @@
       "uid": "WSR-PHYS-004.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "100%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": [
-            "exodus-browser-26.3.11-5fb28cb1.png"
-          ]
+          "value": ["exodus-browser-26.3.11-5fb28cb1.png"]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The wallet includes a \"Lock Wallet\" button at the bottom of the Security settings screen."
         }
@@ -717,16 +745,17 @@
       "uid": "WSR-PERM-006.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "100%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": [
-            "exodus-browser-26.3.11-402bfebc.png"
-          ]
+          "value": ["exodus-browser-26.3.11-402bfebc.png"]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The `eth_sign` request resulted in a \"Method not found\" error, meaning the wallet rejects `eth_sign` requests, which satisfies the acceptance criteria."
         }
@@ -738,16 +767,17 @@
       "uid": "WSR-PHYS-005.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "100%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": [
-            "exodus-browser-26.3.11-fff6884a.png"
-          ]
+          "value": ["exodus-browser-26.3.11-fff6884a.png"]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "Secret recovery phrase screen requires a password before viewing the secret phrase."
         }
@@ -759,16 +789,17 @@
       "uid": "WSR-PHYS-003.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "100%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": [
-            "exodus-browser-26.3.11-41a99efd.png"
-          ]
+          "value": ["exodus-browser-26.3.11-41a99efd.png"]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The seed phrase reveal screen clearly communicates the risks of sharing the secret phrase and displays a warning to the user before revealing the secrets."
         }
