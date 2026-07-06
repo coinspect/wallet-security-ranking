@@ -221,7 +221,7 @@
         "criteria": "Passes if verified dApps are clearly distinguished from unknown ones. The tester must provide screenshots to show such distinction (known vs. unkown DApps).",
         "attack_scenario": "A phishing site impersonates a trusted dApp to gain user trust and request sensitive actions."
     },
-    "WSR-THRE-002.v1": {
+    "WSR-THRE-002.v2": {
         "name": "Malicious and poisoned address detection",
         "weight": {
             "mobile": 2540,
