@@ -194,7 +194,7 @@
         "description": "Clearly displays all message signature request details without truncating or hiding information.",
         "instructions": "Send large payloads via `personal_sign` and `eth_signTypedData` (via `/sign` in the testing dApp) and observe whether all content is visible, scrollable, and not truncated. For EIP-712 objects, also check whether the `EIP712Domain`, including `verifyingContract`, is displayed.",
         "reasoning": "Users cannot give meaningful consent if important parts of the message are hidden, truncated, or impossible to inspect. Full visibility into signed data is critical because attackers can bury harmful payloads or structured objects.",
-        "criteria": "Passes if all signing data is visible (including the `verifyingContract` for EIP-712), scrollable, and not truncated for every functional signing method. Non-functional or unsupported methods (e.g. `personal_sign`) are ignored; however, if a working method (e.g. `eth_signTypedData`) fails the test, the check fails..",
+        "criteria": "Passes if all signing data is visible (including the `verifyingContract` for EIP-712), scrollable, and not truncated for every functional signing method. Non-functional or unsupported methods (e.g. `personal_sign`) are ignored; however, if a working method (e.g. `eth_signTypedData`) fails the test, the check fails.",
         "attack_scenario": "A malicious dApp hides or obfuscates critical parts of a signing payload, leading the user to approve unintended or harmful data."
     },
     "WSR-VERI-007.v1": {
@@ -218,7 +218,7 @@
         "description": "Informs users when interacting with a trusted dApp URL.",
         "instructions": "Attempt to connect to a well-known dApp (e.g. Uniswap) and observe the connection request screen. Then repeat with an unknown dApp and compare how each is displayed.",
         "reasoning": "Verified dApp indicators help users distinguish trusted, well-known services from lookalike phishing sites. This is especially valuable during connection prompts, where users are often making a quick trust decision with limited information.",
-        "criteria": "Passes if the wallet visibly distinguishes verified DApps from unknown ones (e.g. with a checkmark or trust badge).",
+        "criteria": "Passes if the wallet visibly distinguishes verified dApps from unknown ones (e.g. with a checkmark or trust badge).",
         "attack_scenario": "A phishing site impersonates a trusted dApp to gain user trust and request sensitive actions."
     },
     "WSR-THRE-002.v2": {
@@ -230,7 +230,7 @@
         "description": "Prevents or alerts users about interactions with a known malicious address or a lookalike (poisoned) address.",
         "instructions": "Test both via dApp (at wizard/WSR-THRE-002) and direct wallet UI, observing whether the wallet surfaces any warning on each attempt. 1) Attempt to send a transaction to a known malicious address (e.g. the Tornado Cash attacker address). 2) Attempt to send a transaction to a lookalike address that shares its first and last 4 characters with a recipient you have previously sent funds to, but differs in the middle.",
         "reasoning": "Many scams rely on users sending funds to addresses linked to theft, laundering, or fraud, so alerting on them gives a last defensive checkpoint before irreversible transfers. Poisoning is a related vector: a lookalike address planted in the user's history appears familiar, and since users often check only the leading and trailing characters, the wallet must treat it as malicious.",
-        "criteria": "Passes with full points if the wallet detects both problems, whether the address is entered manually in the wallet UI or supplied by a DApp: (1) it warns, flags, or blocks the transaction to the known malicious address; and (2) it flags a lookalike address (matching prefix/suffix of a known recipient but never transacted with) transaction attempt. Half points if only one of the two is implemented. No points if neither is detected. The tester must provide screenshots of both functionalities as well as the addresses used in the test.",
+        "criteria": "Passes with full points if the wallet detects both problems, whether the address is entered manually in the wallet UI or supplied by a dApp: (1) it warns, flags, or blocks the transaction to the known malicious address; and (2) it flags a lookalike address (matching prefix/suffix of a known recipient but never transacted with) transaction attempt. Half points if only one of the two is implemented. No points if neither is detected.",
         "attack_scenario": "A user unknowingly sends funds to an address associated with scams, theft, or malicious activity. In the poisoning variant, a user sends funds to a lookalike address that mimics a trusted recipient's leading and trailing characters but was planted by an attacker via a dust or zero-value transfer."
     },
     "WSR-THRE-003.v1": {
@@ -311,7 +311,7 @@
         "description": "Uses strong authentication, including biometrics, rate limiting, and resistance to trivial credentials.",
         "instructions": "Check whether biometric authentication is available and attempt to set a weak PIN (e.g. `1234`). Then attempt multiple incorrect logins and observe whether rate limiting activates.",
         "reasoning": "Weak local authentication can completely undermine all other security controls. Strong passwords, biometrics, and rate-limiting make brute force, shoulder surfing, and opportunistic device access much harder.",
-        "criteria": "Passes if the wallet supports biometrics; if it allows easy-to-guess passwords/pins, make sure that it rate limits attempts after the 5th one.",
+        "criteria": "Passes if the wallet supports biometrics; if it allows easy-to-guess passwords/pins, it must rate limits attempts after the 5th one.",
         "attack_scenario": "An attacker with access to the device bypasses weak authentication mechanisms (e.g., weak passwords, lack of rate limiting) to gain control of the wallet."
     },
     "WSR-PHYS-002~Browser.v1": {
