@@ -13,7 +13,7 @@
             "The wallet neither warns about the mismatch nor blocks the signing request.": 0
         },
         "evidence_requirements": "A screenshot showing whether the wallet warns about the SIWE domain mismatch, blocks the signing, or signs the message without any warning.",
-        "attack_scenario": "A phishing site tricks the user into signing a login message that authenticates them to a different service targetted by the attacker."
+        "attack_scenario": "A phishing site tricks the user into signing a login message that authenticates them to a different service targeted by the attacker."
     },
     "WSR-PERM-002~Mobile.v1": {
         "name": "Wallet unlock before requests",
@@ -23,7 +23,7 @@
         "reasoning": "A locked wallet must never continue serving sensitive requests, since that would weaken the purpose of the lock state. Requiring an unlock prevents unauthorized access to accounts, signatures, or encrypted material if the device is unattended or temporarily exposed.",
         "criteria": {
             "Every request requires unlocking before processing and no information is leaked while locked, or the wallet lacks WalletConnect.": 100,
-            "It skips authentication for at least one privileged endpoint.": 0
+            "The wallet skips authentication for at least one privileged endpoint, or leaks information while locked.": 0
         },
         "evidence_requirements": "A screenshot of the Auth Bypass results showing, for the batch run while locked, whether each request prompted an unlock and whether any data was returned. If the wallet does not implement WalletConnect, document that instead.",
         "attack_scenario": "An attacker with temporary access to the device triggers wallet operations or extracts sensitive data while the wallet is locked."
@@ -35,8 +35,8 @@
         "instructions": "With the wallet already connected to the testing dApp but in a locked state, run the Auth Bypass Test, which sends the following RPC requests: `wallet_addEthereumChain`, `wallet_watchAsset`, `eth_decrypt`, `eth_getEncryptionPublicKey`, `eth_signTypedData*`, `personal_sign`, `eth_sendTransaction`. Observe whether each request triggers an authentication prompt before being processed and look for possible information leaks.",
         "reasoning": "A locked wallet must never continue serving sensitive requests, since that would weaken the purpose of the lock state. Requiring an unlock prevents unauthorized access to accounts, signatures, or encrypted material if the device is unattended or temporarily exposed.",
         "criteria": {
-            "Every request triggers an unlock prompt and none are processed while the wallet is locked.": 100,
-            "It skips unlock and directly requests approval on at least one endpoint.": 0
+            "Every request triggers an unlock prompt, none are processed, and no sensitive information is leaked while the wallet is locked.": 100,
+            "The wallet processes at least one request without requiring unlock, or leaks information while locked.": 0
         },
         "evidence_requirements": "A screenshot of the Auth Bypass results showing, for the batch run while locked, whether each request prompted an unlock and whether any data was returned.",
         "attack_scenario": "An attacker with temporary access to the device triggers wallet operations or extracts sensitive data while the wallet is locked."
@@ -51,8 +51,8 @@
         "instructions": "Craft an EIP-712 object with a `chainId` different from the wallet's currently active network and attempt to sign it. This is done by accessing the testing dApp at `/sign`, clicking on 'Show SIGN Params' and modifying the `chainId` parameter for a different value. Observe whether the wallet warns or rejects the request.",
         "reasoning": "EIP-712 signatures are domain-separated partly through the chainId, so signing data for a different chain can enable cross-chain confusion or replay-like abuse in poorly designed integrations. Warning or rejecting mismatched chainIds helps users understand what environment they are authorizing and prevents signatures from being produced under misleading assumptions.",
         "criteria": {
-            "The wallet rejects the signing request or warns about the chainId mismatch (or EIP-712 signing is not working at testing time).": 100,
-            "The wallet signs without warning about the chainId mismatch.": 0
+            "The wallet rejects the signing request or warns about the `chainId` mismatch, or EIP-712 signing is not working at testing time.": 100,
+            "The wallet signs without warning about the `chainId` mismatch.": 0
         },
         "evidence_requirements": "A screenshot showing the wallet's response to the EIP-712 chainId mismatch: whether it warns, rejects, or signs the request. If EIP-712 signing is not working at testing time, document that instead.",
         "attack_scenario": "A malicious dApp tricks the user into signing data for a different network than expected, enabling misuse of the signature under a misleading execution context."
@@ -99,8 +99,8 @@
         "instructions": "With the wallet connected and unlocked, send an `eth_sign` RPC request via the testing dApp at `/sign` and press the SIGN button. Observe the response. Note that some wallets silently redirect `eth_sign` calls to `personal_sign` instead.",
         "reasoning": "`eth_sign` is historically dangerous because it signs raw data in a way that is easy to misuse and hard for users to interpret safely. In particular, it can be abused to trick users into signing raw transaction hashes or other opaque payloads without clear context. Disabling it by default reduces compatibility with insecure legacy flows and pushes dApps toward safer, more explicit signing methods.",
         "criteria": {
-            "The wallet rejects eth_sign requests or redirects them to personal_sign.": 100,
-            "The eth_sign method is enabled by default.": 0
+            "The wallet rejects `eth_sign` requests or redirects them to `personal_sign`.": 100,
+            "The wallet keeps the `eth_sign` method enabled by default.": 0
         },
         "evidence_requirements": "A screenshot showing the wallet's response to the eth_sign request: whether it rejects the request, responds with a personal_sign signature instead, or signs it.",
         "attack_scenario": "A malicious dApp tricks the user into signing opaque data that can be interpreted as a valid transaction or authorization."
@@ -113,7 +113,7 @@
         "reasoning": "Requiring confirmation for sensitive RPC methods ensures the dApp cannot silently trigger signing, encryption, asset watching, or transaction actions without the user noticing.",
         "criteria": {
             "Each request requires confirmation, or the wallet does not support WalletConnect.": 100,
-            "It skips approval for at least one privileged endpoint.": 0
+            "The wallet skips confirmation for at least one privileged endpoint.": 0
         },
         "evidence_requirements": "A screenshot of the Auth Bypass results showing, for the batch run via WalletConnect, whether each request surfaced a confirmation prompt. If the wallet does not support WalletConnect, document that instead.",
         "attack_scenario": "A malicious dApp triggers sensitive operations through WalletConnect without clear user awareness or intent."
@@ -126,7 +126,7 @@
         "reasoning": "A dApp should not be able to access accounts or request sensitive operations before the user explicitly grants it permission. Enforcing a connection step prevents passive data exposure and makes the trust decision visible and deliberate.",
         "criteria": {
             "Each request is rejected or requires a connection approval, with no information leaked.": 100,
-            "It skips connection on at least one privileged endpoint.": 0
+            "The wallet skips connection approval for at least one privileged endpoint, or leaks information.": 0
         },
         "evidence_requirements": "A screenshot of the Auth Bypass results showing, for the batch run before connecting, whether each request was rejected or required a connection approval and whether any data was returned.",
         "attack_scenario": "A malicious or untrusted dApp accesses accounts or initiates sensitive requests without explicit user authorization."
@@ -141,7 +141,7 @@
         "instructions": "Send a `wallet_switchEthereumChain` RPC request from a dApp and observe whether a confirmation prompt appears. If no prompt is shown, check whether the wallet allows users to manage pre-approved networks — if so, configure only one approved network and attempt to switch to any other chain. Perform this test through both the browser and WalletConnect, if applicable.",
         "reasoning": "Chain switching changes the execution context of future transactions and signatures, so it should never happen silently. Confirmation protects users from being moved onto an unexpected network where balances, assets, or contract interactions may behave very differently.",
         "criteria": {
-            "The wallet prompts confirmation before switching networks, or blocks switching to non-approved networks.": 100,
+            "The wallet prompts for confirmation before switching networks, or blocks switching to non-approved networks.": 100,
             "The wallet switches networks without user confirmation.": 0
         },
         "evidence_requirements": "A screenshot showing the wallet's response to the wallet_switchEthereumChain request: whether it prompts for confirmation, blocks the switch to a non-approved network, or switches without confirmation. If the switch is blocked as non-approved, also include a screenshot of the dApp access disclosure dialog showing the approved networks, so the non-approved status can be verified. If neither a confirmation prompt nor pre-approved network management can be found, a tester note stating so is expected.",
@@ -155,7 +155,7 @@
         "reasoning": "Requiring confirmation for sensitive RPC methods ensures the dApp cannot silently trigger signing, encryption, asset watching, or transaction actions without the user noticing.",
         "criteria": {
             "Each request requires explicit user confirmation before execution, or the wallet has no embedded browser.": 100,
-            "It skips approval for at least one privileged endpoint.": 0
+            "The wallet skips confirmation for at least one privileged endpoint.": 0
         },
         "evidence_requirements": "A screenshot of the Auth Bypass results showing, for the batch run from the embedded browser, whether each request required explicit user confirmation. If the wallet has no embedded browser, document that instead.",
         "attack_scenario": "A malicious dApp triggers privileged operations from an embedded browser without the user clearly reviewing and approving each request."
@@ -168,7 +168,7 @@
         "reasoning": "Sensitive RPC methods can lead to asset movement, approval of malicious contracts, disclosure of encryption material, or misleading signatures. Requiring per-request confirmation ensures the user reviews each action in context instead of the dApp operating with broad invisible permission.",
         "criteria": {
             "Each request requires explicit user confirmation before execution.": 100,
-            "It skips approval on at least one privileged endpoint.": 0
+            "The wallet skips confirmation for at least one privileged endpoint.": 0
         },
         "evidence_requirements": "A screenshot of the Auth Bypass results showing, for the batch run on the connected wallet, whether each request required explicit user confirmation.",
         "attack_scenario": "A malicious dApp executes privileged operations (signing, transactions, approvals) without the user explicitly reviewing and approving each request."
@@ -184,7 +184,7 @@
         "reasoning": "EIP-55 checksums are meant to catch address-entry mistakes that would otherwise be hard to spot. Warning on an invalid checksum reduces the chance of sending funds to a mistyped or malformed address, especially when users copy addresses from unreliable sources.",
         "criteria": {
             "The wallet blocks the transaction or shows a checksum warning for both manually entered and dApp-provided addresses (a failed transaction counts as blocked).": 100,
-            "The wallet allows the transaction without any checksum warning.": 0
+            "The wallet allows the transaction without a checksum warning in at least one of the two cases.": 0
         },
         "evidence_requirements": "A screenshot showing the wallet's response to the invalid-checksum address: whether it warns, blocks the transaction, or allows it to proceed. The address used must be documented.",
         "attack_scenario": "A user sends funds to a mistyped or manipulated address due to input errors or clipboard tampering."
@@ -196,12 +196,12 @@
             "browser": 490
         },
         "description": "Consistently provides clickable links to block explorers for all key blockchain identifiers.",
-        "instructions": "Attempt to send a transaction and inspect the details screen. Also browse the wallet's transaction history. Observe whether addresses, contract addresses, and transaction hashes are displayed as clickable links to a block explorer.",
+        "instructions": "Attempt to send a transaction and inspect the preview screen. Also browse the wallet's transaction history. Observe whether addresses, contract addresses, and transaction hashes are displayed as clickable links to a block explorer.",
         "reasoning": "Explorer links let users independently verify addresses, contracts, and transactions instead of trusting only the wallet UI. This improves transparency and makes it easier to inspect counterparties, token contracts, and transaction outcomes before or after signing.",
         "criteria": {
-            "Includes clickable links in both the transaction preview and wallet history.": 100,
-            "Includes clickable links in only the transaction preview or the wallet history.": 50,
-            "Does not include any clickable links.": 0
+            "The wallet includes clickable links in both the transaction preview screen and the wallet history.": 100,
+            "The wallet includes clickable links in only the transaction preview screen or the wallet history.": 50,
+            "The wallet does not include any clickable links.": 0
         },
         "evidence_requirements": "A screenshot showing whether addresses, contract addresses, and transaction hashes appear as clickable block-explorer links, captured in both the transaction details screen and the wallet history. If no links are present, include the same screens showing their absence, along with a tester note stating so.",
         "attack_scenario": "A malicious interface misrepresents transaction or address details, preventing independent verification by the user."
@@ -232,8 +232,8 @@
         "instructions": "Trigger EIP-712 signature requests from well-known protocols such as OpenSea Seaport, ERC-20 Permit flows, or Uniswap, and observe how the wallet renders them — whether it shows structured, human-readable detail or raw JSON. In the testing dApp, go to `/sign` and attempt signing an ERC20 Permit or Opensea listing.",
         "reasoning": "EIP-712 is designed to make structured data more understandable, but that only works if the wallet parses and presents it clearly. Human-readable rendering helps users distinguish between harmless messages and signatures that authorize critical permissions or off-chain actions.",
         "criteria": {
-            "The wallet renders structured, human-readable signing details (or EIP-712 signing is not supported).": 100,
-            "The wallet shows all the information as raw or plain data.": 0
+            "The wallet renders structured, human-readable signing details, or EIP-712 signing is not supported.": 100,
+            "The wallet shows the information only as raw or plain data.": 0
         },
         "evidence_requirements": "A screenshot showing the wallet's rendering of the EIP-712 request: whether it displays structured, human-readable details or raw JSON. If EIP-712 signing is not supported, document that instead.",
         "attack_scenario": "A malicious dApp crafts structured data that appears benign but actually grants permissions or authorizations when signed."
@@ -264,8 +264,8 @@
         "instructions": "Send large payloads via `personal_sign` and `eth_signTypedData` (via `/sign` in the testing dApp) and observe whether all content is visible, scrollable, and not truncated. For EIP-712 objects, also check whether the `EIP712Domain`, including `verifyingContract`, is displayed.",
         "reasoning": "Users cannot give meaningful consent if important parts of the message are hidden, truncated, or impossible to inspect. Full visibility into signed data is critical because attackers can bury harmful payloads or structured objects.",
         "criteria": {
-            "All signing data is visible (including verifyingContract for EIP-712), scrollable, and not truncated for every functional method.": 100,
-            "It truncates information, or fails to show the verifyingContract field in the EIP712Domain.": 0
+            "All signing data is visible (including `verifyingContract` for EIP-712), scrollable, and not truncated for every functional method.": 100,
+            "The wallet truncates information, or fails to show the `verifyingContract` field in the `EIP712Domain`.": 0
         },
         "evidence_requirements": "A screenshot showing the wallet's rendering of the large personal_sign and EIP-712 payloads: whether the full content is visible, scrollable, and not truncated, including the verifyingContract for EIP-712.",
         "attack_scenario": "A malicious dApp hides or obfuscates critical parts of a signing payload, leading the user to approve unintended or harmful data."
@@ -281,7 +281,7 @@
         "reasoning": "Forcing the user to scroll through the full request makes rushed or accidental approvals less likely. It is not a perfect defense, but it raises friction in exactly the places where attackers benefit from users clicking through without reviewing the content.",
         "criteria": {
             "The sign button stays disabled until the user scrolls through the entire message for every functional method.": 100,
-            "Sign buttons are always enabled.": 0
+            "The sign button becomes enabled before the user scrolls through the entire message for at least one functional method.": 0
         },
         "evidence_requirements": "A screenshot showing whether the sign button remains disabled until the message has been fully scrolled. A tester note confirming whether the button only became enabled after scrolling to the end is also expected.",
         "attack_scenario": "A malicious dApp relies on users blindly approving signature requests without reviewing their contents, leading to unintended authorizations."
@@ -312,9 +312,9 @@
         "instructions": "Test both via dApp (at wizard/WSR-THRE-002) and direct wallet UI, observing whether the wallet surfaces any warning on each attempt. 1) Attempt to send a transaction to a known malicious address (e.g. the Tornado Cash attacker address). 2) Attempt to send a transaction to a lookalike address that shares its first and last 4 characters with a recipient you have previously sent funds to, but differs in the middle.",
         "reasoning": "Many scams rely on users sending funds to addresses linked to theft, laundering, or fraud, so alerting on them gives a last defensive checkpoint before irreversible transfers. Poisoning is a related vector: a lookalike address planted in the user's history appears familiar, and since users often check only the leading and trailing characters, the wallet must treat it as malicious.",
         "criteria": {
-            "Warns for both the known malicious address and the poisoned lookalike address.": 100,
-            "Warns for only one of the two.": 50,
-            "Does not warn for either case.": 0
+            "The wallet warns for both the known malicious address and the poisoned lookalike address, whether entered manually or supplied by a dApp.": 100,
+            "The wallet warns for only one of the two.": 50,
+            "The wallet does not warn for either case.": 0
         },
         "evidence_requirements": "Four screenshots showing the wallet's response in each case: (1) the known malicious address entered in the wallet UI, (2) the lookalike address entered in the wallet UI, (3) the known malicious address supplied by the dApp, and (4) the lookalike address supplied by the dApp. Each screenshot must show whether the wallet flags, blocks, or allows the transaction. The addresses used must be documented.",
         "attack_scenario": "A user unknowingly sends funds to an address associated with scams, theft, or malicious activity. In the poisoning variant, a user sends funds to a lookalike address that mimics a trusted recipient's leading and trailing characters but was planted by an attacker via a dust or zero-value transfer."
@@ -345,7 +345,7 @@
         "instructions": "Attempt connecting a dApp to the wallet and inspect the connection dialog for any description of what access the dApp is being granted.",
         "reasoning": "Explaining the scope of access during the connection flow improves informed consent and reduces the chance that users treat connection prompts as harmless.",
         "criteria": {
-            "The connection dialog clearly mentions viewing balance and activity and requesting transaction approvals.": 100,
+            "The connection dialog clearly mentions viewing balance and activity, and requesting transaction approvals.": 100,
             "The connection dialog omits some of the required information.": 0
         },
         "evidence_requirements": "A screenshot showing the connection dialog: whether it discloses access to the user's balance and activity and the ability to request transaction approvals.",
@@ -361,8 +361,8 @@
         "instructions": "Send a transaction to a fresh address (never interacted with and not saved as a contact) both through a dApp and directly through the wallet UI. Observe whether any warning or indicator appears.",
         "reasoning": "Highlighting unknown recipients creates a useful pause before sending funds or interacting with a new contract that may be malicious or mistyped.",
         "criteria": {
-            "The wallet warns or indicates when an unknown address is used, whether entered manually or provided by a dApp.": 100,
-            "The wallet gives no warning when an unknown address is used.": 0
+            "The wallet shows a warning or indicator when an unknown address is used, whether entered manually or provided by a dApp.": 100,
+            "The wallet shows no warning or indicator in at least one of the two cases.": 0
         },
         "evidence_requirements": "A screenshot showing the wallet's response when sending to the fresh address: whether it displays a warning or indicator for the unknown address. The address used must be documented.",
         "attack_scenario": "A user sends funds to an unfamiliar or unverified address without recognizing the associated risk."
@@ -393,8 +393,8 @@
         "instructions": "Using a test wallet that has received spam NFTs and tokens, open the wallet and observe which assets are displayed by default.",
         "reasoning": "Spam tokens and NFTs are commonly used for phishing, impersonation, and social engineering inside wallet portfolios. Hiding them by default reduces clutter and lowers the chance that users click malicious assets or mistake them for legitimate holdings.",
         "criteria": {
-            "Spam tokens or NFTs are hidden by default, or the wallet does not list tokens.": 100,
-            "The wallet shows spam tokens or NFTs, or both.": 0
+            "The wallet hides spam tokens or NFTs by default, or does not display NFTs at all.": 100,
+            "The wallet displays spam tokens or NFTs by default.": 0
         },
         "evidence_requirements": "A screenshot showing the assets displayed by default: whether the spam token or NFT appears or is filtered out; if the wallet does not display NFTs at all, a screenshot of the tokens/assets it does show. Any address that was not filtered must be documented.",
         "attack_scenario": "Spam tokens or NFTs trick users into interacting with malicious links, contracts, or social engineering schemes."
@@ -410,7 +410,7 @@
         "reasoning": "Seed phrases are extremely sensitive, and clipboards and screenshots are common exfiltration paths on both desktop and mobile systems. Limiting, warning, or blocking these actions reduces the exposure window and makes users think twice before handling secrets insecurely.",
         "criteria": {
             "The wallet limits clipboard exposure (1 min max), warns about clipboard risks, or prevents copying; on mobile it also prevents or warns about screenshot risks.": 100,
-            "The wallet offers no clipboard protection, or on mobile no screenshot protection.": 0
+            "The wallet offers no clipboard protection, or no screenshot protection on mobile.": 0
         },
         "evidence_requirements": "A screenshot showing the wallet's response when the seed phrase is copied to the clipboard: whether it clears the clipboard, warns about the risk, or blocks copying, and on mobile whether it prevents or warns about screenshots. If none of these occur, include a screenshot of the seed phrase screen as it appears. A tester note stating whether the clipboard was cleared, and after how long, is also expected.",
         "attack_scenario": "Seed phrases are exposed through clipboard access or screenshots that may be stored locally, synced to the cloud, or accessed by someone with physical access to the device."
@@ -422,8 +422,8 @@
         "instructions": "Check whether biometric authentication is available and attempt to set a weak PIN (e.g. `1234`). Then attempt multiple incorrect logins and observe whether rate limiting activates.",
         "reasoning": "Weak local authentication can completely undermine all other security controls. Strong passwords, biometrics, and rate-limiting make brute force, shoulder surfing, and opportunistic device access much harder.",
         "criteria": {
-            "The wallet supports biometrics, and rate-limits attempts after the 5th if it allows weak passwords or PINs.": 100,
-            "The wallet lacks biometrics and does not rate-limit weak password or PIN attempts.": 0
+            "The wallet supports biometrics, and rate-limits attempts after the 5th one if it allows weak passwords or PINs.": 100,
+            "The wallet lacks biometrics, or allows weak passwords or PINs without rate-limiting attempts.": 0
         },
         "evidence_requirements": "A screenshot showing whether the weak PIN was accepted and whether rate limiting triggers after the 5th failed attempt, noting biometric availability. The PIN used must be documented.",
         "attack_scenario": "An attacker with access to the device bypasses weak authentication mechanisms (e.g., weak passwords, lack of rate limiting) to gain control of the wallet."
@@ -497,7 +497,7 @@
         "reasoning": "Mobile devices are frequently lost, borrowed, or left unlocked briefly, so short auto-lock periods materially reduce the chance of unauthorized access.",
         "criteria": {
             "The wallet auto-locks after inactivity (1 minute or less by default), on device lock, or when moved to the background (at least one).": 100,
-            "The wallet includes no auto-lock feature.": 0
+            "The wallet does not auto-lock in any of these cases.": 0
         },
         "evidence_requirements": "A screenshot showing the wallet's auto-lock configuration and whether it locks after inactivity, when the device locks, or when the app moves to the background, noting the configured timeout. If no auto-lock setting exists, include a screenshot of the security or settings section where it would be expected, along with a tester note stating it could not be found.",
         "attack_scenario": "An attacker with access to the device exploits an idle or background wallet session that remains unlocked."
@@ -509,7 +509,7 @@
         "instructions": "Check the wallet settings for an auto-lock configuration. If no setting is visible, leave the wallet idle for up to 20 minutes to observe whether it auto-locks. If it's 0 by default, then the wallet does not auto-lock on inactivity.",
         "reasoning": "Browser extension wallets often remain open for long periods on shared or unattended computers. A reasonable auto-lock time reduces the window in which an attacker, coworker, or malicious webpage can exploit an already-unlocked wallet.",
         "criteria": {
-            "The wallet auto-locks after 20 minutes of inactivity or less.": 100,
+            "The wallet auto-locks within 20 minutes of inactivity.": 100,
             "The wallet does not auto-lock within 20 minutes of inactivity.": 0
         },
         "evidence_requirements": "A screenshot showing the wallet's auto-lock configuration and whether it locks after inactivity, noting the configured timeout. If no auto-lock setting exists, include a screenshot of the security or settings section where it would be expected, along with a tester note stating it could not be found.",
