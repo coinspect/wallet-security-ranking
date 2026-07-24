@@ -9,7 +9,7 @@
         "instructions": "Generate and attempt to sign a SIWE message from a dApp whose origin differs from the domain specified in the SIWE object. To craft a SIWE object, access the testing dApp at `/signinwithethereum`. Observe whether the wallet warns the user or blocks the signing.",
         "reasoning": "A mismatch between the dApp origin and the domain inside the SIWE message can indicate phishing or session hijacking attempt. Warning on this helps users avoid signing login messages that could authenticate them to a different service than the one they think they are using.",
         "criteria": "Passes if the wallet warns the user about the mismatch or blocks the signing request.",
-        "evidence_requirements": "A screenshot showing whether the wallet warns about the SIWE domain mismatch or signs the message without any warning.",
+        "evidence_requirements": "A screenshot showing whether the wallet warns about the SIWE domain mismatch, blocks the signing, or signs the message without any warning.",
         "attack_scenario": "A phishing site tricks the user into signing a login message that authenticates them to a different service targetted by the attacker."
     },
     "WSR-PERM-002~Mobile.v1": {
