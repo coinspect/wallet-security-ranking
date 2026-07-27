@@ -256,7 +256,7 @@
         "reasoning": "EIP-55 checksums are meant to catch address-entry mistakes that would otherwise be hard to spot. Warning on an invalid checksum reduces the chance of sending funds to a mistyped or malformed address, especially when users copy addresses from unreliable sources.",
         "criteria": [
             {
-                "outcome": "The wallet blocks the transaction or shows a checksum warning for both manually entered and dApp-provided addresses (a failed transaction counts as blocked).",
+                "outcome": "The wallet blocks the transaction or shows a checksum warning before the transaction proceeds, for both manually entered and dApp-provided addresses (a failed transaction counts as blocked).",
                 "score": 100
             },
             {
@@ -278,15 +278,15 @@
         "reasoning": "Explorer links let users independently verify addresses, contracts, and transactions instead of trusting only the wallet UI. This improves transparency and makes it easier to inspect counterparties, token contracts, and transaction outcomes before or after signing.",
         "criteria": [
             {
-                "outcome": "The wallet includes clickable links in both the transaction preview screen and the wallet history.",
+                "outcome": "Addresses, contract addresses, and transaction hashes are clickable and open a block explorer in both the transaction preview screen and the wallet history.",
                 "score": 100
             },
             {
-                "outcome": "The wallet includes clickable links in only the transaction preview screen or the wallet history.",
+                "outcome": "Addresses, contract addresses, and transaction hashes are clickable and open a block explorer in only one of the two contexts.",
                 "score": 50
             },
             {
-                "outcome": "The wallet does not include any clickable links.",
+                "outcome": "The wallet provides no block explorer links for these identifiers in either context.",
                 "score": 0
             }
         ],
@@ -348,11 +348,11 @@
         "reasoning": "ERC-20 approvals can grant a spender long-lived control over tokens. Clearly showing the token, spender, and amount helps users detect malicious approvals, unlimited allowances, and approvals targeting unexpected contracts.",
         "criteria": [
             {
-                "outcome": "The wallet clearly identifies the request as an approval and shows the token, spender, and approved amount.",
+                "outcome": "The wallet clearly identifies the request as an approval and shows the token symbol or address, the spender address, and the approved amount.",
                 "score": 100
             },
             {
-                "outcome": "The wallet does not display all the required approval information.",
+                "outcome": "The wallet does not identify the request as an approval, or omits the token symbol or address, the spender address, or the approved amount.",
                 "score": 0
             }
         ],
@@ -374,7 +374,7 @@
                 "score": 100
             },
             {
-                "outcome": "The wallet truncates information, or fails to show the `verifyingContract` field in the `EIP712Domain`.",
+                "outcome": "For at least one functional method, the wallet truncates information, does not allow scrolling through it, or fails to show the `verifyingContract` field in the `EIP712Domain`.",
                 "score": 0
             }
         ],
@@ -436,15 +436,15 @@
         "reasoning": "Many scams rely on users sending funds to addresses linked to theft, laundering, or fraud, so alerting on them gives a last defensive checkpoint before irreversible transfers. Poisoning is a related vector: a lookalike address planted in the user's history appears familiar, and since users often check only the leading and trailing characters, the wallet must treat it as malicious.",
         "criteria": [
             {
-                "outcome": "The wallet warns for both the known malicious address and the poisoned lookalike address, whether entered manually or supplied by a dApp.",
+                "outcome": "The wallet warns, flags, or blocks the transaction for both the known malicious address and the poisoned lookalike address (matching the prefix and suffix of a known recipient but never transacted with), whether entered manually or supplied by a dApp.",
                 "score": 100
             },
             {
-                "outcome": "The wallet warns for only one of the two.",
+                "outcome": "The wallet warns, flags, or blocks the transaction for only one of the two.",
                 "score": 50
             },
             {
-                "outcome": "The wallet does not warn for either case.",
+                "outcome": "The wallet neither warns, flags, nor blocks the transaction in either case.",
                 "score": 0
             }
         ],
@@ -488,7 +488,7 @@
                 "score": 100
             },
             {
-                "outcome": "The connection dialog omits some of the required information.",
+                "outcome": "The connection dialog does not mention viewing balance or activity, or requesting transaction approvals.",
                 "score": 0
             }
         ],
@@ -528,7 +528,7 @@
         "reasoning": "The origin URL is one of the most important signals for spotting phishing or impersonation attempts. Showing the full, non-truncated URL helps users notice deceptive subdomains, typosquatting, or other visual tricks that could be hidden by truncation.",
         "criteria": [
             {
-                "outcome": "The full dApp origin URL is shown without truncation, or can be revealed by hovering or widening the dialog.",
+                "outcome": "The full dApp origin URL is shown without truncation, or can be revealed by hovering over it or by widening the connection dialog where applicable.",
                 "score": 100
             },
             {
@@ -614,7 +614,7 @@
                 "score": 100
             },
             {
-                "outcome": "The wallet allows short or trivial passwords.",
+                "outcome": "The wallet accepts passwords shorter than 8 characters, or trivial ones.",
                 "score": 0
             }
         ],
