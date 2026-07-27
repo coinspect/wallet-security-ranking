@@ -29,7 +29,7 @@
         "reasoning": "A locked wallet must never continue serving sensitive requests, since that would weaken the purpose of the lock state. Requiring an unlock prevents unauthorized access to accounts, signatures, or encrypted material if the device is unattended or temporarily exposed.",
         "criteria": [
             {
-                "outcome": "Every request requires unlocking before processing and no information is leaked while locked, or the wallet lacks WalletConnect.",
+                "outcome": "Every request requires unlocking before processing and no information is leaked while locked, or the wallet lacks WalletConnect support.",
                 "score": 100
             },
             {
@@ -96,7 +96,7 @@
                 "score": 100
             },
             {
-                "outcome": "The wallet does not display all connected dApps, or lacks access revocation, or the revocation feature does not work properly.",
+                "outcome": "The wallet does not list all connected dApps, provides no way to revoke access, or the disconnected dApp can still send RPC requests after revocation.",
                 "score": 0
             }
         ],
@@ -114,11 +114,11 @@
         "reasoning": "Token approvals can outlive a single transaction and are a common source of loss when a spender contract is compromised or malicious. Letting users inspect and revoke approvals gives them a practical way to reduce standing risk and clean up excessive allowances.",
         "criteria": [
             {
-                "outcome": "The wallet provides a way to list existing token approvals and revoke them.",
+                "outcome": "The wallet lets users list and revoke existing token approvals, either as a built-in feature or through a link to a third-party app or site.",
                 "score": 100
             },
             {
-                "outcome": "The wallet cannot list or revoke existing token approvals.",
+                "outcome": "The wallet lacks approval listing or revocation, and does not link to a third-party app or site that provides them.",
                 "score": 0
             }
         ],
@@ -136,11 +136,11 @@
         "reasoning": "`eth_sign` is historically dangerous because it signs raw data in a way that is easy to misuse and hard for users to interpret safely. In particular, it can be abused to trick users into signing raw transaction hashes or other opaque payloads without clear context. Disabling it by default reduces compatibility with insecure legacy flows and pushes dApps toward safer, more explicit signing methods.",
         "criteria": [
             {
-                "outcome": "The wallet rejects `eth_sign` requests or redirects them to `personal_sign`.",
+                "outcome": "The wallet rejects `eth_sign` requests by default or uses `personal_sign` instead.",
                 "score": 100
             },
             {
-                "outcome": "The wallet keeps the `eth_sign` method enabled by default.",
+                "outcome": "The wallet allows signing `eth_sign` requests by default.",
                 "score": 0
             }
         ],
@@ -200,7 +200,7 @@
                 "score": 100
             },
             {
-                "outcome": "The wallet switches networks without user confirmation.",
+                "outcome": "The wallet allows switching to non-approved networks without user confirmation.",
                 "score": 0
             }
         ],
