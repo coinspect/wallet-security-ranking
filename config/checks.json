@@ -70,7 +70,7 @@
         "reasoning": "EIP-712 signatures are domain-separated partly through the chainId, so signing data for a different chain can enable cross-chain confusion or replay-like abuse in poorly designed integrations. Warning or rejecting mismatched chainIds helps users understand what environment they are authorizing and prevents signatures from being produced under misleading assumptions.",
         "criteria": [
             {
-                "outcome": "The wallet rejects the signing request or warns about the `chainId` mismatch, or EIP-712 signing is not working at testing time.",
+                "outcome": "The wallet rejects the signing request or displays a warning about the `chainId` mismatch, or EIP-712 signing is not working at testing time.",
                 "score": 100
             },
             {
@@ -370,11 +370,11 @@
         "reasoning": "Users cannot give meaningful consent if important parts of the message are hidden, truncated, or impossible to inspect. Full visibility into signed data is critical because attackers can bury harmful payloads or structured objects.",
         "criteria": [
             {
-                "outcome": "All signing data is visible (including `verifyingContract` for EIP-712), scrollable, and not truncated for every functional method.",
+                "outcome": "All signing data is visible (including the `verifyingContract` for EIP-712), scrollable, and not truncated for every functional signing method. Non-functional or unsupported methods (e.g. `personal_sign`) are ignored.",
                 "score": 100
             },
             {
-                "outcome": "For at least one functional method, the wallet truncates information, does not allow scrolling through it, or fails to show the `verifyingContract` field in the `EIP712Domain`.",
+                "outcome": "For at least one functional signing method (e.g. `eth_signTypedData`), the wallet truncates the signing data, does not allow scrolling through it, or fails to show the `verifyingContract` for EIP-712.",
                 "score": 0
             }
         ],
@@ -392,11 +392,11 @@
         "reasoning": "Forcing the user to scroll through the full request makes rushed or accidental approvals less likely. It is not a perfect defense, but it raises friction in exactly the places where attackers benefit from users clicking through without reviewing the content.",
         "criteria": [
             {
-                "outcome": "The sign button stays disabled until the user scrolls through the entire message for every functional method.",
+                "outcome": "The sign button remains disabled until the user scrolls through the entire message for every functional signing method. Non-functional or unsupported methods (e.g. `personal_sign`) are ignored.",
                 "score": 100
             },
             {
-                "outcome": "The sign button becomes enabled before the user scrolls through the entire message for at least one functional method.",
+                "outcome": "The sign button becomes enabled before the user scrolls through the entire message for at least one functional signing method (e.g. `eth_signTypedData`).",
                 "score": 0
             }
         ],
@@ -414,7 +414,7 @@
         "reasoning": "Verified dApp indicators help users distinguish trusted, well-known services from lookalike phishing sites. This is especially valuable during connection prompts, where users are often making a quick trust decision with limited information.",
         "criteria": [
             {
-                "outcome": "The wallet visibly distinguishes verified dApps from unknown ones (e.g. a checkmark or trust badge).",
+                "outcome": "The wallet visibly distinguishes verified dApps from unknown ones (e.g. with a checkmark or trust badge).",
                 "score": 100
             },
             {
@@ -436,15 +436,15 @@
         "reasoning": "Many scams rely on users sending funds to addresses linked to theft, laundering, or fraud, so alerting on them gives a last defensive checkpoint before irreversible transfers. Poisoning is a related vector: a lookalike address planted in the user's history appears familiar, and since users often check only the leading and trailing characters, the wallet must treat it as malicious.",
         "criteria": [
             {
-                "outcome": "The wallet warns, flags, or blocks the transaction for both the known malicious address and the poisoned lookalike address (matching the prefix and suffix of a known recipient but never transacted with), whether entered manually or supplied by a dApp.",
+                "outcome": "For both the known malicious address and the poisoned lookalike address (matching the prefix and suffix of a known recipient but never transacted with), whether entered manually in the wallet UI or supplied by a dApp, the wallet warns, flags, or blocks the transaction.",
                 "score": 100
             },
             {
-                "outcome": "The wallet warns, flags, or blocks the transaction for only one of the two.",
+                "outcome": "The wallet warns, flags, or blocks the transaction for only one of the two addresses.",
                 "score": 50
             },
             {
-                "outcome": "The wallet neither warns, flags, nor blocks the transaction in either case.",
+                "outcome": "The wallet neither warns, flags, nor blocks the transaction for either address.",
                 "score": 0
             }
         ],
@@ -466,7 +466,7 @@
                 "score": 100
             },
             {
-                "outcome": "The wallet does not warn about known phishing sites.",
+                "outcome": "The wallet neither warns about nor prevents the user from visiting or connecting to known phishing sites.",
                 "score": 0
             }
         ],
@@ -484,11 +484,11 @@
         "reasoning": "Explaining the scope of access during the connection flow improves informed consent and reduces the chance that users treat connection prompts as harmless.",
         "criteria": [
             {
-                "outcome": "The connection dialog clearly mentions viewing balance and activity, and requesting transaction approvals.",
+                "outcome": "The connection dialog clearly mentions the ability to view the user's balance and activity, as well as to request transaction approvals.",
                 "score": 100
             },
             {
-                "outcome": "The connection dialog does not mention viewing balance or activity, or requesting transaction approvals.",
+                "outcome": "The connection dialog does not clearly mention viewing balance or activity, or requesting transaction approvals.",
                 "score": 0
             }
         ],
@@ -506,7 +506,7 @@
         "reasoning": "Highlighting unknown recipients creates a useful pause before sending funds or interacting with a new contract that may be malicious or mistyped.",
         "criteria": [
             {
-                "outcome": "The wallet shows a warning or indicator when an unknown address is used, whether entered manually or provided by a dApp.",
+                "outcome": "The wallet displays a warning or indicator when an unknown address is used, whether the address is entered manually or provided by a dApp.",
                 "score": 100
             },
             {
@@ -528,7 +528,7 @@
         "reasoning": "The origin URL is one of the most important signals for spotting phishing or impersonation attempts. Showing the full, non-truncated URL helps users notice deceptive subdomains, typosquatting, or other visual tricks that could be hidden by truncation.",
         "criteria": [
             {
-                "outcome": "The full dApp origin URL is shown without truncation, or can be revealed by hovering over it or by widening the connection dialog where applicable.",
+                "outcome": "The full dApp origin URL is shown without truncation, or the complete URL can be revealed by hovering over a truncated URL or by widening the connection dialog screen if applicable.",
                 "score": 100
             },
             {
@@ -550,7 +550,7 @@
         "reasoning": "Spam tokens and NFTs are commonly used for phishing, impersonation, and social engineering inside wallet portfolios. Hiding them by default reduces clutter and lowers the chance that users click malicious assets or mistake them for legitimate holdings.",
         "criteria": [
             {
-                "outcome": "The wallet hides spam tokens or NFTs by default, or does not display NFTs at all.",
+                "outcome": "Spam tokens or NFTs are hidden by default or the wallet does not display NFTs.",
                 "score": 100
             },
             {
@@ -572,7 +572,7 @@
         "reasoning": "Seed phrases are extremely sensitive, and clipboards and screenshots are common exfiltration paths on both desktop and mobile systems. Limiting, warning, or blocking these actions reduces the exposure window and makes users think twice before handling secrets insecurely.",
         "criteria": [
             {
-                "outcome": "The wallet limits clipboard exposure (1 min max), warns about clipboard risks, or prevents copying; on mobile it also prevents or warns about screenshot risks.",
+                "outcome": "The wallet limits clipboard exposure (1 min max), warns about clipboard risks, or prevents copying. On mobile, it must also prevent or warn users about screenshot risks.",
                 "score": 100
             },
             {
@@ -591,11 +591,11 @@
         "reasoning": "Weak local authentication can completely undermine all other security controls. Strong passwords, biometrics, and rate-limiting make brute force, shoulder surfing, and opportunistic device access much harder.",
         "criteria": [
             {
-                "outcome": "The wallet supports biometrics, and rate-limits attempts after the 5th one if it allows weak passwords or PINs.",
+                "outcome": "The wallet supports biometrics; if it allows easy-to-guess passwords/pins, it rate limits attempts after the 5th one.",
                 "score": 100
             },
             {
-                "outcome": "The wallet lacks biometrics, or allows weak passwords or PINs without rate-limiting attempts.",
+                "outcome": "The wallet lacks biometrics, or allows easy-to-guess passwords/pins without rate limiting attempts after the 5th one.",
                 "score": 0
             }
         ],
@@ -610,7 +610,7 @@
         "reasoning": "Weak local authentication can completely undermine all other security controls. Strong passwords, biometrics, and rate-limiting make brute force, shoulder surfing, and opportunistic device access much harder.",
         "criteria": [
             {
-                "outcome": "The wallet requires at least an 8-character password and disallows trivial passwords.",
+                "outcome": "The wallet requires at least an 8 characters long password (standard across most products), and does not allow trivial passwords.",
                 "score": 100
             },
             {
@@ -632,11 +632,11 @@
         "reasoning": "Users sometimes reveal seed phrases or private keys without fully understanding that doing so grants complete control over their assets. A clear warning at the moment of exposure can prevent catastrophic mistakes and reinforces the severity of the action.",
         "criteria": [
             {
-                "outcome": "The wallet clearly warns about the risks before revealing the secrets.",
+                "outcome": "The wallet clearly communicates and displays a warning about these risks to the user before revealing the secrets.",
                 "score": 100
             },
             {
-                "outcome": "The wallet reveals the secrets without warning about the risks.",
+                "outcome": "The wallet reveals the secrets without a clear warning about the risks.",
                 "score": 0
             }
         ],
@@ -695,7 +695,7 @@
         "reasoning": "Mobile devices are frequently lost, borrowed, or left unlocked briefly, so short auto-lock periods materially reduce the chance of unauthorized access.",
         "criteria": [
             {
-                "outcome": "The wallet auto-locks after inactivity (1 minute or less by default), on device lock, or when moved to the background (at least one).",
+                "outcome": "The wallet auto-locks after inactivity (1 minute or less by default), when the device locks, or when the app moves to the background.",
                 "score": 100
             },
             {
@@ -714,7 +714,7 @@
         "reasoning": "Browser extension wallets often remain open for long periods on shared or unattended computers. A reasonable auto-lock time reduces the window in which an attacker, coworker, or malicious webpage can exploit an already-unlocked wallet.",
         "criteria": [
             {
-                "outcome": "The wallet auto-locks within 20 minutes of inactivity.",
+                "outcome": "The wallet auto-locks after inactivity within 20 minutes.",
                 "score": 100
             },
             {
