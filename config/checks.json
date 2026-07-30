@@ -312,7 +312,7 @@
                 "score": 0
             }
         ],
-        "evidence_requirements": "A screenshot showing whether the wallet displays a simulation of the swap's expected inputs and outputs before signing; if it does not simulate, a screenshot of the transaction confirmation screen as it appears, along with a tester note stating no simulation was found.",
+        "evidence_requirements": "A screenshot showing whether the wallet displays a simulation of the expected inputs and outputs for both the liquidity provision and the swap before signing; if it does not simulate, a screenshot of each transaction confirmation screen as it appears, along with a tester note stating no simulation was found.",
         "attack_scenario": "A malicious dApp disguises the real effects of a transaction, such as draining funds or granting approvals, until after it is signed."
     },
     "WSR-VERI-004.v1": {
