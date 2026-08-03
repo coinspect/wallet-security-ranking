@@ -444,7 +444,7 @@
                 "score": 50
             },
             {
-                "outcome": "The wallet neither warns, flags, nor blocks the transaction for either address.",
+                "outcome": "The wallet neither warns, flags, nor blocks the transaction for neither the malicious or poisoned/lookalike addresses.",
                 "score": 0
             }
         ],
