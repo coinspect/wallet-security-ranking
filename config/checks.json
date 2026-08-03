@@ -591,7 +591,7 @@
         "reasoning": "Weak local authentication can completely undermine all other security controls. Strong passwords, biometrics, and rate-limiting make brute force, shoulder surfing, and opportunistic device access much harder.",
         "criteria": [
             {
-                "outcome": "The wallet supports biometrics; if it allows easy-to-guess passwords/pins, it rate limits attempts after the 5th one.",
+                "outcome": "The wallet supports biometrics. If it allows easy-to-guess passwords/pins, it rate limits attempts after the 5th one.",
                 "score": 100
             },
             {
