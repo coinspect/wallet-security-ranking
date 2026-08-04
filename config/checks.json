@@ -304,7 +304,7 @@
         "reasoning": "Many dangerous transactions only become obvious when looking at their actual effects, not just calldata or method names. Simulation helps users see expected token movements, approvals, or state changes in advance, which is one of the strongest defenses against deceptive dApp flows.",
         "criteria": [
             {
-                "outcome": "The wallet shows the expected inputs and outputs of the transaction before signing.",
+                "outcome": "The wallet shows the expected inputs and outputs from the execution of such transaction effects before signing.",
                 "score": 100
             },
             {
