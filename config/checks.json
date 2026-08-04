@@ -326,7 +326,7 @@
         "reasoning": "EIP-712 is designed to make structured data more understandable, but that only works if the wallet parses and presents it clearly. Human-readable rendering helps users distinguish between harmless messages and signatures that authorize critical permissions or off-chain actions.",
         "criteria": [
             {
-                "outcome": "The wallet renders structured, human-readable signing details, or EIP-712 signing is not supported.",
+                "outcome": "The wallet renders structured, human-readable signing details rather than just raw JSON parsing, or EIP-712 signing is not supported.",
                 "score": 100
             },
             {
