@@ -334,7 +334,7 @@
                 "score": 0
             }
         ],
-        "evidence_requirements": "A screenshot showing the wallet's rendering of the EIP-712 request: whether it parses the message into distinct, human-readable fields or displays it as a raw JSON object. If EIP-712 signing is not supported, document that instead.",
+        "evidence_requirements": "A screenshot showing the wallet's rendering of the EIP-712 request: whether it parses the message into distinct, human-readable fields or raw JSON object. If EIP-712 signing is not supported, document that instead.",
         "attack_scenario": "A malicious dApp crafts structured data that appears benign but actually grants permissions or authorizations when signed."
     },
     "WSR-VERI-005.v1": {
