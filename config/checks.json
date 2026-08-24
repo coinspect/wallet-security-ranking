@@ -330,7 +330,7 @@
                 "score": 100
             },
             {
-                "outcome": "The wallet displays the EIP-712 message as a raw JSON object, even if indented or syntax-highlighted.",
+                "outcome": "The wallet displays the EIP-712 message as a raw JSON object, even if indented or syntax-highlighted. The JSON object is not interpreted or transformed in any way.",
                 "score": 0
             }
         ],
