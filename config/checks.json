@@ -326,15 +326,15 @@
         "reasoning": "EIP-712 is designed to make structured data more understandable, but that only works if the wallet parses and presents it clearly. Human-readable rendering helps users distinguish between harmless messages and signatures that authorize critical permissions or off-chain actions.",
         "criteria": [
             {
-                "outcome": "The wallet renders structured, human-readable signing details rather than just raw JSON parsing, or EIP-712 signing is not supported.",
+                "outcome": "The wallet renders structured, interpreted, human-readable signing details, with fields (e.g., for an ERC-20 Permit: spender, amount, and deadline), rather than raw information from the JSON object. Otherwise, EIP-712 signing is not supported.",
                 "score": 100
             },
             {
-                "outcome": "The wallet shows the information only as raw or plain data.",
+                "outcome": "The wallet displays the EIP-712 message as a raw JSON object, even if indented or syntax-highlighted. The JSON object is not interpreted or transformed in any way.",
                 "score": 0
             }
         ],
-        "evidence_requirements": "A screenshot showing the wallet's rendering of the EIP-712 request: whether it displays structured, human-readable details or raw JSON. If EIP-712 signing is not supported, document that instead.",
+        "evidence_requirements": "A screenshot showing the wallet's rendering of the EIP-712 request: whether it parses the message into distinct, human-readable fields or raw JSON object. If EIP-712 signing is not supported, document that instead.",
         "attack_scenario": "A malicious dApp crafts structured data that appears benign but actually grants permissions or authorizations when signed."
     },
     "WSR-VERI-005.v1": {
