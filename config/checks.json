@@ -274,15 +274,15 @@
             "browser": 490
         },
         "description": "Consistently provides clickable links to block explorers for all key blockchain identifiers.",
-        "instructions": "Attempt to send a transaction and inspect the preview screen. Also browse the wallet's transaction history. Observe whether addresses, contract addresses, and transaction hashes are displayed as clickable links to a block explorer.",
+        "instructions": "Attempt to send a transaction and inspect the preview screen. Also browse the wallet's transaction history. Observe whether addresses, contract addresses, or transaction hashes are displayed as clickable links to a block explorer.",
         "reasoning": "Explorer links let users independently verify addresses, contracts, and transactions instead of trusting only the wallet UI. This improves transparency and makes it easier to inspect counterparties, token contracts, and transaction outcomes before or after signing.",
         "criteria": [
             {
-                "outcome": "Addresses, contract addresses, and transaction hashes are clickable and open a block explorer in both the transaction preview screen and the wallet history.",
+                "outcome": "Addresses, contract addresses, or transaction hashes are clickable and open a block explorer in both the transaction preview screen and the wallet history.",
                 "score": 100
             },
             {
-                "outcome": "Addresses, contract addresses, and transaction hashes are clickable and open a block explorer in only one of the two contexts.",
+                "outcome": "Addresses, contract addresses, or transaction hashes are clickable and open a block explorer in only one of the two contexts.",
                 "score": 50
             },
             {
@@ -484,15 +484,15 @@
         "reasoning": "Explaining the scope of access during the connection flow improves informed consent and reduces the chance that users treat connection prompts as harmless.",
         "criteria": [
             {
-                "outcome": "The connection dialog clearly mentions the ability to view the user's balance and activity, as well as to request transaction approvals.",
+                "outcome": "The connection dialog clearly discloses that the app gains read access to the account (e.g. addresses, balance, or transaction history) and the ability to request transaction approvals.",
                 "score": 100
             },
             {
-                "outcome": "The connection dialog does not clearly mention viewing balance or activity, or requesting transaction approvals.",
+                "outcome": "The connection dialog does not clearly communicate read access to the account or the ability to request transaction approvals.",
                 "score": 0
             }
         ],
-        "evidence_requirements": "A screenshot showing the connection dialog: whether it discloses access to the user's balance and activity and the ability to request transaction approvals.",
+        "evidence_requirements": "A screenshot showing the connection dialog: whether it discloses read access to the user's account (addresses/balance/activity) and the ability to request transaction approvals.",
         "attack_scenario": "A user grants access to a malicious dApp without understanding the scope of its capabilities, allowing it to later exploit its permissions or any wallet-side vulnerabilities once connected."
     },
     "WSR-THRE-005.v1": {
