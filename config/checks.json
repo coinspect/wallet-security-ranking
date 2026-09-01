@@ -273,7 +273,7 @@
             "mobile": 490,
             "browser": 490
         },
-        "description": "Consistently provides clickable links to block explorers for all key blockchain identifiers.",
+        "description": "Provides clickable links to block explorers for at least one key blockchain identifier.",
         "instructions": "Attempt to send a transaction and inspect the preview screen. Also browse the wallet's transaction history. Observe whether addresses, contract addresses, or transaction hashes are displayed as clickable links to a block explorer.",
         "reasoning": "Explorer links let users independently verify addresses, contracts, and transactions instead of trusting only the wallet UI. This improves transparency and makes it easier to inspect counterparties, token contracts, and transaction outcomes before or after signing.",
         "criteria": [
@@ -479,7 +479,7 @@
             "mobile": 490,
             "browser": 500
         },
-        "description": "Informs dApp access to balances, history, and signing requests on connection.",
+        "description": "Discloses the dApp's read access to the user's account and its ability to request signatures on connection.",
         "instructions": "Attempt connecting a dApp to the wallet and inspect the connection dialog for any description of what access the dApp is being granted.",
         "reasoning": "Explaining the scope of access during the connection flow improves informed consent and reduces the chance that users treat connection prompts as harmless.",
         "criteria": [
