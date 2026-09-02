@@ -115,6 +115,14 @@ versions:
                         reason: "The tester mistakenly selected the wrong score."
 
 eligibility_changes:
+    - date: "Sep 1, 2026"
+      removed:
+          - name: "Tomo"
+            platform: "Extension (Browser)"
+            reason: "Extension version has not changed from last testing round (2.0.2)."
+          - name: "Frame"
+            platform: "Extension (Browser)"
+            reason: "Extension version has not changed from last testing round (0.6.11)."
     - date: "Nov 21, 2025"
       added:
           - name: "NuFi"
