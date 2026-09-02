@@ -123,6 +123,9 @@ eligibility_changes:
           - name: "Frame"
             platform: "Extension (Browser)"
             reason: "Extension version has not changed from last testing round (0.6.11)."
+          - name: "Enkrypt"
+            platform: "Extension (Browser)"
+            reason: "At the time of testing, the wallet could not be tested because dApp connections were restricted to users located in the EU."
     - date: "Nov 21, 2025"
       added:
           - name: "NuFi"
