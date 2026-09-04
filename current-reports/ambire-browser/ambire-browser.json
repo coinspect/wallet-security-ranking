@@ -1,774 +1,881 @@
 {
-    "wallet": "Ambire",
-    "platform": "Browser",
-    "version": "5.30.3",
-    "date": "2026-01-12T17:52:05.136Z",
-    "walletUID": "ambire-browser",
-    "walletMakerUID": "ambire",
-    "scores": {
-        "categories": [
-            {
-                "categoryUID": "WSR-VERI",
-                "checkResults": [
-                    {
-                        "checkUID": "WSR-VERI-001.v1",
-                        "result": 100
-                    },
-                    {
-                        "checkUID": "WSR-VERI-002.v1",
-                        "result": 50
-                    },
-                    {
-                        "checkUID": "WSR-VERI-003.v1",
-                        "result": 100
-                    },
-                    {
-                        "checkUID": "WSR-VERI-004.v1",
-                        "result": 100
-                    },
-                    {
-                        "checkUID": "WSR-VERI-005.v1",
-                        "result": 100
-                    },
-                    {
-                        "checkUID": "WSR-VERI-006.v1",
-                        "result": 100
-                    },
-                    {
-                        "checkUID": "WSR-VERI-007.v1",
-                        "result": 100
-                    }
-                ]
-            },
-            {
-                "categoryUID": "WSR-PHYS",
-                "checkResults": [
-                    {
-                        "checkUID": "WSR-PHYS-001.v1",
-                        "result": 0
-                    },
-                    {
-                        "checkUID": "WSR-PHYS-002.v1",
-                        "result": 0
-                    },
-                    {
-                        "checkUID": "WSR-PHYS-006~Browser.v1",
-                        "result": 0
-                    },
-                    {
-                        "checkUID": "WSR-PHYS-004.v1",
-                        "result": 100
-                    },
-                    {
-                        "checkUID": "WSR-PHYS-005.v1",
-                        "result": 100
-                    },
-                    {
-                        "checkUID": "WSR-PHYS-003.v1",
-                        "result": 100
-                    }
-                ]
-            },
-            {
-                "categoryUID": "WSR-THRE",
-                "checkResults": [
-                    {
-                        "checkUID": "WSR-THRE-001.v1",
-                        "result": 100
-                    },
-                    {
-                        "checkUID": "WSR-THRE-002.v1",
-                        "result": 0
-                    },
-                    {
-                        "checkUID": "WSR-THRE-003.v1",
-                        "result": 100
-                    },
-                    {
-                        "checkUID": "WSR-THRE-004.v1",
-                        "result": 100
-                    },
-                    {
-                        "checkUID": "WSR-THRE-005.v1",
-                        "result": 100
-                    },
-                    {
-                        "checkUID": "WSR-THRE-006.v1",
-                        "result": 100
-                    },
-                    {
-                        "checkUID": "WSR-THRE-007.v1",
-                        "result": 0
-                    }
-                ]
-            },
-            {
-                "categoryUID": "WSR-PERM",
-                "checkResults": [
-                    {
-                        "checkUID": "WSR-PERM-008~Browser.v1",
-                        "result": 100
-                    },
-                    {
-                        "checkUID": "WSR-PERM-001.v1",
-                        "result": 100
-                    },
-                    {
-                        "checkUID": "WSR-PERM-002~Browser.v1",
-                        "result": 100
-                    },
-                    {
-                        "checkUID": "WSR-PERM-003.v1",
-                        "result": 0
-                    },
-                    {
-                        "checkUID": "WSR-PERM-004.v1",
-                        "result": 100
-                    },
-                    {
-                        "checkUID": "WSR-PERM-009.v1",
-                        "result": 100
-                    },
-                    {
-                        "checkUID": "WSR-PERM-005.v1",
-                        "result": 0
-                    },
-                    {
-                        "checkUID": "WSR-PERM-010~Browser.v1",
-                        "result": 100
-                    },
-                    {
-                        "checkUID": "WSR-PERM-006.v1",
-                        "result": 100
-                    }
-                ]
-            }
+  "round": "2026-09-01",
+  "wallet": "Ambire",
+  "platform": "Browser",
+  "version": "6.7.3",
+  "date": "2026-09-01T00:00:00.000Z",
+  "walletUID": "ambire-browser",
+  "walletMakerUID": "ambire",
+  "scores": {
+    "categories": [
+      {
+        "categoryUID": "WSR-VERI",
+        "checkResults": [
+          {
+            "checkUID": "WSR-VERI-001.v1",
+            "result": 100
+          },
+          {
+            "checkUID": "WSR-VERI-002.v1",
+            "result": 50
+          },
+          {
+            "checkUID": "WSR-VERI-003.v1",
+            "result": 100
+          },
+          {
+            "checkUID": "WSR-VERI-004.v1",
+            "result": 100
+          },
+          {
+            "checkUID": "WSR-VERI-005.v1",
+            "result": 100
+          },
+          {
+            "checkUID": "WSR-VERI-006.v1",
+            "result": 100
+          },
+          {
+            "checkUID": "WSR-VERI-007.v1",
+            "result": 0
+          }
         ]
-    },
-    "results": [
-        {
-            "uid": "WSR-VERI-001.v1",
-            "inputs": [
-                {
-                    "type": "select",
-                    "value": "100%"
-                },
-                {
-                    "type": "file",
-                    "value": [
-                        "ambire-browser-5.30.3-6c960438.png",
-                        "ambire-browser-5.30.3-149edc50.png",
-                        "ambire-browser-5.30.3-0a09d3ee.png"
-                    ]
-                },
-                {
-                    "type": "textarea",
-                    "value": "The wallet doesn't allow users to send a transaction with invalid checksums."
-                }
-            ],
-            "tester": 2,
-            "lastUpdated": 1761073195124
-        },
-        {
-            "uid": "WSR-PHYS-001.v1",
-            "inputs": [
-                {
-                    "type": "select",
-                    "value": "0%"
-                },
-                {
-                    "type": "file",
-                    "value": [
-                        "ambire-browser-5.30.3-a8a91c0b.png"
-                    ]
-                },
-                {
-                    "type": "textarea",
-                    "value": "The wallet allows users to copy mnemonics or private keys to the clipboard for over a minute without explicitly warning them about the risks involved."
-                }
-            ],
-            "tester": 2,
-            "lastUpdated": 1761073281719
-        },
-        {
-            "uid": "WSR-THRE-001.v1",
-            "inputs": [
-                {
-                    "type": "select",
-                    "value": "100%"
-                },
-                {
-                    "type": "file",
-                    "value": [
-                        "ambire-browser-5.30.3-92b0a5e9.png",
-                        "ambire-browser-5.30.3-3089aac6.png",
-                        "ambire-browser-5.30.3-dedaa2a5.png"
-                    ]
-                },
-                {
-                    "type": "textarea",
-                    "value": "The wallet provides a verification indicator when connecting to UniSwap or 1inch, displaying a green shield on the dApp\u2019s icon to signal that the dApp can be trusted. However, it also displays the same icon for the testing dApp, which is not a recognized dApp."
-                }
-            ],
-            "tester": 2,
-            "lastUpdated": 1761073341961
-        },
-        {
-            "uid": "WSR-PERM-008~Browser.v1",
-            "inputs": [
-                {
-                    "type": "select",
-                    "value": "100%"
-                },
-                {
-                    "type": "file",
-                    "value": [
-                        "ambire-browser-5.30.3-a56f0724.png"
-                    ]
-                },
-                {
-                    "type": "textarea",
-                    "value": "The wallet requires a user connection to access all the RPC endpoints. It prompts a dApp connection request."
-                }
-            ],
-            "tester": 2,
-            "lastUpdated": 1761073830917
-        },
-        {
-            "uid": "WSR-THRE-002.v1",
-            "inputs": [
-                {
-                    "type": "select",
-                    "value": "0%"
-                },
-                {
-                    "type": "file",
-                    "value": [
-                        "ambire-browser-5.30.3-bc433616.png"
-                    ]
-                },
-                {
-                    "type": "textarea",
-                    "value": "It doesn't warn the user when trying to send funds to the tornado cash attacker address and fails to show the recipient address."
-                }
-            ],
-            "tester": 2,
-            "lastUpdated": 1761073368191
-        },
-        {
-            "uid": "WSR-PHYS-002.v1",
-            "inputs": [
-                {
-                    "type": "select",
-                    "value": "0%"
-                },
-                {
-                    "type": "file",
-                    "value": [
-                        "ambire-browser-5.30.3-a6c9d892.png"
-                    ]
-                },
-                {
-                    "type": "textarea",
-                    "value": "The wallet requires at least an 8-character password but allows easy-to-guess passwords."
-                }
-            ],
-            "tester": 2,
-            "lastUpdated": 1761073390977
-        },
-        {
-            "uid": "WSR-PERM-001.v1",
-            "inputs": [
-                {
-                    "type": "select",
-                    "value": "100%"
-                },
-                {
-                    "type": "file",
-                    "value": [
-                        "ambire-browser-5.30.3-efac4a60.png"
-                    ]
-                },
-                {
-                    "type": "textarea",
-                    "value": "The wallet warns users of domain or scheme mismatches when signing an EIP-4361 message."
-                }
-            ],
-            "tester": 2,
-            "lastUpdated": 1761073439199
-        },
-        {
-            "uid": "WSR-THRE-003.v1",
-            "inputs": [
-                {
-                    "type": "select",
-                    "value": "100%"
-                },
-                {
-                    "type": "file",
-                    "value": [
-                        "ambire-browser-5.30.3-549a446c.png"
-                    ]
-                },
-                {
-                    "type": "textarea",
-                    "value": "The wallet displays a clear warning message for blacklisted dApps, informing users about the associated risks."
-                }
-            ],
-            "tester": 2,
-            "lastUpdated": 1761073456176
-        },
-        {
-            "uid": "WSR-VERI-002.v1",
-            "inputs": [
-                {
-                    "type": "select",
-                    "value": "50%"
-                },
-                {
-                    "type": "file",
-                    "value": [
-                        "ambire-browser-5.30.3-21dae1cf.png",
-                        "ambire-browser-5.30.3-b5285e79.png"
-                    ]
-                },
-                {
-                    "type": "textarea",
-                    "value": "The wallet includes clickable links in the transaction history, but not during the process of sending a transaction."
-                }
-            ],
-            "tester": 2,
-            "lastUpdated": 1761073474354
-        },
-        {
-            "uid": "WSR-VERI-003.v1",
-            "inputs": [
-                {
-                    "type": "select",
-                    "value": "100%"
-                },
-                {
-                    "type": "file",
-                    "value": [
-                        "ambire-browser-5.30.3-43c6325f.png"
-                    ]
-                },
-                {
-                    "type": "textarea",
-                    "value": "The wallet displays the NFT received when providing liquidity to a pool."
-                }
-            ],
-            "tester": 2,
-            "lastUpdated": 1761073487949
-        },
-        {
-            "uid": "WSR-VERI-004.v1",
-            "inputs": [
-                {
-                    "type": "select",
-                    "value": "100%"
-                },
-                {
-                    "type": "file",
-                    "value": [
-                        "ambire-browser-5.30.3-2b49c180.png",
-                        "ambire-browser-5.30.3-ccf7ec8d.png"
-                    ]
-                },
-                {
-                    "type": "textarea",
-                    "value": "The wallet provides minimal parsing, only slightly improving the JSON view of ERC20 permits and Opensea listings."
-                }
-            ],
-            "tester": 2,
-            "lastUpdated": 1761073507358
-        },
-        {
-            "uid": "WSR-THRE-004.v1",
-            "inputs": [
-                {
-                    "type": "select",
-                    "value": "100%"
-                },
-                {
-                    "type": "file",
-                    "value": [
-                        "ambire-browser-5.30.3-acd60b18.png"
-                    ]
-                },
-                {
-                    "type": "textarea",
-                    "value": "The wallet informs the user, within the connection dialog, that by connecting they are allowing the DApp to view their address, as well as to request transaction approval."
-                }
-            ],
-            "tester": 2,
-            "lastUpdated": 1761073528397
-        },
-        {
-            "uid": "WSR-THRE-005.v1",
-            "inputs": [
-                {
-                    "type": "select",
-                    "value": "100%"
-                },
-                {
-                    "type": "file",
-                    "value": [
-                        "ambire-browser-5.30.3-33f09985.png",
-                        "ambire-browser-5.30.3-a03d422e.png"
-                    ]
-                },
-                {
-                    "type": "textarea",
-                    "value": "Through the dApp, the wallet does not warn users when interacting with an unknown or untrusted address. However, within the extension, it clearly displays an alert indicating that it is the first time the user is sending a transaction to that address."
-                }
-            ],
-            "tester": 2,
-            "lastUpdated": 1763393432462
-        },
-        {
-            "uid": "WSR-THRE-006.v1",
-            "inputs": [
-                {
-                    "type": "select",
-                    "value": "100%"
-                },
-                {
-                    "type": "file",
-                    "value": [
-                        "ambire-browser-5.30.3-41b2694f.png"
-                    ]
-                },
-                {
-                    "type": "textarea",
-                    "value": "It displays the complete URL of this site: https://arbitrum-token-bridge-cqjggprvn-offchain-labs.vercel.app/"
-                }
-            ],
-            "tester": 2,
-            "lastUpdated": 1761073560213
-        },
-        {
-            "uid": "WSR-PERM-002~Browser.v1",
-            "inputs": [
-                {
-                    "type": "select",
-                    "value": "100%"
-                },
-                {
-                    "type": "file",
-                    "value": [
-                        "ambire-browser-5.30.3-3738d5f9.png"
-                    ]
-                },
-                {
-                    "type": "textarea",
-                    "value": "When in locked state, it requires users to unlock the wallet to process requests from the dApp to every RPC endpoint."
-                }
-            ],
-            "tester": 2,
-            "lastUpdated": 1761073854135
-        },
-        {
-            "uid": "WSR-PERM-003.v1",
-            "inputs": [
-                {
-                    "type": "select",
-                    "value": "0%"
-                },
-                {
-                    "type": "file",
-                    "value": [
-                        "ambire-browser-5.30.3-d87db803.png"
-                    ]
-                },
-                {
-                    "type": "textarea",
-                    "value": "The wallet does not display a warning when signing EIP-712 messages if the chain ID differs from the currently active chain."
-                }
-            ],
-            "tester": 2,
-            "lastUpdated": 1761073581155
-        },
-        {
-            "uid": "WSR-PERM-004.v1",
-            "inputs": [
-                {
-                    "type": "select",
-                    "value": "100%"
-                },
-                {
-                    "type": "file",
-                    "value": [
-                        "ambire-browser-5.30.3-58b9640e.png",
-                        "ambire-browser-5.30.3-dae6970e.png"
-                    ]
-                },
-                {
-                    "type": "textarea",
-                    "value": "The wallet displays a list of connected dApps in their designated section and allows users to remove connections."
-                }
-            ],
-            "tester": 2,
-            "lastUpdated": 1761073597074
-        },
-        {
-            "uid": "WSR-VERI-005.v1",
-            "inputs": [
-                {
-                    "type": "select",
-                    "value": "100%"
-                },
-                {
-                    "type": "file",
-                    "value": [
-                        "ambire-browser-5.30.3-ed6ee3ce.png",
-                        "ambire-browser-5.30.3-87018eda.png"
-                    ]
-                },
-                {
-                    "type": "textarea",
-                    "value": "When performing an approve transaction with 1inch, the wallet clearly informs spender address, token and amount."
-                }
-            ],
-            "tester": 2,
-            "lastUpdated": 1761073612009
-        },
-        {
-            "uid": "WSR-PERM-009.v1",
-            "inputs": [
-                {
-                    "type": "select",
-                    "value": "100%"
-                },
-                {
-                    "type": "file",
-                    "value": [
-                        "ambire-browser-5.30.3-f0b28ff3.png"
-                    ]
-                },
-                {
-                    "type": "textarea",
-                    "value": "The wallet switches chains without requesting user confirmation, but when the RPC URL is changed, it requires user confirmation."
-                }
-            ],
-            "tester": 2,
-            "lastUpdated": 1763137285681
-        },
-        {
-            "uid": "WSR-VERI-006.v1",
-            "inputs": [
-                {
-                    "type": "select",
-                    "value": "100%"
-                },
-                {
-                    "type": "file",
-                    "value": [
-                        "ambire-browser-5.30.3-7b3d439d.png",
-                        "ambire-browser-5.30.3-3535f6e0.png",
-                        "ambire-browser-5.30.3-b85da6da.png"
-                    ]
-                },
-                {
-                    "type": "textarea",
-                    "value": "When performing an `eth_personalSign` with a large message, the wallet does not truncate the message. It also displays the verifying contract in an EIP-712 object."
-                }
-            ],
-            "tester": 2,
-            "lastUpdated": 1761073653290
-        },
-        {
-            "uid": "WSR-PERM-005.v1",
-            "inputs": [
-                {
-                    "type": "select",
-                    "value": "0%"
-                },
-                {
-                    "type": "file",
-                    "value": [
-                        "ambire-browser-5.30.3-7a3871cd.png"
-                    ]
-                },
-                {
-                    "type": "textarea",
-                    "value": "The wallet does not offer the ability to list and revoke token approvals."
-                }
-            ],
-            "tester": 2,
-            "lastUpdated": 1761073689098
-        },
-        {
-            "uid": "WSR-PERM-010~Browser.v1",
-            "inputs": [
-                {
-                    "type": "select",
-                    "value": "100%"
-                },
-                {
-                    "type": "file",
-                    "value": [
-                        "ambire-browser-5.30.3-6111fbe9.png"
-                    ]
-                },
-                {
-                    "type": "textarea",
-                    "value": "The wallet requires user confirmation before processing each DApp request to every RPC endpoint."
-                }
-            ],
-            "tester": 2,
-            "lastUpdated": 1761073875210
-        },
-        {
-            "uid": "WSR-THRE-007.v1",
-            "inputs": [
-                {
-                    "type": "select",
-                    "value": "0%"
-                },
-                {
-                    "type": "file",
-                    "value": [
-                        "ambire-browser-5.30.3-28a9b368.png"
-                    ]
-                },
-                {
-                    "type": "textarea",
-                    "value": "The wallet displays spam tokens and legitimate ones."
-                }
-            ],
-            "tester": 2,
-            "lastUpdated": 1761073706949
-        },
-        {
-            "uid": "WSR-VERI-007.v1",
-            "inputs": [
-                {
-                    "type": "select",
-                    "value": "100%"
-                },
-                {
-                    "type": "file",
-                    "value": [
-                        "ambire-browser-5.30.3-bb0546a5.png",
-                        "ambire-browser-5.30.3-b520a8ee.png"
-                    ]
-                },
-                {
-                    "type": "textarea",
-                    "value": "The wallet prevents users from signing data before reviewing it."
-                }
-            ],
-            "tester": 2,
-            "lastUpdated": 1761073739470
-        },
-        {
-            "uid": "WSR-PHYS-006~Browser.v1",
-            "inputs": [
-                {
-                    "type": "select",
-                    "value": "0%"
-                },
-                {
-                    "type": "file",
-                    "value": [
-                        "ambire-browser-5.30.3-087779be.png"
-                    ]
-                },
-                {
-                    "type": "textarea",
-                    "value": "The wallet is configured to never lock by default"
-                }
-            ],
-            "tester": 2,
-            "lastUpdated": 1761073891383
-        },
-        {
-            "uid": "WSR-PHYS-004.v1",
-            "inputs": [
-                {
-                    "type": "select",
-                    "value": "100%"
-                },
-                {
-                    "type": "file",
-                    "value": [
-                        "ambire-browser-5.30.3-3cdd6069.png"
-                    ]
-                },
-                {
-                    "type": "textarea",
-                    "value": "To lock your wallet, click the three lines menu in the top right corner, then select 'Lock Ambire' at the top of the dropdown menu."
-                }
-            ],
-            "tester": 2,
-            "lastUpdated": 1761073757730
-        },
-        {
-            "uid": "WSR-PERM-006.v1",
-            "inputs": [
-                {
-                    "type": "select",
-                    "value": "100%"
-                },
-                {
-                    "type": "file",
-                    "value": [
-                        "ambire-browser-5.30.3-6417c4a8.png"
-                    ]
-                },
-                {
-                    "type": "textarea",
-                    "value": "The wallet doesn't support the eth_sign method."
-                }
-            ],
-            "tester": 2,
-            "lastUpdated": 1761073777950
-        },
-        {
-            "uid": "WSR-PHYS-005.v1",
-            "inputs": [
-                {
-                    "type": "select",
-                    "value": "100%"
-                },
-                {
-                    "type": "file",
-                    "value": [
-                        "ambire-browser-5.30.3-daff00c4.png"
-                    ]
-                },
-                {
-                    "type": "textarea",
-                    "value": "The wallet requires a password to display mnemonics/private keys."
-                }
-            ],
-            "tester": 2,
-            "lastUpdated": 1761073793142
-        },
-        {
-            "uid": "WSR-PHYS-003.v1",
-            "inputs": [
-                {
-                    "type": "select",
-                    "value": "100%"
-                },
-                {
-                    "type": "file",
-                    "value": [
-                        "ambire-browser-5.30.3-b551e7af.png",
-                        "ambire-browser-5.30.3-dab6f1e1.png",
-                        "ambire-browser-5.30.3-fd5961ee.png",
-                        "ambire-browser-5.30.3-75c1d740.png"
-                    ]
-                },
-                {
-                    "type": "textarea",
-                    "value": "The wallet warns users about the risks associated with sharing or revealing mnemonics/private keys and provides information about using mnemonics."
-                }
-            ],
-            "tester": 2,
-            "lastUpdated": 1761073810696
-        }
+      },
+      {
+        "categoryUID": "WSR-PHYS",
+        "checkResults": [
+          {
+            "checkUID": "WSR-PHYS-001.v1",
+            "result": 0
+          },
+          {
+            "checkUID": "WSR-PHYS-002~Browser.v1",
+            "result": 0
+          },
+          {
+            "checkUID": "WSR-PHYS-006~Browser.v1",
+            "result": 0
+          },
+          {
+            "checkUID": "WSR-PHYS-004.v1",
+            "result": 100
+          },
+          {
+            "checkUID": "WSR-PHYS-005.v1",
+            "result": 100
+          },
+          {
+            "checkUID": "WSR-PHYS-003.v1",
+            "result": 0
+          }
+        ]
+      },
+      {
+        "categoryUID": "WSR-THRE",
+        "checkResults": [
+          {
+            "checkUID": "WSR-THRE-001.v1",
+            "result": 100
+          },
+          {
+            "checkUID": "WSR-THRE-002.v2",
+            "result": 50
+          },
+          {
+            "checkUID": "WSR-THRE-003.v1",
+            "result": 100
+          },
+          {
+            "checkUID": "WSR-THRE-004.v1",
+            "result": 100
+          },
+          {
+            "checkUID": "WSR-THRE-005.v1",
+            "result": 0
+          },
+          {
+            "checkUID": "WSR-THRE-006.v1",
+            "result": 100
+          },
+          {
+            "checkUID": "WSR-THRE-007.v1",
+            "result": 100
+          }
+        ]
+      },
+      {
+        "categoryUID": "WSR-PERM",
+        "checkResults": [
+          {
+            "checkUID": "WSR-PERM-008~Browser.v1",
+            "result": 100
+          },
+          {
+            "checkUID": "WSR-PERM-001.v1",
+            "result": 100
+          },
+          {
+            "checkUID": "WSR-PERM-002~Browser.v1",
+            "result": 100
+          },
+          {
+            "checkUID": "WSR-PERM-003.v1",
+            "result": 100
+          },
+          {
+            "checkUID": "WSR-PERM-004.v1",
+            "result": 100
+          },
+          {
+            "checkUID": "WSR-PERM-009.v1",
+            "result": 100
+          },
+          {
+            "checkUID": "WSR-PERM-005.v1",
+            "result": 0
+          },
+          {
+            "checkUID": "WSR-PERM-010~Browser.v1",
+            "result": 100
+          },
+          {
+            "checkUID": "WSR-PERM-006.v1",
+            "result": 100
+          }
+        ]
+      }
     ]
+  },
+  "results": [
+    {
+      "uid": "WSR-VERI-001.v1",
+      "inputs": [
+        {
+          "name": "result",
+          "type": "select",
+          "value": "100%"
+        },
+        {
+          "name": "evidence",
+          "type": "file",
+          "value": [
+            "ambire-browser-6.7.3-1314ca43.png",
+            "ambire-browser-6.7.3-355af839.png"
+          ]
+        },
+        {
+          "name": "testerNotes",
+          "type": "textarea",
+          "value": "The wallet blocks transactions to the invalid-checksum address 0x6603E7c1F985D0E75C9C326e86E6C7E8a1898577 in both cases: manual send shows \"Invalid checksum. Verify the address and try again.\" and the dApp request is rejected with \"A call has invalid 'to' field\"."
+        }
+      ],
+      "tester": 1,
+      "lastUpdated": 1788450542005
+    },
+    {
+      "uid": "WSR-PHYS-001.v1",
+      "inputs": [
+        {
+          "name": "result",
+          "type": "select",
+          "value": "0%"
+        },
+        {
+          "name": "evidence",
+          "type": "file",
+          "value": [
+            "ambire-browser-6.7.3-e681c5f0.png"
+          ]
+        },
+        {
+          "name": "testerNotes",
+          "type": "textarea",
+          "value": "The wallet allows the recovery phrase to be copied to the clipboard with a ‘Recovery phrase copied to clipboard!’ confirmation and no warning about clipboard risks, no time-limited exposure, and no evidence of clipboard clearing."
+        }
+      ],
+      "tester": 1,
+      "lastUpdated": 1788450542005
+    },
+    {
+      "uid": "WSR-THRE-001.v1",
+      "inputs": [
+        {
+          "name": "result",
+          "type": "select",
+          "value": "100%"
+        },
+        {
+          "name": "evidence",
+          "type": "file",
+          "value": [
+            "ambire-browser-6.7.3-d52dc899.png",
+            "ambire-browser-6.7.3-f0b70f5a.png",
+            "ambire-browser-6.7.3-292ee96a.png"
+          ]
+        },
+        {
+          "name": "testerNotes",
+          "type": "textarea",
+          "value": "The wallet visibly distinguishes verified dApps from unknown ones: Uniswap and SushiSwap show a 'Verified app' badge and 'Passed' security check, while the Netlify dApp shows a warning and requires 'Hold to continue anyway'."
+        }
+      ],
+      "tester": 1,
+      "lastUpdated": 1788450542005
+    },
+    {
+      "uid": "WSR-PERM-008~Browser.v1",
+      "inputs": [
+        {
+          "name": "result",
+          "type": "select",
+          "value": "100%"
+        },
+        {
+          "name": "evidence",
+          "type": "file",
+          "value": [
+            "ambire-browser-6.7.3-0d779bee.png"
+          ]
+        },
+        {
+          "name": "testerNotes",
+          "type": "textarea",
+          "value": "The wallet rejected eth_decrypt, eth_getEncryptionPublicKey, eth_signTypedData_v4, personal_sign, and eth_sendTransaction with code 4001, and eth_accounts returned an empty list, leaking no account information before connection approval."
+        }
+      ],
+      "tester": 1,
+      "lastUpdated": 1788450542005
+    },
+    {
+      "uid": "WSR-THRE-002.v2",
+      "inputs": [
+        {
+          "name": "result",
+          "type": "select",
+          "value": "50%"
+        },
+        {
+          "name": "evidence",
+          "type": "file",
+          "value": [
+            "ambire-browser-6.7.3-910b944a.png",
+            "ambire-browser-6.7.3-e5b234cd.png",
+            "ambire-browser-6.7.3-b66286cc.png",
+            "ambire-browser-6.7.3-9f61d041.png"
+          ]
+        },
+        {
+          "name": "testerNotes",
+          "type": "textarea",
+          "value": "The wallet warns about the poisoned lookalike address 0x8730...Da54 when entered manually, but does not warn when the same address is supplied via a dApp, and does not warn or block for the known malicious address 0x5923...9de9 in either manual entry or via dApp."
+        }
+      ],
+      "tester": 1,
+      "lastUpdated": 1788450542005
+    },
+    {
+      "uid": "WSR-PERM-001.v1",
+      "inputs": [
+        {
+          "name": "result",
+          "type": "select",
+          "value": "100%"
+        },
+        {
+          "name": "evidence",
+          "type": "file",
+          "value": [
+            "ambire-browser-6.7.3-66866f20.png",
+            "ambire-browser-6.7.3-efe3b6d6.png"
+          ]
+        },
+        {
+          "name": "testerNotes",
+          "type": "textarea",
+          "value": "The wallet warns about the SIWE domain mismatch. The sign-in request shows the dApp origin as Localhost while the SIWE message domain is opensea.io, and a Deceptive app request warning states the app does not match the domain in the message and may be a phishing attempt."
+        }
+      ],
+      "tester": 1,
+      "lastUpdated": 1788450542005
+    },
+    {
+      "uid": "WSR-THRE-003.v1",
+      "inputs": [
+        {
+          "name": "result",
+          "type": "select",
+          "value": "100%"
+        },
+        {
+          "name": "evidence",
+          "type": "file",
+          "value": [
+            "ambire-browser-6.7.3-7378fe4b.png",
+            "ambire-browser-6.7.3-bc8ba279.png"
+          ]
+        },
+        {
+          "name": "testerNotes",
+          "type": "textarea",
+          "value": "The wallet warns the user about potential danger when attempting to connect to known phishing sites, displaying a 'Potential danger!' message and a 'Danger' badge."
+        }
+      ],
+      "tester": 1,
+      "lastUpdated": 1788450542005
+    },
+    {
+      "uid": "WSR-VERI-002.v1",
+      "inputs": [
+        {
+          "name": "result",
+          "type": "select",
+          "value": "50%"
+        },
+        {
+          "name": "evidence",
+          "type": "file",
+          "value": [
+            "ambire-browser-6.7.3-d4eae7d1.png",
+            "ambire-browser-6.7.3-1450a2cf.png"
+          ]
+        },
+        {
+          "name": "testerNotes",
+          "type": "textarea",
+          "value": "Addresses are not clickable links to a block explorer in the transaction preview screen. However, the transaction history screen provides an \"Open explorer\" button to view transaction details in a block explorer."
+        }
+      ],
+      "tester": 1,
+      "lastUpdated": 1788450542005
+    },
+    {
+      "uid": "WSR-VERI-003.v1",
+      "inputs": [
+        {
+          "name": "result",
+          "type": "select",
+          "value": "100%"
+        },
+        {
+          "name": "evidence",
+          "type": "file",
+          "value": [
+            "ambire-browser-6.7.3-06f1edd6.png",
+            "ambire-browser-6.7.3-6628328f.png",
+            "ambire-browser-6.7.3-34abefbe.png"
+          ]
+        },
+        {
+          "name": "testerNotes",
+          "type": "textarea",
+          "value": "The wallet displays expected inputs and outputs before signing for both liquidity provision (e.g., -0.01 POL and Uniswap V3 Position NFT) and swap (e.g., -0.01 POL and +0.00089 USDC.E), satisfying the acceptance criteria."
+        }
+      ],
+      "tester": 1,
+      "lastUpdated": 1788450542005
+    },
+    {
+      "uid": "WSR-VERI-004.v1",
+      "inputs": [
+        {
+          "name": "result",
+          "type": "select",
+          "value": "100%"
+        },
+        {
+          "name": "evidence",
+          "type": "file",
+          "value": [
+            "ambire-browser-6.7.3-3e359c02.png",
+            "ambire-browser-6.7.3-798f1d9b.png"
+          ]
+        },
+        {
+          "name": "testerNotes",
+          "type": "textarea",
+          "value": "The wallet renders structured, human-readable EIP-712 signing details, including spender, spending amount, and expiry, with an option to view raw JSON."
+        }
+      ],
+      "tester": 1,
+      "lastUpdated": 1788450542005
+    },
+    {
+      "uid": "WSR-THRE-004.v1",
+      "inputs": [
+        {
+          "name": "result",
+          "type": "select",
+          "value": "100%"
+        },
+        {
+          "name": "evidence",
+          "type": "file",
+          "value": [
+            "ambire-browser-6.7.3-0a140395.png"
+          ]
+        },
+        {
+          "name": "testerNotes",
+          "type": "textarea",
+          "value": "The connection dialog discloses that the app can see your addresses and propose transactions."
+        }
+      ],
+      "tester": 1,
+      "lastUpdated": 1788450542005
+    },
+    {
+      "uid": "WSR-THRE-005.v1",
+      "inputs": [
+        {
+          "name": "result",
+          "type": "select",
+          "value": "0%"
+        },
+        {
+          "name": "evidence",
+          "type": "file",
+          "value": [
+            "ambire-browser-6.7.3-3e80f6dd.png",
+            "ambire-browser-6.7.3-5c50eaad.png",
+            "ambire-browser-6.7.3-d3d85417.png"
+          ]
+        },
+        {
+          "name": "testerNotes",
+          "type": "textarea",
+          "value": "The wallet shows “First time sending to this address.” for the fresh address 0x9eb91Fbc0291180088a7ff279FA7d35d26a42516 when sending directly through the wallet UI, but no unknown-address warning or indicator is displayed in the dApp transaction builder for the same address."
+        }
+      ],
+      "tester": 1,
+      "lastUpdated": 1788450542005
+    },
+    {
+      "uid": "WSR-THRE-006.v1",
+      "inputs": [
+        {
+          "name": "result",
+          "type": "select",
+          "value": "100%"
+        },
+        {
+          "name": "evidence",
+          "type": "file",
+          "value": [
+            "ambire-browser-6.7.3-c0993c7b.png"
+          ]
+        },
+        {
+          "name": "testerNotes",
+          "type": "textarea",
+          "value": "The wallet displays the full dApp origin URL 'flagship-web3-v1-336a757b5b637a684207a3.webflow.io' without truncation in the connection dialog."
+        }
+      ],
+      "tester": 1,
+      "lastUpdated": 1788450542005
+    },
+    {
+      "uid": "WSR-PERM-002~Browser.v1",
+      "inputs": [
+        {
+          "name": "result",
+          "type": "select",
+          "value": "100%"
+        },
+        {
+          "name": "evidence",
+          "type": "file",
+          "value": [
+            "ambire-browser-6.7.3-a01c8570.png"
+          ]
+        },
+        {
+          "name": "testerNotes",
+          "type": "textarea",
+          "value": "The wallet correctly prompts for unlock for all tested RPC requests (wallet_addEthereumChain, wallet_watchAsset, eth_decrypt, eth_getEncryptionPublicKey, eth_signTypedData_v4, personal_sign, eth_sendTransaction) when locked, and none of the requests are processed; no data is returned while locked."
+        }
+      ],
+      "tester": 1,
+      "lastUpdated": 1788450542005
+    },
+    {
+      "uid": "WSR-PERM-003.v1",
+      "inputs": [
+        {
+          "name": "result",
+          "type": "select",
+          "value": "100%"
+        },
+        {
+          "name": "evidence",
+          "type": "file",
+          "value": [
+            "ambire-browser-6.7.3-c1c6157a.png"
+          ]
+        },
+        {
+          "name": "testerNotes",
+          "type": "textarea",
+          "value": "The wallet rejects the signing request because the EIP-712 chainId does not match the connected network."
+        }
+      ],
+      "tester": 1,
+      "lastUpdated": 1788450542005
+    },
+    {
+      "uid": "WSR-PHYS-002~Browser.v1",
+      "inputs": [
+        {
+          "name": "result",
+          "type": "select",
+          "value": "0%"
+        },
+        {
+          "name": "evidence",
+          "type": "file",
+          "value": [
+            "ambire-browser-6.7.3-cc2a97c3.png",
+            "ambire-browser-6.7.3-7b5c66d6.png",
+            "ambire-browser-6.7.3-8cc7656b.png",
+            "ambire-browser-6.7.3-f9f88b5d.png"
+          ]
+        },
+        {
+          "name": "testerNotes",
+          "type": "textarea",
+          "value": "The wallet allows trivial passwords to be set: 11111111, 12345678 and password are shown with ‘Passwords match’ and the Confirm button enabled, indicating acceptance of weak/trivial credentials."
+        }
+      ],
+      "tester": 1,
+      "lastUpdated": 1788450542005
+    },
+    {
+      "uid": "WSR-PERM-004.v1",
+      "inputs": [
+        {
+          "name": "result",
+          "type": "select",
+          "value": "100%"
+        },
+        {
+          "name": "evidence",
+          "type": "file",
+          "value": [
+            "ambire-browser-6.7.3-2eea9d96.png",
+            "ambire-browser-6.7.3-94979007.png",
+            "ambire-browser-6.7.3-94d775ef.png",
+            "ambire-browser-6.7.3-6d1b55a6.png",
+            "ambire-browser-6.7.3-cb5bdaf2.png"
+          ]
+        },
+        {
+          "name": "testerNotes",
+          "type": "textarea",
+          "value": "The wallet lists connected dApps in the Explore Connected view and the Manage app screen shows a Disconnect action for Localhost. After revoking the testing dApp, subsequent RPC probes show eth_accounts and wallet_getPermissions resolved with empty data, confirming access is revoked."
+        }
+      ],
+      "tester": 1,
+      "lastUpdated": 1788450542005
+    },
+    {
+      "uid": "WSR-VERI-005.v1",
+      "inputs": [
+        {
+          "name": "result",
+          "type": "select",
+          "value": "100%"
+        },
+        {
+          "name": "evidence",
+          "type": "file",
+          "value": [
+            "ambire-browser-6.7.3-7800e868.png",
+            "ambire-browser-6.7.3-e3d05506.png",
+            "ambire-browser-6.7.3-6095bfa1.png"
+          ]
+        },
+        {
+          "name": "testerNotes",
+          "type": "textarea",
+          "value": "The wallet clearly identifies the request as an ERC-20 Approve and shows the token symbol USDC.E, the spender address 0xE592427A0AEce92De3Edee1F18E0157C05861564 (visible in the parsed data), and the approved amount as unlimited (max uint256)."
+        }
+      ],
+      "tester": 1,
+      "lastUpdated": 1788450542005
+    },
+    {
+      "uid": "WSR-PERM-009.v1",
+      "inputs": [
+        {
+          "name": "result",
+          "type": "select",
+          "value": "100%"
+        },
+        {
+          "name": "evidence",
+          "type": "file",
+          "value": [
+            "ambire-browser-6.7.3-63b1954e.png"
+          ]
+        },
+        {
+          "name": "testerNotes",
+          "type": "textarea",
+          "value": "The wallet blocks switching to non-approved networks by returning an 'Unrecognized chain ID' error, requiring the chain to be added first; the switch is not performed without confirmation."
+        }
+      ],
+      "tester": 1,
+      "lastUpdated": 1788450542005
+    },
+    {
+      "uid": "WSR-VERI-006.v1",
+      "inputs": [
+        {
+          "name": "result",
+          "type": "select",
+          "value": "100%"
+        },
+        {
+          "name": "evidence",
+          "type": "file",
+          "value": [
+            "ambire-browser-6.7.3-75615d40.png",
+            "ambire-browser-6.7.3-49e242fb.png",
+            "ambire-browser-6.7.3-fd533059.png"
+          ]
+        },
+        {
+          "name": "testerNotes",
+          "type": "textarea",
+          "value": "The wallet renders large personal_sign and EIP-712 signing requests with scrollable content and no truncation; the EIP-712 dialog shows the EIP712Domain including verifyingContract 0x0000000000000068F116a894984e2DB1123eB395 in Raw view."
+        }
+      ],
+      "tester": 1,
+      "lastUpdated": 1788450542005
+    },
+    {
+      "uid": "WSR-PERM-005.v1",
+      "inputs": [
+        {
+          "name": "result",
+          "type": "select",
+          "value": "0%"
+        },
+        {
+          "name": "evidence",
+          "type": "file",
+          "value": [
+            "ambire-browser-6.7.3-00bdf909.png"
+          ]
+        },
+        {
+          "name": "testerNotes",
+          "type": "textarea",
+          "value": "The wallet's settings menu does not include token approval management, nor does it link to a third-party app or site for listing or revoking token approvals."
+        }
+      ],
+      "tester": 1,
+      "lastUpdated": 1788450542005
+    },
+    {
+      "uid": "WSR-PERM-010~Browser.v1",
+      "inputs": [
+        {
+          "name": "result",
+          "type": "select",
+          "value": "100%"
+        },
+        {
+          "name": "evidence",
+          "type": "file",
+          "value": [
+            "ambire-browser-6.7.3-e0ba3502.png"
+          ]
+        },
+        {
+          "name": "testerNotes",
+          "type": "textarea",
+          "value": "The wallet requires explicit user confirmation for all tested privileged RPC methods, as each request was rejected with code 4001 after the tester declined the prompt."
+        }
+      ],
+      "tester": 1,
+      "lastUpdated": 1788450542005
+    },
+    {
+      "uid": "WSR-THRE-007.v1",
+      "inputs": [
+        {
+          "name": "result",
+          "type": "select",
+          "value": "100%"
+        },
+        {
+          "name": "evidence",
+          "type": "file",
+          "value": [
+            "ambire-browser-6.7.3-cc507ae2.png",
+            "ambire-browser-6.7.3-159ce138.png",
+            "ambire-browser-6.7.3-d7eff54b.png"
+          ]
+        },
+        {
+          "name": "testerNotes",
+          "type": "textarea",
+          "value": "Spam Tokens and NFTs are hidden by default in the wallet."
+        }
+      ],
+      "tester": 1,
+      "lastUpdated": 1788450542005
+    },
+    {
+      "uid": "WSR-VERI-007.v1",
+      "inputs": [
+        {
+          "name": "result",
+          "type": "select",
+          "value": "0%"
+        },
+        {
+          "name": "evidence",
+          "type": "file",
+          "value": [
+            "ambire-browser-6.7.3-2a5f9ce3.png",
+            "ambire-browser-6.7.3-ebd49758.png",
+            "ambire-browser-6.7.3-04fda020.png"
+          ]
+        },
+        {
+          "name": "testerNotes",
+          "type": "textarea",
+          "value": "The wallet's sign button was observed enabled and working after scrolling for both personal_sign and eth_signTypedData."
+        }
+      ],
+      "tester": 1,
+      "lastUpdated": 1788450542005
+    },
+    {
+      "uid": "WSR-PHYS-006~Browser.v1",
+      "inputs": [
+        {
+          "name": "result",
+          "type": "select",
+          "value": "0%"
+        },
+        {
+          "name": "evidence",
+          "type": "file",
+          "value": [
+            "ambire-browser-6.7.3-d6e86bb8.png",
+            "ambire-browser-6.7.3-3917972a.png",
+            "ambire-browser-6.7.3-38d473ae.png"
+          ]
+        },
+        {
+          "name": "testerNotes",
+          "type": "textarea",
+          "value": "The wallet auto-lock device setting is configured to Never, and the menu shows Auto lock: Never, so the wallet does not auto-lock within 20 minutes of inactivity."
+        }
+      ],
+      "tester": 1,
+      "lastUpdated": 1788450542005
+    },
+    {
+      "uid": "WSR-PHYS-004.v1",
+      "inputs": [
+        {
+          "name": "result",
+          "type": "select",
+          "value": "100%"
+        },
+        {
+          "name": "evidence",
+          "type": "file",
+          "value": [
+            "ambire-browser-6.7.3-46d395fb.png",
+            "ambire-browser-6.7.3-6491c684.png"
+          ]
+        },
+        {
+          "name": "testerNotes",
+          "type": "textarea",
+          "value": "The wallet includes a manual lock control. The Menu shows a 'Lock Wallet' option with a lock icon at the bottom of the menu."
+        }
+      ],
+      "tester": 1,
+      "lastUpdated": 1788450542005
+    },
+    {
+      "uid": "WSR-PERM-006.v1",
+      "inputs": [
+        {
+          "name": "result",
+          "type": "select",
+          "value": "100%"
+        },
+        {
+          "name": "evidence",
+          "type": "file",
+          "value": [
+            "ambire-browser-6.7.3-9119b5d8.png"
+          ]
+        },
+        {
+          "name": "testerNotes",
+          "type": "textarea",
+          "value": "The wallet rejects `eth_sign` requests by default, displaying an error that it does not support the method."
+        }
+      ],
+      "tester": 1,
+      "lastUpdated": 1788450542005
+    },
+    {
+      "uid": "WSR-PHYS-005.v1",
+      "inputs": [
+        {
+          "name": "result",
+          "type": "select",
+          "value": "100%"
+        },
+        {
+          "name": "evidence",
+          "type": "file",
+          "value": [
+            "ambire-browser-6.7.3-ee4eeab7.png",
+            "ambire-browser-6.7.3-3d42bdb9.png"
+          ]
+        },
+        {
+          "name": "testerNotes",
+          "type": "textarea",
+          "value": "The wallet requires the extension password to be confirmed before revealing the recovery phrase."
+        }
+      ],
+      "tester": 1,
+      "lastUpdated": 1788450542005
+    },
+    {
+      "uid": "WSR-PHYS-003.v1",
+      "inputs": [
+        {
+          "name": "result",
+          "type": "select",
+          "value": "0%"
+        },
+        {
+          "name": "evidence",
+          "type": "file",
+          "value": [
+            "ambire-browser-6.7.3-f84704ab.png",
+            "ambire-browser-6.7.3-63b7dca3.png"
+          ]
+        },
+        {
+          "name": "testerNotes",
+          "type": "textarea",
+          "value": "The wallet reveals the recovery phrase without displaying a clear warning about the risks of sharing the secret; no risk warning is shown on the Manage recovery phrase / reveal screen."
+        }
+      ],
+      "tester": 1,
+      "lastUpdated": 1788450542005
+    }
+  ]
 }
