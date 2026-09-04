@@ -128,6 +128,9 @@ eligibility_changes:
           - name: "Ctrl Wallet"
             platform: "Extension (Browser)"
             reason: "The team announced that the wallet would be permanently shut down and discontinued as of August 3, 2026."
+          - name: "Elytro"
+            platform: "Extension (Browser)"
+            reason: "Elytro has shifted its focus from its browser extension to an agent-oriented wallet interface, making it incompatible with this ranking's testing methodology."
     - date: "Nov 21, 2025"
       added:
           - name: "NuFi"
