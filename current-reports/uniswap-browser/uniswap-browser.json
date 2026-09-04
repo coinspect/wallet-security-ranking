@@ -170,7 +170,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-PHYS-001.v1",
@@ -183,7 +183,9 @@
         {
           "name": "evidence",
           "type": "file",
-          "value": ["uniswap-browser-1.72.0.2-4d0032d6.png"]
+          "value": [
+            "uniswap-browser-1.72.0.2-4d0032d6.png"
+          ]
         },
         {
           "name": "testerNotes",
@@ -192,7 +194,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-THRE-001.v1",
@@ -219,7 +221,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-PERM-008~Browser.v1",
@@ -232,7 +234,9 @@
         {
           "name": "evidence",
           "type": "file",
-          "value": ["uniswap-browser-1.72.0.2-7d0cc04a.png"]
+          "value": [
+            "uniswap-browser-1.72.0.2-7d0cc04a.png"
+          ]
         },
         {
           "name": "testerNotes",
@@ -241,7 +245,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-THRE-002.v2",
@@ -269,7 +273,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-PERM-001.v1",
@@ -294,7 +298,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-THRE-003.v1",
@@ -319,7 +323,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-VERI-002.v1",
@@ -344,7 +348,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-VERI-003.v1",
@@ -369,7 +373,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-VERI-004.v1",
@@ -382,7 +386,9 @@
         {
           "name": "evidence",
           "type": "file",
-          "value": ["uniswap-browser-1.72.0.2-dbdde826.png"]
+          "value": [
+            "uniswap-browser-1.72.0.2-dbdde826.png"
+          ]
         },
         {
           "name": "testerNotes",
@@ -391,7 +397,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-THRE-004.v1",
@@ -404,7 +410,9 @@
         {
           "name": "evidence",
           "type": "file",
-          "value": ["uniswap-browser-1.72.0.2-ae2c375c.png"]
+          "value": [
+            "uniswap-browser-1.72.0.2-ae2c375c.png"
+          ]
         },
         {
           "name": "testerNotes",
@@ -413,7 +421,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-THRE-005.v1",
@@ -438,7 +446,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-THRE-006.v1",
@@ -451,7 +459,9 @@
         {
           "name": "evidence",
           "type": "file",
-          "value": ["uniswap-browser-1.72.0.2-84ba5c40.png"]
+          "value": [
+            "uniswap-browser-1.72.0.2-84ba5c40.png"
+          ]
         },
         {
           "name": "testerNotes",
@@ -460,7 +470,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-PERM-002~Browser.v1",
@@ -473,7 +483,9 @@
         {
           "name": "evidence",
           "type": "file",
-          "value": ["uniswap-browser-1.72.0.2-f664ee3f.png"]
+          "value": [
+            "uniswap-browser-1.72.0.2-f664ee3f.png"
+          ]
         },
         {
           "name": "testerNotes",
@@ -482,7 +494,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-PERM-003.v1",
@@ -495,7 +507,9 @@
         {
           "name": "evidence",
           "type": "file",
-          "value": ["uniswap-browser-1.72.0.2-01fc4f52.png"]
+          "value": [
+            "uniswap-browser-1.72.0.2-01fc4f52.png"
+          ]
         },
         {
           "name": "testerNotes",
@@ -504,7 +518,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-PHYS-002~Browser.v1",
@@ -529,7 +543,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-PERM-004.v1",
@@ -554,7 +568,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-VERI-005.v1",
@@ -579,7 +593,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-PERM-009.v1",
@@ -604,7 +618,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-VERI-006.v1",
@@ -630,7 +644,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-PERM-005.v1",
@@ -656,7 +670,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-PERM-010~Browser.v1",
@@ -669,7 +683,9 @@
         {
           "name": "evidence",
           "type": "file",
-          "value": ["uniswap-browser-1.72.0.2-daa2fe6d.png"]
+          "value": [
+            "uniswap-browser-1.72.0.2-daa2fe6d.png"
+          ]
         },
         {
           "name": "testerNotes",
@@ -678,7 +694,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-THRE-007.v1",
@@ -704,7 +720,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-VERI-007.v1",
@@ -730,7 +746,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-PHYS-006~Browser.v1",
@@ -743,7 +759,9 @@
         {
           "name": "evidence",
           "type": "file",
-          "value": ["uniswap-browser-1.72.0.2-0da5d10c.png"]
+          "value": [
+            "uniswap-browser-1.72.0.2-0da5d10c.png"
+          ]
         },
         {
           "name": "testerNotes",
@@ -752,7 +770,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-PHYS-004.v1",
@@ -765,7 +783,9 @@
         {
           "name": "evidence",
           "type": "file",
-          "value": ["uniswap-browser-1.72.0.2-e1252585.png"]
+          "value": [
+            "uniswap-browser-1.72.0.2-e1252585.png"
+          ]
         },
         {
           "name": "testerNotes",
@@ -774,7 +794,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-PERM-006.v1",
@@ -787,7 +807,9 @@
         {
           "name": "evidence",
           "type": "file",
-          "value": ["uniswap-browser-1.72.0.2-80712a4e.png"]
+          "value": [
+            "uniswap-browser-1.72.0.2-80712a4e.png"
+          ]
         },
         {
           "name": "testerNotes",
@@ -796,7 +818,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-PHYS-005.v1",
@@ -809,7 +831,9 @@
         {
           "name": "evidence",
           "type": "file",
-          "value": ["uniswap-browser-1.72.0.2-5c1753bd.png"]
+          "value": [
+            "uniswap-browser-1.72.0.2-5c1753bd.png"
+          ]
         },
         {
           "name": "testerNotes",
@@ -818,7 +842,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-PHYS-003.v1",
@@ -831,7 +855,9 @@
         {
           "name": "evidence",
           "type": "file",
-          "value": ["uniswap-browser-1.72.0.2-ebd4b715.png"]
+          "value": [
+            "uniswap-browser-1.72.0.2-ebd4b715.png"
+          ]
         },
         {
           "name": "testerNotes",
@@ -840,7 +866,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     }
   ]
 }

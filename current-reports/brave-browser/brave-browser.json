@@ -158,7 +158,10 @@
         {
           "name": "evidence",
           "type": "file",
-          "value": ["brave-browser-1.84.141-d6451dd2.png", "brave-browser-1.84.141-c31bba26.png"]
+          "value": [
+            "brave-browser-1.84.141-d6451dd2.png",
+            "brave-browser-1.84.141-c31bba26.png"
+          ]
         },
         {
           "name": "testerNotes",
@@ -167,7 +170,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-PHYS-001.v1",
@@ -180,7 +183,9 @@
         {
           "name": "evidence",
           "type": "file",
-          "value": ["brave-browser-1.84.141-661a10cd.png"]
+          "value": [
+            "brave-browser-1.84.141-661a10cd.png"
+          ]
         },
         {
           "name": "testerNotes",
@@ -189,7 +194,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-THRE-001.v1",
@@ -216,7 +221,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-PERM-008~Browser.v1",
@@ -229,7 +234,9 @@
         {
           "name": "evidence",
           "type": "file",
-          "value": ["brave-browser-1.84.141-9924c8a7.png"]
+          "value": [
+            "brave-browser-1.84.141-9924c8a7.png"
+          ]
         },
         {
           "name": "testerNotes",
@@ -238,7 +245,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-THRE-002.v2",
@@ -265,7 +272,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-PERM-001.v1",
@@ -278,7 +285,9 @@
         {
           "name": "evidence",
           "type": "file",
-          "value": ["brave-browser-1.84.141-c653b7fa.png"]
+          "value": [
+            "brave-browser-1.84.141-c653b7fa.png"
+          ]
         },
         {
           "name": "testerNotes",
@@ -287,7 +296,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-THRE-003.v1",
@@ -313,7 +322,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-VERI-002.v1",
@@ -326,7 +335,10 @@
         {
           "name": "evidence",
           "type": "file",
-          "value": ["brave-browser-1.84.141-f54e393a.png", "brave-browser-1.84.141-e7ec5c7c.png"]
+          "value": [
+            "brave-browser-1.84.141-f54e393a.png",
+            "brave-browser-1.84.141-e7ec5c7c.png"
+          ]
         },
         {
           "name": "testerNotes",
@@ -335,7 +347,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-VERI-003.v1",
@@ -348,7 +360,10 @@
         {
           "name": "evidence",
           "type": "file",
-          "value": ["brave-browser-1.84.141-ebf038da.png", "brave-browser-1.84.141-6e9ad62a.png"]
+          "value": [
+            "brave-browser-1.84.141-ebf038da.png",
+            "brave-browser-1.84.141-6e9ad62a.png"
+          ]
         },
         {
           "name": "testerNotes",
@@ -357,7 +372,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-VERI-004.v1",
@@ -370,7 +385,10 @@
         {
           "name": "evidence",
           "type": "file",
-          "value": ["brave-browser-1.84.141-89dd77bc.png", "brave-browser-1.84.141-9890c261.png"]
+          "value": [
+            "brave-browser-1.84.141-89dd77bc.png",
+            "brave-browser-1.84.141-9890c261.png"
+          ]
         },
         {
           "name": "testerNotes",
@@ -379,7 +397,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-THRE-004.v1",
@@ -392,7 +410,9 @@
         {
           "name": "evidence",
           "type": "file",
-          "value": ["brave-browser-1.84.141-33f90bd2.png"]
+          "value": [
+            "brave-browser-1.84.141-33f90bd2.png"
+          ]
         },
         {
           "name": "testerNotes",
@@ -401,7 +421,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-THRE-005.v1",
@@ -427,7 +447,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-THRE-006.v1",
@@ -440,7 +460,9 @@
         {
           "name": "evidence",
           "type": "file",
-          "value": ["brave-browser-1.84.141-eca03b35.png"]
+          "value": [
+            "brave-browser-1.84.141-eca03b35.png"
+          ]
         },
         {
           "name": "testerNotes",
@@ -449,7 +471,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-PERM-002~Browser.v1",
@@ -462,7 +484,9 @@
         {
           "name": "evidence",
           "type": "file",
-          "value": ["brave-browser-1.84.141-af788395.png"]
+          "value": [
+            "brave-browser-1.84.141-af788395.png"
+          ]
         },
         {
           "name": "testerNotes",
@@ -471,7 +495,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-PERM-003.v1",
@@ -484,7 +508,10 @@
         {
           "name": "evidence",
           "type": "file",
-          "value": ["brave-browser-1.84.141-baae1038.png", "brave-browser-1.84.141-0bb60811.png"]
+          "value": [
+            "brave-browser-1.84.141-baae1038.png",
+            "brave-browser-1.84.141-0bb60811.png"
+          ]
         },
         {
           "name": "testerNotes",
@@ -493,7 +520,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-PHYS-002~Browser.v1",
@@ -506,7 +533,9 @@
         {
           "name": "evidence",
           "type": "file",
-          "value": ["brave-browser-1.84.141-aeea7a36.png"]
+          "value": [
+            "brave-browser-1.84.141-aeea7a36.png"
+          ]
         },
         {
           "name": "testerNotes",
@@ -515,7 +544,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-PERM-004.v1",
@@ -528,7 +557,10 @@
         {
           "name": "evidence",
           "type": "file",
-          "value": ["brave-browser-1.84.141-fc888ba9.png", "brave-browser-1.84.141-e4b071c0.png"]
+          "value": [
+            "brave-browser-1.84.141-fc888ba9.png",
+            "brave-browser-1.84.141-e4b071c0.png"
+          ]
         },
         {
           "name": "testerNotes",
@@ -537,7 +569,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-VERI-005.v1",
@@ -564,7 +596,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-PERM-009.v1",
@@ -577,7 +609,9 @@
         {
           "name": "evidence",
           "type": "file",
-          "value": ["brave-browser-1.84.141-4d4da11c.png"]
+          "value": [
+            "brave-browser-1.84.141-4d4da11c.png"
+          ]
         },
         {
           "name": "testerNotes",
@@ -586,7 +620,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-VERI-006.v1",
@@ -613,7 +647,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-PERM-005.v1",
@@ -639,7 +673,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-PERM-010~Browser.v1",
@@ -652,7 +686,9 @@
         {
           "name": "evidence",
           "type": "file",
-          "value": ["brave-browser-1.84.141-890e1e7d.png"]
+          "value": [
+            "brave-browser-1.84.141-890e1e7d.png"
+          ]
         },
         {
           "name": "testerNotes",
@@ -661,7 +697,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-THRE-007.v1",
@@ -674,7 +710,9 @@
         {
           "name": "evidence",
           "type": "file",
-          "value": ["brave-browser-1.84.141-cdd52a5a.png"]
+          "value": [
+            "brave-browser-1.84.141-cdd52a5a.png"
+          ]
         },
         {
           "name": "testerNotes",
@@ -683,7 +721,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-VERI-007.v1",
@@ -710,7 +748,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-PHYS-006~Browser.v1",
@@ -723,7 +761,9 @@
         {
           "name": "evidence",
           "type": "file",
-          "value": ["brave-browser-1.84.141-4cce7c92.png"]
+          "value": [
+            "brave-browser-1.84.141-4cce7c92.png"
+          ]
         },
         {
           "name": "testerNotes",
@@ -732,7 +772,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-PHYS-004.v1",
@@ -745,7 +785,9 @@
         {
           "name": "evidence",
           "type": "file",
-          "value": ["brave-browser-1.84.141-60bed1ab.png"]
+          "value": [
+            "brave-browser-1.84.141-60bed1ab.png"
+          ]
         },
         {
           "name": "testerNotes",
@@ -754,7 +796,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-PERM-006.v1",
@@ -767,7 +809,10 @@
         {
           "name": "evidence",
           "type": "file",
-          "value": ["brave-browser-1.84.141-c2d6837f.png", "brave-browser-1.84.141-6dfaa172.png"]
+          "value": [
+            "brave-browser-1.84.141-c2d6837f.png",
+            "brave-browser-1.84.141-6dfaa172.png"
+          ]
         },
         {
           "name": "testerNotes",
@@ -776,7 +821,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-PHYS-005.v1",
@@ -789,7 +834,9 @@
         {
           "name": "evidence",
           "type": "file",
-          "value": ["brave-browser-1.84.141-3204e18c.png"]
+          "value": [
+            "brave-browser-1.84.141-3204e18c.png"
+          ]
         },
         {
           "name": "testerNotes",
@@ -798,7 +845,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-PHYS-003.v1",
@@ -811,7 +858,9 @@
         {
           "name": "evidence",
           "type": "file",
-          "value": ["brave-browser-1.84.141-a8d8a120.png"]
+          "value": [
+            "brave-browser-1.84.141-a8d8a120.png"
+          ]
         },
         {
           "name": "testerNotes",
@@ -820,7 +869,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     }
   ]
 }

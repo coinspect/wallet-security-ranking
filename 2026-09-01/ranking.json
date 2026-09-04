@@ -146,6 +146,19 @@
       }
     },
     {
+      "id": "enkrypt",
+      "platform": "Extension",
+      "version": "2.12.0",
+      "scores": {
+        "categories": {
+          "WSR-PERM": 603000,
+          "WSR-VERI": 529500,
+          "WSR-PHYS": 1000000,
+          "WSR-THRE": 75000
+        }
+      }
+    },
+    {
       "id": "zerion",
       "platform": "Extension",
       "version": "1.38.4",

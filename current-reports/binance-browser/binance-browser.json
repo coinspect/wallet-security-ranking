@@ -172,7 +172,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-PHYS-001.v1",
@@ -185,7 +185,9 @@
         {
           "name": "evidence",
           "type": "file",
-          "value": ["binance-browser-1.14.0-2a364a50.png"]
+          "value": [
+            "binance-browser-1.14.0-2a364a50.png"
+          ]
         },
         {
           "name": "testerNotes",
@@ -194,7 +196,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-THRE-001.v1",
@@ -221,7 +223,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-PERM-008~Browser.v1",
@@ -234,7 +236,9 @@
         {
           "name": "evidence",
           "type": "file",
-          "value": ["binance-browser-1.14.0-3965d830.png"]
+          "value": [
+            "binance-browser-1.14.0-3965d830.png"
+          ]
         },
         {
           "name": "testerNotes",
@@ -243,7 +247,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-THRE-002.v2",
@@ -271,7 +275,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-PERM-001.v1",
@@ -284,7 +288,10 @@
         {
           "name": "evidence",
           "type": "file",
-          "value": ["binance-browser-1.14.0-065d1e90.png", "binance-browser-1.14.0-2c2216ae.png"]
+          "value": [
+            "binance-browser-1.14.0-065d1e90.png",
+            "binance-browser-1.14.0-2c2216ae.png"
+          ]
         },
         {
           "name": "testerNotes",
@@ -293,7 +300,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-THRE-003.v1",
@@ -306,7 +313,10 @@
         {
           "name": "evidence",
           "type": "file",
-          "value": ["binance-browser-1.14.0-33a0d862.png", "binance-browser-1.14.0-fd6db700.png"]
+          "value": [
+            "binance-browser-1.14.0-33a0d862.png",
+            "binance-browser-1.14.0-fd6db700.png"
+          ]
         },
         {
           "name": "testerNotes",
@@ -315,7 +325,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-VERI-002.v1",
@@ -328,7 +338,10 @@
         {
           "name": "evidence",
           "type": "file",
-          "value": ["binance-browser-1.14.0-0a599bf6.png", "binance-browser-1.14.0-5673acba.png"]
+          "value": [
+            "binance-browser-1.14.0-0a599bf6.png",
+            "binance-browser-1.14.0-5673acba.png"
+          ]
         },
         {
           "name": "testerNotes",
@@ -337,7 +350,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-VERI-003.v1",
@@ -350,7 +363,10 @@
         {
           "name": "evidence",
           "type": "file",
-          "value": ["binance-browser-1.14.0-cfd83537.png", "binance-browser-1.14.0-22d0ed89.png"]
+          "value": [
+            "binance-browser-1.14.0-cfd83537.png",
+            "binance-browser-1.14.0-22d0ed89.png"
+          ]
         },
         {
           "name": "testerNotes",
@@ -359,7 +375,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-VERI-004.v1",
@@ -372,7 +388,10 @@
         {
           "name": "evidence",
           "type": "file",
-          "value": ["binance-browser-1.14.0-6971dbf8.png", "binance-browser-1.14.0-11cb8125.png"]
+          "value": [
+            "binance-browser-1.14.0-6971dbf8.png",
+            "binance-browser-1.14.0-11cb8125.png"
+          ]
         },
         {
           "name": "testerNotes",
@@ -381,7 +400,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-THRE-004.v1",
@@ -394,7 +413,9 @@
         {
           "name": "evidence",
           "type": "file",
-          "value": ["binance-browser-1.14.0-8074fda7.png"]
+          "value": [
+            "binance-browser-1.14.0-8074fda7.png"
+          ]
         },
         {
           "name": "testerNotes",
@@ -403,7 +424,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-THRE-005.v1",
@@ -416,7 +437,10 @@
         {
           "name": "evidence",
           "type": "file",
-          "value": ["binance-browser-1.14.0-3c1b48fb.png", "binance-browser-1.14.0-b0b4f6ad.png"]
+          "value": [
+            "binance-browser-1.14.0-3c1b48fb.png",
+            "binance-browser-1.14.0-b0b4f6ad.png"
+          ]
         },
         {
           "name": "testerNotes",
@@ -425,7 +449,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-THRE-006.v1",
@@ -438,7 +462,9 @@
         {
           "name": "evidence",
           "type": "file",
-          "value": ["binance-browser-1.14.0-bebf0c2f.png"]
+          "value": [
+            "binance-browser-1.14.0-bebf0c2f.png"
+          ]
         },
         {
           "name": "testerNotes",
@@ -447,7 +473,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-PERM-002~Browser.v1",
@@ -460,7 +486,9 @@
         {
           "name": "evidence",
           "type": "file",
-          "value": ["binance-browser-1.14.0-8b0c9cd2.png"]
+          "value": [
+            "binance-browser-1.14.0-8b0c9cd2.png"
+          ]
         },
         {
           "name": "testerNotes",
@@ -469,7 +497,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-PERM-003.v1",
@@ -482,7 +510,9 @@
         {
           "name": "evidence",
           "type": "file",
-          "value": ["binance-browser-1.14.0-b1a41f3e.png"]
+          "value": [
+            "binance-browser-1.14.0-b1a41f3e.png"
+          ]
         },
         {
           "name": "testerNotes",
@@ -491,7 +521,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-PHYS-002~Browser.v1",
@@ -504,7 +534,9 @@
         {
           "name": "evidence",
           "type": "file",
-          "value": ["binance-browser-1.14.0-3523b83c.png"]
+          "value": [
+            "binance-browser-1.14.0-3523b83c.png"
+          ]
         },
         {
           "name": "testerNotes",
@@ -513,7 +545,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-PERM-004.v1",
@@ -539,7 +571,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-VERI-005.v1",
@@ -566,7 +598,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-PERM-009.v1",
@@ -593,7 +625,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-VERI-006.v1",
@@ -620,7 +652,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-PERM-005.v1",
@@ -648,7 +680,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-PERM-010~Browser.v1",
@@ -661,7 +693,9 @@
         {
           "name": "evidence",
           "type": "file",
-          "value": ["binance-browser-1.14.0-a8475be8.png"]
+          "value": [
+            "binance-browser-1.14.0-a8475be8.png"
+          ]
         },
         {
           "name": "testerNotes",
@@ -670,7 +704,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-THRE-007.v1",
@@ -683,7 +717,9 @@
         {
           "name": "evidence",
           "type": "file",
-          "value": ["binance-browser-1.14.0-6eafdab2.png"]
+          "value": [
+            "binance-browser-1.14.0-6eafdab2.png"
+          ]
         },
         {
           "name": "testerNotes",
@@ -692,7 +728,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-VERI-007.v1",
@@ -719,7 +755,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-PHYS-006~Browser.v1",
@@ -732,7 +768,9 @@
         {
           "name": "evidence",
           "type": "file",
-          "value": ["binance-browser-1.14.0-795bc641.png"]
+          "value": [
+            "binance-browser-1.14.0-795bc641.png"
+          ]
         },
         {
           "name": "testerNotes",
@@ -741,7 +779,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-PHYS-004.v1",
@@ -754,7 +792,9 @@
         {
           "name": "evidence",
           "type": "file",
-          "value": ["binance-browser-1.14.0-942e0e90.png"]
+          "value": [
+            "binance-browser-1.14.0-942e0e90.png"
+          ]
         },
         {
           "name": "testerNotes",
@@ -763,7 +803,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-PERM-006.v1",
@@ -776,7 +816,9 @@
         {
           "name": "evidence",
           "type": "file",
-          "value": ["binance-browser-1.14.0-ea6ac354.png"]
+          "value": [
+            "binance-browser-1.14.0-ea6ac354.png"
+          ]
         },
         {
           "name": "testerNotes",
@@ -785,7 +827,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-PHYS-005.v1",
@@ -798,7 +840,9 @@
         {
           "name": "evidence",
           "type": "file",
-          "value": ["binance-browser-1.14.0-982102b7.png"]
+          "value": [
+            "binance-browser-1.14.0-982102b7.png"
+          ]
         },
         {
           "name": "testerNotes",
@@ -807,7 +851,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-PHYS-003.v1",
@@ -820,7 +864,10 @@
         {
           "name": "evidence",
           "type": "file",
-          "value": ["binance-browser-1.14.0-cecef8a0.png", "binance-browser-1.14.0-a7520acc.png"]
+          "value": [
+            "binance-browser-1.14.0-cecef8a0.png",
+            "binance-browser-1.14.0-a7520acc.png"
+          ]
         },
         {
           "name": "testerNotes",
@@ -829,7 +876,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     }
   ]
 }

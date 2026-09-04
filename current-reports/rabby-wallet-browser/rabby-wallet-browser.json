@@ -172,7 +172,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-PHYS-001.v1",
@@ -185,7 +185,9 @@
         {
           "name": "evidence",
           "type": "file",
-          "value": ["rabby-wallet-browser-0.93.88-6c3b3865.png"]
+          "value": [
+            "rabby-wallet-browser-0.93.88-6c3b3865.png"
+          ]
         },
         {
           "name": "testerNotes",
@@ -194,7 +196,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-THRE-001.v1",
@@ -222,7 +224,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-PERM-008~Browser.v1",
@@ -235,7 +237,9 @@
         {
           "name": "evidence",
           "type": "file",
-          "value": ["rabby-wallet-browser-0.93.88-6f598f10.png"]
+          "value": [
+            "rabby-wallet-browser-0.93.88-6f598f10.png"
+          ]
         },
         {
           "name": "testerNotes",
@@ -244,7 +248,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-THRE-002.v2",
@@ -272,7 +276,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-PERM-001.v1",
@@ -297,7 +301,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-THRE-003.v1",
@@ -324,7 +328,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-VERI-002.v1",
@@ -351,7 +355,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-VERI-003.v1",
@@ -364,7 +368,9 @@
         {
           "name": "evidence",
           "type": "file",
-          "value": ["rabby-wallet-browser-0.93.88-cd1125af.png"]
+          "value": [
+            "rabby-wallet-browser-0.93.88-cd1125af.png"
+          ]
         },
         {
           "name": "testerNotes",
@@ -373,7 +379,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-VERI-004.v1",
@@ -386,7 +392,9 @@
         {
           "name": "evidence",
           "type": "file",
-          "value": ["rabby-wallet-browser-0.93.88-a8b8266a.png"]
+          "value": [
+            "rabby-wallet-browser-0.93.88-a8b8266a.png"
+          ]
         },
         {
           "name": "testerNotes",
@@ -395,7 +403,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-THRE-004.v1",
@@ -408,7 +416,9 @@
         {
           "name": "evidence",
           "type": "file",
-          "value": ["rabby-wallet-browser-0.93.88-fec6cf2f.png"]
+          "value": [
+            "rabby-wallet-browser-0.93.88-fec6cf2f.png"
+          ]
         },
         {
           "name": "testerNotes",
@@ -417,7 +427,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-THRE-005.v1",
@@ -442,7 +452,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-THRE-006.v1",
@@ -455,7 +465,9 @@
         {
           "name": "evidence",
           "type": "file",
-          "value": ["rabby-wallet-browser-0.93.88-0f5a372b.png"]
+          "value": [
+            "rabby-wallet-browser-0.93.88-0f5a372b.png"
+          ]
         },
         {
           "name": "testerNotes",
@@ -464,7 +476,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-PERM-002~Browser.v1",
@@ -477,7 +489,9 @@
         {
           "name": "evidence",
           "type": "file",
-          "value": ["rabby-wallet-browser-0.93.88-2e81ead8.png"]
+          "value": [
+            "rabby-wallet-browser-0.93.88-2e81ead8.png"
+          ]
         },
         {
           "name": "testerNotes",
@@ -486,7 +500,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-PERM-003.v1",
@@ -499,7 +513,9 @@
         {
           "name": "evidence",
           "type": "file",
-          "value": ["rabby-wallet-browser-0.93.88-6359ff3e.png"]
+          "value": [
+            "rabby-wallet-browser-0.93.88-6359ff3e.png"
+          ]
         },
         {
           "name": "testerNotes",
@@ -508,7 +524,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-PHYS-002~Browser.v1",
@@ -521,7 +537,9 @@
         {
           "name": "evidence",
           "type": "file",
-          "value": ["rabby-wallet-browser-0.93.88-6a7dd762.png"]
+          "value": [
+            "rabby-wallet-browser-0.93.88-6a7dd762.png"
+          ]
         },
         {
           "name": "testerNotes",
@@ -530,7 +548,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-PERM-004.v1",
@@ -556,7 +574,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-VERI-005.v1",
@@ -569,7 +587,9 @@
         {
           "name": "evidence",
           "type": "file",
-          "value": ["rabby-wallet-browser-0.93.88-d7fecb28.png"]
+          "value": [
+            "rabby-wallet-browser-0.93.88-d7fecb28.png"
+          ]
         },
         {
           "name": "testerNotes",
@@ -578,7 +598,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-PERM-009.v1",
@@ -604,7 +624,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-VERI-006.v1",
@@ -631,7 +651,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-PERM-005.v1",
@@ -656,7 +676,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-PERM-010~Browser.v1",
@@ -682,7 +702,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-THRE-007.v1",
@@ -695,7 +715,9 @@
         {
           "name": "evidence",
           "type": "file",
-          "value": ["rabby-wallet-browser-0.93.88-8981cba8.png"]
+          "value": [
+            "rabby-wallet-browser-0.93.88-8981cba8.png"
+          ]
         },
         {
           "name": "testerNotes",
@@ -704,7 +726,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-VERI-007.v1",
@@ -729,7 +751,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-PHYS-006~Browser.v1",
@@ -742,7 +764,9 @@
         {
           "name": "evidence",
           "type": "file",
-          "value": ["rabby-wallet-browser-0.93.88-df95fd4d.png"]
+          "value": [
+            "rabby-wallet-browser-0.93.88-df95fd4d.png"
+          ]
         },
         {
           "name": "testerNotes",
@@ -751,7 +775,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-PHYS-004.v1",
@@ -764,7 +788,9 @@
         {
           "name": "evidence",
           "type": "file",
-          "value": ["rabby-wallet-browser-0.93.88-6fb31f9f.png"]
+          "value": [
+            "rabby-wallet-browser-0.93.88-6fb31f9f.png"
+          ]
         },
         {
           "name": "testerNotes",
@@ -773,7 +799,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-PERM-006.v1",
@@ -786,7 +812,9 @@
         {
           "name": "evidence",
           "type": "file",
-          "value": ["rabby-wallet-browser-0.93.88-86d44676.png"]
+          "value": [
+            "rabby-wallet-browser-0.93.88-86d44676.png"
+          ]
         },
         {
           "name": "testerNotes",
@@ -795,7 +823,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-PHYS-005.v1",
@@ -808,7 +836,9 @@
         {
           "name": "evidence",
           "type": "file",
-          "value": ["rabby-wallet-browser-0.93.88-a159e29c.png"]
+          "value": [
+            "rabby-wallet-browser-0.93.88-a159e29c.png"
+          ]
         },
         {
           "name": "testerNotes",
@@ -817,7 +847,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-PHYS-003.v1",
@@ -830,7 +860,9 @@
         {
           "name": "evidence",
           "type": "file",
-          "value": ["rabby-wallet-browser-0.93.88-da883fad.png"]
+          "value": [
+            "rabby-wallet-browser-0.93.88-da883fad.png"
+          ]
         },
         {
           "name": "testerNotes",
@@ -839,7 +871,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     }
   ]
 }

@@ -158,7 +158,10 @@
         {
           "name": "evidence",
           "type": "file",
-          "value": ["bitget-browser-2.20.0-688797af.png", "bitget-browser-2.20.0-024ffa77.png"]
+          "value": [
+            "bitget-browser-2.20.0-688797af.png",
+            "bitget-browser-2.20.0-024ffa77.png"
+          ]
         },
         {
           "name": "testerNotes",
@@ -167,7 +170,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-PHYS-001.v1",
@@ -180,7 +183,10 @@
         {
           "name": "evidence",
           "type": "file",
-          "value": ["bitget-browser-2.20.0-211d89d5.png", "bitget-browser-2.20.0-74cd7c7f.png"]
+          "value": [
+            "bitget-browser-2.20.0-211d89d5.png",
+            "bitget-browser-2.20.0-74cd7c7f.png"
+          ]
         },
         {
           "name": "testerNotes",
@@ -189,7 +195,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-THRE-001.v1",
@@ -216,7 +222,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-PERM-008~Browser.v1",
@@ -229,7 +235,9 @@
         {
           "name": "evidence",
           "type": "file",
-          "value": ["bitget-browser-2.20.0-aaa80f89.png"]
+          "value": [
+            "bitget-browser-2.20.0-aaa80f89.png"
+          ]
         },
         {
           "name": "testerNotes",
@@ -238,7 +246,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-THRE-002.v2",
@@ -267,7 +275,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-PERM-001.v1",
@@ -280,7 +288,10 @@
         {
           "name": "evidence",
           "type": "file",
-          "value": ["bitget-browser-2.20.0-d7396ea7.png", "bitget-browser-2.20.0-f28835bd.png"]
+          "value": [
+            "bitget-browser-2.20.0-d7396ea7.png",
+            "bitget-browser-2.20.0-f28835bd.png"
+          ]
         },
         {
           "name": "testerNotes",
@@ -289,7 +300,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-THRE-003.v1",
@@ -316,7 +327,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-VERI-002.v1",
@@ -329,7 +340,10 @@
         {
           "name": "evidence",
           "type": "file",
-          "value": ["bitget-browser-2.20.0-d5f8295b.png", "bitget-browser-2.20.0-dfac60d4.png"]
+          "value": [
+            "bitget-browser-2.20.0-d5f8295b.png",
+            "bitget-browser-2.20.0-dfac60d4.png"
+          ]
         },
         {
           "name": "testerNotes",
@@ -338,7 +352,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-VERI-003.v1",
@@ -351,7 +365,10 @@
         {
           "name": "evidence",
           "type": "file",
-          "value": ["bitget-browser-2.20.0-ec4c388f.png", "bitget-browser-2.20.0-714330de.png"]
+          "value": [
+            "bitget-browser-2.20.0-ec4c388f.png",
+            "bitget-browser-2.20.0-714330de.png"
+          ]
         },
         {
           "name": "testerNotes",
@@ -360,7 +377,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-VERI-004.v1",
@@ -373,7 +390,10 @@
         {
           "name": "evidence",
           "type": "file",
-          "value": ["bitget-browser-2.20.0-5a823ddc.png", "bitget-browser-2.20.0-5a9e7fc3.png"]
+          "value": [
+            "bitget-browser-2.20.0-5a823ddc.png",
+            "bitget-browser-2.20.0-5a9e7fc3.png"
+          ]
         },
         {
           "name": "testerNotes",
@@ -382,7 +402,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-THRE-004.v1",
@@ -395,7 +415,9 @@
         {
           "name": "evidence",
           "type": "file",
-          "value": ["bitget-browser-2.20.0-79a990a5.png"]
+          "value": [
+            "bitget-browser-2.20.0-79a990a5.png"
+          ]
         },
         {
           "name": "testerNotes",
@@ -404,7 +426,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-THRE-005.v1",
@@ -430,7 +452,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-THRE-006.v1",
@@ -443,7 +465,10 @@
         {
           "name": "evidence",
           "type": "file",
-          "value": ["bitget-browser-2.20.0-cf8a3ca6.png", "bitget-browser-2.20.0-afdfab22.png"]
+          "value": [
+            "bitget-browser-2.20.0-cf8a3ca6.png",
+            "bitget-browser-2.20.0-afdfab22.png"
+          ]
         },
         {
           "name": "testerNotes",
@@ -452,7 +477,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-PERM-002~Browser.v1",
@@ -465,7 +490,9 @@
         {
           "name": "evidence",
           "type": "file",
-          "value": ["bitget-browser-2.20.0-4d8d428a.png"]
+          "value": [
+            "bitget-browser-2.20.0-4d8d428a.png"
+          ]
         },
         {
           "name": "testerNotes",
@@ -474,7 +501,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-PERM-003.v1",
@@ -487,7 +514,10 @@
         {
           "name": "evidence",
           "type": "file",
-          "value": ["bitget-browser-2.20.0-b0a8129d.png", "bitget-browser-2.20.0-f4c2722f.png"]
+          "value": [
+            "bitget-browser-2.20.0-b0a8129d.png",
+            "bitget-browser-2.20.0-f4c2722f.png"
+          ]
         },
         {
           "name": "testerNotes",
@@ -496,7 +526,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-PHYS-002~Browser.v1",
@@ -509,7 +539,9 @@
         {
           "name": "evidence",
           "type": "file",
-          "value": ["bitget-browser-2.20.0-50540118.png"]
+          "value": [
+            "bitget-browser-2.20.0-50540118.png"
+          ]
         },
         {
           "name": "testerNotes",
@@ -518,7 +550,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-PERM-004.v1",
@@ -544,7 +576,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-VERI-005.v1",
@@ -570,7 +602,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-PERM-009.v1",
@@ -583,7 +615,9 @@
         {
           "name": "evidence",
           "type": "file",
-          "value": ["bitget-browser-2.20.0-c250ea9f.png"]
+          "value": [
+            "bitget-browser-2.20.0-c250ea9f.png"
+          ]
         },
         {
           "name": "testerNotes",
@@ -592,7 +626,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-VERI-006.v1",
@@ -619,7 +653,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-PERM-005.v1",
@@ -645,7 +679,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-PERM-010~Browser.v1",
@@ -658,7 +692,9 @@
         {
           "name": "evidence",
           "type": "file",
-          "value": ["bitget-browser-2.20.0-ecb6782b.png"]
+          "value": [
+            "bitget-browser-2.20.0-ecb6782b.png"
+          ]
         },
         {
           "name": "testerNotes",
@@ -667,7 +703,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-THRE-007.v1",
@@ -680,7 +716,9 @@
         {
           "name": "evidence",
           "type": "file",
-          "value": ["bitget-browser-2.20.0-e30c7e4e.png"]
+          "value": [
+            "bitget-browser-2.20.0-e30c7e4e.png"
+          ]
         },
         {
           "name": "testerNotes",
@@ -689,7 +727,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-VERI-007.v1",
@@ -716,7 +754,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-PHYS-006~Browser.v1",
@@ -729,7 +767,9 @@
         {
           "name": "evidence",
           "type": "file",
-          "value": ["bitget-browser-2.20.0-84ce6870.png"]
+          "value": [
+            "bitget-browser-2.20.0-84ce6870.png"
+          ]
         },
         {
           "name": "testerNotes",
@@ -738,7 +778,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-PHYS-004.v1",
@@ -751,7 +791,9 @@
         {
           "name": "evidence",
           "type": "file",
-          "value": ["bitget-browser-2.20.0-dcf982e9.png"]
+          "value": [
+            "bitget-browser-2.20.0-dcf982e9.png"
+          ]
         },
         {
           "name": "testerNotes",
@@ -760,7 +802,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-PERM-006.v1",
@@ -773,7 +815,10 @@
         {
           "name": "evidence",
           "type": "file",
-          "value": ["bitget-browser-2.20.0-846a578d.png", "bitget-browser-2.20.0-3d43ecf9.png"]
+          "value": [
+            "bitget-browser-2.20.0-846a578d.png",
+            "bitget-browser-2.20.0-3d43ecf9.png"
+          ]
         },
         {
           "name": "testerNotes",
@@ -782,7 +827,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-PHYS-005.v1",
@@ -795,7 +840,9 @@
         {
           "name": "evidence",
           "type": "file",
-          "value": ["bitget-browser-2.20.0-177743cf.png"]
+          "value": [
+            "bitget-browser-2.20.0-177743cf.png"
+          ]
         },
         {
           "name": "testerNotes",
@@ -804,7 +851,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-PHYS-003.v1",
@@ -830,7 +877,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     }
   ]
 }

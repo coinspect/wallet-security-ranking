@@ -1,9 +1,9 @@
 {
-  "round": "2025-09-22",
+  "round": "2026-09-01",
   "wallet": "Enkrypt",
   "platform": "Browser",
-  "version": "2.13.1",
-  "date": "2026-01-12T17:52:05.136Z",
+  "version": "2.12.0",
+  "date": "2026-09-01T00:00:00.000Z",
   "walletUID": "enkrypt-browser",
   "walletMakerUID": "enkrypt",
   "scores": {
@@ -49,7 +49,7 @@
             "result": 100
           },
           {
-            "checkUID": "WSR-PHYS-002.v1",
+            "checkUID": "WSR-PHYS-002~Browser.v1",
             "result": 100
           },
           {
@@ -78,7 +78,7 @@
             "result": 0
           },
           {
-            "checkUID": "WSR-THRE-002.v1",
+            "checkUID": "WSR-THRE-002.v2",
             "result": 0
           },
           {
@@ -99,7 +99,7 @@
           },
           {
             "checkUID": "WSR-THRE-007.v1",
-            "result": 100
+            "result": 0
           }
         ]
       },
@@ -151,561 +151,730 @@
       "uid": "WSR-VERI-001.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "100%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": ["enkrypt-browser-2.13.1-0ec8bce7.png"]
+          "value": [
+            "enkrypt-browser-2.12.0-43ae90cb.png",
+            "enkrypt-browser-2.12.0-50ce107e.png"
+          ]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
-          "value": "Wallet successfully prevents the user from providing an address with invalid checksums"
+          "value": "The wallet correctly detects invalid EIP-55 checksums and blocks the transaction for both manually entered (0x02970EA171A97EB0d627CB7EC9ABaC308253C716) and dApp-provided addresses, displaying a checksum error and disabling the Send button."
         }
       ],
-      "tester": 2,
-      "lastUpdated": 1761073195124
+      "tester": 1,
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-PHYS-001.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "100%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": ["enkrypt-browser-2.13.1-e87729b1.png"]
+          "value": [
+            "enkrypt-browser-2.12.0-2f5f7a41.png"
+          ]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
-          "value": "The wallet prevents the copying of mnemonics."
+          "value": "The wallet prevents copying the mnemonic to the clipboard."
         }
       ],
-      "tester": 2,
-      "lastUpdated": 1761073281719
+      "tester": 1,
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-THRE-001.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "0%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": ["enkrypt-browser-2.13.1-daddcc1b.png"]
+          "value": [
+            "enkrypt-browser-2.12.0-27fd5856.png",
+            "enkrypt-browser-2.12.0-116d5b1d.png",
+            "enkrypt-browser-2.12.0-3faee20c.png",
+            "enkrypt-browser-2.12.0-ad74acad.png"
+          ]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
-          "value": "The wallet lacks a verified domain indicator for well-known dApps."
+          "value": "The wallet does not distinguish between well-known, verified dApps and unknown ones."
         }
       ],
-      "tester": 2,
-      "lastUpdated": 1761073341961
+      "tester": 1,
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-PERM-008~Browser.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "0%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": ["enkrypt-browser-2.13.1-50e81aeb.png"]
+          "value": [
+            "enkrypt-browser-2.12.0-066234dc.png",
+            "enkrypt-browser-2.12.0-326f5280.png"
+          ]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
-          "value": "It skips connection approval for eth_getEncryptionPublicKey, eth_signTypedData_v4 (for Opensea Listing and ERC20 Permit), and personal_sign requests."
+          "value": "The wallet returned data for eth_getEncryptionPublicKey, eth_signTypedData_v4, personal_sign, and eth_sendTransaction without requiring connection approval, leaking account-related information."
         }
       ],
-      "tester": 2,
-      "lastUpdated": 1761073830917
+      "tester": 1,
+      "lastUpdated": 1788450542005
     },
     {
-      "uid": "WSR-THRE-002.v1",
+      "uid": "WSR-THRE-002.v2",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "0%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": ["enkrypt-browser-2.13.1-faee99a9.png"]
+          "value": [
+            "enkrypt-browser-2.12.0-86aa70dc.png",
+            "enkrypt-browser-2.12.0-6a396aa4.png",
+            "enkrypt-browser-2.12.0-38617d44.png",
+            "enkrypt-browser-2.12.0-d704ec09.png"
+          ]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
-          "value": "The wallet does not alert users when interacting with known scam addresses, such as the Tornado Cash Attacker address."
+          "value": "The wallet does not warn, flag, or block transactions to either the known malicious address (0x592348957e8C3e4Af1b8E9A7221d86f00Df789de9) or the poisoned lookalike address (0x8730aeab8FE951cFa6e17F82341EC095C921Fa54) when entered manually or supplied by a dApp, allowing both transactions to proceed without any alerts."
         }
       ],
-      "tester": 2,
-      "lastUpdated": 1761073368191
-    },
-    {
-      "uid": "WSR-PHYS-002.v1",
-      "inputs": [
-        {
-          "type": "select",
-          "value": "100%"
-        },
-        {
-          "type": "file",
-          "value": ["enkrypt-browser-2.13.1-5ca3e2bb.png"]
-        },
-        {
-          "type": "textarea",
-          "value": "The wallet requires a strong password of at least eight characters."
-        }
-      ],
-      "tester": 2,
-      "lastUpdated": 1761073390977
+      "tester": 1,
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-PERM-001.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "0%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": ["enkrypt-browser-2.13.1-c5c0c06b.png"]
+          "value": [
+            "enkrypt-browser-2.12.0-b63bf71a.png"
+          ]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
-          "value": "The wallet does not warn users of a domain or scheme mismatch when signing a SIWE message."
+          "value": "The wallet did not warn the user or block the signing request despite a clear mismatch between the dApp origin (wallettesting.netlify.app) and the domain specified in the SIWE message (opensea.io)."
         }
       ],
-      "tester": 2,
-      "lastUpdated": 1761073439199
+      "tester": 1,
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-THRE-003.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "0%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": ["enkrypt-browser-2.13.1-c265ff8c.png"]
+          "value": [
+            "enkrypt-browser-2.12.0-010e5651.png",
+            "enkrypt-browser-2.12.0-84b8f8fd.png"
+          ]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
-          "value": "The wallet does not issue warnings or alerts when connecting to phishing dApps."
+          "value": "The wallet did not display any warnings or prevent the user from attempting to connect to the provided sites, indicating a lack of phishing protection for known malicious domains."
         }
       ],
-      "tester": 2,
-      "lastUpdated": 1761073456176
+      "tester": 1,
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-VERI-002.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "50%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": ["enkrypt-browser-2.13.1-5c1f60f8.png", "enkrypt-browser-2.13.1-e647da7b.png"]
+          "value": [
+            "enkrypt-browser-2.12.0-27832953.png",
+            "enkrypt-browser-2.12.0-33929bd6.png"
+          ]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
-          "value": "The wallet shows clickable links in the wallet history but not in the transaction preview."
+          "value": "The wallet provides clickable links to block explorers in the transaction history, but the transaction preview screen does not offer any clickable links to a block explorer."
         }
       ],
-      "tester": 2,
-      "lastUpdated": 1761073474354
+      "tester": 1,
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-VERI-003.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "0%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": ["enkrypt-browser-2.13.1-ac239f3b.png"]
+          "value": [
+            "enkrypt-browser-2.12.0-4caf75ca.png",
+            "enkrypt-browser-2.12.0-0e73b848.png"
+          ]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
-          "value": "The wallet does not show all incoming and outgoing assets during a swap or liquidity pool addition on Uniswap."
+          "value": "The wallet does not display a simulation of expected inputs and outputs for either the swap or liquidity provision; it only shows a standard confirmation screen with the amount of POL being sent."
         }
       ],
-      "tester": 2,
-      "lastUpdated": 1761073487949
+      "tester": 1,
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-VERI-004.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "0%"
         },
         {
+          "name": "evidence",
           "type": "file",
           "value": [
-            "enkrypt-browser-2.13.1-d10aee81.png",
-            "enkrypt-browser-2.13.1-421ec6e5.png",
-            "enkrypt-browser-2.13.1-89da8f61.png"
+            "enkrypt-browser-2.12.0-9aee19ad.png",
+            "enkrypt-browser-2.12.0-aa9da0c6.png"
           ]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The wallet displays plain data instead of parsing the EIP-712 object."
         }
       ],
-      "tester": 2,
-      "lastUpdated": 1761073507358
+      "tester": 1,
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-THRE-004.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "0%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": ["enkrypt-browser-2.13.1-7fee07f0.png"]
+          "value": [
+            "enkrypt-browser-2.12.0-1bfb28ca.png"
+          ]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
-          "value": "The wallet’s connection dialog informs users that the dApp can access balance and activity but does not mention transaction approval requests."
+          "value": "The connection dialog describes the dApp's ability to view the wallet address, balance, and past activity/transactions, but it does not explicitly mention the ability to request transaction approvals."
         }
       ],
-      "tester": 2,
-      "lastUpdated": 1761073528397
+      "tester": 1,
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-THRE-005.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "0%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": ["enkrypt-browser-2.13.1-7b6776bd.png"]
+          "value": [
+            "enkrypt-browser-2.12.0-3db1173d.png",
+            "enkrypt-browser-2.12.0-d4fefd1e.png"
+          ]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
-          "value": "The wallet does not inform the user that he is interacting with an unknown address."
+          "value": "The wallet displays no warning or indicator for the unknown/fresh address in either the dApp-provided path or the manual-entry path."
         }
       ],
-      "tester": 2,
-      "lastUpdated": 1763393432462
+      "tester": 1,
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-THRE-006.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "100%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": ["enkrypt-browser-2.13.1-d6676de8.png"]
+          "value": [
+            "enkrypt-browser-2.12.0-0886b601.png"
+          ]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
-          "value": "The wallet displays the full URL of the dApp without truncation."
+          "value": "The connection dialog correctly displays the full dApp origin URL without any truncation, meeting the specified acceptance criteria."
         }
       ],
-      "tester": 2,
-      "lastUpdated": 1761073560213
+      "tester": 1,
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-PERM-002~Browser.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "100%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": ["enkrypt-browser-2.13.1-60a91594.png"]
+          "value": [
+            "enkrypt-browser-2.12.0-d92341e6.png"
+          ]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
-          "value": "It is asking the user to unlock their wallets in every test"
+          "value": "The wallet requires user to unlock the wallet before processing each request."
         }
       ],
-      "tester": 2,
-      "lastUpdated": 1761073854135
+      "tester": 1,
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-PERM-003.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "100%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": ["enkrypt-browser-2.13.1-3fafb448.png"]
+          "value": [
+            "enkrypt-browser-2.12.0-e565ad1b.png"
+          ]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
-          "value": "The wallet refuses to sign an EIP-712 message with a chainId that does not match the currently active chain."
+          "value": "The wallet rejects EIP-712 signing requests when the chainId does not match the active network, returning error -32603: \"Provided chainId 1223123 must match the active chainId 137\"."
         }
       ],
-      "tester": 2,
-      "lastUpdated": 1761073581155
+      "tester": 1,
+      "lastUpdated": 1788450542005
+    },
+    {
+      "uid": "WSR-PHYS-002~Browser.v1",
+      "inputs": [
+        {
+          "name": "result",
+          "type": "select",
+          "value": "100%"
+        },
+        {
+          "name": "evidence",
+          "type": "file",
+          "value": [
+            "enkrypt-browser-2.12.0-40f09f9e.png",
+            "enkrypt-browser-2.12.0-4521cb5a.png"
+          ]
+        },
+        {
+          "name": "testerNotes",
+          "type": "textarea",
+          "value": "The system prevents the use of the trivial 8-character password '12345678', indicating it does not allow trivial passwords and enforces a stronger password policy by disabling the 'Next' button."
+        }
+      ],
+      "tester": 1,
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-PERM-004.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "0%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": ["enkrypt-browser-2.13.1-0216d888.png"]
+          "value": [
+            "enkrypt-browser-2.12.0-7a5cb2f1.png",
+            "enkrypt-browser-2.12.0-cdca044a.png"
+          ]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
-          "value": "The wallet does not provide a list of connected dApps and only allows disconnection from the currently active dApp if the tab is open."
+          "value": "The wallet does not provide a list of connected dApps and only allows disconnection from the currently active dApp if the tab is open. If disconnected from the dapp all rpc endpoints are ok."
         }
       ],
-      "tester": 2,
-      "lastUpdated": 1761073597074
+      "tester": 1,
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-VERI-005.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "100%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": ["enkrypt-browser-2.13.1-a03fd8ba.png"]
+          "value": [
+            "enkrypt-browser-2.12.0-5c18dc0c.png",
+            "enkrypt-browser-2.12.0-25b649e0.png",
+            "enkrypt-browser-2.12.0-64c05e40.png",
+            "enkrypt-browser-2.12.0-45d10a8b.png"
+          ]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
           "value": "The approval shows the token and amount, but the contract address is only available in the hidden data hex."
         }
       ],
-      "tester": 2,
-      "lastUpdated": 1761073612009
+      "tester": 1,
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-PERM-009.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "0%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": ["enkrypt-browser-2.13.1-c5513310.png"]
+          "value": [
+            "enkrypt-browser-2.12.0-6fbb3a65.png"
+          ]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
-          "value": "The wallet skips user confirmation before processing the `wallet_switchEthereumChain` RPC request from the dApp. It lets me select the chain to connect to, but when switching it through the DApp, the change goes through without requiring any confirmation."
+          "value": "The wallet executed the `wallet_switchEthereumChain` RPC request and switched to zkSync Era Mainnet without displaying a confirmation prompt, allowing chain switching without user confirmation."
         }
       ],
-      "tester": 2,
-      "lastUpdated": 1763137285681
+      "tester": 1,
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-VERI-006.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "100%"
         },
         {
+          "name": "evidence",
           "type": "file",
           "value": [
-            "enkrypt-browser-2.13.1-2f4aa3be.png",
-            "enkrypt-browser-2.13.1-93f3a350.png",
-            "enkrypt-browser-2.13.1-80452ee6.png",
-            "enkrypt-browser-2.13.1-96b3e7ab.png"
+            "enkrypt-browser-2.12.0-6b6dac6c.png",
+            "enkrypt-browser-2.12.0-8703c33b.png",
+            "enkrypt-browser-2.12.0-618ac4bd.png",
+            "enkrypt-browser-2.12.0-d1c817fa.png"
           ]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
-          "value": "The wallet displays full messages in personal sign requests without truncation and shows the verifying contract in the EIP-712 object."
+          "value": "The wallet correctly displays large payloads for `personal_sign` and `eth_signTypedData`, allowing all content to be visible and scrollable. For EIP-712, the `EIP712Domain` including `verifyingContract` is clearly displayed."
         }
       ],
-      "tester": 2,
-      "lastUpdated": 1761073653290
+      "tester": 1,
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-PERM-005.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "0%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": ["enkrypt-browser-2.13.1-1f3be3ac.png", "enkrypt-browser-2.13.1-35c12bdf.png"]
+          "value": [
+            "enkrypt-browser-2.12.0-7c892e0e.png",
+            "enkrypt-browser-2.12.0-a5d2a762.png",
+            "enkrypt-browser-2.12.0-9450baeb.png",
+            "enkrypt-browser-2.12.0-45db7407.png",
+            "enkrypt-browser-2.12.0-bfa33639.png"
+          ]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
-          "value": "The wallet lacks token allowance revocation and does not provide a third-party link for this purpose."
+          "value": "The wallet lacks a built-in token approval management feature in Settings and General, and the DApps tab does not link to an external token approval manager, so users cannot list or revoke token approvals."
         }
       ],
-      "tester": 2,
-      "lastUpdated": 1761073689098
+      "tester": 1,
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-PERM-010~Browser.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "100%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": ["enkrypt-browser-2.13.1-76d50714.png"]
+          "value": [
+            "enkrypt-browser-2.12.0-3c47e292.png",
+            "enkrypt-browser-2.12.0-1f15969a.png",
+            "enkrypt-browser-2.12.0-46a58813.png"
+          ]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
-          "value": "The wallet requires user confirmation for each dApp request. However, for wallet_watchAsset, the dApp confirms success, but the token does not appear in the list."
+          "value": "Each request requires explicit user confirmation before execution."
         }
       ],
-      "tester": 2,
-      "lastUpdated": 1761073875210
+      "tester": 1,
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-THRE-007.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
-          "value": "100%"
+          "value": "0%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": ["enkrypt-browser-2.13.1-6a05552c.png", "enkrypt-browser-2.13.1-16940854.png"]
+          "value": [
+            "enkrypt-browser-2.12.0-873aa2fd.png",
+            "enkrypt-browser-2.12.0-7989ea76.png"
+          ]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
-          "value": "The wallet effectively filters out spam and scam NFTs."
+          "value": "The wallet successfully filtered out spam NFTs, but displays spam tokens by default in the Assets tab, including !FYDE, GIC, foxytoken, zkSwapVIP, and Gara the Clone, all with $0.00 value."
         }
       ],
-      "tester": 2,
-      "lastUpdated": 1761073706949
+      "tester": 1,
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-VERI-007.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "0%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": ["enkrypt-browser-2.13.1-1fad3b00.png", "enkrypt-browser-2.13.1-6a758ccd.png"]
+          "value": [
+            "enkrypt-browser-2.12.0-2697d4bf.png",
+            "enkrypt-browser-2.12.0-e3325f35.png",
+            "enkrypt-browser-2.12.0-b0fd5c7c.png",
+            "enkrypt-browser-2.12.0-ec1c8fe5.png"
+          ]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
-          "value": "The sign button is available from the start."
+          "value": "The wallet allows signing of `eth_signTypedData` and `personal_sign` messages without requiring the user to scroll to the end of the message content. The \"Sign\" button is enabled even when the full message is not visible."
         }
       ],
-      "tester": 2,
-      "lastUpdated": 1761073739470
+      "tester": 1,
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-PHYS-006~Browser.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "100%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": ["enkrypt-browser-2.13.1-491d56dc.png"]
+          "value": [
+            "enkrypt-browser-2.12.0-bfb857dd.png",
+            "enkrypt-browser-2.12.0-8baa0344.png"
+          ]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
-          "value": "The wallet lacks an auto-lock setting, but it does lock itself after 20 minutes of inactivity."
+          "value": "The wallet settings do not display an auto-lock configuration, but the wallet locks automatically within 20 minutes of inactivity."
         }
       ],
-      "tester": 2,
-      "lastUpdated": 1761073891383
+      "tester": 1,
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-PHYS-004.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "100%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": ["enkrypt-browser-2.13.1-368a03dc.png"]
+          "value": [
+            "enkrypt-browser-2.12.0-50637169.png"
+          ]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
-          "value": "The wallet includes a manual locking button in the settings menu."
+          "value": "The wallet UI includes a 'Lock Enkrypt' option within the main menu, providing a manual lock control as required."
         }
       ],
-      "tester": 2,
-      "lastUpdated": 1761073757730
+      "tester": 1,
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-PERM-006.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "100%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": ["enkrypt-browser-2.13.1-e3b69524.png", "enkrypt-browser-2.13.1-da336544.png"]
+          "value": [
+            "enkrypt-browser-2.12.0-7042ade5.png",
+            "enkrypt-browser-2.12.0-94c40c94.png"
+          ]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
-          "value": "The wallet used personal_sign, converted to bytes."
+          "value": "The wallet successfully redirected the `eth_sign` request to `personal_sign`."
         }
       ],
-      "tester": 2,
-      "lastUpdated": 1761073777950
+      "tester": 1,
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-PHYS-005.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "100%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": ["enkrypt-browser-2.13.1-edd35d8a.png", "enkrypt-browser-2.13.1-f3360bbb.png"]
+          "value": [
+            "enkrypt-browser-2.12.0-184bd619.png"
+          ]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
-          "value": "The wallet supports seed-phrase backup and requires authentication to access mnemonics."
+          "value": "The wallet requires password authentication before displaying the recovery phrase."
         }
       ],
-      "tester": 2,
-      "lastUpdated": 1761073793142
+      "tester": 1,
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-PHYS-003.v1",
       "inputs": [
         {
+          "name": "result",
           "type": "select",
           "value": "100%"
         },
         {
+          "name": "evidence",
           "type": "file",
-          "value": ["enkrypt-browser-2.13.1-62d6093c.png"]
+          "value": [
+            "enkrypt-browser-2.12.0-2a695576.png"
+          ]
         },
         {
+          "name": "testerNotes",
           "type": "textarea",
-          "value": "The wallet warns about the risks of sharing or revealing mnemonics."
+          "value": "The wallet clearly displays a warning about the risks of sharing the recovery phrase."
         }
       ],
-      "tester": 2,
-      "lastUpdated": 1761073810696
+      "tester": 1,
+      "lastUpdated": 1788450542005
     }
   ]
 }

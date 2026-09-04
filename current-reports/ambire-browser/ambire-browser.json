@@ -158,7 +158,10 @@
         {
           "name": "evidence",
           "type": "file",
-          "value": ["ambire-browser-6.7.3-1314ca43.png", "ambire-browser-6.7.3-355af839.png"]
+          "value": [
+            "ambire-browser-6.7.3-1314ca43.png",
+            "ambire-browser-6.7.3-355af839.png"
+          ]
         },
         {
           "name": "testerNotes",
@@ -167,7 +170,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-PHYS-001.v1",
@@ -180,7 +183,9 @@
         {
           "name": "evidence",
           "type": "file",
-          "value": ["ambire-browser-6.7.3-e681c5f0.png"]
+          "value": [
+            "ambire-browser-6.7.3-e681c5f0.png"
+          ]
         },
         {
           "name": "testerNotes",
@@ -189,7 +194,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-THRE-001.v1",
@@ -215,7 +220,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-PERM-008~Browser.v1",
@@ -228,7 +233,9 @@
         {
           "name": "evidence",
           "type": "file",
-          "value": ["ambire-browser-6.7.3-0d779bee.png"]
+          "value": [
+            "ambire-browser-6.7.3-0d779bee.png"
+          ]
         },
         {
           "name": "testerNotes",
@@ -237,7 +244,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-THRE-002.v2",
@@ -264,7 +271,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-PERM-001.v1",
@@ -277,7 +284,10 @@
         {
           "name": "evidence",
           "type": "file",
-          "value": ["ambire-browser-6.7.3-66866f20.png", "ambire-browser-6.7.3-efe3b6d6.png"]
+          "value": [
+            "ambire-browser-6.7.3-66866f20.png",
+            "ambire-browser-6.7.3-efe3b6d6.png"
+          ]
         },
         {
           "name": "testerNotes",
@@ -286,7 +296,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-THRE-003.v1",
@@ -299,7 +309,10 @@
         {
           "name": "evidence",
           "type": "file",
-          "value": ["ambire-browser-6.7.3-7378fe4b.png", "ambire-browser-6.7.3-bc8ba279.png"]
+          "value": [
+            "ambire-browser-6.7.3-7378fe4b.png",
+            "ambire-browser-6.7.3-bc8ba279.png"
+          ]
         },
         {
           "name": "testerNotes",
@@ -308,7 +321,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-VERI-002.v1",
@@ -321,7 +334,10 @@
         {
           "name": "evidence",
           "type": "file",
-          "value": ["ambire-browser-6.7.3-d4eae7d1.png", "ambire-browser-6.7.3-1450a2cf.png"]
+          "value": [
+            "ambire-browser-6.7.3-d4eae7d1.png",
+            "ambire-browser-6.7.3-1450a2cf.png"
+          ]
         },
         {
           "name": "testerNotes",
@@ -330,7 +346,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-VERI-003.v1",
@@ -356,7 +372,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-VERI-004.v1",
@@ -369,7 +385,10 @@
         {
           "name": "evidence",
           "type": "file",
-          "value": ["ambire-browser-6.7.3-3e359c02.png", "ambire-browser-6.7.3-798f1d9b.png"]
+          "value": [
+            "ambire-browser-6.7.3-3e359c02.png",
+            "ambire-browser-6.7.3-798f1d9b.png"
+          ]
         },
         {
           "name": "testerNotes",
@@ -378,7 +397,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-THRE-004.v1",
@@ -391,7 +410,9 @@
         {
           "name": "evidence",
           "type": "file",
-          "value": ["ambire-browser-6.7.3-0a140395.png"]
+          "value": [
+            "ambire-browser-6.7.3-0a140395.png"
+          ]
         },
         {
           "name": "testerNotes",
@@ -400,7 +421,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-THRE-005.v1",
@@ -426,7 +447,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-THRE-006.v1",
@@ -439,7 +460,9 @@
         {
           "name": "evidence",
           "type": "file",
-          "value": ["ambire-browser-6.7.3-c0993c7b.png"]
+          "value": [
+            "ambire-browser-6.7.3-c0993c7b.png"
+          ]
         },
         {
           "name": "testerNotes",
@@ -448,7 +471,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-PERM-002~Browser.v1",
@@ -461,7 +484,9 @@
         {
           "name": "evidence",
           "type": "file",
-          "value": ["ambire-browser-6.7.3-a01c8570.png"]
+          "value": [
+            "ambire-browser-6.7.3-a01c8570.png"
+          ]
         },
         {
           "name": "testerNotes",
@@ -470,7 +495,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-PERM-003.v1",
@@ -483,7 +508,9 @@
         {
           "name": "evidence",
           "type": "file",
-          "value": ["ambire-browser-6.7.3-c1c6157a.png"]
+          "value": [
+            "ambire-browser-6.7.3-c1c6157a.png"
+          ]
         },
         {
           "name": "testerNotes",
@@ -492,7 +519,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-PHYS-002~Browser.v1",
@@ -519,7 +546,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-PERM-004.v1",
@@ -547,7 +574,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-VERI-005.v1",
@@ -573,7 +600,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-PERM-009.v1",
@@ -586,7 +613,9 @@
         {
           "name": "evidence",
           "type": "file",
-          "value": ["ambire-browser-6.7.3-63b1954e.png"]
+          "value": [
+            "ambire-browser-6.7.3-63b1954e.png"
+          ]
         },
         {
           "name": "testerNotes",
@@ -595,7 +624,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-VERI-006.v1",
@@ -621,7 +650,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-PERM-005.v1",
@@ -634,7 +663,9 @@
         {
           "name": "evidence",
           "type": "file",
-          "value": ["ambire-browser-6.7.3-00bdf909.png"]
+          "value": [
+            "ambire-browser-6.7.3-00bdf909.png"
+          ]
         },
         {
           "name": "testerNotes",
@@ -643,7 +674,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-PERM-010~Browser.v1",
@@ -656,7 +687,9 @@
         {
           "name": "evidence",
           "type": "file",
-          "value": ["ambire-browser-6.7.3-e0ba3502.png"]
+          "value": [
+            "ambire-browser-6.7.3-e0ba3502.png"
+          ]
         },
         {
           "name": "testerNotes",
@@ -665,7 +698,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-THRE-007.v1",
@@ -691,7 +724,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-VERI-007.v1",
@@ -717,7 +750,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-PHYS-006~Browser.v1",
@@ -743,7 +776,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-PHYS-004.v1",
@@ -756,7 +789,10 @@
         {
           "name": "evidence",
           "type": "file",
-          "value": ["ambire-browser-6.7.3-46d395fb.png", "ambire-browser-6.7.3-6491c684.png"]
+          "value": [
+            "ambire-browser-6.7.3-46d395fb.png",
+            "ambire-browser-6.7.3-6491c684.png"
+          ]
         },
         {
           "name": "testerNotes",
@@ -765,7 +801,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-PERM-006.v1",
@@ -778,7 +814,9 @@
         {
           "name": "evidence",
           "type": "file",
-          "value": ["ambire-browser-6.7.3-9119b5d8.png"]
+          "value": [
+            "ambire-browser-6.7.3-9119b5d8.png"
+          ]
         },
         {
           "name": "testerNotes",
@@ -787,7 +825,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-PHYS-005.v1",
@@ -800,7 +838,10 @@
         {
           "name": "evidence",
           "type": "file",
-          "value": ["ambire-browser-6.7.3-ee4eeab7.png", "ambire-browser-6.7.3-3d42bdb9.png"]
+          "value": [
+            "ambire-browser-6.7.3-ee4eeab7.png",
+            "ambire-browser-6.7.3-3d42bdb9.png"
+          ]
         },
         {
           "name": "testerNotes",
@@ -809,7 +850,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-PHYS-003.v1",
@@ -822,7 +863,10 @@
         {
           "name": "evidence",
           "type": "file",
-          "value": ["ambire-browser-6.7.3-f84704ab.png", "ambire-browser-6.7.3-63b7dca3.png"]
+          "value": [
+            "ambire-browser-6.7.3-f84704ab.png",
+            "ambire-browser-6.7.3-63b7dca3.png"
+          ]
         },
         {
           "name": "testerNotes",
@@ -831,7 +875,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     }
   ]
 }

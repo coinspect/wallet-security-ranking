@@ -173,7 +173,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-PHYS-001.v1",
@@ -186,7 +186,9 @@
         {
           "name": "evidence",
           "type": "file",
-          "value": ["coinbase-wallet-browser-3.139.0-ed25a25e.png"]
+          "value": [
+            "coinbase-wallet-browser-3.139.0-ed25a25e.png"
+          ]
         },
         {
           "name": "testerNotes",
@@ -195,7 +197,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-THRE-001.v1",
@@ -221,7 +223,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-PERM-008~Browser.v1",
@@ -234,7 +236,9 @@
         {
           "name": "evidence",
           "type": "file",
-          "value": ["coinbase-wallet-browser-3.139.0-2c1c40de.png"]
+          "value": [
+            "coinbase-wallet-browser-3.139.0-2c1c40de.png"
+          ]
         },
         {
           "name": "testerNotes",
@@ -243,7 +247,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-THRE-002.v2",
@@ -270,7 +274,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-PERM-001.v1",
@@ -295,7 +299,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-THRE-003.v1",
@@ -321,7 +325,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-VERI-002.v1",
@@ -346,7 +350,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-VERI-003.v1",
@@ -372,7 +376,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-VERI-004.v1",
@@ -385,7 +389,9 @@
         {
           "name": "evidence",
           "type": "file",
-          "value": ["coinbase-wallet-browser-3.139.0-745b01f3.png"]
+          "value": [
+            "coinbase-wallet-browser-3.139.0-745b01f3.png"
+          ]
         },
         {
           "name": "testerNotes",
@@ -394,7 +400,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-THRE-004.v1",
@@ -407,7 +413,9 @@
         {
           "name": "evidence",
           "type": "file",
-          "value": ["coinbase-wallet-browser-3.139.0-55e0c045.png"]
+          "value": [
+            "coinbase-wallet-browser-3.139.0-55e0c045.png"
+          ]
         },
         {
           "name": "testerNotes",
@@ -416,7 +424,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-THRE-005.v1",
@@ -442,7 +450,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-THRE-006.v1",
@@ -455,7 +463,9 @@
         {
           "name": "evidence",
           "type": "file",
-          "value": ["coinbase-wallet-browser-3.139.0-69edc6b7.png"]
+          "value": [
+            "coinbase-wallet-browser-3.139.0-69edc6b7.png"
+          ]
         },
         {
           "name": "testerNotes",
@@ -464,7 +474,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-PERM-002~Browser.v1",
@@ -477,7 +487,9 @@
         {
           "name": "evidence",
           "type": "file",
-          "value": ["coinbase-wallet-browser-3.139.0-ab92dc29.png"]
+          "value": [
+            "coinbase-wallet-browser-3.139.0-ab92dc29.png"
+          ]
         },
         {
           "name": "testerNotes",
@@ -486,7 +498,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-PERM-003.v1",
@@ -512,7 +524,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-PHYS-002~Browser.v1",
@@ -537,7 +549,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-PERM-004.v1",
@@ -562,7 +574,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-VERI-005.v1",
@@ -587,7 +599,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-PERM-009.v1",
@@ -613,7 +625,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-VERI-006.v1",
@@ -640,7 +652,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-PERM-005.v1",
@@ -665,7 +677,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-PERM-010~Browser.v1",
@@ -690,7 +702,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-THRE-007.v1",
@@ -703,7 +715,9 @@
         {
           "name": "evidence",
           "type": "file",
-          "value": ["coinbase-wallet-browser-3.139.0-64f6d6b3.png"]
+          "value": [
+            "coinbase-wallet-browser-3.139.0-64f6d6b3.png"
+          ]
         },
         {
           "name": "testerNotes",
@@ -712,7 +726,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-VERI-007.v1",
@@ -739,7 +753,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-PHYS-006~Browser.v1",
@@ -752,7 +766,9 @@
         {
           "name": "evidence",
           "type": "file",
-          "value": ["coinbase-wallet-browser-3.139.0-03ccc95d.png"]
+          "value": [
+            "coinbase-wallet-browser-3.139.0-03ccc95d.png"
+          ]
         },
         {
           "name": "testerNotes",
@@ -761,7 +777,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-PHYS-004.v1",
@@ -774,7 +790,9 @@
         {
           "name": "evidence",
           "type": "file",
-          "value": ["coinbase-wallet-browser-3.139.0-b8eaed0e.png"]
+          "value": [
+            "coinbase-wallet-browser-3.139.0-b8eaed0e.png"
+          ]
         },
         {
           "name": "testerNotes",
@@ -783,7 +801,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-PERM-006.v1",
@@ -796,7 +814,9 @@
         {
           "name": "evidence",
           "type": "file",
-          "value": ["coinbase-wallet-browser-3.139.0-93b1e361.png"]
+          "value": [
+            "coinbase-wallet-browser-3.139.0-93b1e361.png"
+          ]
         },
         {
           "name": "testerNotes",
@@ -805,7 +825,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-PHYS-005.v1",
@@ -830,7 +850,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     },
     {
       "uid": "WSR-PHYS-003.v1",
@@ -843,7 +863,9 @@
         {
           "name": "evidence",
           "type": "file",
-          "value": ["coinbase-wallet-browser-3.139.0-bac4211f.png"]
+          "value": [
+            "coinbase-wallet-browser-3.139.0-bac4211f.png"
+          ]
         },
         {
           "name": "testerNotes",
@@ -852,7 +874,7 @@
         }
       ],
       "tester": 1,
-      "lastUpdated": 1785874269871
+      "lastUpdated": 1788450542005
     }
   ]
 }
