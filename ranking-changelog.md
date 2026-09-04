@@ -1,8 +1,10 @@
 ---
-release-version: "3"
-release-date: "Nov 21, 2025"
+release-version: "4"
+release-date: "Sep 01, 2026"
 versions:
-    - date: "Jan 13, 2026 (Current Release)"
+    - date: "Sep 01, 2026"
+      note: "No score changes yet for this release."
+    - date: "Jan 13, 2026"
       platforms:
           - name: "Extension (Browser)"
             vendors:
@@ -12,7 +14,7 @@ versions:
                         changeFrom: 0
                         changeTo: 100
                         reason: "The tester mistakenly selected the wrong score."
-    - date: "Dec 12, 2025 (Current Release)"
+    - date: "Dec 12, 2025"
       platforms:
           - name: "Android"
             vendors:
@@ -115,6 +117,20 @@ versions:
                         reason: "The tester mistakenly selected the wrong score."
 
 eligibility_changes:
+    - date: "Sep 1, 2026"
+      removed:
+          - name: "Tomo"
+            platform: "Extension (Browser)"
+            reason: "Extension version has not changed from last testing round (2.0.2)."
+          - name: "Frame"
+            platform: "Extension (Browser)"
+            reason: "Extension version has not changed from last testing round (0.6.11)."
+          - name: "Ctrl Wallet"
+            platform: "Extension (Browser)"
+            reason: "The team announced that the wallet would be permanently shut down and discontinued as of August 3, 2026."
+          - name: "Elytro"
+            platform: "Extension (Browser)"
+            reason: "Elytro has shifted its focus from its browser extension to an agent-oriented wallet interface, making it incompatible with this ranking's testing methodology."
     - date: "Nov 21, 2025"
       added:
           - name: "NuFi"
