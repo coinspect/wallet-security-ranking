@@ -87,20 +87,20 @@
             "mobile": 430,
             "browser": 440
         },
-        "description": "Allows users to list and revoke connected dApps.",
-        "instructions": "Having previously connected to at least two dApps, look for a section within the wallet UI that lists all connected dApps. Disconnect the testing dApp, then send RPC requests from it to verify access has been fully revoked.",
+        "description": "Allows users to revoke dApp connections and, when multiple simultaneous connections are supported, list all connected dApps.",
+        "instructions": "If the wallet supports multiple simultaneous dApp connections, connect to at least two dApps and look for a section within the wallet UI that lists all connected dApps. If the wallet allows only one connection at a time, connect to the testing dApp and locate the option to revoke its access; a connected dApps list is not required. In either case, disconnect the testing dApp, then send RPC requests from it to verify access has been fully revoked.",
         "reasoning": "Persistent dApp connections represent an ongoing trust relationship, so users need visibility into which apps still have access. The ability to review and revoke those connections reduces the risk of stale approvals, forgotten sessions, or continued access after the user no longer trusts the dApp.",
         "criteria": [
             {
-                "outcome": "The wallet lists connected dApps and revoking access prevents further RPC requests from the disconnected dApp.",
+                "outcome": "The wallet allows users to revoke dApp access, and revocation prevents further RPC requests from the disconnected dApp. It lists all connected dApps if it supports multiple simultaneous connections; no list is required if it allows only one connection at a time.",
                 "score": 100
             },
             {
-                "outcome": "The wallet does not list all connected dApps, provides no way to revoke access, or the disconnected dApp can still send RPC requests after revocation.",
+                "outcome": "The wallet provides no way to revoke dApp access, the disconnected dApp can still send RPC requests after revocation, or the wallet supports multiple simultaneous connections but does not list all connected dApps.",
                 "score": 0
             }
         ],
-        "evidence_requirements": "A screenshot of the connected dApps list, the revocation of the testing dApp, and the wallet's response to a subsequent RPC request—whether it is rejected after revocation. If the wallet provides no connected-dApps management, include a screenshot of the section where it would be expected, along with a tester note stating it could not be found.",
+        "evidence_requirements": "Screenshots showing the revocation of the testing dApp and the wallet's response to a subsequent RPC request—whether it is rejected after revocation. If the wallet supports multiple simultaneous connections, also include a screenshot of the connected dApps list. If it allows only one connection at a time, document that limitation; no list screenshot is required. If a required list or revocation control cannot be found, include a screenshot of the section where it would be expected, along with a tester note stating it could not be found.",
         "attack_scenario": "A previously trusted dApp becomes malicious or is compromised, and due to another vulnerability or excessive permissions, it can abuse its existing connection to perform unintended actions or access sensitive data."
     },
     "WSR-PERM-005.v1": {
@@ -344,7 +344,7 @@
             "browser": 2670
         },
         "description": "Clearly displays all the key details for ERC-20 Approve requests.",
-        "instructions": "Trigger an ERC-20 approve in two ways: 1) deploy a custom ERC-20 (via `/sendtransaction` in the testing dApp) and call approve directly, and 2) access any swap dApp and trigger an approve through the UI. Observe what information the wallet displays about the token, spender, and amount.",
+        "instructions": "Trigger ERC-20 approvals using both the custom ERC-20 flow and the liquidity flow provided within the dApp. For each flow, observe what information the wallet displays about the token, spender, and amount.",
         "reasoning": "ERC-20 approvals can grant a spender long-lived control over tokens. Clearly showing the token, spender, and amount helps users detect malicious approvals, unlimited allowances, and approvals targeting unexpected contracts.",
         "criteria": [
             {
@@ -550,7 +550,7 @@
         "reasoning": "Spam tokens and NFTs are commonly used for phishing, impersonation, and social engineering inside wallet portfolios. Hiding them by default reduces clutter and lowers the chance that users click malicious assets or mistake them for legitimate holdings.",
         "criteria": [
             {
-                "outcome": "Spam tokens or NFTs are hidden by default or the wallet does not display NFTs.",
+                "outcome": "Spam tokens are hidden by default, and spam NFTs are either hidden by default or not displayed because the wallet does not support an NFT view.",
                 "score": 100
             },
             {
@@ -558,7 +558,7 @@
                 "score": 0
             }
         ],
-        "evidence_requirements": "A screenshot showing the assets displayed by default: whether the spam token or NFT appears or is filtered out; if the wallet does not display NFTs at all, a screenshot of the tokens/assets it does show. Any address that was not filtered must be documented.",
+        "evidence_requirements": "A screenshot showing the assets displayed by default: whether the spam token or NFT appears or is filtered out; if the wallet does not display NFTs at all, a screenshot of the tokens/assets it does show. If spam tokens or NFTs are displayed, document at least one unfiltered asset's contract address.",
         "attack_scenario": "Spam tokens or NFTs trick users into interacting with malicious links, contracts, or social engineering schemes."
     },
     "WSR-PHYS-001.v1": {
