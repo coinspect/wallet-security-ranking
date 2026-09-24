@@ -87,8 +87,8 @@
             "mobile": 430,
             "browser": 440
         },
-        "description": "Allows users to revoke dApp connections and, when multiple simultaneous connections are supported, list all connected dApps.",
-        "instructions": "If the wallet supports multiple simultaneous dApp connections, connect to at least two dApps and look for a section within the wallet UI that lists all connected dApps. If the wallet allows only one connection at a time, connect to the testing dApp and locate the option to revoke its access; a connected dApps list is not required. In either case, disconnect the testing dApp, then send RPC requests from it to verify access has been fully revoked.",
+        "description": "Allows users to list and revoke connected dApps.",
+        "instructions": "If the wallet supports multiple dApp connections at once, connect to at least two dApps and look for a section within the wallet UI that lists all connected dApps. If it only supports one connection at a time, connect to the testing dApp and find the disconnect option. In either case, disconnect the testing dApp, then send RPC requests from it to verify access has been fully revoked.",
         "reasoning": "Persistent dApp connections represent an ongoing trust relationship, so users need visibility into which apps still have access. The ability to review and revoke those connections reduces the risk of stale approvals, forgotten sessions, or continued access after the user no longer trusts the dApp.",
         "criteria": [
             {
