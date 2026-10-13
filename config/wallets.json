@@ -167,5 +167,9 @@
     "zengo": {
         "name": "ZenGo",
         "url": "https://zengo.com/"
+    },
+    "cake": {
+        "name": "Cake Wallet",
+        "url": "https://cakewallet.com/"
     }
 }
